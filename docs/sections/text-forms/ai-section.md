@@ -33,14 +33,14 @@ Use this section to experiment with AI-generated layouts, text, or image compone
 
 * **Content direction:** Choose whether blocks are arranged **vertically or horizontally**.
 * **Alignment**: Set the **horizontal alignment** of blocks — left, center, or right.
-* **Position: **Adjust the **vertical placement** of blocks** — top, center, bottom, **or** space between.**
-* **Align text baseline: **Enable this option to **align text to the bottom** when using bottom alignment.
-* **Gap: **Set the** spacing between blocks.Mobile version**
+* **Position:** Adjust the **vertical placement** of blocks** — top, center, bottom, **or** space between.**
+* **Align text baseline:** Enable this option to **align text to the bottom** when using bottom alignment.
+* **Gap:** Set the** spacing between blocks.Mobile version**
 
 * **Content direction:** Choose whether blocks are arranged **vertically or horizontally**.
 * **Alignment**: Set the **horizontal alignment** of blocks — left, center, or right.
-* **Position: **Adjust the **vertical placement** of blocks** — top, center, bottom, **or** space between.**
-* **Gap: **Set the** spacing between blocks.Colors**
+* **Position:** Adjust the **vertical placement** of blocks** — top, center, bottom, **or** space between.**
+* **Gap:** Set the** spacing between blocks.Colors**
 
 * **Text color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
 * **Background color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.

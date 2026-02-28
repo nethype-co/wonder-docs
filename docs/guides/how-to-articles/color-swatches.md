@@ -13,15 +13,15 @@ Moving beyond mere textual descriptions, swatches offer a tactile and visual rep
 
 ### How to Configure Color Swatches in Your Theme Editor
 
-1. **Access Theme Customization: **Navigate to your Theme Editor by clicking on 'Theme Settings', then look for the 'Color Swatch' section.
-2. **Enable Swatches: **Check the 'Enable color swatch' option to activate swatches on your product pages.
-3. **Filter Integration: **If you want the swatches to appear in filter options as well, ensure 'Enable color swatch in filters' is checked.
-4. **Choose Swatch Shape: **Opt for 'Enable round color swatches' if you prefer circular swatches over the default square shape.
-5. **Input Color Values: 
--IMPORTANT: **Shopify now provides own color swatches via metafields. If color metafields are defined, the swatches take values from there.[ Link to Shopify Metafield Documentation](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields). If not set, the Theme settings>Color swatch>Custom colors setting will be used.**
--**In the 'Custom colors' field, input each color option as a color name followed by its hex code, or a color name followed by an image filename for patterned swatches. Place each entry on a separate line to define the swatches for your product variants.
-6. **Set Display Options: **In the 'Options listed as Color Swatches' field, enter 'Color' to specify which variant option will show as color swatches.
-7. **Assign Variant Pictures: **Similarly, in the 'Options listed as Variant Pictures' field, input 'Color' to determine which option should display its variants as pictures.
+1. **Access Theme Customization:** Navigate to your Theme Editor by clicking on 'Theme Settings', then look for the 'Color Swatch' section.
+2. **Enable Swatches:** Check the 'Enable color swatch' option to activate swatches on your product pages.
+3. **Filter Integration:** If you want the swatches to appear in filter options as well, ensure 'Enable color swatch in filters' is checked.
+4. **Choose Swatch Shape:** Opt for 'Enable round color swatches' if you prefer circular swatches over the default square shape.
+5. **Input Color Values:**
+   - **IMPORTANT:** Shopify now provides own color swatches via metafields. If color metafields are defined, the swatches take values from there. [Link to Shopify Metafield Documentation](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields). If not set, the **Theme settings > Color swatch > Custom colors** setting will be used.
+   - In the 'Custom colors' field, input each color option as a color name followed by its hex code, or a color name followed by an image filename for patterned swatches. Place each entry on a separate line to define the swatches for your product variants.
+6. **Set Display Options:** In the 'Options listed as Color Swatches' field, enter 'Color' to specify which variant option will show as color swatches.
+7. **Assign Variant Pictures:** Similarly, in the 'Options listed as Variant Pictures' field, input 'Color' to determine which option should display its variants as pictures.
 
 Remember to keep each color rule on its own line to ensure proper display and functionality.
 
@@ -29,7 +29,7 @@ Remember to keep each color rule on its own line to ensure proper display and fu
 
 ### Color swatch settings
 
-**Enable color swatch: **Enable or disable color swatch.
+**Enable color swatch:** Enable or disable color swatch.
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/670e3963822e237fb9e53fa9_6585b59e6da597dcb1e59851_color-swatches-enable-swatch.jpeg)
 
@@ -41,9 +41,9 @@ Remember to keep each color rule on its own line to ensure proper display and fu
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/670e3963822e237fb9e53fa6_6585c0184ecf676349884a6f_color-swatches-enable-rounded-swatch.jpeg)
 
-**Custom colors: **Define color swatches not only with hex color codes but also with image files. 
+**Custom colors:** Define color swatches not only with hex color codes but also with image files. 
 
-**IMPORTANT: **Shopify now provides own color swatches via metafields. If color metafields are defined, the swatches take values from there.[ Link to Shopify Metafield Documentation](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields). If not set, the **Theme settings>Color swatch>Custom colors** setting will be used.
+**IMPORTANT:** Shopify now provides own color swatches via metafields. If color metafields are defined, the swatches take values from there.[ Link to Shopify Metafield Documentation](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields). If not set, the **Theme settings>Color swatch>Custom colors** setting will be used.
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/670e3963822e237fb9e53fb8_670e39226890da33eb2ad8f5_color-swatches-configuration.jpeg)
 
@@ -55,15 +55,15 @@ How to do it:
 
 Remember to place each rule on its own line to ensure the system interprets each color or image swatch correctly. 
 
-**Options listed as Color Swatches: **specify which product option names should be displayed using color swatches.
+**Options listed as Color Swatches:** specify which product option names should be displayed using color swatches.
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/670e3963822e237fb9e53fbb_6593fa899e5c806d8cc9467a_color-swatches-options-as-color-swatches.jpeg)
 
 How to do it?
 
-1. **Identify the Option Name: **Determine the name of the product option that corresponds to color variations. Typically, this is simply "Color".
-2. **Input the Option Name: **Enter the name exactly as it appears in your product descriptions into the field. If your variant name is "Color", then you would write "Color" in the box.
-3. **One Option Per Line: **If you have multiple options that require swatches, such as "Material" or "Finish", list each one on a separate line within the field.
+1. **Identify the Option Name:** Determine the name of the product option that corresponds to color variations. Typically, this is simply "Color".
+2. **Input the Option Name:** Enter the name exactly as it appears in your product descriptions into the field. If your variant name is "Color", then you would write "Color" in the box.
+3. **One Option Per Line:** If you have multiple options that require swatches, such as "Material" or "Finish", list each one on a separate line within the field.
 
 **Options listed as Variant Pictures:** define which variant option names should display their choices as images.
 
@@ -71,6 +71,6 @@ How to do it?
 
 How to do it?
 
-1. **Specify Variant Names: **List the variant option names that have corresponding images. Common examples include "Color", "Front Color", or "Cover Color".
-2. **Input Each Variant Name Separately: **Write each variant option name that you want to associate with an image on a new line within this field.
-3. **Ensure Correct Mapping: **Each name entered must exactly match the option names set up in your product details to ensure the correct images are displayed when a customer selects a variant.
+1. **Specify Variant Names:** List the variant option names that have corresponding images. Common examples include "Color", "Front Color", or "Cover Color".
+2. **Input Each Variant Name Separately:** Write each variant option name that you want to associate with an image on a new line within this field.
+3. **Ensure Correct Mapping:** Each name entered must exactly match the option names set up in your product details to ensure the correct images are displayed when a customer selects a variant.

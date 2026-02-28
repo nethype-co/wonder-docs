@@ -62,12 +62,21 @@ const config: Config = {
     },
     navbar: {
       title: 'Wonder Theme',
+      logo: {
+        alt: 'Wonder Theme',
+        src: 'img/wonder-logo-dark.svg',
+        srcDark: 'img/wonder-logo-light.svg',
+        href: '/',
+        width: 32,
+        height: 32,
+      },
+      style: 'dark',
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Documentation',
+          label: 'Docs',
         },
         {
           href: 'https://wonder-theme.com',

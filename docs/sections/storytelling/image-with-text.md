@@ -14,7 +14,7 @@ The "Image with Text" section combines visuals with text to showcase your brand,
 ##### Heading
 
 * **Heading:** Set the title for the image with text section to introduce the content.
-* **Use rich text field for heading: **Enable a rich text heading to choose the heading level (H1–H6) for SEO purposes and connect dynamic sources if needed.
+* **Use rich text field for heading:** Enable a rich text heading to choose the heading level (H1–H6) for SEO purposes and connect dynamic sources if needed.
 
 ##### Desktop Layout
 

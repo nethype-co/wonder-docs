@@ -8,6 +8,8 @@
   --ifm-color-primary-lightest: #555;
   --ifm-code-font-size: 95%;
   --ifm-font-size-base: 16px;
+  --ifm-heading-font-weight: 600;
+  --ifm-font-weight-bold: 600;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
@@ -22,6 +24,22 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* Dark navbar */
+.navbar--dark {
+  --ifm-navbar-background-color: #1a1a1a;
+}
+
+.navbar__title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.02em;
+}
+
+.navbar__logo img {
+  height: 28px;
+}
+
+/* Article images */
 .markdown img {
   max-width: 100%;
   border-radius: 8px;
@@ -29,7 +47,39 @@
   margin: 16px 0;
 }
 
+/* Section headings */
 article h2 {
   border-bottom: 1px solid var(--ifm-color-emphasis-200);
   padding-bottom: 8px;
+  margin-top: 2rem;
+}
+
+/* Sidebar styling */
+.menu__link {
+  font-size: 0.9rem;
+}
+
+.theme-doc-sidebar-menu > .menu__list-item > .menu__link {
+  font-weight: 600;
+}
+
+/* Footer */
+.footer--dark {
+  background-color: #1a1a1a;
+}
+
+/* Submit a Ticket button style in navbar */
+.navbar__item[href*="tickets/new"] {
+  background: #fff;
+  color: #1a1a1a !important;
+  border-radius: 6px;
+  padding: 6px 16px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: opacity 0.2s;
+}
+
+.navbar__item[href*="tickets/new"]:hover {
+  opacity: 0.85;
+  color: #1a1a1a !important;
 }

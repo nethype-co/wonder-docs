@@ -16,7 +16,7 @@ The **Multi-Images Variant Gallery** is a powerful feature that automatically fi
 To enable image filtering by variant, each image must have an alt tag matching the variant’s name. For example, if you have a “Red” variant, set the alt tag of each corresponding image to **#red**. This process is not case-sensitive, so tags like **#RED**, **#ReD**, and** #red** will all work seamlessly.
 
 **Multilingual support**:
-If your store uses multiple languages, you can assign multiple variant names to a single image by separating them with a | symbol. For example: **#red|Rot|czerwony** will match English, German, and Polish variant names.
+If your store uses multiple languages, you can assign multiple variant names to a single image by separating them with a | symbol. For example:** #red|Rot|czerwony** will match English, German, and Polish variant names.
 
 **Important Note**:
 When at least one image is tagged for a specific variant, only those tagged images will be shown for that variant. Variants without any tagged images will display all available images.
