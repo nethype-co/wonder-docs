@@ -86,7 +86,6 @@ const config: Config = {
         width: 32,
         height: 32,
       },
-      style: 'dark',
       items: [
         {
           type: 'docSidebar',

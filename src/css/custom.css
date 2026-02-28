@@ -10,6 +10,7 @@
   --ifm-font-size-base: 16px;
   --ifm-heading-font-weight: 600;
   --ifm-font-weight-bold: 600;
+  --ifm-navbar-shadow: 0 1px 0 0 #e8e8e8;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
@@ -21,14 +22,11 @@
   --ifm-color-primary-light: #f0f0f0;
   --ifm-color-primary-lighter: #f5f5f5;
   --ifm-color-primary-lightest: #fff;
+  --ifm-navbar-shadow: 0 1px 0 0 #333;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* Dark navbar */
-.navbar--dark {
-  --ifm-navbar-background-color: #1a1a1a;
-}
-
+/* Navbar */
 .navbar__title {
   font-weight: 600;
   font-size: 1.1rem;
@@ -68,10 +66,10 @@ article h2 {
   background-color: #1a1a1a;
 }
 
-/* Submit a Ticket button style in navbar */
+/* Submit a Ticket button in navbar */
 .navbar__item[href*="tickets/new"] {
-  background: #fff;
-  color: #1a1a1a !important;
+  background: #1a1a1a;
+  color: #fff !important;
   border-radius: 6px;
   padding: 6px 16px;
   font-weight: 600;
@@ -81,5 +79,14 @@ article h2 {
 
 .navbar__item[href*="tickets/new"]:hover {
   opacity: 0.85;
+  color: #fff !important;
+}
+
+[data-theme='dark'] .navbar__item[href*="tickets/new"] {
+  background: #fff;
+  color: #1a1a1a !important;
+}
+
+[data-theme='dark'] .navbar__item[href*="tickets/new"]:hover {
   color: #1a1a1a !important;
 }
