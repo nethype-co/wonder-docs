@@ -20,6 +20,22 @@ const config: Config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
+  scripts: [
+    {
+      src: 'https://euc-widget.freshworks.com/widgets/204000000466.js',
+      async: true,
+      defer: true,
+    },
+  ],
+
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {},
+      innerHTML: `window.fwSettings={'widget_id':204000000466};!function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}()`,
+    },
+  ],
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
