@@ -3,4 +3,10 @@ title: "Banners"
 sidebar_label: "Banners"
 ---
 
-Documentation for banners in the Wonder theme.
+import DocCardList from '@theme/DocCardList';
+
+# Banners
+
+Eye-catching banner sections including slideshows, countdown timers, and scrolling text.
+
+<DocCardList />

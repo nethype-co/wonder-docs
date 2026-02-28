@@ -3,4 +3,10 @@ title: "Variants & Media"
 sidebar_label: "Variants & Media"
 ---
 
-Documentation for variants & media in the Wonder theme.
+import DocCardList from '@theme/DocCardList';
+
+# Variants & Media
+
+Product variant display options and media gallery configurations.
+
+<DocCardList />

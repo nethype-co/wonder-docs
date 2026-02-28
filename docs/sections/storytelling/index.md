@@ -3,4 +3,10 @@ title: "Storytelling"
 sidebar_label: "Storytelling"
 ---
 
-Documentation for storytelling in the Wonder theme.
+import DocCardList from '@theme/DocCardList';
+
+# Storytelling
+
+Visual storytelling sections — image with text, collage, parallax, multicolumn, and more.
+
+<DocCardList />

@@ -3,4 +3,10 @@ title: "Billing"
 sidebar_label: "Billing"
 ---
 
-Documentation for billing in the Wonder theme.
+import DocCardList from '@theme/DocCardList';
+
+# Billing
+
+Billing questions including refund policies.
+
+<DocCardList />

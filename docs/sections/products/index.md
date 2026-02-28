@@ -3,4 +3,10 @@ title: "Products"
 sidebar_label: "Products"
 ---
 
-Documentation for products in the Wonder theme.
+import DocCardList from '@theme/DocCardList';
+
+# Products
+
+Product display sections — featured products, product sliders, shoppable images, badges, and recommendations.
+
+<DocCardList />

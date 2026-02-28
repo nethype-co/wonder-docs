@@ -3,4 +3,10 @@ title: "Header & Navigation"
 sidebar_label: "Header & Navigation"
 ---
 
-Documentation for header & navigation in the Wonder theme.
+import DocCardList from '@theme/DocCardList';
+
+# Header & Navigation
+
+Configure your store's header, navigation menus, announcement bar, mega menus, and transparent header.
+
+<DocCardList />

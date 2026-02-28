@@ -3,4 +3,10 @@ title: "How-To Articles"
 sidebar_label: "How-To Articles"
 ---
 
-Documentation for how-to articles in the Wonder theme.
+import DocCardList from '@theme/DocCardList';
+
+# How-To Articles
+
+Step-by-step guides for color swatches, variant pickers, SEO, page speed, reviews apps, and more.
+
+<DocCardList />

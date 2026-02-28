@@ -3,4 +3,10 @@ title: "Testimonials"
 sidebar_label: "Testimonials"
 ---
 
-Documentation for testimonials in the Wonder theme.
+import DocCardList from '@theme/DocCardList';
+
+# Testimonials
+
+Showcase customer reviews and testimonials with video reels.
+
+<DocCardList />

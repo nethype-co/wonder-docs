@@ -3,4 +3,10 @@ title: "Collections"
 sidebar_label: "Collections"
 ---
 
-Documentation for collections in the Wonder theme.
+import DocCardList from '@theme/DocCardList';
+
+# Collections
+
+Display and organize your product collections.
+
+<DocCardList />
