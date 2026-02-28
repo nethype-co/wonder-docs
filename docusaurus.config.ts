@@ -98,11 +98,6 @@ const config: Config = {
           label: 'Wonder Theme',
           position: 'right',
         },
-        {
-          href: 'https://support.nethype.co/support/tickets/new',
-          label: 'Submit a Ticket',
-          position: 'right',
-        },
       ],
     },
     footer: {

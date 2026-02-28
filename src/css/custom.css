@@ -66,27 +66,3 @@ article h2 {
   background-color: #1a1a1a;
 }
 
-/* Submit a Ticket button in navbar */
-.navbar__item[href*="tickets/new"] {
-  background: #1a1a1a;
-  color: #fff !important;
-  border-radius: 6px;
-  padding: 6px 16px;
-  font-weight: 600;
-  font-size: 0.85rem;
-  transition: opacity 0.2s;
-}
-
-.navbar__item[href*="tickets/new"]:hover {
-  opacity: 0.85;
-  color: #fff !important;
-}
-
-[data-theme='dark'] .navbar__item[href*="tickets/new"] {
-  background: #fff;
-  color: #1a1a1a !important;
-}
-
-[data-theme='dark'] .navbar__item[href*="tickets/new"]:hover {
-  color: #1a1a1a !important;
-}
