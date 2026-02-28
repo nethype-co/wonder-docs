@@ -11,8 +11,8 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://docs.wonder-theme.com',
-  baseUrl: '/',
+  url: 'https://nethype-co.github.io',
+  baseUrl: '/wonder-docs/',
 
   organizationName: 'nethype-co',
   projectName: 'wonder-docs',
