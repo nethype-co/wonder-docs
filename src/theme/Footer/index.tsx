@@ -3,84 +3,110 @@ import Footer from '@theme-original/Footer';
 
 function CustomizationBanner() {
   return (
-    <div style={{
-      background: 'linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%)',
-      padding: '48px 24px',
-      textAlign: 'center',
-      borderTop: '1px solid #333',
-    }}>
-      <div style={{maxWidth: '720px', margin: '0 auto'}}>
-        <div style={{
-          display: 'inline-flex',
-          alignItems: 'center',
-          gap: '6px',
-          background: 'rgba(255,255,255,0.08)',
-          borderRadius: '20px',
-          padding: '6px 14px',
-          marginBottom: '16px',
-          fontSize: '13px',
-          color: '#fbbf24',
-          fontWeight: 600,
-        }}>
-          <span style={{fontSize: '16px'}}>★</span>
-          +1000 Happy Customers
+    <div style={{padding: '40px 24px 0'}}>
+      <div style={{
+        maxWidth: '800px',
+        margin: '0 auto',
+        borderRadius: '8px',
+        backgroundImage: 'linear-gradient(315deg, #47cae4 0%, #0077b6 33%, #131c82 52%, #3249e9 100%)',
+        backgroundSize: 'cover',
+        backgroundPosition: '100% 7%',
+        overflow: 'hidden',
+      }}>
+        <div style={{padding: '48px'}}>
+          <p style={{
+            color: '#f1f2f5',
+            fontSize: '16px',
+            margin: '0 0 4px 4px',
+            fontWeight: 400,
+          }}>
+            Customization Services
+          </p>
+
+          <div style={{
+            display: 'flex',
+            gap: '48px',
+            alignItems: 'stretch',
+            flexWrap: 'wrap',
+          }}>
+            {/* Left column */}
+            <div>
+              <h2 style={{
+                color: '#e7e9f3',
+                fontSize: '52px',
+                fontWeight: 500,
+                lineHeight: 1,
+                margin: '4px 0 0 0',
+              }}>
+                Expert Shopify<br />Support
+              </h2>
+
+              <div style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '11px',
+                marginTop: '24px',
+                flexWrap: 'wrap',
+              }}>
+                <img
+                  src="https://cdn.prod.website-files.com/60ec3c210e1acadedeec9e82/67a117595de340fe1a459c98_675b48cab6a43826473fe5f0_star-yellow.png"
+                  alt=""
+                  style={{width: '74px'}}
+                />
+                <span style={{
+                  color: '#e7e9f3',
+                  fontSize: '16px',
+                }}>
+                  +1000 Happy Customers
+                </span>
+              </div>
+            </div>
+
+            {/* Right column */}
+            <div style={{
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'space-between',
+              maxWidth: '407px',
+              flex: '1 1 280px',
+            }}>
+              <p style={{
+                color: '#e7e9f3',
+                fontSize: '16px',
+                lineHeight: 1.6,
+                margin: 0,
+              }}>
+                Need custom tweaks or unique design enhancements for your Wonder Theme?
+                <br />Our expert developers and UX/UI designers
+                <br />are here to help! Get dedicated Shopify development or design tailored to your needs.
+              </p>
+
+              <a
+                href="https://services.nethype.co"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: 'block',
+                  background: '#ffd01e',
+                  color: '#020622',
+                  padding: '16px 40px',
+                  borderRadius: '50px',
+                  fontSize: '16px',
+                  fontWeight: 700,
+                  textDecoration: 'none',
+                  textAlign: 'center',
+                  marginTop: '24px',
+                  lineHeight: 1,
+                  transition: 'opacity 0.2s',
+                }}
+                onMouseOver={(e) => (e.currentTarget.style.opacity = '0.9')}
+                onMouseOut={(e) => (e.currentTarget.style.opacity = '1')}
+              >
+                Choose Your Support Package
+              </a>
+            </div>
+          </div>
         </div>
-
-        <p style={{
-          fontSize: '13px',
-          fontWeight: 600,
-          textTransform: 'uppercase',
-          letterSpacing: '2px',
-          color: '#9ca3af',
-          marginBottom: '4px',
-        }}>
-          Customization Services
-        </p>
-
-        <h2 style={{
-          fontSize: '28px',
-          fontWeight: 700,
-          color: '#ffffff',
-          margin: '0 0 16px 0',
-          lineHeight: 1.3,
-        }}>
-          Expert Shopify<br />Support
-        </h2>
-
-        <p style={{
-          fontSize: '15px',
-          lineHeight: 1.7,
-          color: '#d1d5db',
-          marginBottom: '24px',
-          maxWidth: '560px',
-          marginLeft: 'auto',
-          marginRight: 'auto',
-        }}>
-          Need custom tweaks or unique design enhancements for your Wonder Theme?
-          Our expert developers and UX/UI designers are here to help!
-          Get dedicated Shopify development or design tailored to your needs.
-        </p>
-
-        <a
-          href="https://services.nethype.co"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            display: 'inline-block',
-            background: '#ffffff',
-            color: '#1a1a1a',
-            padding: '12px 28px',
-            borderRadius: '8px',
-            fontSize: '14px',
-            fontWeight: 600,
-            textDecoration: 'none',
-            transition: 'opacity 0.2s',
-          }}
-          onMouseOver={(e) => (e.currentTarget.style.opacity = '0.9')}
-          onMouseOut={(e) => (e.currentTarget.style.opacity = '1')}
-        >
-          Choose Your Support Package →
-        </a>
       </div>
     </div>
   );
