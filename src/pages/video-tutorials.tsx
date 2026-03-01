@@ -76,7 +76,7 @@ export default function VideoTutorials() {
   return (
     <Layout title="Video Tutorials" description="Wonder Theme video tutorials and guides">
       <div style={{
-        maxWidth: '1100px',
+        maxWidth: '1200px',
         margin: '0 auto',
         padding: '40px 24px 60px',
       }}>
@@ -95,9 +95,9 @@ export default function VideoTutorials() {
           </p>
         </div>
 
-        <div style={{
+        <div className="video-grid" style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
+          gridTemplateColumns: 'repeat(3, 1fr)',
           gap: '24px',
         }}>
           {videos.map((video) => (

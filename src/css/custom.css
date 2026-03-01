@@ -66,3 +66,20 @@ article h2 {
   background-color: #1a1a1a;
 }
 
+.footer--dark a:hover {
+  color: #ffffff;
+}
+
+/* Video tutorials responsive grid */
+@media (max-width: 996px) {
+  .video-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .video-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+

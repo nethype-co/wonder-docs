@@ -130,19 +130,6 @@ const config: Config = {
           ],
         },
         {
-          title: 'Support',
-          items: [
-            {
-              label: 'Submit a Ticket',
-              href: 'https://support.nethype.co/support/tickets/new',
-            },
-            {
-              label: 'Freshdesk Portal',
-              href: 'https://support.nethype.co',
-            },
-          ],
-        },
-        {
           title: 'Links',
           items: [
             {
