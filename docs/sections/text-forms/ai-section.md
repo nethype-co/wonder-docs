@@ -14,38 +14,34 @@ Use this section to experiment with AI-generated layouts, text, or image compone
 
 * **Add the AI section** to your template.
 * **Add a block** and choose the **Generate** option.
-* **Enter the instructions **for what content the block should generate, and wait for the AI to generate the results.
+* **Enter the instructions** for what content the block should generate, and wait for the AI to generate the results.
 
-
-
-* If you are using multiple blocks, you can **adjust their layout** — including order, spacing, and alignment (**PLEASE NOTE:** some settings like text alignment or color may not take effect if the generated content overrides them).
-
-
+* If you are using multiple blocks, you can **adjust their layout** — including order, spacing, and alignment ( **PLEASE NOTE:** some settings like text alignment or color may not take effect if the generated content overrides them).
 
 ## Main settings
 
-**General**
+ **General** 
 
 * **Heading:** Set the title for the section to introduce the AI generated blocks section.
-* **Make section full width**: Choose whether the section spans the entire width of the screen.
+* **Make section full width** : Choose whether the section spans the entire width of the screen.
 
-**Large screen version**
+ **Large screen version** 
 
-* **Content direction:** Choose whether blocks are arranged **vertically or horizontally**.
-* **Alignment**: Set the **horizontal alignment** of blocks — left, center, or right.
-* **Position:** Adjust the **vertical placement** of blocks** — top, center, bottom, **or** space between.**
+* **Content direction:** Choose whether blocks are arranged **vertically or horizontally** .
+* **Alignment** : Set the **horizontal alignment** of blocks — left, center, or right.
+* **Position:** Adjust the **vertical placement** of blocks **— top, center, bottom,** or **space between.**
 * **Align text baseline:** Enable this option to **align text to the bottom** when using bottom alignment.
-* **Gap:** Set the** spacing between blocks.Mobile version**
+* **Gap:** Set the **spacing between blocks. Mobile version** 
 
-* **Content direction:** Choose whether blocks are arranged **vertically or horizontally**.
-* **Alignment**: Set the **horizontal alignment** of blocks — left, center, or right.
-* **Position:** Adjust the **vertical placement** of blocks** — top, center, bottom, **or** space between.**
-* **Gap:** Set the** spacing between blocks.Colors**
+* **Content direction:** Choose whether blocks are arranged **vertically or horizontally** .
+* **Alignment** : Set the **horizontal alignment** of blocks — left, center, or right.
+* **Position:** Adjust the **vertical placement** of blocks **— top, center, bottom,** or **space between.**
+* **Gap:** Set the **spacing between blocks. Colors** 
 
 * **Text color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
 * **Background color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
 
-**Section spacing**
+ **Section spacing** 
 
 * **Distance from the top** – Add spacing (in pixels) above the section to create breathing room.
 * **Distance from the bottom** – Add spacing (in pixels) below the section for better layout balance

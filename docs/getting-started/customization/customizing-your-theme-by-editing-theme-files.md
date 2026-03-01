@@ -3,11 +3,11 @@ title: "Customizing Your Theme by Editing Theme Files"
 sidebar_label: "Customizing Your Theme by Editing Theme Files"
 ---
 
-## **Customizing Your Theme by Editing Theme Files**
+## **Customizing Your Theme by Editing Theme Files** 
 
 While Split offers a range of built-in settings through the Theme editor, there are instances where you may require more advanced customization. If you're comfortable with HTML, CSS, and Liquid, you have the flexibility to modify your theme by editing the theme code to make specific changes.
 
-### **Types of Theme Files:**
+### **Types of Theme Files:** 
 
 Themes are organized into different file categories, each serving a specific purpose:
 
@@ -25,7 +25,7 @@ Themes are organized into different file categories, each serving a specific pur
 
 * **Sections:** Section files govern the layouts of individual sections within your theme, offering granular control over content placement.
 
-### **Accessing the Edit HTML/CSS Page**
+### **Accessing the Edit HTML/CSS Page** 
 
 The "Edit HTML/CSS" page provides you with the capability to edit the code files that constitute your theme. Here's how to access it:
 

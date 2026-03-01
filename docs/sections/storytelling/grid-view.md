@@ -41,15 +41,15 @@ The "Grid view" section offers a neatly organized layout to present a series of 
 
 ## Customize column blocks
 
-* **Heading**: Set a clear and concise title for the grid block that directs attention to the content.
-* **Text**: Provide descriptive text to give more context or details about the image.
-* **Button**: Include a call-to-action button, customizing the label and linking it to relevant pages or products.
-* **Heading Scale**: Adjust the heading size for large screens and mobile devices to balance prominence with design.
-* **Image Selection**: Upload an engaging image for both desktop and mobile versions that complements the block's content.
-* **Text Alignment**: Align your text to the top, center, or bottom, and to the left, center, or right to enhance the layout's visual appeal.
-* **Custom Text Color**: Select a color for the text to ensure it stands out against the background and the image.
-* **Background Color**: Choose a background color and adjust its opacity to suit the overall design theme of the block.
-* **Disable on Mobile**: If necessary, choose to disable the heading or text on mobile devices to streamline the presentation.
+* **Heading** : Set a clear and concise title for the grid block that directs attention to the content.
+* **Text** : Provide descriptive text to give more context or details about the image.
+* **Button** : Include a call-to-action button, customizing the label and linking it to relevant pages or products.
+* **Heading Scale** : Adjust the heading size for large screens and mobile devices to balance prominence with design.
+* **Image Selection** : Upload an engaging image for both desktop and mobile versions that complements the block's content.
+* **Text Alignment** : Align your text to the top, center, or bottom, and to the left, center, or right to enhance the layout's visual appeal.
+* **Custom Text Color** : Select a color for the text to ensure it stands out against the background and the image.
+* **Background Color** : Choose a background color and adjust its opacity to suit the overall design theme of the block.
+* **Disable on Mobile** : If necessary, choose to disable the heading or text on mobile devices to streamline the presentation.
 
 ![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/669faad329c1102b5007a362_grid-view-block-2.jpg)
 

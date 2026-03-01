@@ -9,6 +9,6 @@ The **Promo Block** is a simple yet effective way to highlight key promotional m
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67af3dac0681c35b0dd00a0f_promo-block-1.jpg)
 
-## **Settings**
+## **Settings** 
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67af3dba6dd95e39e5ee1b42_promo-block-2.jpg)

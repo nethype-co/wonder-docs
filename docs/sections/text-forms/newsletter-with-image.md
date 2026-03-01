@@ -11,26 +11,26 @@ The "Newsletter with image" section is a visually engaging element designed to g
 
 ## Main settings
 
-**Section Height**
+ **Section Height** 
 
 * **Height:** Choose between adapting the height to the image or setting a fixed height.
 * **Desktop fixed height:** Adjust the fixed height for desktop view.
 * **Mobile fixed height:** Adjust the fixed height for mobile view.
 
-**Large Screen Version**
+ **Large Screen Version** 
 
 * **Image:** Select an image for the large screen version of the banner.
 
-**Mobile Version**
+ **Mobile Version** 
 
 * **Image:** Select an image for the mobile version of the banner.
 
-**Colors**
+ **Colors** 
 
 * **Text color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
 * **Text container color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
 
-**Section Spacing**
+ **Section Spacing** 
 
 * **Distance from the top:** Adjust the spacing from the top of the section.
 * **Distance from the bottom:** Adjust the spacing from the bottom of the section.
@@ -45,7 +45,7 @@ Click one of the preloaded **heading** block to customize it.
 
 ## Customize subheading block
 
-Click one of the preloaded **subheading **block to customize it.
+Click one of the preloaded **subheading** block to customize it.
 
 ![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/66a11a5084ba532f902f9807_newsletter-with-image-subheading-block.jpg)
 

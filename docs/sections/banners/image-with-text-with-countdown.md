@@ -74,34 +74,34 @@ Click one of the preloaded **heading** block to customize it.
 
 ## Customize text block
 
-Click one of the preloaded **text **block to customize it.
+Click one of the preloaded **text** block to customize it.
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6978d5dbf88a9547877e2821_text-block.png)
 
 ## Customize button block
 
-Click one of the preloaded **button **block to customize it.
+Click one of the preloaded **button** block to customize it.
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f3fbf1ae8339b53faaf859_65786a1a4b1ef117cdebb7b0_image-with-text-button-block.png)
 
 ## Customize table block
 
-Click on the **table **block to customize it.
+Click on the **table** block to customize it.
 
-**Table block** lets you add a simple two-column table using a multiline text input.
+ **Table block** lets you add a simple two-column table using a multiline text input.
 
-**How to set up the table:**
+ **How to set up the table:** 
 
 * In the multiline metafield field or directly in the theme editor, start writing your table.
-* The **first line** is the header for the **left column**.
-* The **next line(s)** are the content for the **right column**, which can span multiple lines.
-* Separate each table row with **one empty line**.
+* The **first line** is the header for the **left column** .
+* The **next line(s)** are the content for the **right column** , which can span multiple lines.
+* Separate each table row with **one empty line** .
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6979fe3246d193b3112b0209_image-with-text-table-block.png)
 
 ## Customize Icon with text block
 
-**Icon with text block** allows you to display an icon next to text, making it perfect for creating custom bullet points or highlighting key information.
+ **Icon with text block** allows you to display an icon next to text, making it perfect for creating custom bullet points or highlighting key information.
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6979dd28c7b1bf586885286e_image-with-table-icon-block.png)
 
@@ -113,7 +113,7 @@ The **Countdown Timer** block is a dynamic feature designed to create urgency an
 
 ## Customize Spacer block
 
-**Spacer block **lets you add **spacing between blocks**, allowing for a more flexible and visually balanced layout.
+ **Spacer block** lets you add **spacing between blocks** , allowing for a more flexible and visually balanced layout.
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6979e07733a96aa1fd8b7ea5_image-with-text-spacer-block.png)
 

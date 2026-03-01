@@ -39,9 +39,9 @@ The "Shoppable Image" section is designed to create an interactive shopping expe
 
 ## Customize dot blocks
 
-* **Width**: Adjust the width of the dot as a percentage of the image size.
-* **Height**: Adjust the height of the dot as a percentage, independent of the width setting.
-* **Product**: Assign a product to each dot, creating a direct path for customers to find and purchase your items.
+* **Width** : Adjust the width of the dot as a percentage of the image size.
+* **Height** : Adjust the height of the dot as a percentage, independent of the width setting.
+* **Product** : Assign a product to each dot, creating a direct path for customers to find and purchase your items.
 
 Specify the width and height of the dots on mobile devices, ensuring that they are still easily clickable on smaller screens.
 

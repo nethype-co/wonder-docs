@@ -13,42 +13,42 @@ With smooth and lightweight animations, the **Products Slider** ensures a sleek 
 
 ## Main settings
 
-#### **General**
+#### **General** 
 
-* **Heading**: Set the title for the section to introduce your products slider.
-* **Make section full width**: Enable this setting to make the slider span the entire width of the screen.
+* **Heading** : Set the title for the section to introduce your products slider.
+* **Make section full width** : Enable this setting to make the slider span the entire width of the screen.
 
-#### **Products**
+#### **Products** 
 
-* **Text alignment**: Align the product text to the **Left**, **Center**, or **Right**.
-* **Product name style**: Choose between **Heading** or **Body** styles for the product name.
-* **Show vendor**: Toggle this option to display the vendor name alongside the product.
-* **Show product rating**: Enable this option to showcase product ratings within the slider.
+* **Text alignment** : Align the product text to the **Left** , **Center** , or **Right** .
+* **Product name style** : Choose between **Heading** or **Body** styles for the product name.
+* **Show vendor** : Toggle this option to display the vendor name alongside the product.
+* **Show product rating** : Enable this option to showcase product ratings within the slider.
 
-#### **Layout**
+#### **Layout** 
 
-* **Products slider position**: Choose whether the product slider appears on the **Left** or **Right** side of the section.
+* **Products slider position** : Choose whether the product slider appears on the **Left** or **Right** side of the section.
 
-#### **Promo Slide Heading Size**
+#### **Promo Slide Heading Size** 
 
-* **Heading scale large screen**: Adjust the size of the heading for large screens (percentage-based scaling).
-* **Heading scale mobile**: Adjust the size of the heading for mobile devices (percentage-based scaling).
+* **Heading scale large screen** : Adjust the size of the heading for large screens (percentage-based scaling).
+* **Heading scale mobile** : Adjust the size of the heading for mobile devices (percentage-based scaling).
 
-#### **Colors**
+#### **Colors** 
 
-* **Heading color**: Set the color for the heading text. The default is **Transparent**, inheriting global settings.
-* **Section background color**: Choose the background color for the section. The default is **Transparent**.
+* **Heading color** : Set the color for the heading text. The default is **Transparent** , inheriting global settings.
+* **Section background color** : Choose the background color for the section. The default is **Transparent** .
 
-#### **Section Spacing**
+#### **Section Spacing** 
 
-* **Distance from the top**: Adjust the spacing from the top of the section to nearby elements.
-* **Distance from the bottom**: Adjust the spacing from the bottom of the section to nearby elements.
+* **Distance from the top** : Adjust the spacing from the top of the section to nearby elements.
+* **Distance from the bottom** : Adjust the spacing from the bottom of the section to nearby elements.
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6790ca520dd22fa70b6eb564_6790c261a31e3ddf7a58029a_products-slider-settings.jpeg)
 
 ## Customize Product block
 
-Click one of the preloaded **Product **block to customize it.
+Click one of the preloaded **Product** block to customize it.
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6792224485ae5cc57c96041b_679222249adc38f747c42ea4_products-slider-block-settings.jpeg)
 

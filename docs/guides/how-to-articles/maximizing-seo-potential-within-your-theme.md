@@ -3,11 +3,11 @@ title: "Maximizing SEO Potential Within Your Theme"
 sidebar_label: "Maximizing SEO Potential Within Your Theme"
 ---
 
-## **Maximizing SEO Potential Within Your Theme**
+## **Maximizing SEO Potential Within Your Theme** 
 
 Unleashing the power of SEO settings within your theme is a strategic move to enhance your website's discoverability on search engines. Here's your guide to optimizing these settings:
 
-### **1. Embracing Microdata Schema:**
+### **1. Embracing Microdata Schema:** 
 
 * Our themes come with built-in microdata schema, a structured data format that search engines like Google greatly appreciate. This structured data empowers search engines to grasp the content on your web pages, leading to more precise search results for users.
 * The microdata schema integrated into our themes includes essential information:
@@ -17,7 +17,7 @@ Unleashing the power of SEO settings within your theme is a strategic move to en
 
 * If you desire greater control or need to include additional information, our themes offer the flexibility to disable the theme's microdata schema. This opens the door for you to implement custom solutions tailored to your specific requirements.
 
-### **2. Navigational Benefits of Breadcrumbs:**
+### **2. Navigational Benefits of Breadcrumbs:** 
 
 * Breadcrumbs are a user-friendly navigation feature seamlessly integrated into our themes.
 * To enhance the user experience, especially for product and collection navigation, our themes adopt a breadcrumb structure that resembles this format: home/collection-name/product-name

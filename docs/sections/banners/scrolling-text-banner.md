@@ -9,43 +9,43 @@ The **Scrolling Text Banner** section offers a dynamic and visually engaging way
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67926710d5ed6a64a3482a3b_679266f45f657be8d76fc92a_scrolling-text-section.jpeg)
 
-## **Main Settings**
+## **Main Settings** 
 
-#### **General Settings**
+#### **General Settings** 
 
-* **Heading**: Add a title for the section.
-* **Make section full width**: Enable this option to extend the section across the full width of the page.
-* **Animation speed**: Adjust the speed of the scrolling text (1 for slowest, 10 for fastest).
+* **Heading** : Add a title for the section.
+* **Make section full width** : Enable this option to extend the section across the full width of the page.
+* **Animation speed** : Adjust the speed of the scrolling text (1 for slowest, 10 for fastest).
 
-#### **Section Height**
+#### **Section Height** 
 
-* **Height**: Choose between "Adapt to Image," "Fixed Height," or "Fixed Height and No Image."
-* **Desktop fixed height**: Set a specific height (in pixels) for desktop devices when "Fixed Height" is selected.
-* **Mobile fixed height**: Set a specific height (in pixels) for mobile devices when "Fixed Height" is selected.
+* **Height** : Choose between "Adapt to Image," "Fixed Height," or "Fixed Height and No Image."
+* **Desktop fixed height** : Set a specific height (in pixels) for desktop devices when "Fixed Height" is selected.
+* **Mobile fixed height** : Set a specific height (in pixels) for mobile devices when "Fixed Height" is selected.
 
-#### **Large Screen Version**
+#### **Large Screen Version** 
 
-* **Image**: Upload or select an image for large screens.
-* **Large screen text alignment**: Vertically align text (Top, Center, or Bottom) and horizontally align text (Left, Center, or Right).
+* **Image** : Upload or select an image for large screens.
+* **Large screen text alignment** : Vertically align text (Top, Center, or Bottom) and horizontally align text (Left, Center, or Right).
 
-#### **Mobile Version**
+#### **Mobile Version** 
 
-* **Image**: Upload or select an image for mobile devices.
-* **Mobile text alignment**: Vertically align text (Top, Center, or Bottom) and horizontally align text (Left, Center, or Right).
+* **Image** : Upload or select an image for mobile devices.
+* **Mobile text alignment** : Vertically align text (Top, Center, or Bottom) and horizontally align text (Left, Center, or Right).
 
-#### **Colors**
+#### **Colors** 
 
-* **Heading color**: Set the color of the heading text.
-* **Section background color**: Choose the background color for the section.
-* **Background opacity**: Adjust the transparency of the section's background.
-* **Text color**: Set the color of the scrolling text.
-* **Image container color**: Define the background color of the image container.
-* **Image container opacity**: Adjust the transparency of the image container.
+* **Heading color** : Set the color of the heading text.
+* **Section background color** : Choose the background color for the section.
+* **Background opacity** : Adjust the transparency of the section's background.
+* **Text color** : Set the color of the scrolling text.
+* **Image container color** : Define the background color of the image container.
+* **Image container opacity** : Adjust the transparency of the image container.
 
-#### **Section Spacing**
+#### **Section Spacing** 
 
-* **Distance from the top**: Adjust the space between the section and the top of the page.
-* **Distance from the bottom**: Adjust the space between the section and the bottom of the page.
+* **Distance from the top** : Adjust the space between the section and the top of the page.
+* **Distance from the bottom** : Adjust the space between the section and the bottom of the page.
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6792459a7b91541fa527662d_6792443fe94d9f5236cf0b96_scrolling-text-banner-settings.jpeg)
 
@@ -58,7 +58,7 @@ Click one of the preloaded **heading** block to customize it.
 ## 
 Customize button block
 
-Click one of the preloaded **button **block to customize it.
+Click one of the preloaded **button** block to customize it.
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/677f8dd15500462a859858a5_6579e327e13513dc09bd5a3d_image-banner-button-block.jpeg)
 

@@ -3,7 +3,7 @@ title: "Parallax section"
 sidebar_label: "Parallax section"
 ---
 
-## **What is the Parallax section?**
+## **What is the Parallax section?** 
 
 The "Parallax" section is a dynamic and visually captivating element designed to enhance user engagement. This section allows you to set a custom heading, text, and button. You can upload two images that create a parallax effect, revealing themselves as the user scrolls. Additionally, you can adjust the angle of the images, set a background color, and customize the text color, making it a versatile tool for creating a striking and interactive visual experience on your store.
 
@@ -15,11 +15,11 @@ The "Parallax" section is a dynamic and visually captivating element designed to
 
 ## Main settings
 
-**Text Alignment**
+ **Text Alignment** 
 
 * **Text alignment:** Choose the alignment of the text on the banner (options: Left, Center, Right).
 
-**Images**
+ **Images** 
 
 * **Maximum rotation:** Adjust the degree of rotation for the images.
 * **First image:** Upload or select the first image for the parallax effect.
@@ -27,17 +27,17 @@ The "Parallax" section is a dynamic and visually captivating element designed to
 * **Second image:** Upload or select the second image for the parallax effect.
 * **Second picture link:** Add a link for the second image.
 
-**Colors**
+ **Colors** 
 
 * **Text color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
 * **Text container color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
 
-**Mobile Version**
+ **Mobile Version** 
 
 * **Image:** Select an image for the mobile version of the banner.
 * **Mobile screen text alignment:** Choose the alignment of the text on the banner for mobile screens (options: Top, Center, Bottom, Left, Center, Right).
 
-**Section Spacing**
+ **Section Spacing** 
 
 * **Distance from the top:** Adjust the spacing from the top of the section.
 * **Distance from the bottom:** Adjust the spacing from the bottom of the section.
@@ -52,7 +52,7 @@ Click one of the preloaded **heading** block to customize it.
 
 ## Customize subheading block
 
-Click one of the preloaded **subheading **block to customize it.
+Click one of the preloaded **subheading** block to customize it.
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f3fbf0ae8339b53faaf807_66a11a5084ba532f902f9807_newsletter-with-image-subheading-block.jpeg)
 

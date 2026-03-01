@@ -24,7 +24,7 @@ The "Header" is a crucial part of your Shopify store, serving as the gateway to 
 * **Show separator line** – Display a line below the header for structure and separation. This setting is hidden on the homepage when using the Transparent Menu layout.
 * **Show shadow** – Add a subtle shadow beneath the header for visual depth. This is not displayed on the homepage when the Transparent Menu is used.
 
-### **Header Logo**
+### **Header Logo** 
 
 * **Logo image** – Upload or select your main logo to display in the header.
 * **Large screen logo width** – Set the logo width specifically for desktop and larger screen sizes.
@@ -33,26 +33,26 @@ The "Header" is a crucial part of your Shopify store, serving as the gateway to 
 * **Teaser menu** – Choose a teaser menu to show three quick-access links next to the hamburger icon. This appears only when using the "Transparent menu" layout.
 * **Mobile footer menu** – Select a dedicated menu for the mobile footer, giving users simple navigation on small screens.
 
-### **Transparent Header**
+### **Transparent Header** 
 
 * **Logo image** – Select an image to be displayed when the Image Banner is the first section.
 * **Custom navigation color** – Set a custom color for the navigation text.
 
-### **Country/Region Selector**
+### **Country/Region Selector** 
 
 * **Show country/region selector** – Enable a dropdown to let users select their country or region.
 * **Show country code** – Display the country code alongside the selector.
 * **Show country flag** – Show a visual country flag next to the region selection for added clarity.
 
-### **Language Selector**
+### **Language Selector** 
 
 * **Show language selector** – Allow users to switch languages via a dropdown. Languages must first be added in your language settings.
 
-### **Drawer**
+### **Drawer** 
 
 * **Title** – Set the title for the navigation drawer, which is a collapsible menu that slides in from the side, commonly used in mobile site navigation to maximize space and maintain usability.
 
-### **Search**
+### **Search** 
 
 * **Placeholder text** – Input text that will be displayed in the search field before the user begins typing.
 * **Suggestions title** – Input a title for the search suggestions dropdown, prompting users with potential search queries or products as they begin to type in the search field.

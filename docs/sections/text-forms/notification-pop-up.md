@@ -3,29 +3,29 @@ title: "Notification Pop-up"
 sidebar_label: "Notification Pop-up"
 ---
 
-## **What is the Notification Pop-up section?**
+## **What is the Notification Pop-up section?** 
 
-The **Notification Pop-up** section, part of the **Header Group**, provides an elegant way to capture visitor emails and grow your subscriber list. Designed for a seamless user experience, it allows you to add **custom text, images, and a contact form** while maintaining a modern, minimalistic look. Once dismissed, the pop-up will reappear **after 7 days** unless the user is **logged in**, ensuring it remains effective without being intrusive. With flexible design options, this section enhances engagement while keeping the shopping experience smooth.
+The **Notification Pop-up** section, part of the **Header Group** , provides an elegant way to capture visitor emails and grow your subscriber list. Designed for a seamless user experience, it allows you to add **custom text, images, and a contact form** while maintaining a modern, minimalistic look. Once dismissed, the pop-up will reappear **after 7 days** unless the user is **logged in** , ensuring it remains effective without being intrusive. With flexible design options, this section enhances engagement while keeping the shopping experience smooth.
 
 ## Main settings
 
-#### **General**
+#### **General** 
 
 * **Maximum width** – Adjust the maximum width of the pop-up in pixels for optimal display.
 * **Show border** – Enable to add a border around the pop-up for a defined look.
 * **Show shadow** – Enable to apply a subtle shadow effect for a floating appearance.
 
-#### **Images**
+#### **Images** 
 
 * **Mobile version** – Upload a specific image for mobile screens.
 * **Large screen version** – Upload a dedicated image for desktop users.
 
-#### **Alignment**
+#### **Alignment** 
 
 * **Vertical alignment** – Position the content at the **Top, Center, or Bottom** of the pop-up.
 * **Horizontal alignment** – Align content to the **Left, Center, or Right** for better layout control.
 
-#### **Colors**
+#### **Colors** 
 
 * **Text color** – Customize the text color. Default is ‘Transparent’ to inherit global settings.
 * **Background color** – Set the background color for the pop-up.
@@ -40,7 +40,7 @@ Click one of the preloaded **heading** block to customize it.
 
 ## Customize subheading block
 
-Click one of the preloaded **subheading **block to customize it.
+Click one of the preloaded **subheading** block to customize it.
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f3fbf0ae8339b53faaf807_66a11a5084ba532f902f9807_newsletter-with-image-subheading-block.jpeg)
 

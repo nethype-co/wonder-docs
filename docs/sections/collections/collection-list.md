@@ -21,7 +21,7 @@ Collection list sections present new, featured or seasonal collections. You can 
 
 #### Collections alignment
 
-* **Collections alignment**: Choose whether collections are aligned to the left or centered when swipe is disabled
+* **Collections alignment** : Choose whether collections are aligned to the left or centered when swipe is disabled
 
 #### Hide Images
 

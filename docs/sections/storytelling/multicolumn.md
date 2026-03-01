@@ -51,13 +51,13 @@ The "Multicolumn" section provides a structured, grid-like display, ideal for fe
 
 ## Customize multicolumn block
 
-* **Heading**: Create a heading for each column to give it a clear identity or to introduce the content.
-* **Text**: Input text that complements the image and provides context, such as details on a product, collection, or story.
-* **Button**: Add a button with customizable text, linking to a relevant page or product to encourage customer interaction.
-* **Image Selection**: For both the large screen and mobile versions, choose images that represent the column's content. You have the freedom to explore your image library or free images for the perfect visual.
-* **Disable on Mobile**: You can choose to disable the text or button on mobile devices to streamline the user experience on smaller screens.
-* **Link**: Insert a link for your button, which can open in the same window or a new one, directing users exactly where you want them to go.
-* **Enable Swipe on Mobile**: Allow users to swipe through columns on mobile devices for a fluid navigation experience.
+* **Heading** : Create a heading for each column to give it a clear identity or to introduce the content.
+* **Text** : Input text that complements the image and provides context, such as details on a product, collection, or story.
+* **Button** : Add a button with customizable text, linking to a relevant page or product to encourage customer interaction.
+* **Image Selection** : For both the large screen and mobile versions, choose images that represent the column's content. You have the freedom to explore your image library or free images for the perfect visual.
+* **Disable on Mobile** : You can choose to disable the text or button on mobile devices to streamline the user experience on smaller screens.
+* **Link** : Insert a link for your button, which can open in the same window or a new one, directing users exactly where you want them to go.
+* **Enable Swipe on Mobile** : Allow users to swipe through columns on mobile devices for a fluid navigation experience.
 
 ![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/6581b2e9fe3e89b5b013bdce_multicolumn-block.jpg)
 

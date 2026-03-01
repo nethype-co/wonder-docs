@@ -3,11 +3,11 @@ title: "Sharing a Preview of Your Shopify Theme"
 sidebar_label: "Sharing a Preview of Your Shopify Theme"
 ---
 
-## **Sharing a Preview of Your Shopify Theme**
+## **Sharing a Preview of Your Shopify Theme** 
 
 Before you decide to make your new theme live, it's often a good idea to get feedback from others or seek assistance from theme developers. Shopify allows you to create a preview link, giving you the ability to share access to an unpublished theme and gather valuable feedback in the right direction.
 
-### **Here's How to Share a Shopify Theme Preview:**
+### **Here's How to Share a Shopify Theme Preview:** 
 
 1. **Access Your Shopify Admin:** 
 - Log in to your Shopify admin panel.
@@ -24,7 +24,7 @@ Before you decide to make your new theme live, it's often a good idea to get fee
 7. **Copy and Share:** 
 - To share the preview link, simply click the "Copy link" button. You can then share this link with anyone you want, whether it's for feedback or assistance.
 
-**Here's How to Share a Shopify Theme Preview:**
+ **Here's How to Share a Shopify Theme Preview:** 
 
 1. **Access Your Shopify Admin:**
 2. Log in to your Shopify admin panel.
