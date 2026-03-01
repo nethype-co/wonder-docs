@@ -32,6 +32,16 @@ Customize the theme to match your brand.
 
 ---
 
+## Theme Settings
+
+General settings that apply across your entire Wonder theme.
+
+- [Color Swatches](theme-settings/color-swatches) — Configure color swatches for product variants
+- [Product Badges](theme-settings/product-badges) — Set up Sale, New, and custom badges on product cards
+- [Cross Sell](theme-settings/cross-sell) — Configure cross-selling to boost average order value
+
+---
+
 ## Sections
 
 <div className="row margin-bottom--lg">
@@ -78,7 +88,6 @@ Customize the theme to match your brand.
 ### [Products](sections/products)
 - [Benefits Product](sections/products/benefits-product)
 - [Featured Product](sections/products/featured-product)
-- [Product Badges](sections/products/product-badges)
 - [Product Recommendations](sections/products/product-recommendations)
 - [Products Slider](sections/products/products-slider)
 - [Shoppable Image](sections/products/shoppable-image)
@@ -111,7 +120,6 @@ Customize the theme to match your brand.
 - [Collapsible Files Row](product-page/blocks/collapsible-files-row-block)
 - [Collapsible Tab](product-page/blocks/collapsible-tab-block)
 - [Complementary Products](product-page/blocks/complementary-products-block)
-- [Cross Sell](product-page/blocks/cross-sell)
 - [Feature Icons](product-page/blocks/feature-icons-block)
 - [Feature Tags](product-page/blocks/feature-tags-block)
 - [Inventory Status](product-page/blocks/inventory-status-block)
@@ -144,7 +152,6 @@ Customize the theme to match your brand.
 ### [How-To Articles](guides/how-to-articles)
 - [A Complete Guide to Customizing the Variant Picker](guides/how-to-articles/a-complete-guide-to-customizing-the-variant-picker)
 - [Personalizing Product Pages with Custom Options](guides/how-to-articles/a-step-by-step-guide-to-personalizing-your-product-pages-with-custom-options)
-- [Color Swatches](guides/how-to-articles/color-swatches)
 - [Product Variations Block Setup](guides/how-to-articles/how-to-set-up-a-product-variations-block-in-product-page)
 - [Maximizing SEO Potential](guides/how-to-articles/maximizing-seo-potential-within-your-theme)
 - [Page Speed Mastery](guides/how-to-articles/unlocking-page-speed-mastery-for-your-shopify-store)

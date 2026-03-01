@@ -7,6 +7,6 @@ import DocCardList from '@theme/DocCardList';
 
 # Blocks
 
-All product page blocks — buy button, variant picker, price, ratings, cross-sell, upsell, and more.
+All product page blocks — buy button, variant picker, price, ratings, upsell, and more.
 
 <DocCardList />

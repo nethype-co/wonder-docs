@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Wonder Theme Docs',
   tagline: 'Documentation for the Wonder Shopify Theme',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
 
   future: {
     v4: true,
@@ -111,6 +111,10 @@ const config: Config = {
               to: '/getting-started/setup',
             },
             {
+              label: 'Theme Settings',
+              to: '/theme-settings',
+            },
+            {
               label: 'Sections',
               to: '/sections/header-navigation',
             },
@@ -147,7 +151,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Nethype. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Nethype.`,
     },
     prism: {
       theme: prismThemes.github,
