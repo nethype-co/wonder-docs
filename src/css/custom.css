@@ -61,32 +61,27 @@ article h2 {
   font-weight: 600;
 }
 
-/* Search bar - centered in navbar */
-.navbar .DocSearch-Button,
-.navbar .navbar__search {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.navbar .DocSearch-Button,
-.navbar .navbar__search-input {
-  width: 320px;
-  padding: 8px 14px;
-  font-size: 15px;
-  border-radius: 8px;
-}
-
-@media (max-width: 996px) {
-  .navbar .DocSearch-Button,
-  .navbar .navbar__search {
-    position: static;
-    transform: none;
+/* Search bar - centered in navbar on desktop */
+@media (min-width: 997px) {
+  .navbar__inner {
+    position: relative;
   }
 
-  .navbar .DocSearch-Button,
-  .navbar .navbar__search-input {
-    width: 100%;
+  .navbarSearchContainer_Bca1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .navbar__search-input {
+    width: 340px;
+    height: 38px;
+    font-size: 14px;
+    padding-left: 36px;
+    border-radius: 8px;
+    border: 1px solid var(--ifm-color-emphasis-300);
+    background-position: 10px center;
+    background-size: 18px 18px;
   }
 }
 
