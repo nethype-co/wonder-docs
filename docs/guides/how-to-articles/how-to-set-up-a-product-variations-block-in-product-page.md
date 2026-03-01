@@ -11,6 +11,8 @@ In this guide, we’ll walk through the process of setting up a **Product Variat
 
 ## Video Tutorial
 
+<iframe width="100%" style={{aspectRatio: '16/9'}} src="https://www.youtube.com/embed/H34IrovkOIA?si=XX7WvBLehHgssugt" title="Product Variations Block Setup Tutorial" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
 ### **Step 1:** Set up the “Color” Category Metafield (if not already present)
 
 If you do **not** yet have a **Color** metafield set up as a **category metafield** in your Shopify admin, follow these steps to create one:

@@ -11,6 +11,8 @@ The **Multi-Images Variant Gallery** is a powerful feature that automatically fi
 
 ## Video Tutorial
 
+<iframe width="100%" style={{aspectRatio: '16/9'}} src="https://www.youtube.com/embed/tQiOUqnvOvc?si=taIM6RuifmSCVSaY" title="Multi-Images Variant Gallery Tutorial" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
 ## How It Works
 
 To enable image filtering by variant, each image must have an alt tag matching the variant’s name. For example, if you have a “Red” variant, set the alt tag of each corresponding image to **#red** . This process is not case-sensitive, so tags like **#RED** , **#ReD** , and **#red** will all work seamlessly.

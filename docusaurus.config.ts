@@ -94,6 +94,11 @@ const config: Config = {
           label: 'Docs',
         },
         {
+          to: '/video-tutorials',
+          label: 'Video Tutorials',
+          position: 'left',
+        },
+        {
           href: 'https://wonder-theme.com',
           label: 'Wonder Theme',
           position: 'right',

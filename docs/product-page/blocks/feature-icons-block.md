@@ -9,6 +9,8 @@ The **Feature Icons** block allows you to showcase product highlights using visu
 
 ## Video Tutorial
 
+<iframe width="100%" style={{aspectRatio: '16/9'}} src="https://www.youtube.com/embed/4fCU-xnf2a0?si=b_PyD9iCHDPF7OE6" title="Feature Icons Block Tutorial" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
 ## **Settings** 
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67c9a0cd13b68f9474c56e09_feature-icons-block-2.jpg)

@@ -13,6 +13,8 @@ In this guide, we'll delve into the integration and optimization of promotion-me
 
 ## Video Tutorial
 
+<iframe width="100%" style={{aspectRatio: '16/9'}} src="https://www.youtube.com/embed/hCeI0ZnXeFA?si=9mL2gB0dnVHBVJiH" title="Mega Menu Setup Tutorial" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
 ### Step 1: Create item for promotion menu in your main navigation
 
 ![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66c7478f5fbc26b4d0923eb5_65a123f6e47b86a5d806bb70_mega-menu-main-menu.jpeg)

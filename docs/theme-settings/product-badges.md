@@ -11,6 +11,8 @@ Product badges are succinct visual markers that instantly signal key information
 
 ## Video Tutorial
 
+<iframe width="100%" style={{aspectRatio: '16/9'}} src="https://www.youtube.com/embed/yB1X8tUQ-BA?si=iAMugRx1xaCjozIe" title="Product Badges Tutorial" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
 ## **Main settings** 
 
 * **Badge Text Transform** : Control the casing of your badge text. Choose 'Uppercase' to grab attention or select 'None' for a more subdued presentation.
