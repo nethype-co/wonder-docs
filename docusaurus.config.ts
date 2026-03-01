@@ -82,6 +82,7 @@ const config: Config = {
         alt: 'Wonder Theme',
         src: 'img/wonder-logo-light.svg',
         srcDark: 'img/wonder-logo-light.svg',
+
         href: '/',
         width: 32,
         height: 32,
