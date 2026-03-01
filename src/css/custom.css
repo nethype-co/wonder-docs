@@ -61,6 +61,35 @@ article h2 {
   font-weight: 600;
 }
 
+/* Search bar - centered in navbar */
+.navbar .DocSearch-Button,
+.navbar .navbar__search {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar .DocSearch-Button,
+.navbar .navbar__search-input {
+  width: 320px;
+  padding: 8px 14px;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+@media (max-width: 996px) {
+  .navbar .DocSearch-Button,
+  .navbar .navbar__search {
+    position: static;
+    transform: none;
+  }
+
+  .navbar .DocSearch-Button,
+  .navbar .navbar__search-input {
+    width: 100%;
+  }
+}
+
 /* Footer */
 .footer--dark {
   background-color: #1a1a1a;

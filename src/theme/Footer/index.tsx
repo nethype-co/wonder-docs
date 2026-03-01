@@ -3,17 +3,16 @@ import Footer from '@theme-original/Footer';
 
 function CustomizationBanner() {
   return (
-    <div style={{padding: '40px 24px 0'}}>
+    <div style={{
+      backgroundImage: 'linear-gradient(315deg, #47cae4 0%, #0077b6 33%, #131c82 52%, #3249e9 100%)',
+      backgroundSize: 'cover',
+      backgroundPosition: '100% 7%',
+    }}>
       <div style={{
-        maxWidth: '800px',
+        maxWidth: '960px',
         margin: '0 auto',
-        borderRadius: '8px',
-        backgroundImage: 'linear-gradient(315deg, #47cae4 0%, #0077b6 33%, #131c82 52%, #3249e9 100%)',
-        backgroundSize: 'cover',
-        backgroundPosition: '100% 7%',
-        overflow: 'hidden',
+        padding: '48px 48px',
       }}>
-        <div style={{padding: '48px'}}>
           <p style={{
             color: '#f1f2f5',
             fontSize: '16px',
@@ -106,7 +105,6 @@ function CustomizationBanner() {
               </a>
             </div>
           </div>
-        </div>
       </div>
     </div>
   );
