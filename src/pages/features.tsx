@@ -369,10 +369,11 @@ export default function Features() {
             style={{
               color: '#000',
               textAlign: 'center',
-              letterSpacing: '-0.045em',
+              letterSpacing: '-2px',
               margin: '0',
               paddingBottom: '0',
-              fontSize: '82px',
+              fontFamily: 'Satoshi, Arial, sans-serif',
+              fontSize: '100px',
               fontWeight: 700,
               lineHeight: '1.05em',
             }}
@@ -382,10 +383,11 @@ export default function Features() {
           <div
             className="features-hero-heading"
             style={{
-              fontSize: '82px',
+              fontFamily: 'Satoshi, Arial, sans-serif',
+              fontSize: '100px',
               fontWeight: 700,
               lineHeight: '1.05em',
-              letterSpacing: '-0.045em',
+              letterSpacing: '-2px',
               textAlign: 'center',
               background: 'linear-gradient(to right, #3249e9 35%, #47cae4 71%)',
               WebkitBackgroundClip: 'text',
@@ -407,6 +409,7 @@ export default function Features() {
               maxWidth: '880px',
               paddingTop: '20px',
               paddingBottom: '20px',
+              fontFamily: 'Satoshi, Arial, sans-serif',
               fontSize: '34px',
               lineHeight: '42px',
               margin: '0 auto',

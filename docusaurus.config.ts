@@ -52,6 +52,20 @@ const config: Config = {
       },
     },
     {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://api.fontshare.com',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'stylesheet',
+        href: 'https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap',
+      },
+    },
+    {
       tagName: 'script',
       attributes: {},
       innerHTML: `window.fwSettings={'widget_id':204000000466};!function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}()`,
