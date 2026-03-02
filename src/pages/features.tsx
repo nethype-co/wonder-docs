@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 interface Feature {
   title: string;
@@ -188,6 +189,22 @@ const features: Feature[] = [
   },
 ];
 
+function FeatureImage({src, alt, maxWidth}: {src: string; alt: string; maxWidth: string}) {
+  const resolvedSrc = useBaseUrl(src);
+  return (
+    <img
+      src={resolvedSrc}
+      alt={alt}
+      style={{
+        maxWidth,
+        height: 'auto',
+        borderRadius: '12px',
+        border: '1px solid var(--ifm-color-emphasis-200)',
+      }}
+    />
+  );
+}
+
 function FeatureCard({feature, index}: {feature: Feature; index: number}) {
   const isReverse = feature.reverse;
   const hasImages = feature.images.length > 0;
@@ -272,16 +289,11 @@ function FeatureCard({feature, index}: {feature: Feature; index: number}) {
           }}
         >
           {feature.images.map((img, i) => (
-            <img
+            <FeatureImage
               key={i}
               src={img}
               alt={feature.title}
-              style={{
-                maxWidth: hasTwoImages ? '48%' : '100%',
-                height: 'auto',
-                borderRadius: '12px',
-                border: '1px solid var(--ifm-color-emphasis-200)',
-              }}
+              maxWidth={hasTwoImages ? '48%' : '100%'}
             />
           ))}
         </div>
