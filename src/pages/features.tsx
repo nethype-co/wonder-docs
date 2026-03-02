@@ -334,6 +334,52 @@ function FeatureCard({feature, index}: {feature: Feature; index: number}) {
 export default function Features() {
   return (
     <Layout title="Features" description="Explore Wonder Theme's suite of innovative tools designed to enhance your online presence and boost sales.">
+      {/* Hero Banner */}
+      <div
+        style={{
+          backgroundImage: 'linear-gradient(315deg, #47cae4 0%, #0077b6 33%, #131c82 52%, #3249e9 100%)',
+          padding: '80px 24px',
+          textAlign: 'center',
+        }}
+      >
+        <div style={{maxWidth: '720px', margin: '0 auto'}}>
+          <p
+            style={{
+              fontSize: '18px',
+              fontWeight: 500,
+              color: 'rgba(255,255,255,0.8)',
+              margin: '0 0 8px 0',
+              letterSpacing: '0.02em',
+            }}
+          >
+            Explore
+          </p>
+          <h1
+            className="features-hero-title"
+            style={{
+              fontSize: '56px',
+              fontWeight: 700,
+              lineHeight: 1.1,
+              margin: '0 0 24px 0',
+              color: '#fff',
+            }}
+          >
+            Wonder Features.
+          </h1>
+          <p
+            style={{
+              fontSize: '17px',
+              lineHeight: 1.7,
+              color: 'rgba(255,255,255,0.85)',
+              margin: 0,
+              fontWeight: 500,
+            }}
+          >
+            <strong style={{color: '#fff'}}>Explore</strong> a suite of innovative tools designed to enhance your online presence and boost sales. From seamless navigation and modern design to robust SEO capabilities, our template equips you with everything you need to succeed on Shopify.
+          </p>
+        </div>
+      </div>
+
       <div
         style={{
           maxWidth: '1100px',
@@ -341,31 +387,6 @@ export default function Features() {
           padding: '48px 24px 80px',
         }}
       >
-        {/* Hero */}
-        <div style={{textAlign: 'center', marginBottom: '56px', maxWidth: '720px', marginLeft: 'auto', marginRight: 'auto'}}>
-          <h1
-            style={{
-              fontSize: '36px',
-              fontWeight: 700,
-              marginBottom: '16px',
-              lineHeight: 1.2,
-            }}
-          >
-            Theme Features
-          </h1>
-          <p
-            style={{
-              fontSize: '17px',
-              lineHeight: 1.7,
-              color: 'var(--ifm-color-emphasis-700)',
-              margin: 0,
-            }}
-          >
-            Explore a suite of innovative tools designed to enhance your online presence and boost sales.
-            From seamless navigation and modern design to robust SEO capabilities, Wonder Theme equips you
-            with everything you need to succeed on Shopify.
-          </p>
-        </div>
 
         {/* Feature list */}
         <div>
