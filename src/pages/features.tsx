@@ -8,6 +8,7 @@ interface Feature {
   subtitle: string;
   description: string;
   images: string[];
+  video?: string;
   link?: string;
   reverse?: boolean;
 }
@@ -32,18 +33,20 @@ const features: Feature[] = [
   },
   {
     title: 'Shoppable Video',
-    subtitle: 'The Future of eCommerce',
+    subtitle: 'Shoppable Video - Future of eCommerce',
     description:
-      'Interactive video feature allowing products to slide in based on video timestamps. Let customers shop directly from your video content for a seamless buying experience.',
+      'The "Shoppable video" section is an interactive and engaging feature designed to enhance the shopping experience. This section allows you to play and pause a video, with selected products sliding in from left to right based on specific timestamps you set in the video.',
     images: [],
+    video: '/img/features/shoppable-video.mp4',
     link: '/sections/video/shoppable-video',
   },
   {
     title: 'Testimonial Video Reels',
-    subtitle: 'Real Voices, Real Trust',
+    subtitle: 'Real voices, real trust - showcase your success!',
     description:
-      'Showcase customer success with video testimonials, star ratings, and smooth slider functionality. Build social proof with authentic video reviews.',
+      'Bring customer experiences to life with Testimonial Video Reels - a dynamic, engaging way to showcase authentic reviews. Featuring video testimonials, star ratings, and compelling text, this sleek slider helps build trust and credibility effortlessly.',
     images: [],
+    video: '/img/features/testimonial-reels.mp4',
     link: '/sections/testimonials/testimonial-video-reels',
     reverse: true,
   },
@@ -90,10 +93,11 @@ const features: Feature[] = [
   },
   {
     title: 'Shoppable Video Reels',
-    subtitle: 'Buy Like on Social Media',
+    subtitle: 'Buy like on social media "reels"',
     description:
-      'Reel-format slider linked to products. Bring the social media shopping experience directly to your store with swipeable, shoppable video content.',
+      'The "Shoppable video reels" section is a visually engaging and interactive feature designed to enhance the shopping experience. This section includes a slider in a "reels" format, where each reel is linked to a product.',
     images: [],
+    video: '/img/features/shoppable-reels.mp4',
     link: '/sections/video/shoppable-video-reels',
     reverse: true,
   },
@@ -114,10 +118,11 @@ const features: Feature[] = [
   },
   {
     title: 'Products Slider',
-    subtitle: 'Products in Motion',
+    subtitle: 'Products in motion, style in every slide!',
     description:
       'Unique backgrounds and smooth animations for showcasing product collections. Create visually dynamic product carousels that draw attention and encourage browsing.',
     images: [],
+    video: '/img/features/product-slider.mp4',
     link: '/sections/products/products-slider',
   },
   {
@@ -205,6 +210,24 @@ function FeatureImage({src, alt, maxWidth}: {src: string; alt: string; maxWidth:
   );
 }
 
+function FeatureVideo({src}: {src: string}) {
+  const resolvedSrc = useBaseUrl(src);
+  return (
+    <video
+      autoPlay
+      loop
+      muted
+      playsInline
+      style={{
+        width: '100%',
+        borderRadius: '12px',
+      }}
+    >
+      <source src={resolvedSrc} type="video/mp4" />
+    </video>
+  );
+}
+
 function HeroVideo() {
   const videoSrc = useBaseUrl('/img/features/hero-video.mp4');
   const posterSrc = useBaseUrl('/img/features/hero-video-poster.jpg');
@@ -230,6 +253,8 @@ function HeroVideo() {
 function FeatureCard({feature, index}: {feature: Feature; index: number}) {
   const isReverse = feature.reverse;
   const hasImages = feature.images.length > 0;
+  const hasVideo = !!feature.video;
+  const hasMedia = hasImages || hasVideo;
   const hasTwoImages = feature.images.length === 2;
 
   return (
@@ -245,7 +270,7 @@ function FeatureCard({feature, index}: {feature: Feature; index: number}) {
       className="feature-row"
     >
       {/* Text */}
-      <div style={{flex: hasImages ? '0 0 40%' : '1'}}>
+      <div style={{flex: hasMedia ? '0 0 40%' : '1'}}>
         <p
           style={{
             fontSize: '13px',
@@ -300,8 +325,8 @@ function FeatureCard({feature, index}: {feature: Feature; index: number}) {
         )}
       </div>
 
-      {/* Images */}
-      {hasImages && (
+      {/* Media */}
+      {hasMedia && (
         <div
           style={{
             flex: '0 0 55%',
@@ -312,14 +337,18 @@ function FeatureCard({feature, index}: {feature: Feature; index: number}) {
             position: 'relative',
           }}
         >
-          {feature.images.map((img, i) => (
-            <FeatureImage
-              key={i}
-              src={img}
-              alt={feature.title}
-              maxWidth={hasTwoImages ? '48%' : '100%'}
-            />
-          ))}
+          {hasVideo ? (
+            <FeatureVideo src={feature.video} />
+          ) : (
+            feature.images.map((img, i) => (
+              <FeatureImage
+                key={i}
+                src={img}
+                alt={feature.title}
+                maxWidth={hasTwoImages ? '48%' : '100%'}
+              />
+            ))
+          )}
           {feature.link && (
             <Link
               to={feature.link}
