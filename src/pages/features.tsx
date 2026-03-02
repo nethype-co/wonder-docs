@@ -252,11 +252,11 @@ function FeatureCard({feature, index}: {feature: Feature; index: number}) {
             fontWeight: 600,
             textTransform: 'uppercase',
             letterSpacing: '0.08em',
-            color: 'var(--ifm-color-primary)',
+            color: 'rgb(101, 104, 125)',
             margin: '0 0 6px 0',
           }}
         >
-          {feature.subtitle}
+          {feature.title}
         </p>
         <h2
           style={{
@@ -266,15 +266,16 @@ function FeatureCard({feature, index}: {feature: Feature; index: number}) {
             lineHeight: 1.2,
             border: 'none',
             padding: 0,
+            color: 'rgb(34, 36, 51)',
           }}
         >
-          {feature.title}
+          {feature.subtitle}
         </h2>
         <p
           style={{
             fontSize: '15px',
             lineHeight: 1.7,
-            color: 'var(--ifm-color-emphasis-700)',
+            color: 'rgb(29, 29, 31)',
             margin: '0 0 20px 0',
           }}
         >
