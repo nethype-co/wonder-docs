@@ -22,6 +22,10 @@ const config: Config = {
 
   scripts: [
     {
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-3LW9RNKL3E',
+      async: true,
+    },
+    {
       src: 'https://euc-widget.freshworks.com/widgets/204000000466.js',
       async: true,
       defer: true,
@@ -29,6 +33,11 @@ const config: Config = {
   ],
 
   headTags: [
+    {
+      tagName: 'script',
+      attributes: {},
+      innerHTML: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-3LW9RNKL3E');`,
+    },
     {
       tagName: 'link',
       attributes: {
