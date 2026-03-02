@@ -1,4 +1,6 @@
 :root {
+  --ifm-font-family-base: 'Montserrat', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
   --ifm-color-primary: #1a1a1a;
   --ifm-color-primary-dark: #111;
   --ifm-color-primary-darker: #0a0a0a;

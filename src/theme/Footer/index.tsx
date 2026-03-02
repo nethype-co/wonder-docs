@@ -7,6 +7,7 @@ function CustomizationBanner() {
       backgroundImage: 'linear-gradient(315deg, #47cae4 0%, #0077b6 33%, #131c82 52%, #3249e9 100%)',
       backgroundSize: 'cover',
       backgroundPosition: '100% 7%',
+      fontFamily: "'Montserrat', system-ui, -apple-system, sans-serif",
       position: 'relative',
       zIndex: 0,
     }}>
