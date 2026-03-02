@@ -16,16 +16,20 @@ Complete documentation for the Wonder Shopify theme  -  sections, blocks, guides
 <div className="row margin-bottom--lg">
 <div className="col col--6">
 
-### [Setup](getting-started/setup)
-Install and configure the Wonder theme on your Shopify store.
-- [Sharing a Preview of Your Shopify Theme](getting-started/setup/sharing-a-preview-of-your-shopify-theme)
+### [Basics](getting-started/basics)
+Install, configure, and customize the Wonder theme.
+- [Sharing a Preview of Your Shopify Theme](getting-started/basics/sharing-a-preview-of-your-shopify-theme)
+- [Customizing Your Theme by Editing Theme Files](getting-started/basics/customizing-your-theme-by-editing-theme-files)
 
 </div>
 <div className="col col--6">
 
-### [Customization](getting-started/customization)
-Customize the theme to match your brand.
-- [Customizing Your Theme by Editing Theme Files](getting-started/customization/customizing-your-theme-by-editing-theme-files)
+### [About Theme](getting-started/about-theme)
+Licensing, support, accessibility, and policies.
+- [Support Policy](getting-started/about-theme/support-policy)
+- [Theme Licensing & Transfers](getting-started/about-theme/theme-licensing)
+- [Accessibility](getting-started/about-theme/accessibility)
+- [Refund Policy](getting-started/about-theme/refund-policy)
 
 </div>
 </div>
@@ -161,5 +165,4 @@ General settings that apply across your entire Wonder theme.
 
 ## FAQ & Troubleshooting
 
-### [Billing](faq-troubleshooting/billing)
-- [Can I get a refund for the Wonder theme?](faq-troubleshooting/billing/can-i-get-a-refund-for-the-wonder-theme)
+Common issues and frequently asked questions.
