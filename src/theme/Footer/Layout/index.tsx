@@ -108,9 +108,13 @@ export default function FooterLayout({style, links, logo, copyright}) {
     <footer
       className={clsx(ThemeClassNames.layout.footer.container, 'footer', {
         'footer--dark': style === 'dark',
-      })}>
+      })}
+      style={{padding: 0}}>
       <CustomizationBanner />
-      <div className="container container-fluid">
+      <div className="container container-fluid" style={{
+        paddingTop: 'calc(var(--ifm-spacing-vertical) * 2)',
+        paddingBottom: 'calc(var(--ifm-spacing-vertical) * 2)',
+      }}>
         {links}
         {(logo || copyright) && (
           <div className="footer__bottom text--center">

@@ -82,7 +82,15 @@ article h2 {
   margin-top: 2rem;
 }
 
-/* Sidebar styling */
+/* Sidebar — no internal scroll, show all items */
+@media (min-width: 997px) {
+  [class*="sidebarViewport"] {
+    max-height: none;
+    height: auto;
+    overflow: visible;
+  }
+}
+
 .menu__link {
   font-size: 0.9rem;
 }
