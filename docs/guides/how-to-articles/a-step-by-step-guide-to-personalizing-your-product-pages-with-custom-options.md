@@ -9,7 +9,7 @@ sidebar_label: "A Step-by-Step Guide to Personalizing Your Product Pages with Cu
 
 Elevate your product pages with our Custom Option block, designed to give your customers the power of choice. Beyond the standard variants, Custom Option allows you to offer personalized selections that cater to your customers' unique needs and desires.
 
-**Seamless Integration, Limitless Possibilities** — Whether it's choosing the grind size for the perfect cup of coffee or adding special gift packaging for that personal touch, our Custom Option block integrates smoothly with your Shopify theme. With easy-to-use dropdowns and checkboxes, your customers can effortlessly customize their purchases.
+**Seamless Integration, Limitless Possibilities**  -  Whether it's choosing the grind size for the perfect cup of coffee or adding special gift packaging for that personal touch, our Custom Option block integrates smoothly with your Shopify theme. With easy-to-use dropdowns and checkboxes, your customers can effortlessly customize their purchases.
 
 ### **How to Add Custom Options to Your Product Page** 
 

@@ -7,6 +7,6 @@ import DocCardList from '@theme/DocCardList';
 
 # Storytelling
 
-Visual storytelling sections — image with text, collage, parallax, multicolumn, and more.
+Visual storytelling sections  -  image with text, collage, parallax, multicolumn, and more.
 
 <DocCardList />

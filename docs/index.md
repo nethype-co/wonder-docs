@@ -7,7 +7,7 @@ slug: /
 
 # Wonder Theme Documentation
 
-Complete documentation for the Wonder Shopify theme — sections, blocks, guides, and more.
+Complete documentation for the Wonder Shopify theme  -  sections, blocks, guides, and more.
 
 ---
 
@@ -36,9 +36,9 @@ Customize the theme to match your brand.
 
 General settings that apply across your entire Wonder theme.
 
-- [Color Swatches](theme-settings/color-swatches) — Configure color swatches for product variants
-- [Product Badges](theme-settings/product-badges) — Set up Sale, New, and custom badges on product cards
-- [Cross Sell](theme-settings/cross-sell) — Configure cross-selling to boost average order value
+- [Color Swatches](theme-settings/color-swatches)  -  Configure color swatches for product variants
+- [Product Badges](theme-settings/product-badges)  -  Set up Sale, New, and custom badges on product cards
+- [Cross Sell](theme-settings/cross-sell)  -  Configure cross-selling to boost average order value
 
 ---
 

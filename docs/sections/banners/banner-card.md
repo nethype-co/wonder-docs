@@ -9,14 +9,14 @@ sidebar_label: "Banner card"
   <source src="https://media.nethype.co/videos/support/banner-card-plp.webm" type="video/webm" />
 </video>
 
- **Banner Card** is a special element that allows you to place a **highlighted banner** directly within the **product grid** on a collection page. Instead of a regular product card, a banner appears in a selected position within the grid — perfect for promotions, marketing messages, or highlighting key offers without disrupting the collection layout.
+ **Banner Card** is a special element that allows you to place a **highlighted banner** directly within the **product grid** on a collection page. Instead of a regular product card, a banner appears in a selected position within the grid  -  perfect for promotions, marketing messages, or highlighting key offers without disrupting the collection layout.
 
 ## How to set up Banner Card block?
 
 * Go to the **collection template** and select the **Product grid** section.
 * Add a **Card Banner** block.
 * Add a text and/or a button to display on the banner.
-* Select the banner position — for example, **“Position before nth product: 5”** means the card banner will appear before the 5th product in the grid.
+* Select the banner position  -  for example, **“Position before nth product: 5”** means the card banner will appear before the 5th product in the grid.
 * Choose the image width to span **one or two columns** , separately for large and mobile screens.
 * Add an image and adjust the text size and text position for both large and mobile screens
 

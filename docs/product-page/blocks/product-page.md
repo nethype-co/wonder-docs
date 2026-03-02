@@ -21,7 +21,7 @@ The Product Page is one of the most crucial aspects of an e-commerce website. On
 
 ## Main Settings
 
-* **Make Section Full Width** : Expand your gallery to full width for an immersive visual experience — compatible with 'Collage' & 'Masonry gallery' layouts only.
+* **Make Section Full Width** : Expand your gallery to full width for an immersive visual experience  -  compatible with 'Collage' & 'Masonry gallery' layouts only.
 * **Desktop Media Size** : Select 'Large' or 'Normal' to adjust the prominence of media on desktop displays.
 * **Desktop Layout** : Choose a layout style: " **Carousel - Thumbnails Left** ", " **Carousel - Thumbnails Below** ", " **Collage** " or " **Masonry** " to present your media in an engaging format.
 * **Desktop Image Ratio** : Determine the aspect ratio for your images: 'Original Size', 'Portrait', or 'Square' to best fit your product's presentation.

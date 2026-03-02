@@ -17,7 +17,7 @@ The "Header" is a crucial part of your Shopify store, serving as the gateway to 
 
 * **Layout** – Choose the layout for the header. The “Transparent menu” option only works when the Image Banner or Logo Banner section is placed as the first section on the page.
 * **Enable sticky page header** – Keep the header fixed at the top as users scroll down the page.
-* **Sticky header always visible** – Prevents the sticky header from auto-hiding while scrolling — it stays permanently visible.
+* **Sticky header always visible** – Prevents the sticky header from auto-hiding while scrolling  -  it stays permanently visible.
 * **Sticky header background opacity** – Adjust the transparency level of the sticky header background. Works only with the “Transparent menu” and “Logo center, drawer menu” layouts.
 * **Sticky header background blur** – Add a blur effect to the background of the sticky header. Works only with the “Transparent menu” and “Logo center, drawer menu” layouts.
 * **Always blur header** – Apply a blur effect to the header across all sections, not just limited to the sticky state.

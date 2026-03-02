@@ -10,7 +10,7 @@ sidebar_label: "Specification table block"
 The **Specification Table** block provides a clean and organized way to display detailed product information.
 It appears inside a **collapsible row** , allowing you to keep your product page visually minimal while still giving customers access to all key specifications when needed.
 
-Each product can be linked to a **unique metafield** , so you can display custom data — like dimensions, materials, or technical details — for every item within the same template.
+Each product can be linked to a **unique metafield** , so you can display custom data  -  like dimensions, materials, or technical details  -  for every item within the same template.
 This flexible and space-saving design ensures consistency across your store while keeping product pages neat and informative.
 
 ## How to set up specification table block?

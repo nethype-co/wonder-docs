@@ -5,7 +5,7 @@ sidebar_label: "Product badges"
 
 ## **What is the Product badges?** 
 
-Product badges are succinct visual markers that instantly signal key information like 'Sale', 'New', or 'Exclusive' on product cards and pages. These badges act as highlights, drawing customer attention to special offers or new collections with a splash of style. Customizable for text and design, they're not just informative—they enhance the visual appeal of your products, making each badge a spotlight for special features and deals. Simple yet effective, product badges are your silent salesforce, boosting product visibility and customer engagement.
+Product badges are succinct visual markers that instantly signal key information like 'Sale', 'New', or 'Exclusive' on product cards and pages. These badges act as highlights, drawing customer attention to special offers or new collections with a splash of style. Customizable for text and design, they're not just informative - they enhance the visual appeal of your products, making each badge a spotlight for special features and deals. Simple yet effective, product badges are your silent salesforce, boosting product visibility and customer engagement.
 
 ![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/659e993521381b898e0ea287_product-badges-view.jpg)
 

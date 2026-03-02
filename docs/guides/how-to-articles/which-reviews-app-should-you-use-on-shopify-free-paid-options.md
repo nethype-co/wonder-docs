@@ -5,7 +5,7 @@ sidebar_label: "Which Reviews App Should You Use on Shopify? (Free & Paid Option
 
 ## Which Reviews App Should You Use on Shopify? (Free & Paid Options)
 
-Want to boost trust and increase sales? Adding star-rated product reviews to your Shopify store is a must. But which app should you choose—free or paid?
+Want to boost trust and increase sales? Adding star-rated product reviews to your Shopify store is a must. But which app should you choose - free or paid?
 
 ### **Top Free Review Apps** 
 

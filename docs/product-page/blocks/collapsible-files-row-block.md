@@ -7,7 +7,7 @@ sidebar_label: "Collapsible files row block"
 
 The **Collapsible Files Row** section allows you to display downloadable file links inside an expandable row on the product page. A key advantage of this feature is its dynamic metafield connection, ensuring that file links update automatically when a variant is changed.
 
-You can connect metafields at the **variant** level, so the file changes with each selection, or at the **product** level, keeping the file consistent across all variants. The section supports up to **three files** , each with a customizable label—if no label is set, the original file name with its extension will be displayed.
+You can connect metafields at the **variant** level, so the file changes with each selection, or at the **product** level, keeping the file consistent across all variants. The section supports up to **three files** , each with a customizable label - if no label is set, the original file name with its extension will be displayed.
 
 This feature is ideal for providing **product guides, spec sheets, certificates, or downloadable resources** in an organized and user-friendly way.
 

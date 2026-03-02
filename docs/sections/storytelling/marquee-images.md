@@ -10,7 +10,7 @@ sidebar_label: "Marquee images"
 </video>
 
 The **Marquee Images** section brings motion and visual energy to your store.
-It allows you to display a seamless row of images scrolling horizontally — from left to right or right to left — creating a modern and engaging effect.
+It allows you to display a seamless row of images scrolling horizontally  -  from left to right or right to left  -  creating a modern and engaging effect.
 
 This section works perfectly for showcasing brand visuals, partners, or product highlights. It includes customization options for animation speed, image size, spacing, and layout on both desktop and mobile devices.
 Add your own images and optional links to make the section interactive and bring your store to life.

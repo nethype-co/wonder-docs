@@ -8,26 +8,26 @@ sidebar_position: 3
 
 ## Our Commitment
 
-Accessibility is what enables customers with disabilities — whether visual, motor, cognitive, or auditory — to browse and purchase from your store with ease. The Wonder Theme is built with accessibility best practices at its core, ensuring your store is usable by the widest possible audience.
+Accessibility is what enables customers with disabilities  -  whether visual, motor, cognitive, or auditory  -  to browse and purchase from your store with ease. The Wonder Theme is built with accessibility best practices at its core, ensuring your store is usable by the widest possible audience.
 
 ## Built-in Accessibility Features
 
 The Wonder Theme includes numerous accessibility features out of the box:
 
-- **Semantic HTML** — proper heading hierarchy (H1–H6), landmark regions, and meaningful element structure for screen readers
-- **Keyboard Navigation** — all interactive elements (links, buttons, forms, menus) are fully navigable via keyboard
-- **ARIA Labels** — descriptive labels on interactive elements to provide context for assistive technologies
-- **Focus Management** — visible focus indicators on all interactive elements, with proper focus trapping in modals and drawers
-- **Skip Navigation** — a "Skip to content" link for keyboard users to bypass repetitive navigation
-- **Color Contrast** — default color schemes designed to meet WCAG AA contrast requirements
-- **Responsive Text** — scalable typography that respects browser zoom and text size preferences
-- **Alt Text Support** — all image fields support alternative text for screen readers
+- **Semantic HTML**  -  proper heading hierarchy (H1–H6), landmark regions, and meaningful element structure for screen readers
+- **Keyboard Navigation**  -  all interactive elements (links, buttons, forms, menus) are fully navigable via keyboard
+- **ARIA Labels**  -  descriptive labels on interactive elements to provide context for assistive technologies
+- **Focus Management**  -  visible focus indicators on all interactive elements, with proper focus trapping in modals and drawers
+- **Skip Navigation**  -  a "Skip to content" link for keyboard users to bypass repetitive navigation
+- **Color Contrast**  -  default color schemes designed to meet WCAG AA contrast requirements
+- **Responsive Text**  -  scalable typography that respects browser zoom and text size preferences
+- **Alt Text Support**  -  all image fields support alternative text for screen readers
 
 ## ADA & WCAG Compliance
 
 The [Americans with Disabilities Act (ADA)](https://www.ada.gov/) and [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) set the standards for web accessibility.
 
-While we continuously work to improve accessibility and follow WCAG 2.1 best practices, **full compliance depends on how you configure and use the theme**. The theme provides the foundation — but merchants are responsible for ensuring their content, images, and third-party apps meet accessibility standards.
+While we continuously work to improve accessibility and follow WCAG 2.1 best practices, **full compliance depends on how you configure and use the theme**. The theme provides the foundation  -  but merchants are responsible for ensuring their content, images, and third-party apps meet accessibility standards.
 
 ## Best Practices for Merchants
 
