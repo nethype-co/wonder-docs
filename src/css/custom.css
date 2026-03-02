@@ -44,6 +44,15 @@
   height: 28px;
 }
 
+/* Mobile drawer: dark text on white background */
+.navbar-sidebar .navbar__title {
+  color: #1a1a1a;
+}
+
+.navbar-sidebar .navbar__logo img {
+  filter: invert(1);
+}
+
 /* Article images */
 .markdown img {
   max-width: 100%;
