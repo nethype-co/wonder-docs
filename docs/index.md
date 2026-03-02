@@ -5,6 +5,8 @@ sidebar_position: 0
 slug: /
 ---
 
+<div className="welcome-index">
+
 # Wonder Theme Documentation
 
 Complete documentation for the Wonder Shopify theme  -  sections, blocks, guides, and more.
@@ -166,3 +168,5 @@ General settings that apply across your entire Wonder theme.
 ## FAQ & Troubleshooting
 
 Common issues and frequently asked questions.
+
+</div>
