@@ -91,7 +91,13 @@ article h2 {
   font-weight: 600;
 }
 
-/* Footer */
+/* Footer & customization banner */
+footer,
+.footer--dark {
+  position: relative;
+  z-index: 0;
+}
+
 .footer--dark {
   background-color: #1a1a1a;
 }

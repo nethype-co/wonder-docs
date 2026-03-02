@@ -8,10 +8,9 @@ function CustomizationBanner() {
       backgroundSize: 'cover',
       backgroundPosition: '100% 7%',
       fontFamily: "'Montserrat', system-ui, -apple-system, sans-serif",
-      position: 'relative',
-      zIndex: 0,
+      clear: 'both',
     }}>
-      <div className="container" style={{padding: '48px 16px'}}>
+      <div style={{maxWidth: '1200px', margin: '0 auto', padding: '48px 24px'}}>
         <p style={{
           color: '#f1f2f5',
           fontSize: '16px',
