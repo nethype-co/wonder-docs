@@ -286,6 +286,7 @@ function FeatureCard({feature, index}: {feature: Feature; index: number}) {
             gap: '16px',
             justifyContent: 'center',
             alignItems: 'center',
+            position: 'relative',
           }}
         >
           {feature.images.map((img, i) => (
@@ -296,6 +297,34 @@ function FeatureCard({feature, index}: {feature: Feature; index: number}) {
               maxWidth={hasTwoImages ? '48%' : '100%'}
             />
           ))}
+          {feature.link && (
+            <Link
+              to={feature.link}
+              className="feature-plus"
+              style={{
+                position: 'absolute',
+                bottom: '12px',
+                right: '12px',
+                width: '36px',
+                height: '36px',
+                borderRadius: '50%',
+                background: '#000',
+                color: '#fff',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: '22px',
+                fontWeight: 300,
+                lineHeight: 1,
+                textDecoration: 'none',
+                transition: 'transform 0.2s, background 0.2s',
+                boxShadow: '0 2px 8px rgba(0,0,0,0.15)',
+              }}
+              title={`Read more about ${feature.title}`}
+            >
+              +
+            </Link>
+          )}
         </div>
       )}
     </div>
@@ -348,6 +377,10 @@ export default function Features() {
 
       {/* Responsive styles */}
       <style>{`
+        .feature-plus:hover {
+          transform: scale(1.15);
+          background: var(--ifm-color-primary) !important;
+        }
         @media (max-width: 768px) {
           .feature-row {
             flex-direction: column !important;
