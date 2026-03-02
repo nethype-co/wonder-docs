@@ -75,8 +75,8 @@
   margin: 16px 0;
 }
 
-/* Section headings */
-article h2 {
+/* Section headings — only inside article content, not doc cards */
+.markdown h2 {
   border-bottom: 1px solid var(--ifm-color-emphasis-200);
   padding-bottom: 8px;
   margin-top: 2rem;
@@ -111,18 +111,40 @@ article h2 {
 }
 
 .menu__link:hover {
-  color: var(--ifm-color-primary);
+  color: #0077b6;
 }
 
-/* Top-level categories — bold */
-.theme-doc-sidebar-menu > .menu__list-item > .menu__link {
+/* Top-level category links (with collapsible children) — uppercase label style */
+.theme-doc-sidebar-menu > .menu__list-item--collapsed > .menu__link,
+.theme-doc-sidebar-menu > .menu__list-item:not(.menu__list-item--collapsed) > .menu__link--sublist {
   font-weight: 700;
-  font-size: 0.92rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ifm-color-emphasis-600);
+  margin-top: 16px;
+}
+
+/* First category — no extra top margin */
+.theme-doc-sidebar-menu > .menu__list-item:first-child > .menu__link {
+  margin-top: 0;
+}
+
+/* Top-level standalone pages (Welcome etc.) — normal weight */
+.theme-doc-sidebar-menu > .menu__list-item > .menu__link:not(.menu__link--sublist) {
+  font-weight: 500;
 }
 
 /* Second-level items — semi-bold */
 .theme-doc-sidebar-menu > .menu__list-item > .menu__list > .menu__list-item > .menu__link {
   font-weight: 600;
+  font-size: 0.88rem;
+}
+
+/* Links — blue on hover */
+.markdown a:hover,
+a[class*="cardContainer"]:hover {
+  color: #0077b6;
 }
 
 /* Footer */
