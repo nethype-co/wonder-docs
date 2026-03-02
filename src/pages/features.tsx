@@ -372,7 +372,6 @@ export default function Features() {
               letterSpacing: '-2px',
               margin: '0',
               paddingBottom: '0',
-              fontFamily: 'Satoshi, Arial, sans-serif',
               fontSize: '100px',
               fontWeight: 700,
               lineHeight: '1.05em',
@@ -383,7 +382,6 @@ export default function Features() {
           <div
             className="features-hero-heading"
             style={{
-              fontFamily: 'Satoshi, Arial, sans-serif',
               fontSize: '100px',
               fontWeight: 700,
               lineHeight: '1.05em',
@@ -409,7 +407,6 @@ export default function Features() {
               maxWidth: '880px',
               paddingTop: '20px',
               paddingBottom: '20px',
-              fontFamily: 'Satoshi, Arial, sans-serif',
               fontSize: '34px',
               lineHeight: '42px',
               margin: '0 auto',
