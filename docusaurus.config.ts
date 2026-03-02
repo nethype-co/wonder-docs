@@ -122,6 +122,11 @@ const config: Config = {
           position: 'left',
         },
         {
+          to: '/changelog',
+          label: 'Changelog',
+          position: 'left',
+        },
+        {
           href: 'https://wonder-theme.com',
           label: 'Wonder Theme',
           position: 'right',
@@ -157,11 +162,15 @@ const config: Config = {
           items: [
             {
               label: 'Support Policy',
-              to: '/support-policy',
+              to: '/policies/support-policy',
             },
             {
               label: 'Refund Policy',
-              to: '/faq-troubleshooting/billing/can-i-get-a-refund-for-the-wonder-theme',
+              to: '/policies/refund-policy',
+            },
+            {
+              label: 'Theme Licensing',
+              to: '/policies/theme-licensing',
             },
             {
               label: 'Video Tutorials',
