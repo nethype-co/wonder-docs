@@ -141,7 +141,7 @@ const config: Config = {
           items: [
             {
               label: 'Getting Started',
-              to: '/getting-started/setup',
+              to: '/getting-started/basics',
             },
             {
               label: 'Theme Settings',
@@ -162,15 +162,15 @@ const config: Config = {
           items: [
             {
               label: 'Support Policy',
-              to: '/policies/support-policy',
+              to: '/getting-started/about-theme/support-policy',
             },
             {
               label: 'Refund Policy',
-              to: '/policies/refund-policy',
+              to: '/getting-started/about-theme/refund-policy',
             },
             {
               label: 'Theme Licensing',
-              to: '/policies/theme-licensing',
+              to: '/getting-started/about-theme/theme-licensing',
             },
             {
               label: 'Video Tutorials',
