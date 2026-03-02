@@ -334,11 +334,10 @@ function FeatureCard({feature, index}: {feature: Feature; index: number}) {
 export default function Features() {
   return (
     <Layout title="Features" description="Explore Wonder Theme's suite of innovative tools designed to enhance your online presence and boost sales.">
-      {/* Hero Banner */}
+      {/* Hero */}
       <div
         style={{
-          backgroundImage: 'linear-gradient(315deg, #47cae4 0%, #0077b6 33%, #131c82 52%, #3249e9 100%)',
-          padding: '80px 24px',
+          padding: '80px 24px 48px',
           textAlign: 'center',
         }}
       >
@@ -347,7 +346,7 @@ export default function Features() {
             style={{
               fontSize: '18px',
               fontWeight: 500,
-              color: 'rgba(255,255,255,0.8)',
+              color: 'var(--ifm-color-emphasis-600)',
               margin: '0 0 8px 0',
               letterSpacing: '0.02em',
             }}
@@ -355,13 +354,15 @@ export default function Features() {
             Explore
           </p>
           <h1
-            className="features-hero-title"
             style={{
               fontSize: '56px',
               fontWeight: 700,
               lineHeight: 1.1,
               margin: '0 0 24px 0',
-              color: '#fff',
+              background: 'linear-gradient(to right, #3249e9 35%, #47cae4 71%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              backgroundClip: 'text',
             }}
           >
             Wonder Features.
@@ -370,12 +371,11 @@ export default function Features() {
             style={{
               fontSize: '17px',
               lineHeight: 1.7,
-              color: 'rgba(255,255,255,0.85)',
+              color: 'var(--ifm-color-emphasis-700)',
               margin: 0,
-              fontWeight: 500,
             }}
           >
-            <strong style={{color: '#fff'}}>Explore</strong> a suite of innovative tools designed to enhance your online presence and boost sales. From seamless navigation and modern design to robust SEO capabilities, our template equips you with everything you need to succeed on Shopify.
+            <strong>Explore</strong> a suite of innovative tools designed to enhance your online presence and boost sales. From seamless navigation and modern design to robust SEO capabilities, our template equips you with everything you need to succeed on Shopify.
           </p>
         </div>
       </div>
