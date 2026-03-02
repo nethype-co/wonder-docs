@@ -82,19 +82,7 @@ article h2 {
   margin-top: 2rem;
 }
 
-/* Sidebar — not sticky, fully visible, no internal scroll */
-@media (min-width: 997px) {
-  [class*="sidebarViewport"] {
-    position: relative;
-    max-height: none;
-    height: auto;
-  }
-
-  [class*="docSidebarContainer"] {
-    clip-path: none;
-  }
-}
-
+/* Sidebar styling */
 .menu__link {
   font-size: 0.9rem;
 }
