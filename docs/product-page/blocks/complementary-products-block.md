@@ -9,7 +9,7 @@ The "Complementary Products" block is a feature designed to enhance shopping exp
 
 ### [_How to set complementary products using the Shopify Search & Discover app?_](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations)
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/65968f33d2ae9c8d253319a2_product-page-complementary-products-block-1.jpg)
+![](/img/docs/de694b2d6a6b.jpg)
 
 ## **Settings** 
 

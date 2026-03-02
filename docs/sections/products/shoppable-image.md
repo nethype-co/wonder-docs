@@ -7,7 +7,7 @@ sidebar_label: "Shoppable image"
 
 The "Shoppable Image" section is designed to create an interactive shopping experience directly from a single image. This feature allows you to highlight products within an image, making them clickable and leading customers straight to the product page.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/6582dc992b9de16f314d16dd_shoppable-image-section.jpg)
+![](/img/docs/a478110da075.jpg)
 
 ## Main settings
 
@@ -35,7 +35,7 @@ The "Shoppable Image" section is designed to create an interactive shopping expe
 * **Distance from the top:** Adjust the spacing from the top of the section.
 * **Distance from the bottom:** Adjust the spacing from the bottom of the section.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/669f72d7c189d83578d9b893_shoppable-image-settings-2.jpg)
+![](/img/docs/c9d9b8b14289.jpg)
 
 ## Customize dot blocks
 
@@ -45,8 +45,8 @@ The "Shoppable Image" section is designed to create an interactive shopping expe
 
 Specify the width and height of the dots on mobile devices, ensuring that they are still easily clickable on smaller screens.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/6582dcb3dcd15999e55a1920_shoppable-image-dot-block.jpg)
+![](/img/docs/288bbbb55171.jpg)
 
 ## Mobile view example
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/6582dcc4ba4a1bb9bec03cd0_shoppable-image-mobile-view.jpg)
+![](/img/docs/dfafcd28be75.jpg)

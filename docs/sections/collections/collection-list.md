@@ -7,7 +7,7 @@ sidebar_label: "Collection list"
 
 Collection list sections present new, featured or seasonal collections. You can present up to 12 collections per section.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/63485e42eadd805e792c74e3_collection-desktop.jpg)
+![](/img/docs/bf4985aed77f.jpg)
 
 ## Main settings
 
@@ -48,8 +48,8 @@ Collection list sections present new, featured or seasonal collections. You can 
 
 Click one of the preloaded **Collection** blocks to customize it.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/634862a0774867ceb0ac435a_collection-settings-2.jpg)
+![](/img/docs/9b43c4c32105.jpg)
 
 ## Mobile view example
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/634864eea9b0223f24819ed3_collection-setting-3.jpg)
+![](/img/docs/42a2422e4cb3.jpg)

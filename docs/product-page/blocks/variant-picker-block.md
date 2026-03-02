@@ -9,8 +9,8 @@ This option allows customers to select product variants, like color or size, thr
 
 Learn more about the differences between [ **Standard Variant Picker** and **Product Variations** ](https://support.wonder-theme.com/question/standard-variant-picker-vs-product-variations-block)in our detailed comparison guide. 
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/659695b2bfbb5a7d0bd0ff4e_product-page-variant-picker-block-1.jpg)
+![](/img/docs/2a529427e61f.jpg)
 
 ## **Settings** 
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/659583131e941013c033a585_product-page-variant-picker-block-2.jpg)
+![](/img/docs/6a0fc3e1ee3c.jpg)

@@ -7,7 +7,7 @@ sidebar_label: "Grid view"
 
 The "Grid view" section offers a neatly organized layout to present a series of images, products, or promotions. With its structured design, it provides a clear and consistent browsing experience for your customers.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/658066d19eac61d7717858fe_grid-view-section.jpg)
+![](/img/docs/78ada9cbd5c6.jpg)
 
 #### Main Settings
 
@@ -37,7 +37,7 @@ The "Grid view" section offers a neatly organized layout to present a series of 
 * **Distance from the top:** Adjust the spacing from the top of the section.
 * **Distance from the bottom:** Adjust the spacing from the bottom of the section.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/669e7ab00b56be2ae1a8ea0c_grid-view-settings-2.jpg)
+![](/img/docs/972130eca4cf.jpg)
 
 ## Customize column blocks
 
@@ -51,10 +51,10 @@ The "Grid view" section offers a neatly organized layout to present a series of 
 * **Background Color** : Choose a background color and adjust its opacity to suit the overall design theme of the block.
 * **Disable on Mobile** : If necessary, choose to disable the heading or text on mobile devices to streamline the presentation.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/669faad329c1102b5007a362_grid-view-block-2.jpg)
+![](/img/docs/552fe617f9cf.jpg)
 
 ## Mobile view example
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/6581b2bbe334ded5d2ac9672_grid-view-mobile-view-2.jpg)
+![](/img/docs/fd519bf9c5a2.jpg)
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/6581b2c59b3ab1d04a17e936_grid-view-mobile-view.jpg)
+![](/img/docs/fb54d56b52db.jpg)

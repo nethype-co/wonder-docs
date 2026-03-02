@@ -7,7 +7,7 @@ sidebar_label: "Slideshow"
 
 The "Slideshow" section is a dynamic display feature for your Shopify store, designed to highlight multiple images, promotions, or stories in a rotating carousel. This visually engaging element can effectively capture customer attention and guide them to different parts of your store.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/657ad7a7b59fae33ff65f79d_slideshow-section.jpg)
+![](/img/docs/7073108756e7.jpg)
 
 ## Main settings
 
@@ -48,7 +48,7 @@ The "Slideshow" section is a dynamic display feature for your Shopify store, des
 * **Distance from the top:** Adjust the spacing from the top of the section (default 0px).
 * **Distance from the bottom:** Adjust the spacing from the bottom of the section (default 0px).
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/669f85e7297cbff5e55b356f_slideshow-settings-2.jpg)
+![](/img/docs/7fd3c7d72f69.jpg)
 
 ## Customize slide blocks
 
@@ -63,8 +63,8 @@ The "Slideshow" section is a dynamic display feature for your Shopify store, des
 * **Background Color and Opacity** : Set the background color and adjust its opacity to enhance the slide's visual appeal.
 * **Mobile Text Below Image** : Opt to show text below the image on mobile devices for a streamlined appearance.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/669fae8ea4386e034a13cfb1_slideshow-slide-block-2.jpg)
+![](/img/docs/927d5411c228.jpg)
 
 ## Mobile view example
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/657c572a4a32cc9f9163ee6c_slideshow-mobile-view.jpg)
+![](/img/docs/f76bf1eaef09.jpg)

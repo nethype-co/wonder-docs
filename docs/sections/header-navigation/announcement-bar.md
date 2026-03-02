@@ -7,7 +7,7 @@ sidebar_label: "Announcement Bar"
 
 The announcement bar is an optional section that, when enabled, is permanently located at the top of every page of your store's website. You can add there interesting information such as: promotions, announcements, sales and news.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/6272d38a5bdd1b8177be2dc9_top-bar-2.jpg)
+![](/img/docs/e91c7a0728e6.jpg)
 
 ## Main settings
 
@@ -17,10 +17,10 @@ The announcement bar is an optional section that, when enabled, is permanently l
 * **Text color:** Set the text color (default is Transparent, which inherits from global settings).
 * **Background color:** Set the background color (default is Transparent, which inherits from global settings).
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/669e344d6cdd525b55615da1_announcement-settings.jpg)
+![](/img/docs/027b69c5744f.jpg)
 
 ## How many options can we add ?
 
 You can add up to 3 options . Choose text alone or link text with product, collection, pages etc. On mobile it works as a slider.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/6272e0b70459e204c6d5535e_top-bar-4.jpg)
+![](/img/docs/f0ec3ca3200b.jpg)

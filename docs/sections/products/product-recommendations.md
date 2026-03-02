@@ -7,7 +7,7 @@ sidebar_label: "Product recommendations"
 
 The Product Recommendations Section is a curated showcase designed to enhance the shopping experience by suggesting items that complement the customer's current browsing or previous purchase history.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/6597e4e7e4e09f1b0dc99ec6_product-recommendations-section.jpg)
+![](/img/docs/335621e3d16f.jpg)
 
 ## **Main settings** 
 
@@ -30,8 +30,8 @@ The Product Recommendations Section is a curated showcase designed to enhance th
 * **Top Distance** : Slide to adjust the space above the product recommendations, providing breathing room and a clean separation from other content.
 * **Bottom Distance** : Similarly, this slider controls the space below the section, allowing you to ensure visual balance and flow on the page.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/6597e5ae38f178f688b26701_product-recommendations-settings.jpg)
+![](/img/docs/23f7ce5ab37c.jpg)
 
 ## **Mobile view example** 
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/6597e670851f4c01c814645d_product-recommendations-mobile-view.jpg)
+![](/img/docs/2dbd33401b2f.jpg)

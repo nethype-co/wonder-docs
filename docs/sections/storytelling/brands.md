@@ -7,7 +7,7 @@ sidebar_label: "Brands"
 
 Display brand logos. Link images / brand logo to links to connect customers with brands associated with your store.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/62ba25c0a4656cb95ae8c462_brands-2.jpg)
+![](/img/docs/bf397bc2521d.jpg)
 
 ## Main settings
 
@@ -31,10 +31,10 @@ Display brand logos. Link images / brand logo to links to connect customers with
 * **Distance from the top:** Adjust the spacing from the top of the section (default 20px).
 * **Distance from the bottom:** Adjust the spacing from the bottom of the section (default 20px).
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/669e3ec48e6d0872afee3a5c_brands-settings.jpg)
+![](/img/docs/1217ce01a7c6.jpg)
 
 ## What image size fits best ?
 
 We recommend the square dimension - **300x300 px** 
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/62ba2c02f6614cd3b8819c52_dupa.jpg)
+![](/img/docs/e30a22d0701a.jpg)

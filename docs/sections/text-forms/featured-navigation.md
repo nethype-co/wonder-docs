@@ -7,7 +7,7 @@ sidebar_label: "Featured navigation"
 
 The "Featured Navigation" section provides a streamlined way to guide customers through your store with a tabbed interface. This interactive menu is designed for easy navigation, allowing visitors to swiftly move between different parts of your site, such as the home page, product collections, or blog.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/657c58de46546641e876b16a_features-navigation-section.jpg)
+![](/img/docs/41b590ec8b99.jpg)
 
 ## Main settings
 
@@ -33,8 +33,8 @@ The "Featured Navigation" section provides a streamlined way to guide customers 
 * **Distance from the top:** Adjust the spacing from the top of the section (default 40px).
 * **Distance from the bottom:** Adjust the spacing from the bottom of the section (default 40px).
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/669e727150df153ffeab7207_features-navigation-settings-2.jpg)
+![](/img/docs/4d954f51c53b.jpg)
 
 ## Mobile view example
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/657c59a1d991d50b4a7cb3e9_features-navigation-mobile-view.jpg)
+![](/img/docs/c9077a34bbf3.jpg)

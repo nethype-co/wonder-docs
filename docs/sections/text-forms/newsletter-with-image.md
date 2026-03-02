@@ -7,7 +7,7 @@ sidebar_label: "Newsletter with image"
 
 The "Newsletter with image" section is a visually engaging element designed to grow your subscriber base. Featuring a customizable form to subscribe to your newsletter, it allows you to set a custom heading, text, and button. With the option to add a background image and personalize the color of the text container and text, this section seamlessly integrates with your store's aesthetic while encouraging visitor engagement.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/66a1198ff400e9734f023ddf_newsletter-with-image-section.jpg)
+![](/img/docs/5d7e076176c1.jpg)
 
 ## Main settings
 
@@ -35,26 +35,26 @@ The "Newsletter with image" section is a visually engaging element designed to g
 * **Distance from the top:** Adjust the spacing from the top of the section.
 * **Distance from the bottom:** Adjust the spacing from the bottom of the section.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/66a11a059499503860ae86f7_nwesletter-with-image-settings.jpg)
+![](/img/docs/b36f2f37f8c6.jpg)
 
 ## Customize heading block
 
 Click one of the preloaded **heading** block to customize it.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/66a11a4380d4c1c9b7aee93e_newsletter-with-image-heading-block.jpg)
+![](/img/docs/d01040d00d87.jpg)
 
 ## Customize subheading block
 
 Click one of the preloaded **subheading** block to customize it.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/66a11a5084ba532f902f9807_newsletter-with-image-subheading-block.jpg)
+![](/img/docs/86ffb2543b5f.jpg)
 
 ## Customize Email form block
 
 Click one of the preloaded block to customize it.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/66a11a9893e6dc93aa77c7a5_newsletter-with-image-email-form-block.jpg)
+![](/img/docs/63981e829f8b.jpg)
 
 ## Mobile view example
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/66a11abda4f9132e97e85333_newsletter-with-image-mobile-view.jpg)
+![](/img/docs/fe170dbdcfdc.jpg)

@@ -7,7 +7,7 @@ sidebar_label: "Product Page"
 
 The Product Page is one of the most crucial aspects of an e-commerce website. On Shopify, this page is designed to showcase individual products in detail. The goal is to provide customers with all the information they need to make an informed purchase decision.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/6595472855ddf699b86363b2_product-page-view.jpg)
+![](/img/docs/a5bcfb017466.jpg)
 
 ## Key Fields and Information
 
@@ -30,34 +30,34 @@ The Product Page is one of the most crucial aspects of an e-commerce website. On
 * **Mobile Image Size** : Opt for 'Normal' or 'Small' mobile image sizes to optimize visuals for handheld devices.
 * **Section Spacing** : Adjust 'Distance from the top' in pixels to tailor the vertical spacing above your section. Modify 'Distance from the bottom' in pixels to fine-tune the vertical spacing below your section.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/65954ac052e4f19e6e7b772c_product-page-settings.jpg)
+![](/img/docs/67f24ba1d86d.jpg)
 
 ## Customize title block
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/6595596f1addf207d5c30ea6_product-page-title-block-1.jpg)
+![](/img/docs/198cbc5af86f.jpg)
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/659559777a284e01e1a8d39f_product-page-title-block-2.jpg)
+![](/img/docs/0ab9a99ea421.jpg)
 
 ## Customize rating block
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/65955989d7edd433d10cf0be_product-page-rating-block-1.jpg)
+![](/img/docs/1bd32cc991c6.jpg)
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/65955991fc10147a020ca5db_product-page-rating-block-2.jpg)
+![](/img/docs/6ced96877f12.jpg)
 
 ## Customize price block
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/6595788813d10147e5bddcf1_product-page-price-block-1.jpg)
+![](/img/docs/e26170c7a1bc.jpg)
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/659578907d5dc25a795bac23_product-page-price-block-2.jpg)
+![](/img/docs/c57db0e45a0b.jpg)
 
 ## Customize separator blocks
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/659582e908c10f984ac11d8e_product-page-separator-block-1.jpg)
+![](/img/docs/947178ba4565.jpg)
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/659582f462617003871c751d_product-page-separator-block-2.jpg)
+![](/img/docs/4b6daaa97898.jpg)
 
 ## Customize variant picker block
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/6595830aef07e6a57a2a17fb_product-page-variant-picker-block-1.jpg)
+![](/img/docs/16040ab43f29.jpg)
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/659583131e941013c033a585_product-page-variant-picker-block-2.jpg)
+![](/img/docs/6a0fc3e1ee3c.jpg)

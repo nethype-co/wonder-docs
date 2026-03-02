@@ -7,7 +7,7 @@ sidebar_label: "Collection links"
 
 The 'Collection Feature' section transforms your store into a vibrant display of your favorite collections. With this interactive tool, you can handpick several collections to showcase, each with its own customizable color scheme and unique background. But that's not all – as customers hover over each collection, they're greeted with an eye-catching image that not only captivates but also invites exploration. This intuitive design ensures every collection stands out, offering a personalized browsing experience that guides your customers from visual intrigue to product discovery with ease.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/65fc5fefa8e32db8d8966610_collection-feature-section.jpg)
+![](/img/docs/f79aaf0f4269.jpg)
 
 ## Main settings
 
@@ -41,12 +41,12 @@ The 'Collection Feature' section transforms your store into a vibrant display of
 * **Distance from the top:** Adjust the spacing from the top of the section (default 20px).
 * **Distance from the bottom:** Adjust the spacing from the bottom of the section (default 20px).
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/669e67ee2ca1098772495dc4_collection-feature-settings-2.jpg)
+![](/img/docs/6c93aab9c8b4.jpg)
 
 ## Customize collection blocks
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/669fa2d4f34f828e4d9d8e3f_collection-feature-block-2.jpg)
+![](/img/docs/86f53a221712.jpg)
 
 ## Mobile view example
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/65fc61b0cb3174aa10779c66_feature-collection-mobile-view.jpg)
+![](/img/docs/d00711fb1374.jpg)

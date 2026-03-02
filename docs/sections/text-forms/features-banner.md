@@ -7,7 +7,7 @@ sidebar_label: "Features banner"
 
 The "Features Banner" section displays key benefits or offerings in a neat, icon-driven format. Tailor the scale for various screens and adjust colors to match your brand. Perfect for a quick, visual rundown of your store's unique selling points.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/657abbfc245f5559043a2c04_features-banner-section.jpg)
+![](/img/docs/8b493a97c422.jpg)
 
 ## Main settings
 
@@ -41,16 +41,16 @@ The "Features Banner" section displays key benefits or offerings in a neat, icon
 * **Distance from the top:** Adjust the spacing from the top of the section.
 * **Distance from the bottom:** Adjust the spacing from the bottom of the section).
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/669e75776e35c8b665a0109c_features-banner-settings-2.jpg)
+![](/img/docs/5d98c4c32aa2.jpg)
 
 ## Customize icon blocks
 
 Click one of the preloaded **icon blocks** to customize it.
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/657ac54ba401923cac941db5_features-banner-icon-block.jpg)
+![](/img/docs/8791f691413f.jpg)
 
 ## Mobile view example
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/657ac7f852ed28112f02af63_features-banner-mobile-view-1.jpg)
+![](/img/docs/43e8b70ce410.jpg)
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/657ac8e63af226763be3caa7_features-banner-mobile-view-2.jpg)
+![](/img/docs/3337f8d55d4d.jpg)

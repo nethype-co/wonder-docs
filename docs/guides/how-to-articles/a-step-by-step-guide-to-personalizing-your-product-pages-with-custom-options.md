@@ -5,7 +5,7 @@ sidebar_label: "A Step-by-Step Guide to Personalizing Your Product Pages with Cu
 
 ## **A Step-by-Step Guide to Personalizing Your Product Pages with Custom Options** 
 
-![](https://uploads-ssl.webflow.com/60ec3c220e1aca3c15ec9e9c/65a8fc6d27f3db7c5b5767fc_custom-option-header.jpg)
+![](/img/docs/6589b86668d4.jpg)
 
 Elevate your product pages with our Custom Option block, designed to give your customers the power of choice. Beyond the standard variants, Custom Option allows you to offer personalized selections that cater to your customers' unique needs and desires.
 
