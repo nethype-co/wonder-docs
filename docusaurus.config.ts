@@ -141,6 +141,10 @@ const config: Config = {
               label: 'Shopify Theme Store',
               href: 'https://themes.shopify.com/themes/wonder/styles/developer-preview',
             },
+            {
+              label: 'Support Policy',
+              to: '/support-policy',
+            },
           ],
         },
       ],

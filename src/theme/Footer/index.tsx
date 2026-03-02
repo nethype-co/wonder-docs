@@ -7,16 +7,14 @@ function CustomizationBanner() {
       backgroundImage: 'linear-gradient(315deg, #47cae4 0%, #0077b6 33%, #131c82 52%, #3249e9 100%)',
       backgroundSize: 'cover',
       backgroundPosition: '100% 7%',
+      position: 'relative',
+      zIndex: 0,
     }}>
-      <div style={{
-        maxWidth: '1400px',
-        margin: '0 auto',
-        padding: '56px 40px',
-      }}>
+      <div className="container" style={{padding: '48px 16px'}}>
         <p style={{
           color: '#f1f2f5',
           fontSize: '16px',
-          margin: '0 0 8px 0',
+          margin: '0 0 4px 4px',
           fontWeight: 400,
         }}>
           Customization Services
@@ -24,19 +22,18 @@ function CustomizationBanner() {
 
         <div style={{
           display: 'flex',
-          gap: '64px',
-          alignItems: 'center',
-          justifyContent: 'space-between',
+          gap: '48px',
+          alignItems: 'stretch',
           flexWrap: 'wrap',
         }}>
           {/* Left column */}
-          <div style={{flex: '1 1 auto'}}>
+          <div>
             <h2 style={{
               color: '#e7e9f3',
               fontSize: '52px',
               fontWeight: 500,
               lineHeight: 1,
-              margin: '0',
+              margin: '4px 0 0 0',
             }}>
               Expert Shopify<br />Support
             </h2>
@@ -63,9 +60,9 @@ function CustomizationBanner() {
           <div style={{
             display: 'flex',
             flexDirection: 'column',
-            justifyContent: 'center',
-            maxWidth: '480px',
-            flex: '1 1 320px',
+            justifyContent: 'space-between',
+            maxWidth: '407px',
+            flex: '1 1 280px',
           }}>
             <p style={{
               color: '#e7e9f3',
