@@ -45,7 +45,7 @@ function CustomizationBanner() {
               flexWrap: 'wrap',
             }}>
               <img
-                src="https://cdn.prod.website-files.com/60ec3c210e1acadedeec9e82/67a117595de340fe1a459c98_675b48cab6a43826473fe5f0_star-yellow.png"
+                src="/img/docs/db5388adcea6.png"
                 alt=""
                 style={{width: '74px'}}
               />

@@ -7,7 +7,7 @@ sidebar_label: "Map section"
 
 The **Map Section** allows you to showcase your store location using **Google Maps API** or a **custom static image** . This section helps customers easily find your business, get directions, and build trust. With dedicated blocks for store details, you can add your address, contact information, and a call-to-action button for navigation. Whether you prefer an interactive map or a custom design, this section ensures seamless location visibility.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67cec558d767578bfa15dbd4_map-section.jpg)
+![](/img/docs/c9f19559b608.jpg)
 
 ## Main settings
 
@@ -52,26 +52,26 @@ The **Map Section** allows you to showcase your store location using **Google Ma
 * **Distance from the top** – Add spacing (in pixels) above the section.
 * **Distance from the bottom** – Add spacing (in pixels) below the section.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67ced1f264e13e636ad268e0_map-settings.jpg)
+![](/img/docs/5dc75319c582.jpg)
 
 ## Customize Address header block
 
 Click one of the preloaded **Address header** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67cedc5f92232100fd06359e_map-address-header-block.jpg)
+![](/img/docs/43cf5b211f37.jpg)
 
 ## Customize Address block
 
 Click one of the preloaded **Address** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67cedc824475c94c43304937_map-address-block.jpg)
+![](/img/docs/ababe0af6831.jpg)
 
 ## Customize Button block
 
 Click one of the preloaded **Button** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f3fbf1ae8339b53faaf859_65786a1a4b1ef117cdebb7b0_image-with-text-button-block.png)
+![](/img/docs/12d385d567c3.png)
 
 ## Mobile view example
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67cedf2a14c04892629661e7_map-section-mobile-view.jpg)
+![](/img/docs/7a0157bd4f2e.jpg)

@@ -7,11 +7,11 @@ sidebar_label: "Header"
 
 The "Header" is a crucial part of your Shopify store, serving as the gateway to your brand and the first point of interaction for your customers. It provides a navigational framework and access to key areas of your site such as product collections, search functionality, and cart overview. A well-structured Header can enhance user experience and increase the efficiency of your site navigation.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6818c4c462a30275092983ec_header-section-4.jpg)
+![](/img/docs/09d2b02b9d47.jpg)
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66a75954cee4288de1adcd68_65846b7d9cbef3f18083062c_header-section.jpeg)
+![](/img/docs/96a4e43e154a.jpeg)
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66c859c292cf4fc388827509_66c859bf1264350d80818326_header-section-2-2.jpeg)
+![](/img/docs/61f366a4a5a3.jpeg)
 
 ## Main settings
 
@@ -58,16 +58,16 @@ The "Header" is a crucial part of your Shopify store, serving as the gateway to 
 * **Suggestions title** – Input a title for the search suggestions dropdown, prompting users with potential search queries or products as they begin to type in the search field.
 * **Suggestions menu** – Specify the menu from which search suggestions will be generated, helping users navigate directly to popular or highlighted products and collections.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/678788acc85fd02db98cee6a_678785602f70597f5f971e46_header-settings-3.jpeg)
+![](/img/docs/e1e333865f62.jpeg)
 
 ## Customize promotion menu blocks
 
 Promotion menus enable the creation of sophisticated navigation bars with multiple columns and offer the flexibility to include up to six images within a single promotion menu block, providing a more dynamic and visually engaging display.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66c8597a6511f76c0397d6a3_66c85948efc78432e22ef336_header-mega-menu-block-2.jpeg)
+![](/img/docs/8c607d7066fd.jpeg)
 
 ## Mobile view example
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66a75954cee4288de1adcd53_65846d42987cd15fbfffc131_header-mobile-view.jpeg)
+![](/img/docs/6f18ba98dab6.jpeg)
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66c8597a6511f76c0397d6a0_66c859681c944040b12f77ce_header-mobile-view-2-2.jpeg)
+![](/img/docs/685ab6dcf37d.jpeg)

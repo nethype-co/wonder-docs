@@ -7,7 +7,7 @@ sidebar_label: "Featured Product"
 
 The "Featured Product" section serves as a showcase highlight on your Shopify store, drawing customer attention to a chosen item with visual prominence and detailed information. It's a concise yet impactful display, offering a quick glimpse at the product's best features through striking images, essential details, and clear call-to-action buttons. This section is designed to simplify the customer's path from attraction to transaction, accentuating the product and streamlining the purchase process.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67221f87b9bb6d5997b4f416_6597ee042feba93828bcfb8c_featured-product-section.jpeg)
+![](/img/docs/223bed897889.jpeg)
 
 ## **Main settings** 
 
@@ -24,7 +24,7 @@ The "Featured Product" section serves as a showcase highlight on your Shopify st
 * **Top Distance** : Use this slider to control the spacing above the featured product section, creating a cushion of space for a balanced design.
 * **Bottom Distance** : Similar to the top distance, this adjusts the spacing below the section, allowing for a tailored fit within the overall page layout.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67221f87b9bb6d5997b4f40c_6597ee97c560a22029d4fdca_featured-product-settings.jpeg)
+![](/img/docs/f6540850f905.jpeg)
 
 ## **Customize blocks** 
 
@@ -38,4 +38,4 @@ The "Featured Product" section serves as a showcase highlight on your Shopify st
 
 ## **Mobile view example** 
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67221f87b9bb6d5997b4f413_6597f009b2594e332cff695c_featured-product-mobile-view.jpeg)
+![](/img/docs/cd39a49948ad.jpeg)

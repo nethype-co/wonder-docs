@@ -14,7 +14,7 @@ The **Testimonial Video Reels** section is designed to showcase client reviews i
 The section operates as a **slider** , providing a smooth and aesthetic navigation experience for users to swipe through multiple testimonials effortlessly. It’s perfect for building trust and highlighting the credibility of your products or services.
 This section combines functionality and elegance to ensure that customer testimonials become a key asset in your store’s visual storytelling.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67939b76b31a177d7becf893_679398be45297c15f5be171c_testimonial-video-reels-section.jpeg)
+![](/img/docs/ecb425350ed6.jpeg)
 
 ## Main settings
 
@@ -41,14 +41,14 @@ This section combines functionality and elegance to ensure that customer testimo
 * **Distance from the top** : Adjust the space between the top of the section and the previous element.
 * **Distance from the bottom** : Adjust the space between the bottom of the section and the next element.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67939b76b31a177d7becf896_67939b1fb05fa3e2d787f098_testimonial-video-reels-settings.jpeg)
+![](/img/docs/eecc5a80d6b1.jpeg)
 
 ## Customize Video testimonial block
 
 Click one of the preloaded **Video testimonial** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67939b76b31a177d7becf8a0_67939b2c4fd0a44d7bf58522_testimonial-video-reels-block.jpeg)
+![](/img/docs/b575002df431.jpeg)
 
 ## Mobile view example
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67939b76b31a177d7becf8a3_679398cba17adfdeff836581_testimonial-video-reels-mobile-view.jpeg)
+![](/img/docs/2408225507dc.jpeg)

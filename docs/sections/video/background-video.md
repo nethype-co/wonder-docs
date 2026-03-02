@@ -7,7 +7,7 @@ sidebar_label: "Background video"
 
 The **Background Video** section adds a dynamic and visually engaging element to your store. Perfect for showcasing your brand's story, products, or mood, this section creates an immersive experience for your customers. By combining video content with customizable text and interactive elements, it helps highlight your key messages while keeping visitors engaged.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/677fbbfed44141e5f50e32d6_677fbbe1904f9011f9c0bac1_background-video-section.jpeg)
+![](/img/docs/b87a1a2a6483.jpeg)
 
 ## Main settings
 
@@ -53,38 +53,38 @@ The **Background Video** section adds a dynamic and visually engaging element to
 * **Distance from the top** : Set the spacing from the top of the section to nearby elements.
 * **Distance from the bottom** : Set the spacing from the bottom of the section to nearby elements.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/677fb725b75a01441b10cf4c_677fb6b31d1a922cd441c98d_background-video-settings.jpeg)
+![](/img/docs/24171c655aa4.jpeg)
 
 ## Customize subheading block
 
 Click one of the preloaded **subheading** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f3fbf0ae8339b53faaf807_66a11a5084ba532f902f9807_newsletter-with-image-subheading-block.jpeg)
+![](/img/docs/525f1abafb33.jpeg)
 
 ## Customize heading block
 
 Click one of the preloaded **heading** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/677f89fe9a5be353aba62c31_65785ec78af016d910d385cc_heading-block.png)
+![](/img/docs/055b4adfcf01.png)
 
 ## Customize text block
 
 Click one of the preloaded **text** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/677f89fe9a5be353aba62c1e_657862463522ad33dbfe5903_text-block.png)
+![](/img/docs/5034f5b35b1f.png)
 
 ## Customize button block
 
 Click one of the preloaded **button** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f3fbf1ae8339b53faaf859_65786a1a4b1ef117cdebb7b0_image-with-text-button-block.png)
+![](/img/docs/12d385d567c3.png)
 
 ## Customize Countdown timer block
 
 The **Countdown Timer** block is a dynamic feature designed to create urgency and encourage customer action by displaying a countdown to a specific date and time. This block is perfect for highlighting limited-time offers, upcoming events, or product launches. It helps drive engagement and motivates customers to act before the timer expires.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/677f89fe9a5be353aba62c34_677f899e6a8d7ee09a663335_image-with-video-countdown-block.jpeg)
+![](/img/docs/4d51de8be3d3.jpeg)
 
 ## Mobile view example
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/677fbbffd44141e5f50e3304_677fbbf7d44141e5f50e28f6_background-video-mobile-view.jpeg)
+![](/img/docs/e9c81f60356b.jpeg)

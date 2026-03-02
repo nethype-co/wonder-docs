@@ -42,7 +42,7 @@ Collection list sections present new, featured or seasonal collections. You can 
 * **Distance from the top:** Adjust the spacing from the top of the section (default 20px).
 * **Distance from the bottom:** Adjust the spacing from the bottom of the section (default 20px).
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6970d2cadc5bf56a22b4c3e3_collections-list.png)
+![](/img/docs/c2a78b96e075.png)
 
 ## Customize collection blocks
 

@@ -7,7 +7,7 @@ sidebar_label: "Image with table"
 
  **The “Image with table” section** pairs an image with text-based content, allowing you to display structured information such as features, details, or specifications next to a visual. The table is created directly using simple text formatting and is limited to two columns, making it ideal for clear, readable layouts without the need for apps or custom code. This section works well for presenting information in an organized, visually balanced way alongside an image.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6978c7b570ff30287fc79181_image-with-table-desktop.png)
+![](/img/docs/82ed015c3f41.png)
 
 ## Main settings
 
@@ -64,19 +64,19 @@ sidebar_label: "Image with table"
 * **Distance from the top:** Adjust the spacing from the top of the section.
 * **Distance from the bottom:** Adjust the spacing from the bottom of the section.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6979ba409939e99c0c554c4f_image-with-table-settings.png)
+![](/img/docs/671f1dcf5caa.png)
 
 ## Customize heading block
 
 Click one of the preloaded **heading** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/677f89fe9a5be353aba62c31_65785ec78af016d910d385cc_heading-block.png)
+![](/img/docs/055b4adfcf01.png)
 
 ## Customize text block
 
 Click one of the preloaded **text** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6978d5dbf88a9547877e2821_text-block.png)
+![](/img/docs/8fcafe82139c.png)
 
 ## Customize table block
 
@@ -91,32 +91,32 @@ Click on the preloaded **table** block to customize it.
 * The **next line(s)** are the content for the **right column** , which can span multiple lines.
 * Separate each table row with **one empty line** .
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6979fe3246d193b3112b0209_image-with-text-table-block.png)
+![](/img/docs/26ca31ed93ba.png)
 
 ## Customize button block
 
 Click one of the preloaded **button** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f3fbf1ae8339b53faaf859_65786a1a4b1ef117cdebb7b0_image-with-text-button-block.png)
+![](/img/docs/12d385d567c3.png)
 
 ## Customize Icon with text block
 
  **Icon with text block** allows you to display an icon next to text, making it perfect for creating custom bullet points or highlighting key information.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6979dd28c7b1bf586885286e_image-with-table-icon-block.png)
+![](/img/docs/40914f616a64.png)
 
 ## Customize Countdown timer block
 
 The **Countdown Timer** block is a dynamic feature designed to create urgency and encourage customer action by displaying a countdown to a specific date and time. This block is perfect for highlighting limited-time offers, upcoming events, or product launches. It helps drive engagement and motivates customers to act before the timer expires.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/677f89fe9a5be353aba62c34_677f899e6a8d7ee09a663335_image-with-video-countdown-block.jpeg)
+![](/img/docs/4d51de8be3d3.jpeg)
 
 ## Customize Spacer block
 
  **Spacer block** lets you add **spacing between blocks** , allowing for a more flexible and visually balanced layout.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6979e07733a96aa1fd8b7ea5_image-with-text-spacer-block.png)
+![](/img/docs/d9bdecbc0b50.png)
 
 ## Mobile view example
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6978c7c95054c42297c73939_image-with-table-mobile.png)
+![](/img/docs/67b67f82e460.png)

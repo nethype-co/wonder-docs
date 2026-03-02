@@ -6,7 +6,7 @@ sidebar_label: "Video Reels with product block"
 ## **Video Reels with product block**
 
 <video autoPlay playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
-  <source src="https://media.nethype.co/videos/support/pdp-video-reels.webm" type="video/webm" />
+  <source src="/img/docs/876896f90702.webm" type="video/webm" />
 </video>
 
 The **Video Reels with Product** block brings a social-media-style experience directly to your product pages.
@@ -21,13 +21,13 @@ It’s a modern, high-impact way to engage shoppers, boost conversion rates, and
 * Select the **Shopify-hosted videos** you’d like to display.
 
 <video controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
-  <source src="https://media.nethype.co/videos/support/video_reels_11.webm" type="video/webm" />
+  <source src="/img/docs/9049d383d0be.webm" type="video/webm" />
 </video>
 
 * (Optional) Add **featured products** to accompany each video
 
 <video controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
-  <source src="https://media.nethype.co/videos/support/video_reels_21.webm" type="video/webm" />
+  <source src="/img/docs/bbba644bed4b.webm" type="video/webm" />
 </video>
 
 * Customize the section appearance using the additional settings. You can:
@@ -38,5 +38,5 @@ It’s a modern, high-impact way to engage shoppers, boost conversion rates, and
 * Hide the **Product vendor**
 
 <video controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
-  <source src="https://media.nethype.co/videos/support/video_reels_3.webm" type="video/webm" />
+  <source src="/img/docs/9c53530759e7.webm" type="video/webm" />
 </video>

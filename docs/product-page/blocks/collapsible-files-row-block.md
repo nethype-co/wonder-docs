@@ -11,11 +11,11 @@ You can connect metafields at the **variant** level, so the file changes with ea
 
 This feature is ideal for providing **product guides, spec sheets, certificates, or downloadable resources** in an organized and user-friendly way.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67d199850ee5c667f160eaf0_collapsible-file-row-block.jpg)
+![](/img/docs/29c6911f7d0e.jpg)
 
 ## **Settings** 
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67d19e5b6049e79810f6523f_collapsible-file-row-block-settings.jpg)
+![](/img/docs/62b6579ff401.jpg)
 
 ## **How to Set Up a Collapsible Files Row 1. Create a File Metafield:** 
 
@@ -24,14 +24,14 @@ This feature is ideal for providing **product guides, spec sheets, certificates,
 * Select **File** as the type.
 * In **Validations** , choose **Accept all file types** and save.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67d1a4fccc071b42c415c90b_collapsible-file-row-block-tutorial-1.jpg)
+![](/img/docs/121940e6c61d.jpg)
 
  2. **Assign Files to Metafields:** 
 
 * If using **Product metafields** , go to the **Product Metafields** section, upload a file, and save.
 * If using **Variant metafields** , open the variant, scroll to the metafield, upload a file, and repeat for other variants.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67d1a89ceced04056f0e390e_collapsible-file-row-block-tutorial-2.jpg)
+![](/img/docs/4d1b4a699f8b.jpg)
 
  **3. Add the Block in Theme Editor:** 
 
@@ -44,6 +44,6 @@ This feature is ideal for providing **product guides, spec sheets, certificates,
 * Add **custom file labels** (optional).
 * Enter the **metafield namespace and key** (e.g., custom.single_file).
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67d1aaa1742107ff7eae647c_collapsible-file-row-block-tutorial-3.jpg)
+![](/img/docs/a0e27ee4d2c5.jpg)
 
 5. **Save and Test** the setup to ensure the file updates correctly when switching variants.

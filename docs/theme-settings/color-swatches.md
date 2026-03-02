@@ -9,7 +9,7 @@ Swatches serve as compact yet impactful visual cues that reveal the array of col
 
 Moving beyond mere textual descriptions, swatches offer a tactile and visual representation that brings customer interaction with product variants to life. Opt for vivid hex codes, utilize variant-specific imagery, or introduce bespoke swatch designs for a tailored display. Available in circular or square formats, swatches infuse a touch of elegance and practicality into the shopping experience. Here’s how they enhance the Wonder theme:
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/670e3963822e237fb9e53fb1_6597e0f50c2fc9eb63e0bd7b_color-swatches-examples.jpeg)
+![](/img/docs/f8d69e94c5d2.jpeg)
 
 ### How to Configure Color Swatches in Your Theme Editor
 
@@ -25,27 +25,27 @@ Moving beyond mere textual descriptions, swatches offer a tactile and visual rep
 
 Remember to keep each color rule on its own line to ensure proper display and functionality.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/670e3963822e237fb9e53fb4_670e3807c505ca664b03bdf4_color-swatches-settings.jpeg)
+![](/img/docs/5d862e19e1a1.jpeg)
 
 ### Color swatch settings
 
  **Enable color swatch:** Enable or disable color swatch.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/670e3963822e237fb9e53fa9_6585b59e6da597dcb1e59851_color-swatches-enable-swatch.jpeg)
+![](/img/docs/63a399c4a7e2.jpeg)
 
  **Enable color swatch in filters:** Enable or disable color swatch in filters.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/670e3963822e237fb9e53fac_6585bf7b3b1618b48f6ae412_color-swatches-enable-color-swatches-in-filters.jpeg)
+![](/img/docs/d57c1d0d01b8.jpeg)
 
  **Enable round color swatches:** Enable or disable rounded shape of color swatches.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/670e3963822e237fb9e53fa6_6585c0184ecf676349884a6f_color-swatches-enable-rounded-swatch.jpeg)
+![](/img/docs/7696bd857f6c.jpeg)
 
  **Custom colors:** Define color swatches not only with hex color codes but also with image files. 
 
  **IMPORTANT:** Shopify now provides own color swatches via metafields. If color metafields are defined, the swatches take values from there.[ Link to Shopify Metafield Documentation](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields). If not set, the **Theme settings>Color swatch>Custom colors** setting will be used.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/670e3963822e237fb9e53fb8_670e39226890da33eb2ad8f5_color-swatches-configuration.jpeg)
+![](/img/docs/380f9dca467a.jpeg)
 
 How to do it:
 
@@ -57,7 +57,7 @@ Remember to place each rule on its own line to ensure the system interprets each
 
  **Options listed as Color Swatches:** specify which product option names should be displayed using color swatches.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/670e3963822e237fb9e53fbb_6593fa899e5c806d8cc9467a_color-swatches-options-as-color-swatches.jpeg)
+![](/img/docs/9ba893220e22.jpeg)
 
 How to do it?
 
@@ -67,7 +67,7 @@ How to do it?
 
  **Options listed as Variant Pictures:** define which variant option names should display their choices as images.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/670e3963822e237fb9e53fbe_6593fb0cc66fcb4c3ee9761d_color-swatches-options-as-variant-picture.jpeg)
+![](/img/docs/76c1e38a4454.jpeg)
 
 How to do it?
 

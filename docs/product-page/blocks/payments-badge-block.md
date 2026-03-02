@@ -9,8 +9,8 @@ The **Payments Badge** block allows merchants to display available payment metho
 
 Merchants can customize the badge by choosing between dynamically loaded payment icons based on their Shopify payment settings or uploading custom images for desktop and mobile views. This flexibility ensures the badge seamlessly aligns with the store’s design while providing clear payment information to customers.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/679ce48ce5a617eeb423d168_679ce46c14c2150da402a513_payments-badge-block-1.jpeg)
+![](/img/docs/00ed89806d53.jpeg)
 
 ## **Settings** 
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/679ce48ce5a617eeb423d170_679ce475620e95b975e90ed0_payments-badge-block-2.jpeg)
+![](/img/docs/7901a11a08e6.jpeg)

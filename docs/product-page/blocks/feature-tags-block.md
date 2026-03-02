@@ -7,11 +7,11 @@ sidebar_label: "Feature tags block"
 
 The **Feature Tags** block is a simple yet effective way to highlight key attributes of a product. It allows you to showcase essential details, such as ingredients, materials, or product benefits, in a visually organized format. Ideal for supplements, apparel, or tech products, this block helps customers quickly understand what makes your product unique, enhancing clarity and engagement on the product page.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67c9827f1ea381aead7ff76a_feature-tags-block.png)
+![](/img/docs/53fc3c7d9433.png)
 
 ## **Settings** 
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67c96a6aab12012890b5c079_feature-tags-block-2.jpg)
+![](/img/docs/9f1bd365ef90.jpg)
 
 ## **How to Set Up the Feature Tags Block** 
 
@@ -25,11 +25,11 @@ Follow these steps to display key product attributes using the **Feature Tags** 
 
 * Save the metafield.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67c973523f3fefbf9e6f474e_feature-tags-block-3.jpg)
+![](/img/docs/ddb0109c0bc3.jpg)
 
  **Single line text (List)** 
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67c973677acca2238bcf567f_feature-tags-block-4.jpg)
+![](/img/docs/2271f87b4e21.jpg)
 
  **Metaobject (List)** 
 
@@ -41,7 +41,7 @@ Follow these steps to display key product attributes using the **Feature Tags** 
 * Add the items (features) you want to display.
 * Click **Save** .
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67c9756300b10562a867cc67_feature-tags-block-5.jpg)
+![](/img/docs/48a9f94d870d.jpg)
 
  **Adding items to the metafield** 
 

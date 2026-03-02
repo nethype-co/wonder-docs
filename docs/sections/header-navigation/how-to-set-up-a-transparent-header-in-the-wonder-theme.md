@@ -5,7 +5,7 @@ sidebar_label: "How to Set Up a Transparent Header in the Wonder Theme"
 
 ## **How to Set Up a Transparent Header in the Wonder Theme** 
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66a76104e584665744fa5dda_66a7607ee5b172514639bfe7_header-section-3.jpeg)
+![](/img/docs/8d397618b9f2.jpeg)
 
 In the bustling world of e-commerce, a store's success often hinges on user experience, particularly in how customers navigate your site. Enter the mega-menu, a game-changer in online navigation. This isn't just a menu; it's an essential tool for showcasing your products and enhancing user engagement.
 
@@ -21,25 +21,25 @@ In this guide, we'll delve into the integration and optimization of mega-menus w
 
 * Note: The header logo image you set in the Header section will be visible outside the Logo Banner section.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f40c1f32019b36415e5003_66f40bd1f86877fa2145749b_header-tutorial-1.jpeg)
+![](/img/docs/6752a61be66a.jpeg)
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f40c1f32019b36415e4fdf_66f4080cf886af9cf7d859c7_header-tutorial-1-1.jpeg)
+![](/img/docs/9f5c7bfa8660.jpeg)
 
 ### **Step 3: Set Custom Navigation Color** 
 
 * While still in the Header section, set the custom navigation color for when the header is transparent. This applies when navigation is in the Image Banner/Logo Banner section and when using the 'Fashion' layout of the gallery on the product page.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f40c1f32019b36415e4fff_66f40be56214d76f87e832be_header-tutorial-2.jpeg)
+![](/img/docs/80df7b8f374e.jpeg)
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f40c1f32019b36415e4fe8_66f4086d1c51d8e744e9a1ed_header-tutorial-2-1.jpeg)
+![](/img/docs/1159c13c522c.jpeg)
 
 ### **Step 4: Arrange the Logo Banner Section** 
 
 * Select the Logo Banner section and place it as the first section in the template order.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f40c1f32019b36415e5007_66f40c14f856181f59468124_header-tutorial-3.jpeg)
+![](/img/docs/f2f2f9206194.jpeg)
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f40c1f32019b36415e4ff5_66f40c1c8b9d788262349342_header-tutorial-3-2.jpeg)
+![](/img/docs/2af067371051.jpeg)
 
 ### **Step 5: Customize the Logo Banner Section** 
 

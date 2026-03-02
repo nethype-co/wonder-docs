@@ -9,7 +9,7 @@ The **Products Slider** section is a modern, visually dynamic feature that showc
 
 With smooth and lightweight animations, the **Products Slider** ensures a sleek and polished browsing experience that highlights your product offerings in an engaging and elegant way. Perfect for creating a lasting impression while keeping your store stylish and user-friendly.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/679223b2d6f315d66c74b8a2_67922392cf41eb5b96437945_product-slider-section.jpeg)
+![](/img/docs/a4d628714294.jpeg)
 
 ## Main settings
 
@@ -44,14 +44,14 @@ With smooth and lightweight animations, the **Products Slider** ensures a sleek 
 * **Distance from the top** : Adjust the spacing from the top of the section to nearby elements.
 * **Distance from the bottom** : Adjust the spacing from the bottom of the section to nearby elements.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6790ca520dd22fa70b6eb564_6790c261a31e3ddf7a58029a_products-slider-settings.jpeg)
+![](/img/docs/5126b91aa58c.jpeg)
 
 ## Customize Product block
 
 Click one of the preloaded **Product** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6792224485ae5cc57c96041b_679222249adc38f747c42ea4_products-slider-block-settings.jpeg)
+![](/img/docs/b63a028b87ba.jpeg)
 
 ## Mobile view example
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/679223b2d6f315d66c74b8a5_679223aaa69d5974b1a2b011_products-slider-mobile-view.jpeg)
+![](/img/docs/9e6bedada79e.jpeg)

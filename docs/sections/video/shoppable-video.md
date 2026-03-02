@@ -7,9 +7,9 @@ sidebar_label: "Shoppable video"
 
 The "Shoppable video" section is an interactive and engaging feature designed to enhance the shopping experience. This section allows you to play and pause a video, with selected products sliding in from left to right based on specific timestamps you set in the video. It also offers a quick buy option and a rewind button for desktop users, making it easy for customers to purchase featured products directly from the video.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66a3a19f77ef91d6f16c1485_66a38afca55be250109d3589_shoppable-video-section.jpeg)
+![](/img/docs/0029c53e8ea5.jpeg)
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f3f9a5829a5759d1bd186d_66f3f99ffdd4984d4f77b157_shoppable-video-section-zoom.jpeg)
+![](/img/docs/b6c6d3e39702.jpeg)
 
 ## Main settings
 
@@ -43,14 +43,14 @@ The "Shoppable video" section is an interactive and engaging feature designed to
 * **Distance from the top:** Adjust the spacing from the top of the section.
 * **Distance from the bottom:** Adjust the spacing from the bottom of the section.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66a3a19f77ef91d6f16c14c9_66a38b9a9ca862b7d8ff7880_shoppable-video-settings.jpeg)
+![](/img/docs/9f69c44b0e62.jpeg)
 
 ## Customize Product block
 
 Click one of the preloaded **Product** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66a3a19f77ef91d6f16c1480_66a39e420fe233de5f030cd7_shoppable-video-product-block.jpeg)
+![](/img/docs/6c79cc579746.jpeg)
 
 ## Mobile view example
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66a3a19f77ef91d6f16c147a_66a3a0e90d1e13dbcde77a5e_shoppable-video-mobile-view.jpeg)
+![](/img/docs/5499c15356d7.jpeg)

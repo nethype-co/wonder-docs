@@ -6,7 +6,7 @@ sidebar_label: "Marquee images"
 ### Marquee Images
 
 <video autoPlay playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
-  <source src="https://media.nethype.co/videos/support/marque-image.webm" type="video/webm" />
+  <source src="/img/docs/903417c4dcf5.webm" type="video/webm" />
 </video>
 
 The **Marquee Images** section brings motion and visual energy to your store.
@@ -22,11 +22,11 @@ Add your own images and optional links to make the section interactive and bring
 * Using the **Image** block, select the images you want to display.
 
 <video controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
-  <source src="https://media.nethype.co/videos/support/marquee_1.webm" type="video/webm" />
+  <source src="/img/docs/373b679d8002.webm" type="video/webm" />
 </video>
 
 <video controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
-  <source src="https://media.nethype.co/videos/support/marquee_2.webm" type="video/webm" />
+  <source src="/img/docs/1dc1e97417e5.webm" type="video/webm" />
 </video>
 
 * **Optional:** You can also assign a link to each image, so clicking it will redirect to a specific page.
@@ -34,7 +34,7 @@ Add your own images and optional links to make the section interactive and bring
 * Adjust the **animation speed** and **direction** , as well as the **image size** and the **gap** between images for both mobile and desktop, according to your preference.
 
 <video controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
-  <source src="https://media.nethype.co/videos/support/marquee_3.webm" type="video/webm" />
+  <source src="/img/docs/3dbaeaeafd3b.webm" type="video/webm" />
 </video>
 
 ## Main settings
@@ -70,4 +70,4 @@ Add your own images and optional links to make the section interactive and bring
 
 Click one of the **Image** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/68f6408c4553d8bcbc2e6e42_marquee-images-image-block.jpg)
+![](/img/docs/2fdd5f0c6a0e.jpg)

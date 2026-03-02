@@ -30,25 +30,25 @@ The **Notification Pop-up** section, part of the **Header Group** , provides an 
 * **Text color** – Customize the text color. Default is ‘Transparent’ to inherit global settings.
 * **Background color** – Set the background color for the pop-up.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67a0c0867d099b7c7ab8f4b4_67a0be0a97bd419059698612_notification-popup-settings.jpeg)
+![](/img/docs/7233a4d1f53c.jpeg)
 
 ## Customize heading block
 
 Click one of the preloaded **heading** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f3fbf0ae8339b53faaf837_66a11a4380d4c1c9b7aee93e_newsletter-with-image-heading-block.jpeg)
+![](/img/docs/ba50bf692064.jpeg)
 
 ## Customize subheading block
 
 Click one of the preloaded **subheading** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f3fbf0ae8339b53faaf807_66a11a5084ba532f902f9807_newsletter-with-image-subheading-block.jpeg)
+![](/img/docs/525f1abafb33.jpeg)
 
 ## Customize Email form block
 
 Click one of the preloaded block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67a0c1acf2db8427b32d40ae_66a11a9893e6dc93aa77c7a5_newsletter-with-image-email-form-block.jpeg)
+![](/img/docs/d39cc27fd7f0.jpeg)
 
 ## Mobile view example
 

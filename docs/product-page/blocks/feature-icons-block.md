@@ -13,7 +13,7 @@ The **Feature Icons** block allows you to showcase product highlights using visu
 
 ## **Settings** 
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67c9a0cd13b68f9474c56e09_feature-icons-block-2.jpg)
+![](/img/docs/dd5776f93ee0.jpg)
 
 ## How to Create a Metafield for the Feature Icons Block
 
@@ -27,15 +27,15 @@ Follow these steps to properly set up a metafield for the **Feature Icons** bloc
   * **Single line text** – Name it **Label** (stores the feature name).
   * **File** – Name it **Image** (stores the icon). Under **Accept specific file types**, select **Images** only
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67c9c662ae1cc1c55046a9aa_feature-icons-block-4.jpg)
+![](/img/docs/72081213c7eb.jpg)
 
  **Single line text field** 
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67c9c65a3810d6c415c0e943_feature-icons-block-3.jpg)
+![](/img/docs/5fbe773fd415.jpg)
 
  **File field** 
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67c9c428722db03a1255baf3_feature-icons-block-5.jpg)
+![](/img/docs/317ab1e6511d.jpg)
 
  **Product feature icon metaobject** 
 
@@ -48,7 +48,7 @@ Follow these steps to properly set up a metafield for the **Feature Icons** bloc
 * Enter a **Label** and upload an **Image** for each feature icon.
 * Repeat for all feature icons needed.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67c9c6b11be337cd0fe265c6_feature-icons-block-6.jpg)
+![](/img/docs/dc5696c4aa62.jpg)
 
 #### **3. Create a Metafield for Feature Icons** 
 
@@ -58,7 +58,7 @@ Follow these steps to properly set up a metafield for the **Feature Icons** bloc
 * Enable **List of entries** .
 * Click **Save** .
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67c9c80a4922bcc88cd4049d_feature-icons-block-7.jpg)
+![](/img/docs/3fe69a296545.jpg)
 
 #### **4. Add the Feature Icons Block in the Theme Editor** 
 

@@ -6,7 +6,7 @@ sidebar_label: "Banner card"
 ## Banner Card Block
 
 <video autoPlay playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
-  <source src="https://media.nethype.co/videos/support/banner-card-plp.webm" type="video/webm" />
+  <source src="/img/docs/a23f5164b304.webm" type="video/webm" />
 </video>
 
  **Banner Card** is a special element that allows you to place a **highlighted banner** directly within the **product grid** on a collection page. Instead of a regular product card, a banner appears in a selected position within the grid  -  perfect for promotions, marketing messages, or highlighting key offers without disrupting the collection layout.
@@ -55,4 +55,4 @@ sidebar_label: "Banner card"
 * **Background color:** Set the background color of the banner overlay
 * **Background opacity:** Adjust the transparency level of the banner background.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/697208fbb77edfa5f20645ed_banner-card-plp.png)
+![](/img/docs/df9c58929c99.png)

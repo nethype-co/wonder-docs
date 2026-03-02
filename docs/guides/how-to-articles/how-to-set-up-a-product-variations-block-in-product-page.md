@@ -7,7 +7,7 @@ sidebar_label: "How to Set Up a Product Variations Block in Product Page"
 
 In this guide, we’ll walk through the process of setting up a **Product Variations Block** in Shopify using metafields. This method allows you to display related product variations, such as different colors or styles, in a structured and visually appealing way.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/679371f462d275f1cf9a999d_product-variations-block-1.jpg)
+![](/img/docs/3f607d7fc0aa.jpg)
 
 ## Video Tutorial
 
@@ -23,7 +23,7 @@ If you do **not** yet have a **Color** metafield set up as a **category metafiel
 4. From the suggested standard definitions that appear, **select the first "Color" option** (Defines the primary color or pattern, such as blue or striped).
 5. Click **Save.**
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/682711f21158f0cff2eca7eb_step-1-2.png)
+![](/img/docs/35f09af1e85c.png)
 
 ### **Step 2: Create a Color Metafield** 
 
@@ -36,7 +36,7 @@ To store color values or images for product variations, create a **Color** metaf
 5. Select **Reference** and choose **Color** .
 6. Click **Save** .
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67b497713d2f4be34de06f1e_color-metafield.jpg)
+![](/img/docs/958813e88a2b.jpg)
 
 Color metafield definition
 
@@ -50,7 +50,7 @@ This metafield will store a list of related product variations.
 4. Select **Product** as the field type and choose **List of products** .
 5. Click **Save** .
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67b497b27bc5cfe0ab0cec5e_product-metafield.jpg)
+![](/img/docs/9b362527f3e1.jpg)
 
 Product variation metafield definition
 
@@ -67,7 +67,7 @@ Now, apply the created metafields to each product.
 
  **Note:** To properly link all product variations, repeat this step for each variant.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67b4986ceac2a28ce5b6b8df_set-up-metafields.jpg)
+![](/img/docs/21422753f154.jpg)
 
 ### **Step 5: Configure the Product Page** 
 
@@ -82,7 +82,7 @@ Now, set up the **Product Variations Block** in your theme.
 
 Click **Save** , and your product variations will now be visible on the product page.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67b49a2134bd39a4e7d9e9c1_product-variations-block.jpg)
+![](/img/docs/6f2aa274f1e3.jpg)
 
 ### **Final Step: Connect Variations for Each Product** 
 

@@ -5,7 +5,7 @@ sidebar_label: "How to Set Up a Mega menu (Promotion Menu) in Your Shopify Theme
 
 ## **How to Set Up a Promotion Menu in Your Shopify Theme: A Step-by-Step Guide** 
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66c7478f5fbc26b4d0923eb1_65a1201ccb61b879238b0cf9_mega-menu-header.jpeg)
+![](/img/docs/3df9bd434853.jpeg)
 
 In the bustling world of e-commerce, a store's success often hinges on user experience, particularly in how customers navigate your site. Enter the mega-menu, a game-changer in online navigation. This isn't just a menu; it's an essential tool for showcasing your products and enhancing user engagement.
 
@@ -17,7 +17,7 @@ In this guide, we'll delve into the integration and optimization of promotion-me
 
 ### Step 1: Create item for promotion menu in your main navigation
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66c7478f5fbc26b4d0923eb5_65a123f6e47b86a5d806bb70_mega-menu-main-menu.jpeg)
+![](/img/docs/1eb46e6289f7.jpeg)
 
 1. **Access the Navigation Settings** : Log in to your Shopify admin panel. Navigate to the 'Online Store' section and then click on 'Navigation'.
 2. **Select Your Promotion Menu** : In the Navigation section, you'll find your store's main menu. This is typically where you want your promotion-menu to appear.
@@ -26,7 +26,7 @@ In this guide, we'll delve into the integration and optimization of promotion-me
 
 ### **Step 2: Configuring Your Promotion Menu in the Theme Customizer** 
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66c858275ac17b0cf8bccfb5_66c85780b15b003463143904_mega-menu-settings-2.jpeg)
+![](/img/docs/122c94f0322f.jpeg)
 
 To add a promotion-menu to your Shopify store, you'll be working within the Theme Customizer. Here's how to proceed:
 

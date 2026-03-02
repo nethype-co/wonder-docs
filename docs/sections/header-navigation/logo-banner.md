@@ -7,7 +7,7 @@ sidebar_label: "Logo banner"
 
 The "Logo Banner" section is a visually striking element that perfectly complements a Transparent Header, ideally placed as the first section of your store. Featuring a scaling logo that adjusts as you scroll and a customizable background with video or image options, it highlights your brand identity and sets the tone for the rest of your site.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f40616de71736a40b6604f_66a10185924751c97c55780f_logo-banner-section.jpeg)
+![](/img/docs/5e6e839de3d3.jpeg)
 
 ## Video Tutorial
 
@@ -45,8 +45,8 @@ This section should be used as the first section in order.
 * **Background color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
 * **Background opacity:** Adjust the opacity of the background color.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f40616de71736a40b66065_66a102446b48e37e295646fd_logo-banner-settings.jpeg)
+![](/img/docs/748621b2c69f.jpeg)
 
 ## Mobile view example
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f40616de71736a40b6605c_66a10279935d698b30fc0883_logo-banner-mobile-view.jpeg)
+![](/img/docs/6c5c247d0fba.jpeg)

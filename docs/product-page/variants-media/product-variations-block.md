@@ -9,11 +9,11 @@ The **Product Variations Block** offers a flexible way to display related produc
 
 _Looking for a detailed guide? Follow our tutorial _[_here_](https://www.support.wonder-theme.com/question/how-to-set-up-a-product-variations-block-in-product-page)_._
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6793861ab72e8b3cada5af94_679371f462d275f1cf9a999d_product-variations-block-1.jpeg)
+![](/img/docs/e388613f7fae.jpeg)
 
 ## **Settings** 
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6793861ab72e8b3cada5af9b_6793842c4f4dbfd83188804a_product-variations-block-2.jpeg)
+![](/img/docs/fe7f61411719.jpeg)
 
 ## Important Information
 

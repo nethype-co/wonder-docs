@@ -9,7 +9,7 @@ The **Before and After** section is a powerful way to showcase transformations a
 
 Ideal for beauty products, home improvements, or service results, this section visually highlights the impact of your offerings, helping to build trust and engagement with potential buyers.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67c5a29a8217fc32119c7b39_before-and-after-section.jpg)
+![](/img/docs/78f778779892.jpg)
 
 ## Main settings
 
@@ -53,32 +53,32 @@ Ideal for beauty products, home improvements, or service results, this section v
 * **Mobile screen text alignment** : Adjust text alignment for mobile screens ( **Left, Center, Right** ).
 * **Distance from the top/bottom** : Control spacing between the section and surrounding elements.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67c5a396d686badf30f8c938_before-and-after-settings.jpg)
+![](/img/docs/21213e96dc85.jpg)
 
 ## Customize subheading block
 
 Click one of the preloaded **subheading** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f3fbf0ae8339b53faaf807_66a11a5084ba532f902f9807_newsletter-with-image-subheading-block.jpeg)
+![](/img/docs/525f1abafb33.jpeg)
 
 ## Customize heading block
 
 Click one of the preloaded **heading** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/677f89fe9a5be353aba62c31_65785ec78af016d910d385cc_heading-block.png)
+![](/img/docs/055b4adfcf01.png)
 
 ## Customize text block
 
 Click one of the preloaded **text** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6970ee5c772fb5376074c5da_text-block.png)
+![](/img/docs/dfb3a3f931f2.png)
 
 ## Customize button block
 
 Click one of the preloaded **button** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/66f3fbf1ae8339b53faaf859_65786a1a4b1ef117cdebb7b0_image-with-text-button-block.png)
+![](/img/docs/12d385d567c3.png)
 
 ## Mobile view example
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67c5a401422e33fbc9cac0f2_before-and-after-mobile-view.jpg)
+![](/img/docs/f08238aa2bc8.jpg)

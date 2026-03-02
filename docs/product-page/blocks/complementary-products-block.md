@@ -13,4 +13,4 @@ The "Complementary Products" block is a feature designed to enhance shopping exp
 
 ## **Settings** 
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6970b8eb8339c376f56fe975_complementary-products-pdp.png)
+![](/img/docs/30309da3974b.png)

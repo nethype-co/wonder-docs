@@ -7,7 +7,7 @@ sidebar_label: "Multi-Images Variant Gallery"
 
 The **Multi-Images Variant Gallery** is a powerful feature that automatically filters product images based on the selected variant, creating a tailored viewing experience for each option. Imagine you have a dress product with multiple color variants like Black, Red, and Navy. When a customer selects the "Black" variant, the gallery will only display images tagged for that color, ensuring they see exactly what they’re interested in. This is especially beneficial for products with numerous variants, keeping the gallery organized and focused.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67374716c13dd04d06be7036_673746fb90223007c3d6e208_multi-images.jpeg)
+![](/img/docs/73b8b7bfb863.jpeg)
 
 ## Video Tutorial
 
@@ -31,14 +31,14 @@ To set alt tags for images in Shopify, follow these steps:
 
 2. **Select the Media Item** : Click on the specific image you want to assign to a variant. 
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67375578b5a19dd56c8b3b52_673754966a1e80714554a9e2_how-to-1.jpeg)
+![](/img/docs/ebf61c65d01d.jpeg)
 
 3. **Set the Alt Tag** : In the media details, find the Alt Text field, and enter the variant name prefixed with #, such as #red for the Red variant.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67375578b5a19dd56c8b3b56_6737555fd32dd48a3120c989_how-to-2.jpeg)
+![](/img/docs/579057fc7bbb.jpeg)
 
 4. **Save** : Save your changes to apply the filter for that image.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67375578b5a19dd56c8b3b4e_6737556820f4445cc29a630b_how-to-3.jpeg)
+![](/img/docs/8a7c44ac17e6.jpeg)
 
 Repeat these steps for each image you want filtered by variant. This simple setup allows you to create a customized gallery experience, showing customers only the most relevant images for the variant they select.

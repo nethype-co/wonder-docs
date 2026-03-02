@@ -17,13 +17,13 @@ Use this section to experiment with AI-generated layouts, text, or image compone
 * **Enter the instructions** for what content the block should generate, and wait for the AI to generate the results.
 
 <video controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
-  <source src="https://media.nethype.co/videos/support/AI_section_1.webm" type="video/webm" />
+  <source src="/img/docs/5f08c6fbf8a1.webm" type="video/webm" />
 </video>
 
 * If you are using multiple blocks, you can **adjust their layout**  -  including order, spacing, and alignment ( **PLEASE NOTE:** some settings like text alignment or color may not take effect if the generated content overrides them).
 
 <video controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
-  <source src="https://media.nethype.co/videos/support/AI_section_2.webm" type="video/webm" />
+  <source src="/img/docs/4a7ff39690df.webm" type="video/webm" />
 </video>
 
 ## Main settings

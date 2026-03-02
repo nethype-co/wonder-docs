@@ -7,7 +7,7 @@ sidebar_label: "Benefits product"
 
 The **Benefits Product** section is crafted to showcase your products in a visually elegant and informative way. This feature allows you to add high-quality images optimized for both mobile and desktop views, ensuring your product presentation is clear and attractive across all devices. You can set up to 6 benefit blocks to highlight key product features, each accompanied by an icon or image of your choice. On mobile, these benefits are displayed in a streamlined column format, enhancing readability and user engagement.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6740deefbb805402aef5f9e4_6740dedbdca9e4eab222c4a2_benefits-product-section.jpeg)
+![](/img/docs/2f9389d84c53.jpeg)
 
 ## Main settings
 
@@ -44,14 +44,14 @@ The **Benefits Product** section is crafted to showcase your products in a visua
 * **Distance from the top** : Adjust the space between the section and the top of the page.
 * **Distance from the bottom** : Adjust the space between the section and the bottom of the page.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/673499b8f3bad4fa2f3550ca_6734996a2af1829d3c5d0bca_benefits-product-settings.jpeg)
+![](/img/docs/6b6a6cabd5f1.jpeg)
 
 ## Customize Benefit block
 
 Click one of the preloaded **Benefit** block to customize it.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/673499b8f3bad4fa2f3550c6_6734998a4b9f434ef8c6c495_benefits-product-benefit-block.jpeg)
+![](/img/docs/e3deefd6b8dc.jpeg)
 
 ## Mobile view example
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/6740deefbb805402aef5f9e7_6740deea89c1986ce188d26c_benefits-product-mobile-view.jpeg)
+![](/img/docs/2888ef1ebee6.jpeg)

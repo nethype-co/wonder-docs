@@ -11,4 +11,4 @@ Keep your product pages sleek and informative with our Collapsible Tab section. 
 
 ## **Settings** 
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/67d2b88fb1020726846d03b2_collapsible-row-block-settings.jpg)
+![](/img/docs/90c8070ed5e3.jpg)

@@ -7,7 +7,7 @@ sidebar_label: "A Complete Guide to Customizing the Variant Picker"
 
 Dive into the world of customizing your Shopify store with our straightforward guide on color swatches. Transform how customers view and select products with a simple addition that not only elevates your store's design but also enhances user experience. Let's unlock the potential of your product pages by integrating this visually impactful feature.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/670e2d0f17fe14d330e7f1a1_65a7ad05eaa41b41cfd6b4c6_color-swatches-block.jpeg)
+![](/img/docs/8b935523a02c.jpeg)
 
 ## **The Different Faces of Swatches** 
 
@@ -16,7 +16,7 @@ Dive into the world of customizing your Shopify store with our straightforward g
 * **Color Swatches** : Adds a splash of visual appeal by showcasing available colors as touchable swatches, simplifying the choice for customers.
 * **Variant Pictures** : Replaces text with vivid images for each variant, allowing customers to view actual product variations in a pictorial format.
 
-![](https://cdn.prod.website-files.com/60ec3c220e1aca3c15ec9e9c/670e2d0f17fe14d330e7f1a5_659583131e941013c033a585_product-page-variant-picker-block-2.jpeg)
+![](/img/docs/ff4e322626f0.jpeg)
 
 ## **How to set Dropdown input** 
 
