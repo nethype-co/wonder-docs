@@ -76,10 +76,17 @@
 }
 
 /* Section headings — only inside article content, not doc cards */
-.markdown h2 {
+.markdown > h2 {
   border-bottom: 1px solid var(--ifm-color-emphasis-200);
   padding-bottom: 8px;
   margin-top: 2rem;
+}
+
+/* Doc card h2 — reset spacing */
+[class*="cardTitle"] {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 /* Sidebar — no internal scroll, show all items */
