@@ -411,6 +411,7 @@ export default function Features() {
               fontSize: '34px',
               lineHeight: '42px',
               margin: '0 auto',
+              color: 'rgb(101, 104, 125)',
             }}
           >
             Explore a suite of innovative tools designed to enhance your online presence and <strong>boost sales</strong>. <br />
