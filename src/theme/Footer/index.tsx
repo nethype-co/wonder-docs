@@ -90,6 +90,7 @@ function CustomizationBanner() {
                 marginTop: '24px',
                 lineHeight: 1,
                 transition: 'opacity 0.2s',
+                maxWidth: '320px',
               }}
               onMouseOver={(e) => (e.currentTarget.style.opacity = '0.9')}
               onMouseOut={(e) => (e.currentTarget.style.opacity = '1')}

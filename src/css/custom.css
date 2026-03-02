@@ -82,16 +82,16 @@ article h2 {
   margin-top: 2rem;
 }
 
-/* Sidebar styling — always fully visible, no scroll */
+/* Sidebar — not sticky, fully visible, no internal scroll */
 @media (min-width: 997px) {
   [class*="sidebarViewport"] {
-    position: sticky;
+    position: relative;
     max-height: none;
     height: auto;
   }
 
-  [class*="docSidebarContainer"] nav[class*="menu"] {
-    overflow: visible;
+  [class*="docSidebarContainer"] {
+    clip-path: none;
   }
 }
 
@@ -103,13 +103,7 @@ article h2 {
   font-weight: 600;
 }
 
-/* Footer & customization banner */
-footer,
-.footer--dark {
-  position: relative;
-  z-index: 0;
-}
-
+/* Footer */
 .footer--dark {
   background-color: #1a1a1a;
 }
