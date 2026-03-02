@@ -84,10 +84,24 @@ article h2 {
 
 /* Sidebar — no internal scroll, show all items */
 @media (min-width: 997px) {
+  [class*="docSidebarContainer"] {
+    clip-path: none;
+  }
+
   [class*="sidebarViewport"] {
-    max-height: none;
-    height: auto;
-    overflow: visible;
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  [class*="sidebar_"] {
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .menu {
+    overflow: visible !important;
+    scrollbar-gutter: auto !important;
   }
 }
 
