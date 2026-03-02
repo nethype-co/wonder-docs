@@ -131,6 +131,23 @@ const config: Config = {
           ],
         },
         {
+          title: 'Support',
+          items: [
+            {
+              label: 'Support Policy',
+              to: '/support-policy',
+            },
+            {
+              label: 'Refund Policy',
+              to: '/faq-troubleshooting/billing/can-i-get-a-refund-for-the-wonder-theme',
+            },
+            {
+              label: 'Video Tutorials',
+              to: '/video-tutorials',
+            },
+          ],
+        },
+        {
           title: 'Links',
           items: [
             {
@@ -140,10 +157,6 @@ const config: Config = {
             {
               label: 'Shopify Theme Store',
               href: 'https://themes.shopify.com/themes/wonder/styles/developer-preview',
-            },
-            {
-              label: 'Support Policy',
-              to: '/support-policy',
             },
           ],
         },
