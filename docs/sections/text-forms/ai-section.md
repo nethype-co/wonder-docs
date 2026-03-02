@@ -16,7 +16,15 @@ Use this section to experiment with AI-generated layouts, text, or image compone
 * **Add a block** and choose the **Generate** option.
 * **Enter the instructions** for what content the block should generate, and wait for the AI to generate the results.
 
+<video controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
+  <source src="https://media.nethype.co/videos/support/AI_section_1.webm" type="video/webm" />
+</video>
+
 * If you are using multiple blocks, you can **adjust their layout** — including order, spacing, and alignment ( **PLEASE NOTE:** some settings like text alignment or color may not take effect if the generated content overrides them).
+
+<video controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
+  <source src="https://media.nethype.co/videos/support/AI_section_2.webm" type="video/webm" />
+</video>
 
 ## Main settings
 

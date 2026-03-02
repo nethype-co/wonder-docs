@@ -5,6 +5,10 @@ sidebar_label: "Marquee images"
 
 ### Marquee Images
 
+<video autoPlay playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
+  <source src="https://media.nethype.co/videos/support/marque-image.webm" type="video/webm" />
+</video>
+
 The **Marquee Images** section brings motion and visual energy to your store.
 It allows you to display a seamless row of images scrolling horizontally — from left to right or right to left — creating a modern and engaging effect.
 
@@ -17,9 +21,21 @@ Add your own images and optional links to make the section interactive and bring
 
 * Using the **Image** block, select the images you want to display.
 
+<video controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
+  <source src="https://media.nethype.co/videos/support/marquee_1.webm" type="video/webm" />
+</video>
+
+<video controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
+  <source src="https://media.nethype.co/videos/support/marquee_2.webm" type="video/webm" />
+</video>
+
 * **Optional:** You can also assign a link to each image, so clicking it will redirect to a specific page.
 
 * Adjust the **animation speed** and **direction** , as well as the **image size** and the **gap** between images for both mobile and desktop, according to your preference.
+
+<video controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
+  <source src="https://media.nethype.co/videos/support/marquee_3.webm" type="video/webm" />
+</video>
 
 ## Main settings
 

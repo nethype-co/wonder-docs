@@ -46,7 +46,7 @@ In this guide, we'll delve into the integration and optimization of mega-menus w
 * Set the logo image to scale properly when scrolling up and down.
 * Add and customize the background video/image to your liking.
 
-[Article about Logo banner section](https://www.support.wonder-theme.com/question/logo-banner)
+[Article about Logo banner section](/sections/header-navigation/logo-banner)
 
 ### **Step 6: Save and Refresh** 
 
