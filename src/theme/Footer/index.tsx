@@ -10,21 +10,21 @@ function CustomizationBanner() {
       fontFamily: "'Montserrat', system-ui, -apple-system, sans-serif",
       clear: 'both',
     }}>
-      <div style={{maxWidth: '1200px', margin: '0 auto', padding: '48px 24px'}}>
+      <div className="container" style={{padding: '48px 16px'}}>
         <p style={{
           color: '#f1f2f5',
           fontSize: '16px',
-          margin: '0 0 4px 4px',
+          margin: '0 0 4px 0',
           fontWeight: 400,
         }}>
           Customization Services
         </p>
 
-        <div style={{
-          display: 'flex',
+        <div className="customization-banner-grid" style={{
+          display: 'grid',
+          gridTemplateColumns: '1fr 1fr',
           gap: '48px',
-          alignItems: 'stretch',
-          flexWrap: 'wrap',
+          alignItems: 'start',
         }}>
           {/* Left column */}
           <div>
@@ -61,8 +61,6 @@ function CustomizationBanner() {
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'space-between',
-            maxWidth: '407px',
-            flex: '1 1 280px',
           }}>
             <p style={{
               color: '#e7e9f3',

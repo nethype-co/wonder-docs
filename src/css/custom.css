@@ -82,7 +82,19 @@ article h2 {
   margin-top: 2rem;
 }
 
-/* Sidebar styling */
+/* Sidebar styling — always fully visible, no scroll */
+@media (min-width: 997px) {
+  [class*="sidebarViewport"] {
+    position: sticky;
+    max-height: none;
+    height: auto;
+  }
+
+  [class*="docSidebarContainer"] nav[class*="menu"] {
+    overflow: visible;
+  }
+}
+
 .menu__link {
   font-size: 0.9rem;
 }
@@ -104,6 +116,13 @@ footer,
 
 .footer--dark a:hover {
   color: #ffffff;
+}
+
+/* Customization banner responsive */
+@media (max-width: 768px) {
+  .customization-banner-grid {
+    grid-template-columns: 1fr !important;
+  }
 }
 
 /* Video tutorials responsive grid */
