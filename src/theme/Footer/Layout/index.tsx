@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import {ThemeClassNames} from '@docusaurus/theme-common';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 function CustomizationBanner() {
   return (
@@ -45,7 +46,7 @@ function CustomizationBanner() {
               flexWrap: 'wrap',
             }}>
               <img
-                src="/img/docs/db5388adcea6.png"
+                src={useBaseUrl('/img/docs/db5388adcea6.png')}
                 alt=""
                 style={{width: '74px'}}
               />

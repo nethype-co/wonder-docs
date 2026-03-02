@@ -3,6 +3,8 @@ title: "Specification table block"
 sidebar_label: "Specification table block"
 ---
 
+import DocVideo from '@site/src/components/DocVideo';
+
 ## **Specification table block**
 
 ![](/img/docs/bde1dfe9d859.jpg)
@@ -17,27 +19,19 @@ This flexible and space-saving design ensures consistency across your store whil
 
 * Create a **product metafield** of type **Multi-line text** .
 
-<video controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
-  <source src="/img/docs/7fc006fed01f.webm" type="video/webm" />
-</video>
+<DocVideo src="/img/docs/7fc006fed01f.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
 
 * Fill in the specification table metafield
 * The **first line** represents the **header (left column)** , and the **next lines** are the **content (right column)** .
 * Each additional row should be **separated by one empty line** (see the video)
 
-<video controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
-  <source src="/img/docs/d9781f9498da.webm" type="video/webm" />
-</video>
+<DocVideo src="/img/docs/d9781f9498da.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
 
 * Add a **Specification Table** block and connect it to the metafield created in the previous step.
 
-<video controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
-  <source src="/img/docs/ed8a6b8ce990.webm" type="video/webm" />
-</video>
+<DocVideo src="/img/docs/ed8a6b8ce990.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
 
 * Customize the table appearance by adjusting:* Background and text color for odd rows
 * Brightness for the header column
 
-<video controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
-  <source src="/img/docs/84106d957c04.webm" type="video/webm" />
-</video>
+<DocVideo src="/img/docs/84106d957c04.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />

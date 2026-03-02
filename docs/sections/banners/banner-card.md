@@ -3,11 +3,11 @@ title: "Banner card"
 sidebar_label: "Banner card"
 ---
 
+import DocVideo from '@site/src/components/DocVideo';
+
 ## Banner Card Block
 
-<video autoPlay playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}}>
-  <source src="/img/docs/a23f5164b304.webm" type="video/webm" />
-</video>
+<DocVideo src="/img/docs/a23f5164b304.webm" autoPlay playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
 
  **Banner Card** is a special element that allows you to place a **highlighted banner** directly within the **product grid** on a collection page. Instead of a regular product card, a banner appears in a selected position within the grid  -  perfect for promotions, marketing messages, or highlighting key offers without disrupting the collection layout.
 
