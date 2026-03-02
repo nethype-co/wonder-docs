@@ -117,6 +117,11 @@ const config: Config = {
           label: 'Docs',
         },
         {
+          to: '/features',
+          label: 'Features',
+          position: 'left',
+        },
+        {
           to: '/video-tutorials',
           label: 'Video Tutorials',
           position: 'left',
