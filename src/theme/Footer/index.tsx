@@ -8,10 +8,8 @@ function CustomizationBanner() {
       backgroundSize: 'cover',
       backgroundPosition: '100% 7%',
     }}>
-      <div style={{
-        maxWidth: '960px',
-        margin: '0 auto',
-        padding: '48px 48px',
+      <div className="container" style={{
+        padding: '48px 16px',
       }}>
           <p style={{
             color: '#f1f2f5',
