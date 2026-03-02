@@ -205,6 +205,28 @@ function FeatureImage({src, alt, maxWidth}: {src: string; alt: string; maxWidth:
   );
 }
 
+function HeroVideo() {
+  const videoSrc = useBaseUrl('/img/features/hero-video.mp4');
+  const posterSrc = useBaseUrl('/img/features/hero-video-poster.jpg');
+  return (
+    <div style={{margin: '32px auto', maxWidth: '600px'}}>
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        poster={posterSrc}
+        style={{
+          width: '100%',
+          borderRadius: '16px',
+        }}
+      >
+        <source src={videoSrc} type="video/mp4" />
+      </video>
+    </div>
+  );
+}
+
 function FeatureCard({feature, index}: {feature: Feature; index: number}) {
   const isReverse = feature.reverse;
   const hasImages = feature.images.length > 0;
@@ -337,45 +359,61 @@ export default function Features() {
       {/* Hero */}
       <div
         style={{
-          padding: '80px 24px 48px',
+          padding: '60px 24px 0',
           textAlign: 'center',
         }}
       >
-        <div style={{maxWidth: '720px', margin: '0 auto'}}>
-          <p
+        <div style={{maxWidth: '880px', margin: '0 auto'}}>
+          <h1
+            className="features-hero-heading"
             style={{
-              fontSize: '18px',
-              fontWeight: 500,
-              color: 'var(--ifm-color-emphasis-600)',
-              margin: '0 0 8px 0',
-              letterSpacing: '0.02em',
+              color: '#000',
+              textAlign: 'center',
+              letterSpacing: '-0.045em',
+              margin: '0',
+              paddingBottom: '0',
+              fontSize: '82px',
+              fontWeight: 700,
+              lineHeight: '1.05em',
             }}
           >
             Explore
-          </p>
-          <h1
+          </h1>
+          <div
+            className="features-hero-heading"
             style={{
-              fontSize: '56px',
+              fontSize: '82px',
               fontWeight: 700,
-              lineHeight: 1.1,
-              margin: '0 0 24px 0',
+              lineHeight: '1.05em',
+              letterSpacing: '-0.045em',
+              textAlign: 'center',
               background: 'linear-gradient(to right, #3249e9 35%, #47cae4 71%)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text',
+              paddingBottom: '10px',
             }}
           >
             Wonder Features.
-          </h1>
+          </div>
+
+          {/* Video */}
+          <HeroVideo />
+
           <p
+            className="features-hero-subtitle"
             style={{
-              fontSize: '17px',
-              lineHeight: 1.7,
-              color: 'var(--ifm-color-emphasis-700)',
-              margin: 0,
+              textAlign: 'center',
+              maxWidth: '880px',
+              paddingTop: '20px',
+              paddingBottom: '20px',
+              fontSize: '34px',
+              lineHeight: '42px',
+              margin: '0 auto',
             }}
           >
-            <strong>Explore</strong> a suite of innovative tools designed to enhance your online presence and boost sales. From seamless navigation and modern design to robust SEO capabilities, our template equips you with everything you need to succeed on Shopify.
+            Explore a suite of innovative tools designed to enhance your online presence and <strong>boost sales</strong>. <br />
+            From seamless navigation and modern design to robust SEO capabilities, our template equips you with everything you need to succeed on Shopify.
           </p>
         </div>
       </div>
@@ -403,6 +441,13 @@ export default function Features() {
           background: var(--ifm-color-primary) !important;
         }
         @media (max-width: 768px) {
+          .features-hero-heading {
+            font-size: 48px !important;
+          }
+          .features-hero-subtitle {
+            font-size: 22px !important;
+            line-height: 30px !important;
+          }
           .feature-row {
             flex-direction: column !important;
             gap: 24px !important;
