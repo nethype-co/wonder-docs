@@ -53,6 +53,18 @@
   filter: invert(1);
 }
 
+/* Color mode toggle visible on blue navbar */
+.navbar .colorModeToggle_DEke button,
+.navbar [class*="colorModeToggle"] button,
+.navbar [class*="toggle_"] {
+  color: #fff;
+}
+
+.navbar .colorModeToggle_DEke button:hover,
+.navbar [class*="colorModeToggle"] button:hover {
+  background: rgba(255,255,255,0.15);
+}
+
 /* Article images */
 .markdown img {
   max-width: 100%;
