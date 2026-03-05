@@ -28,13 +28,13 @@ The "Featured Product" section serves as a showcase highlight on your Shopify st
 
 ## **Customize blocks** 
 
-* [Title block](https://www.support.wonder-theme.com/question/title-block)
+* [Title block](/product-page/blocks/title-block)
 * Description block
-* [Variant picker block](https://www.support.wonder-theme.com/question/variant-picker-block)
-* [Price block](https://www.support.wonder-theme.com/question/price-block)
-* [Rating block](https://www.support.wonder-theme.com/question/rating-block)
-* [Buy buttons block](https://www.support.wonder-theme.com/question/buy-button-block)
-* [Separator block](https://www.support.wonder-theme.com/question/separator-block)
+* [Variant picker block](/product-page/blocks/variant-picker-block)
+* [Price block](/product-page/blocks/price-block)
+* [Rating block](/product-page/blocks/rating-block)
+* [Buy buttons block](/product-page/blocks/buy-button-block)
+* [Separator block](/product-page/blocks/separator-block)
 
 ## **Mobile view example** 
 

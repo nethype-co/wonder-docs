@@ -35,7 +35,7 @@ Dive into the world of customizing your Shopify store with our straightforward g
 
  **Are you looking to further tailor your color options and images for a truly unique product display?** 
 
-For a deep dive into creating and customizing multiple color swatches, check out our comprehensive guide: [ Color swatches article](https://www.support.wonder-theme.com/question/color-swatches)
+For a deep dive into creating and customizing multiple color swatches, check out our comprehensive guide: [Color swatches article](/theme-settings/color-swatches)
 
 ## **How to set Variant pictures** 
 

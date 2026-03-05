@@ -21,4 +21,4 @@ Elevate your product pages with our Custom Option block, designed to give your c
 4. **Customize Dropdown Options (If Applicable):** If using 'Dropdown', type each custom option on a new line within the 'Custom Options' box.
 5. **Save Your Custom Option Settings:** Once you've configured your options, remember to save your changes to update your product page with the new Custom Option.
 
-[Click here to learn everything about our Custom Option block.](https://www.support.wonder-theme.com/question/custom-option-block)
+[Click here to learn everything about our Custom Option block.](/product-page/blocks/custom-option-block)
