@@ -167,10 +167,27 @@
   flex-shrink: 0;
 }
 
-/* Links — blue on hover */
-.markdown a:hover,
+/* Inline text links — light blue, darker on hover */
+.markdown a {
+  color: #0096c7;
+  text-decoration: none;
+}
+
+.markdown a:hover {
+  color: #0077b6;
+  text-decoration: underline;
+}
+
 a[class*="cardContainer"]:hover {
   color: #0077b6;
+}
+
+[data-theme='dark'] .markdown a {
+  color: #48cae4;
+}
+
+[data-theme='dark'] .markdown a:hover {
+  color: #90e0ef;
 }
 
 /* Footer */
