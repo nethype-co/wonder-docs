@@ -11,6 +11,10 @@ Learn more about the differences between [**Standard Variant Picker** and **Prod
 
 ![](/img/docs/2a529427e61f.jpg)
 
-## **Settings** 
+:::tip Shopify Category Metafields
+Shopify provides native color swatches via category metafields. When defined, the theme automatically uses these values for swatch display. See the [Shopify Category Metafields guide](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields) for setup instructions.
+:::
+
+## **Settings**
 
 ![](/img/docs/6a0fc3e1ee3c.jpg)

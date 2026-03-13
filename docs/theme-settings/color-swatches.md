@@ -18,7 +18,7 @@ Moving beyond mere textual descriptions, swatches offer a tactile and visual rep
 3. **Filter Integration:** If you want the swatches to appear in filter options as well, ensure 'Enable color swatch in filters' is checked.
 4. **Choose Swatch Shape:** Opt for 'Enable round color swatches' if you prefer circular swatches over the default square shape.
 5. **Input Color Values:**
-   - **IMPORTANT:** Shopify now provides own color swatches via metafields. If color metafields are defined, the swatches take values from there. [Link to Shopify Metafield Documentation](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields). If not set, the Theme settings>Color swatch>Custom colors setting will be used.
+   - **IMPORTANT:** Shopify now provides own color swatches via metafields. If color metafields are defined, the swatches take values from there. Learn more in the [Shopify Category Metafields guide](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields). If not set, the Theme settings>Color swatch>Custom colors setting will be used.
    - In the 'Custom colors' field, input each color option as a color name followed by its hex code, or a color name followed by an image filename for patterned swatches. Place each entry on a separate line to define the swatches for your product variants.
 6. **Set Display Options:** In the 'Options listed as Color Swatches' field, enter 'Color' to specify which variant option will show as color swatches.
 7. **Assign Variant Pictures:** Similarly, in the 'Options listed as Variant Pictures' field, input 'Color' to determine which option should display its variants as pictures.
@@ -43,7 +43,7 @@ Remember to keep each color rule on its own line to ensure proper display and fu
 
  **Custom colors:** Define color swatches not only with hex color codes but also with image files. 
 
- **IMPORTANT:** Shopify now provides own color swatches via metafields. If color metafields are defined, the swatches take values from there.[ Link to Shopify Metafield Documentation](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields). If not set, the **Theme settings>Color swatch>Custom colors** setting will be used.
+ **IMPORTANT:** Shopify now provides own color swatches via metafields. If color metafields are defined, the swatches take values from there. Learn more in the [Shopify Category Metafields guide](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields). If not set, the **Theme settings>Color swatch>Custom colors** setting will be used.
 
 ![](/img/docs/380f9dca467a.jpeg)
 

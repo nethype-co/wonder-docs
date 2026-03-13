@@ -17,7 +17,7 @@ _Looking for a detailed guide? Follow our tutorial [here](/guides/how-to-article
 
 ## Important Information
 
-1. **Option Value Metafield** 
-You can use a **"Color" type metafield** or a **metaobject reference metafield** (pointing to a metaobject that includes a "Color" field) to integrate Shopify’s color functionality. This allows you to assign either a **color value** or an **image** to the metafield, ensuring consistent and visually appealing swatch displays.
+1. **Option Value Metafield**
+You can use a **"Color" type metafield** or a **metaobject reference metafield** (pointing to a metaobject that includes a "Color" field) to integrate Shopify’s color functionality. This allows you to assign either a **color value** or an **image** to the metafield, ensuring consistent and visually appealing swatch displays. See the [Shopify Category Metafields guide](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields) for details on setting up color metafields.
 2. **Products** 
 It is recommended to connect a _"Product"_ type metafield configured as a _"List of Products"_. This setup enables you to use a single product page template for multiple products, streamlining the process and maintaining a consistent design across variations.

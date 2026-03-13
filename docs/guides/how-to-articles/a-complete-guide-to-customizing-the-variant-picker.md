@@ -30,7 +30,7 @@ Dive into the world of customizing your Shopify store with our straightforward g
 1. Access the 'Customize' section of your Shopify theme and open the 'Product Page' template to start making changes.
 2. In the 'Sections' tab on the left-hand side, click on 'Product Information' and then seek out the 'Variant Picker' configuration.
 3. On the right-hand side, under the 'Variant Picker' settings, you'll find the 'Options listed as Color Swatches' field. Here, input the names of the variants you wish to display as color swatches, placing each variant name on a separate line to ensure they are recognized correctly.
-4. **Important:** Shopify now provides own color swatches via metafields. If color metafields are defined, the swatches take values from there. [Link to Shopify Metafield Documentation](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields). If not set, the **Theme settings>Color swatch>Custom colors** setting will be used.
+4. **Important:** Shopify now provides own color swatches via category metafields. If color metafields are defined, the swatches take values from there. Learn more in the [Shopify Category Metafields guide](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields). If not set, the **Theme settings>Color swatch>Custom colors** setting will be used.
 5. After entering the variant names, don't forget to hit 'Save' to preserve your settings and update your store's product page with the new color swatches.
 
  **Are you looking to further tailor your color options and images for a truly unique product display?** 

@@ -15,7 +15,7 @@ In this guide, we’ll walk through the process of setting up a **Product Variat
 
 ### **Step 1:** Set up the “Color” Category Metafield (if not already present)
 
-If you do **not** yet have a **Color** metafield set up as a **category metafield** in your Shopify admin, follow these steps to create one:
+If you do **not** yet have a **Color** metafield set up as a **category metafield** in your Shopify admin, follow these steps to create one. For more details on category metafields, see the [Shopify Category Metafields guide](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields).
 
 1. In your Shopify admin, go to **Settings > Custom data > Products** .
 2. Click **Add definition** .
