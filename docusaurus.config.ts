@@ -57,6 +57,22 @@ const config: Config = {
       attributes: {},
       innerHTML: `window.fwSettings={'widget_id':204000000466};!function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}()`,
     },
+    {
+      tagName: 'script',
+      attributes: { type: 'application/ld+json' },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'Wonder Theme Documentation',
+        url: 'https://support.wonder-theme.com',
+        description: 'Official documentation for the Wonder Shopify Theme — setup guides, section references, developer APIs, and troubleshooting.',
+        publisher: {
+          '@type': 'Organization',
+          name: 'Nethype',
+          url: 'https://wonder-theme.com',
+        },
+      }),
+    },
   ],
 
   i18n: {

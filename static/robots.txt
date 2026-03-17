@@ -1,0 +1,12 @@
+# Wonder Theme Documentation - support.wonder-theme.com
+# Allow all crawlers including AI bots
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://support.wonder-theme.com/sitemap.xml
+
+# LLMs.txt
+# https://support.wonder-theme.com/llms.txt
+# https://support.wonder-theme.com/llms-full.txt

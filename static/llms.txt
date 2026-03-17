@@ -1,0 +1,148 @@
+# Wonder Theme Documentation
+
+> Wonder is a premium Shopify theme by Jesuspended (nethype). This is the official documentation covering installation, theme settings, sections, product page customization, developer APIs, and troubleshooting. Applies to Wonder Theme v1.0–v2.2+.
+
+## Getting Started
+
+- [Basics](https://support.wonder-theme.com/getting-started/basics): Getting started with the Wonder Theme — installation, initial setup
+- [Customizing Your Theme by Editing Theme Files](https://support.wonder-theme.com/getting-started/basics/customizing-your-theme-by-editing-theme-files): How to safely edit Wonder theme files in Shopify
+- [Sharing a Preview of Your Shopify Theme](https://support.wonder-theme.com/getting-started/basics/sharing-a-preview-of-your-shopify-theme): Generate and share a theme preview link
+- [About Theme](https://support.wonder-theme.com/getting-started/about-theme): Overview of Wonder Theme features and capabilities
+- [Accessibility](https://support.wonder-theme.com/getting-started/about-theme/accessibility): Wonder Theme accessibility features and compliance
+- [Support Policy](https://support.wonder-theme.com/getting-started/about-theme/support-policy): What is and isn't covered by theme support
+- [Refund Policy](https://support.wonder-theme.com/getting-started/about-theme/refund-policy): Refund eligibility and process
+- [Theme Licensing & Transfers](https://support.wonder-theme.com/getting-started/about-theme/theme-licensing): License terms and how to transfer a theme license
+
+## Theme Settings
+
+- [Theme Settings Overview](https://support.wonder-theme.com/theme-settings): Global theme configuration options
+- [Color Swatches](https://support.wonder-theme.com/theme-settings/color-swatches): Set up color swatches for product variants using Shopify metafields
+- [Product Badges](https://support.wonder-theme.com/theme-settings/product-badges): Configure sale, new, sold out, and custom badges on product cards
+- [Cross Sell](https://support.wonder-theme.com/theme-settings/cross-sell): Set up cross-sell product recommendations in the cart
+- [Custom Fonts](https://support.wonder-theme.com/theme-settings/custom-fonts): Upload and configure custom font files in the Wonder Theme
+
+## Product Page
+
+- [Product Page](https://support.wonder-theme.com/product-page/blocks/product-page): Product page layout, gallery styles, and section settings
+- [Title Block](https://support.wonder-theme.com/product-page/blocks/title-block): Product title display and settings
+- [Price Block](https://support.wonder-theme.com/product-page/blocks/price-block): Price display including sale and compare-at prices
+- [Buy Button Block](https://support.wonder-theme.com/product-page/blocks/buy-button-block): Add-to-cart button configuration and dynamic checkout
+- [Variant Picker Block](https://support.wonder-theme.com/product-page/blocks/variant-picker-block): Variant selector with swatches, dropdowns, and pills
+- [Custom Option Block](https://support.wonder-theme.com/product-page/blocks/custom-option-block): Add custom dropdowns, checkboxes, and text inputs to product forms
+- [Featured Icon Block](https://support.wonder-theme.com/product-page/blocks/featured-icon-block): Display feature icons with labels on the product page
+- [Rating Block](https://support.wonder-theme.com/product-page/blocks/rating-block): Star rating display from review apps
+- [Collapsible Tab Block](https://support.wonder-theme.com/product-page/blocks/collapsible-tab-block): Accordion tabs for product descriptions and details
+- [Collapsible Files Row Block](https://support.wonder-theme.com/product-page/blocks/collapsible-files-row-block): Downloadable files in collapsible rows
+- [Feature Icons Block](https://support.wonder-theme.com/product-page/blocks/feature-icons-block): Row of feature icons with text
+- [Feature Tags Block](https://support.wonder-theme.com/product-page/blocks/feature-tags-block): Product feature tags display
+- [Bulletpoints Block](https://support.wonder-theme.com/product-page/blocks/bulletpoints-block): Bullet point list for product features
+- [Promo Block](https://support.wonder-theme.com/product-page/blocks/promo-block): Promotional banner within the product page
+- [Upsell Block](https://support.wonder-theme.com/product-page/blocks/upsell-block): Product upsell recommendations
+- [Complementary Products Block](https://support.wonder-theme.com/product-page/blocks/complementary-products-block): Shopify complementary product recommendations
+- [Inventory Status Block](https://support.wonder-theme.com/product-page/blocks/inventory-status-block): Stock level indicator
+- [Payments Badge Block](https://support.wonder-theme.com/product-page/blocks/payments-badge-block): Payment method icons display
+- [Share Buttons Block](https://support.wonder-theme.com/product-page/blocks/share-buttons-block): Social sharing buttons
+- [Separator Block](https://support.wonder-theme.com/product-page/blocks/separator-block): Visual divider between blocks
+
+### Variants & Media
+
+- [Product Variations](https://support.wonder-theme.com/product-page/variants-media/product-variations): Combined color and size variant listings on collection pages
+- [Product Variations Block](https://support.wonder-theme.com/product-page/variants-media/product-variations-block): Product page block for variant-based listings
+- [Multi-Images Variant Gallery](https://support.wonder-theme.com/product-page/variants-media/multi-images-variant-gallery): Assign multiple images per variant using alt text
+
+## Sections
+
+### Header & Navigation
+
+- [Header](https://support.wonder-theme.com/sections/header-navigation/header): Site header configuration — logo, menus, sticky/transparent modes
+- [Announcement Bar](https://support.wonder-theme.com/sections/header-navigation/announcement-bar): Top-of-page announcement banners with auto-rotate
+- [Mega Menu Guide](https://support.wonder-theme.com/sections/header-navigation/how-to-set-up-a-mega-menu-promotion-menu-in-your-shopify-theme-a-step-by-step-guide): Setting up mega menus with promotional content
+- [Transparent Header Guide](https://support.wonder-theme.com/sections/header-navigation/how-to-set-up-a-transparent-header-in-the-wonder-theme): Enabling transparent header on specific pages
+- [Logo Banner](https://support.wonder-theme.com/sections/header-navigation/logo-banner): Logo/video banner for header group
+- [Logo Banner with Text](https://support.wonder-theme.com/sections/header-navigation/logo-banner-with-text): Animated logo banner with text overlay
+
+### Banners
+
+- [Slideshow](https://support.wonder-theme.com/sections/banners/slideshow): Full-width image/video slideshow carousel
+- [Image Banner](https://support.wonder-theme.com/sections/banners/image-banner): Static image banner with optional countdown timer
+- [Banner Card](https://support.wonder-theme.com/sections/banners/banner-card): Card-style banner with image and text
+- [Image with Text with Countdown](https://support.wonder-theme.com/sections/banners/image-with-text-with-countdown): Split image/text section with countdown timer
+- [Image with Video (Home)](https://support.wonder-theme.com/sections/banners/image-with-video-home): Header group section with embedded video
+- [Scrolling Text Banner](https://support.wonder-theme.com/sections/banners/scrolling-text-banner): Horizontal scrolling text marquee
+
+### Storytelling
+
+- [Image with Text](https://support.wonder-theme.com/sections/storytelling/image-with-text): Side-by-side image and text content
+- [Image with Scrolling Text](https://support.wonder-theme.com/sections/storytelling/image-with-scrolling-text): Sticky image with scrolling text blocks
+- [Image with Video](https://support.wonder-theme.com/sections/storytelling/image-with-video): Image paired with embedded video
+- [Image with Table](https://support.wonder-theme.com/sections/storytelling/image-with-table): Image with specifications table
+- [Lookbook](https://support.wonder-theme.com/sections/storytelling/lookbook): Lookbook-style image layout section
+- [Rich Text with Image](https://support.wonder-theme.com/sections/storytelling/rich-text-with-image): Rich text content with featured image
+- [Grid View](https://support.wonder-theme.com/sections/storytelling/grid-view): Multi-column grid layout section
+- [Collage](https://support.wonder-theme.com/sections/storytelling/collage): Asymmetric collage image layout
+- [Multicolumn](https://support.wonder-theme.com/sections/storytelling/multicolumn): Multi-column content blocks
+- [Marquee Images](https://support.wonder-theme.com/sections/storytelling/marquee-images): Auto-scrolling image marquee
+- [Parallax Section](https://support.wonder-theme.com/sections/storytelling/parallax-section): Parallax scrolling effect section
+- [Collection Links](https://support.wonder-theme.com/sections/storytelling/collection-links): Visual collection navigation links
+- [Brands](https://support.wonder-theme.com/sections/storytelling/brands): Brand logo showcase section
+- [Before and After](https://support.wonder-theme.com/sections/storytelling/before-and-after): Before/after image comparison slider
+
+### Collections
+
+- [Collection List](https://support.wonder-theme.com/sections/collections/collection-list): Display multiple collections in a grid
+- [Feature Collection](https://support.wonder-theme.com/sections/collections/feature-collection): Showcase featured collection products
+
+### Products
+
+- [Featured Product](https://support.wonder-theme.com/sections/products/featured-product): Full product section outside the product page
+- [Products Slider](https://support.wonder-theme.com/sections/products/products-slider): Horizontal product carousel
+- [Product Recommendations](https://support.wonder-theme.com/sections/products/product-recommendations): AI-powered product recommendations section
+- [Shoppable Image](https://support.wonder-theme.com/sections/products/shoppable-image): Image with clickable product hotspots
+- [Benefits Product](https://support.wonder-theme.com/sections/products/benefits-product): Product benefits showcase section
+
+### Video
+
+- [Shoppable Video](https://support.wonder-theme.com/sections/video/shoppable-video): Interactive video with product links
+- [Shoppable Video Reels](https://support.wonder-theme.com/sections/video/shoppable-video-reels): TikTok-style shoppable video carousel
+- [Video Reels with Product Block](https://support.wonder-theme.com/sections/video/video-reels-with-product-block): Video reels paired with product info
+- [Benefits Video Reels](https://support.wonder-theme.com/sections/video/benefits-video-reels): Video reels showcasing product benefits
+- [Background Video](https://support.wonder-theme.com/sections/video/background-video): Full-width background video section
+
+### Testimonials
+
+- [Testimonial Images](https://support.wonder-theme.com/sections/testimonials/testimonial-images): Customer testimonials with image slider
+- [Testimonial Video Reels](https://support.wonder-theme.com/sections/testimonials/testimonial-video-reels): Video testimonial carousel
+
+### Text & Forms
+
+- [Newsletter with Image](https://support.wonder-theme.com/sections/text-forms/newsletter-with-image): Email signup form with featured image
+- [Notification Pop-up](https://support.wonder-theme.com/sections/text-forms/notification-pop-up): On-page notification/newsletter popup
+- [Features Banner](https://support.wonder-theme.com/sections/text-forms/features-banner): Feature highlights banner
+- [Featured Navigation](https://support.wonder-theme.com/sections/text-forms/featured-navigation): Visual page/collection navigation
+- [Map Section](https://support.wonder-theme.com/sections/text-forms/map-section): Google Maps embedded section
+- [AI Section](https://support.wonder-theme.com/sections/text-forms/ai-section): AI-generated content section
+- [Specification Table Block](https://support.wonder-theme.com/sections/text-forms/specification-table-block): Product specification table
+
+## Guides
+
+- [Customizing the Variant Picker](https://support.wonder-theme.com/guides/how-to-articles/a-complete-guide-to-customizing-the-variant-picker): Complete guide to variant picker styles, swatches, and metafields
+- [Personalizing Product Pages with Custom Options](https://support.wonder-theme.com/guides/how-to-articles/a-step-by-step-guide-to-personalizing-your-product-pages-with-custom-options): Add dropdowns, checkboxes, and text inputs to product forms
+- [Setting Up Product Variations Block](https://support.wonder-theme.com/guides/how-to-articles/how-to-set-up-a-product-variations-block-in-product-page): Step-by-step guide to product variations on the product page
+- [Standard Variant Picker vs. Product Variations Block](https://support.wonder-theme.com/guides/how-to-articles/standard-variant-picker-vs-product-variations-block): Comparison of the two variant display approaches
+- [Maximizing SEO Potential](https://support.wonder-theme.com/guides/how-to-articles/maximizing-seo-potential-within-your-theme): SEO optimization tips for Wonder Theme stores
+- [Page Speed Mastery](https://support.wonder-theme.com/guides/how-to-articles/unlocking-page-speed-mastery-for-your-shopify-store): Performance optimization techniques for Shopify
+- [Reviews App Comparison](https://support.wonder-theme.com/guides/how-to-articles/which-reviews-app-should-you-use-on-shopify-free-paid-options): Free and paid Shopify review app recommendations
+
+## Developer
+
+- [Developer Overview](https://support.wonder-theme.com/developer): Technical documentation index for developers and agencies
+- [JavaScript Events Reference](https://support.wonder-theme.com/developer/javascript-events): All 15+ pub/sub and DOM events with payloads and code examples
+- [Cart Drawer JavaScript API](https://support.wonder-theme.com/developer/cart-drawer-api): Programmatic control of the cart drawer for third-party integrations
+- [Theme Architecture Overview](https://support.wonder-theme.com/developer/theme-architecture): File organization, JavaScript/CSS/Liquid architecture, and custom code best practices
+- [CSS Variables Reference](https://support.wonder-theme.com/developer/css-variables): 380+ CSS custom properties for colors, typography, spacing, and animations
+- [Web Components Reference](https://support.wonder-theme.com/developer/web-components): All 45+ custom elements with public methods and APIs
+
+## Optional
+
+- [FAQ & Troubleshooting](https://support.wonder-theme.com/faq-troubleshooting): Common issues and solutions
+- [Changelog](https://support.wonder-theme.com/changelog): Version history from v1.0.0 to v2.2.1
