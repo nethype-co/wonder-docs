@@ -1,6 +1,6 @@
 # Wonder Theme Documentation
 
-> Wonder is a premium Shopify theme by Jesuspended (nethype). This is the official documentation covering installation, theme settings, sections, product page customization, developer APIs, and troubleshooting. Applies to Wonder Theme v1.0–v2.2+.
+> Wonder is a premium Shopify theme by Nethype. This is the official documentation covering installation, theme settings, sections, product page customization, developer APIs, and troubleshooting. Applies to Wonder Theme v1.0–v2.2+.
 
 ## Getting Started
 

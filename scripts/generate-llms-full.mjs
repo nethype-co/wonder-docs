@@ -98,7 +98,7 @@ async function main() {
 
   const output = `# Wonder Theme — Complete Documentation
 
-> This file contains the complete documentation for the Wonder Theme, a premium Shopify theme by Jesuspended (nethype). It covers installation, theme settings, all sections, product page blocks, developer APIs, and troubleshooting. Current version: v2.2.1.
+> This file contains the complete documentation for the Wonder Theme, a premium Shopify theme by Nethype. It covers installation, theme settings, all sections, product page blocks, developer APIs, and troubleshooting. Current version: v2.2.1.
 
 > Source: https://support.wonder-theme.com
 > Last generated: ${new Date().toISOString().split("T")[0]}
