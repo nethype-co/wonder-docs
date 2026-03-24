@@ -3,32 +3,79 @@ title: "Maximizing SEO Potential Within Your Theme"
 sidebar_label: "Maximizing SEO Potential Within Your Theme"
 ---
 
-## **Maximizing SEO Potential Within Your Theme** 
+## Maximizing SEO Potential Within Your Theme
 
-Unleashing the power of SEO settings within your theme is a strategic move to enhance your website's discoverability on search engines. Here's your guide to optimizing these settings:
+Wonder Theme includes built-in SEO features to help your store rank better in search engines. This guide covers microdata schema and breadcrumb navigation — two key areas you can configure.
 
-### **1. Embracing Microdata Schema:** 
+---
 
-* Our themes come with built-in microdata schema, a structured data format that search engines like Google greatly appreciate. This structured data empowers search engines to grasp the content on your web pages, leading to more precise search results for users.
-* The microdata schema integrated into our themes includes essential information:
-- Store details (organization)
-- Breadcrumb navigation
-- Product information: Product name, Product URL, Product variants, Product images
+## Microdata Schema
 
-* If you desire greater control or need to include additional information, our themes offer the flexibility to disable the theme's microdata schema. This opens the door for you to implement custom solutions tailored to your specific requirements.
+Wonder Theme includes structured data (microdata schema) that helps search engines like Google understand your page content and display richer search results.
 
-### **2. Navigational Benefits of Breadcrumbs:** 
+### What's included
 
-* Breadcrumbs are a user-friendly navigation feature seamlessly integrated into our themes.
-* To enhance the user experience, especially for product and collection navigation, our themes adopt a breadcrumb structure that resembles this format: home/collection-name/product-name
+The built-in schema covers:
 
-* However, this structure may lead to multiple URLs for the same product, such as:
-- myshop.com/collections/creams/products/firming-face-serum-orange-12-ml
-- myshop.com/collections/women/products/firming-face-serum-orange-12-ml
+- **Store details** — Organization name, logo, and contact information
+- **Breadcrumb navigation** — Page hierarchy for search result display
+- **Product information** — Name, URL, variants, images, price, and availability
 
-* In contrast, Shopify ensures a single canonical URL for each product, following this format:
-- myshop.com/products/firming-face-serum-orange-12-ml
+### Disabling the built-in schema
 
-* The debate over the impact of multiple URLs on SEO continues. To make the right choice, carefully consider your priorities and objectives. In most scenarios, if your website utilizes breadcrumbs, retaining this feature is beneficial as it enhances the overall user experience.
+If you use a dedicated SEO app or need custom structured data, you can disable the theme's built-in microdata schema in **Theme Settings**. This lets you implement your own solution without conflicts.
 
-In summary, optimizing SEO settings within your theme, including microdata schema and breadcrumbs, is a strategic step to improve your website's visibility on search engines. Balancing the benefits of structured data and enhanced navigation against potential duplicate URLs is key to making the right decision for your SEO strategy and user satisfaction goals.
+:::tip
+You can validate your structured data using [Google's Rich Results Test](https://search.google.com/test/rich-results) to make sure everything is set up correctly.
+:::
+
+---
+
+## Breadcrumbs
+
+Breadcrumbs provide a navigational trail that helps both users and search engines understand your site hierarchy.
+
+### How breadcrumbs work in Wonder
+
+Wonder Theme uses collection-based breadcrumb paths:
+
+```
+Home → Collection Name → Product Name
+```
+
+For example, if a customer navigates to a product through the "Creams" collection, the breadcrumb shows:
+
+```
+Home → Creams → Firming Face Serum
+```
+
+### Multiple URL paths
+
+Because products can belong to multiple collections, the same product may be accessible through different URLs:
+
+- `myshop.com/collections/creams/products/firming-face-serum`
+- `myshop.com/collections/women/products/firming-face-serum`
+
+This does **not** cause duplicate content issues because Shopify automatically sets a single canonical URL for every product:
+
+- `myshop.com/products/firming-face-serum`
+
+The canonical URL tells search engines which version is the "official" one, so your SEO is not negatively affected.
+
+### Should you keep breadcrumbs enabled?
+
+Yes, in most cases. Breadcrumbs improve:
+
+- **User experience** — Visitors can easily navigate back to parent collections
+- **Search appearance** — Google may display breadcrumb paths directly in search results
+- **Site structure signals** — Search engines better understand your content hierarchy
+
+---
+
+## Additional SEO tips
+
+- **Write unique meta titles and descriptions** for each product and collection in Shopify Admin → Edit SEO
+- **Use descriptive alt text** on all images — this helps with Google Image search
+- **Optimize page speed** — See our [Page Speed Mastery](/guides/how-to-articles/unlocking-page-speed-mastery-for-your-shopify-store) guide
+- **Use clean URL handles** — Keep product and collection URLs short and keyword-rich
+- **Submit your sitemap** to Google Search Console at `yourstore.com/sitemap.xml`
