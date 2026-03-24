@@ -170,6 +170,7 @@ const config: Config = {
           { from: '/question/bulletpoints-block', to: '/product-page/blocks/bulletpoints-block' },
           { from: '/question/buy-button-block', to: '/product-page/blocks/buy-button-block' },
           { from: '/question/collapsible-files-row-block', to: '/product-page/blocks/collapsible-files-row-block' },
+          { from: '/product-page/blocks/collapsible-files-tab-block', to: '/product-page/blocks/collapsible-files-row-block' },
           { from: '/question/collapsible-tab-block', to: '/product-page/blocks/collapsible-tab-row' },
           { from: '/product-page/blocks/collapsible-tab-block', to: '/product-page/blocks/collapsible-tab-row' },
           { from: '/question/complementary-products-block', to: '/product-page/blocks/complementary-products-block' },
