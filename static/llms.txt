@@ -31,7 +31,7 @@
 - [Custom Option Block](https://support.wonder-theme.com/product-page/blocks/custom-option-block): Add custom dropdowns, checkboxes, and text inputs to product forms
 - [Featured Icon Block](https://support.wonder-theme.com/product-page/blocks/featured-icon-block): Display feature icons with labels on the product page
 - [Rating Block](https://support.wonder-theme.com/product-page/blocks/rating-block): Star rating display from review apps
-- [Collapsible Tab Block](https://support.wonder-theme.com/product-page/blocks/collapsible-tab-block): Accordion tabs for product descriptions and details
+- [Collapsible Tab Row](https://support.wonder-theme.com/product-page/blocks/collapsible-tab-row): Collapsible content rows for product descriptions and details
 - [Collapsible Files Row Block](https://support.wonder-theme.com/product-page/blocks/collapsible-files-row-block): Downloadable files in collapsible rows
 - [Feature Icons Block](https://support.wonder-theme.com/product-page/blocks/feature-icons-block): Row of feature icons with text
 - [Feature Tags Block](https://support.wonder-theme.com/product-page/blocks/feature-tags-block): Product feature tags display

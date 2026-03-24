@@ -124,7 +124,7 @@ General settings that apply across your entire Wonder theme.
 - [Bulletpoints Block](product-page/blocks/bulletpoints-block)
 - [Buy Button Block](product-page/blocks/buy-button-block)
 - [Collapsible Files Row](product-page/blocks/collapsible-files-row-block)
-- [Collapsible Tab](product-page/blocks/collapsible-tab-block)
+- [Collapsible Tab Row](product-page/blocks/collapsible-tab-row)
 - [Complementary Products](product-page/blocks/complementary-products-block)
 - [Feature Icons](product-page/blocks/feature-icons-block)
 - [Feature Tags](product-page/blocks/feature-tags-block)

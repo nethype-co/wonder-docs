@@ -1,9 +1,9 @@
 ---
-title: "Collapsible tab block"
-sidebar_label: "Collapsible tab block"
+title: "Collapsible tab row"
+sidebar_label: "Collapsible tab row"
 ---
 
-## **Collapsible tab block** 
+## **Collapsible tab row** 
 
 Keep your product pages sleek and informative with our Collapsible Tab section. Add a clear heading like 'Wash & Care' to summarize content for easy navigation. Within the tab, detail care instructions to help customers maintain the quality of their purchase. For more extensive guidelines, link directly to a dedicated page. Enhancing usability, consider adding an icon to draw attention to these essential care instructions, ensuring your customers have all the information they need at a glance.
 
