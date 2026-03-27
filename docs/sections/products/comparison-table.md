@@ -9,6 +9,8 @@ import DocVideo from '@site/src/components/DocVideo';
 
 The **Comparison Table** section lets you present a side-by-side comparison of your product against competitors or alternative options in a clean, structured layout. Each row represents a feature or attribute, while columns represent the products being compared — making it easy for customers to see your product's advantages at a glance.
 
+![Comparison Table](/img/docs/Comparison-table.jpg)
+
 ## Main settings
 
 **General**
