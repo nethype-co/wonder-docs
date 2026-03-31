@@ -58,4 +58,6 @@ Each **Testimonial** block represents a single customer review card displayed wi
 * **Adjust image height for desktop**: Set the display height of the author image on desktop.
 * **Adjust image height for mobile**: Set the display height of the author image on mobile devices.
 
+## How to setup Testimonial Marquee section?
+
 <DocVideo src="/img/docs/Testimonial-Marquee.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
