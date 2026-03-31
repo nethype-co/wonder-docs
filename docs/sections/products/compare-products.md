@@ -85,4 +85,6 @@ Each **Table Row** represents a single comparison entry displayed across both pr
 * **Select Icon**: Choose an icon from the available icon set to display in the right cell.
 * **Right icon height**: Adjust the size of the icon using the slider or by entering a value manually in pixels.
 
+## How to setup compare products section?
+
 <DocVideo src="/img/docs/Compare-Products.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
