@@ -1,6 +1,6 @@
 ---
-title: "Feature Collection"
-sidebar_label: "Feature Collection"
+title: "Featured Collection"
+sidebar_label: "Featured Collection"
 ---
 
 ### What is the Featured Collection section?
