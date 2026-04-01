@@ -69,4 +69,6 @@ Each column has the following independent settings:
 
 Each cell supports three content types — text, icon, or image — giving you full flexibility to mix and match how information is presented across different rows and columns.
 
+## How to setup comparison table section?
+
 <DocVideo src="/img/docs/comparison-table.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
