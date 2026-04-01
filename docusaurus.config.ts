@@ -138,7 +138,8 @@ const config: Config = {
           { from: '/question/video-reels-with-product-block', to: '/sections/video/video-reels-with-product-block' },
           // Sections — Collections
           { from: '/question/collection-list', to: '/sections/collections/collection-list' },
-          { from: '/question/collection-feature', to: '/sections/storytelling/collection-links' },
+          { from: '/question/collection-feature', to: '/sections/collections/collection-links' },
+          { from: '/sections/storytelling/collection-links', to: '/sections/collections/collection-links' },
           // Sections — Storytelling
           { from: '/question/before-and-after', to: '/sections/storytelling/before-and-after' },
           { from: '/question/brand', to: '/sections/storytelling/brands' },

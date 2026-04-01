@@ -83,7 +83,7 @@
 - [Multicolumn](https://support.wonder-theme.com/sections/storytelling/multicolumn): Multi-column content blocks
 - [Marquee Images](https://support.wonder-theme.com/sections/storytelling/marquee-images): Auto-scrolling image marquee
 - [Parallax Section](https://support.wonder-theme.com/sections/storytelling/parallax-section): Parallax scrolling effect section
-- [Collection Links](https://support.wonder-theme.com/sections/storytelling/collection-links): Visual collection navigation links
+- [Collection Links](https://support.wonder-theme.com/sections/collections/collection-links): Visual collection navigation links
 - [Brands](https://support.wonder-theme.com/sections/storytelling/brands): Brand logo showcase section
 - [Before and After](https://support.wonder-theme.com/sections/storytelling/before-and-after): Before/after image comparison slider
 

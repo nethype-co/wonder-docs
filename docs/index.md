@@ -73,6 +73,7 @@ General settings that apply across your entire Wonder theme.
 - [Video Reels with Product Block](sections/video/video-reels-with-product-block)
 
 ### [Collections](sections/collections)
+- [Collection Links](sections/collections/collection-links)
 - [Collection List](sections/collections/collection-list)
 
 </div>
@@ -82,7 +83,6 @@ General settings that apply across your entire Wonder theme.
 - [Before and After](sections/storytelling/before-and-after)
 - [Brands](sections/storytelling/brands)
 - [Collage](sections/storytelling/collage)
-- [Collection Links](sections/storytelling/collection-links)
 - [Grid View](sections/storytelling/grid-view)
 - [Image with Table](sections/storytelling/image-with-table)
 - [Image with Text](sections/storytelling/image-with-text)
