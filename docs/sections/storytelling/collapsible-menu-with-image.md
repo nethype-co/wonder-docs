@@ -9,7 +9,7 @@ import DocVideo from '@site/src/components/DocVideo';
 
 The **Collapsible Menu with Image** section lets you display an image alongside a set of collapsible content rows — making it ideal for presenting product details like shipping info, care instructions, or size guides in a clean, space-saving layout.
 
-![Collapsible Menu with Image](/img/docs/collapsible-menu-with-image.jpg)
+![Collapsible Menu with Image](/img/docs/collapsible-menu-with-image.png)
 
 ## Main settings
 
@@ -55,6 +55,10 @@ All color fields default to Transparent, which inherits values from your global 
 
 * **Distance from the top**: Adjust the spacing above the section.
 * **Distance from the bottom**: Adjust the spacing below the section.
+
+## Mobile view example
+
+![Collapsible Menu with Image Mobile](/img/docs/collapsible-menu-with-image-mobile.png)
 
 ## Customize Collapsible Row Block
 
