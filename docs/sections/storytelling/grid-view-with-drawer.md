@@ -45,6 +45,12 @@ The Transparent value is the default and subsequently inherits the value from th
 * **Distance from the top**: Adjust the spacing above the section.
 * **Distance from the bottom**: Adjust the spacing below the section.
 
+## Mobile view example
+
+<div style={{display: "flex", justifyContent: "center"}}>
+<DocVideo src="/img/docs/grid_view_drawer-mobile.webm" autoPlay playsInline muted loop style={{width: "40%", marginBottom: "20px", borderRadius: "8px"}} />
+</div>
+
 ## Card Block
 
 The **Card** block represents a single item within the Grid View with Drawer section. Each card displays an image, heading, and text, and can open a drawer with additional details.
@@ -90,3 +96,7 @@ The Transparent value is the default and inherits its value from the section set
 * **Image**: Upload or select an image shown inside the drawer.
 * **Tab content**: Add additional details related to this card item. Content will be displayed inside the drawer.
 * **Tab content from page**: Select a page whose content will be used as the drawer tab content.
+
+## How to setup Grid View with Drawer section?
+
+<DocVideo src="/img/docs/grid_view_drawer.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
