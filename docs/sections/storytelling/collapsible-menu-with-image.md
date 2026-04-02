@@ -82,4 +82,6 @@ Settings for the icon displayed next to the heading.
 * **Icon top margin desktop**: Set the top margin of the icon on desktop, in pixels, to fine-tune its vertical alignment relative to the heading.
 * **Icon top margin mobile**: Set the top margin of the icon on mobile, in pixels, to fine-tune its vertical alignment relative to the heading.
 
+## How to set up Collapsible Menu with Image section?
+
 <DocVideo src="/img/docs/collapsible-menu-with-image.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
