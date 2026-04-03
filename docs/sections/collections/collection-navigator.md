@@ -3,9 +3,13 @@ title: "Collection Navigator"
 sidebar_label: "Collection Navigator"
 ---
 
+import DocVideo from '@site/src/components/DocVideo';
+
 ## What is the Collection Navigator section?
 
 The Collection Navigator section allows you to display products from multiple collections in a single tabbed interface. Customers can switch between collections using the navigation tabs, making it easy to browse different product categories without leaving the page.
+
+<DocVideo src="/img/docs/collection-navigator-desktop.webm" autoPlay playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
 
 ## Main settings
 
@@ -58,6 +62,10 @@ The Transparent value is the default and inherits settings from the global theme
 - **Top distance:** Control the spacing above the section.
 - **Bottom distance:** Control the spacing below the section.
 
+## Mobile view example
+
+<DocVideo src="/img/docs/collection-navigator-mobile.webm" autoPlay playsInline muted loop style={{width: "40%", display: "block", marginBottom: "20px", marginLeft: "auto", marginRight: "auto", borderRadius: "8px"}} />
+
 ## Customize Collection blocks
 
 Each Collection block represents a single tab within the Collection Navigator section. Use the **Add Collection** button to add more tabs, each displaying products from a different collection.
@@ -65,3 +73,7 @@ Each Collection block represents a single tab within the Collection Navigator se
 - **Tab label:** Enter the name displayed on the navigation tab using the rich text editor.
 - **Collection:** Select the collection whose products will be displayed when this tab is active.
 - **Products:** Manually select specific products to display in this tab. When set, these replace the products pulled automatically from the selected collection.
+
+## How to set up Collection Navigator
+
+<DocVideo src="/img/docs/collection-navigator.webm" controls  muted  style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
