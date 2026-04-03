@@ -55,6 +55,10 @@ The Transparent value is the default and subsequently inherits the value from th
 - **Top distance:** Adjust the spacing above the section.
 - **Bottom distance:** Adjust the spacing below the section.
 
+### Mobile view example
+
+<DocVideo src="/img/docs/featured-collection-tabs-mobile.webm" autoPlay playsInline muted loop style={{width: "40%", display: "block", marginBottom: "20px", marginLeft: "auto", marginRight: "auto", borderRadius: "8px"}} />
+
 ### Collection block
 
 The Collection block represents a single tab within the Featured Collections: Tabs section. Use the **Add Collection** button to add more tabs, each displaying products from a different collection.
@@ -65,3 +69,7 @@ The Collection block represents a single tab within the Featured Collections: Ta
 - **Products List:** Manually select specific products to display in this tab. When set, overrides the products pulled automatically from the selected collection.
 - **Maximum products to show:** Define how many products are displayed per collection tab.
 - **Collection Title:** Set a custom title displayed on the navigation tab. If left empty, the collection's actual title will be used instead.
+
+### How to set up Featured Collections Tabs
+
+<DocVideo src="/img/docs/featured-collection-tabs.webm" controls muted style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
