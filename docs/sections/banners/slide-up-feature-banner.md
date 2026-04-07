@@ -166,9 +166,15 @@ The Transparent value is the default and subsequently inherits the value from th
 - **Distance from the top:** Adjust the spacing above the Bottom content block.
 - **Distance from the bottom:** Adjust the spacing below the text block.
 
+## How to set up Bottom Content block
+
+<DocVideo src="/img/docs/blur-banner-bottom-content.webm" muted controls style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
+
 ## Icons Container block
 
 The Icons Container block groups multiple Icon blocks into a structured grid layout within the Bottom content area.
+
+![Icons Container block](/img/docs/blur-banner-icons-container.png)
 
 - **Enable advanced settings:** Activate additional layout configuration options.
 
@@ -215,9 +221,15 @@ The Icon block represents a single feature entry within the Icons Container. Use
 - **Text:** Add a description for this feature. Rich text formatting options are available.
 - **Link:** Assign a URL or page link to this icon block.
 
+## How to set up Icons Container block
+
+<DocVideo src="/img/docs/blur-banner-icons-container.webm" muted controls style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
+
 ## Cards Container block
 
 The Cards Container block allows you to display a grid of visually rich content cards, each combining an image, heading, and descriptive text. It is ideal for showcasing product features, use cases, or any categorized content in a structured and engaging layout.
+
+![Cards Container block](/img/docs/blur-banner-cards-container.png)
 
 **General**
 
@@ -280,3 +292,7 @@ The Transparent value is the default and subsequently inherits the value from th
 - **Style:** Choose the visual style of the button.
 - **Text:** Set the button label.
 - **Link:** Assign a URL or page link to the button.
+
+## How to set up Cards Container block
+
+<DocVideo src="/img/docs/blur-banner-cards-container.webm" muted controls style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
