@@ -9,12 +9,12 @@ import DocVideo from '@site/src/components/DocVideo';
 
 The Slide-up Feature Banner section allows you to create a dynamic full-screen hero banner with layered content. The section is split into two distinct content areas — Top content and Bottom content — which stack vertically to create an immersive scrolling experience with an optional blur effect between them.
 
-<DocVideo src="/img/docs/blur-banner-main.webm" autoPlay playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
+<DocVideo src="/img/docs/slide-up-feature-banner-main.webm" autoPlay playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
 
 ## Mobile view example
 
 <div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
-  <DocVideo src="/img/docs/blur-banner-main-mobile.webm" autoPlay playsInline muted loop style={{width: "auto", maxWidth: "400px", borderRadius: "8px"}} />
+  <DocVideo src="/img/docs/slide-up-feature-banner-main-mobile.webm" autoPlay playsInline muted loop style={{width: "auto", maxWidth: "400px", borderRadius: "8px"}} />
 </div>
 
 ## Main settings
@@ -54,6 +54,8 @@ The Transparent value is the default and subsequently inherits the value from th
 ## Top Content block
 
 The Top Content block contains the primary foreground elements displayed over the banner background. Use the **Add Block** button to add content elements to this area.
+
+![Top Content block](/img/docs/slide-up-feature-banner-top.png)
 
 **Settings**
 
@@ -133,7 +135,7 @@ The Button block adds one or two call-to-action buttons to the Top content area.
 
 ## How to set up Top Content block
 
-<DocVideo src="/img/docs/blur-banner-main-settings.webm"   muted controls style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
+<DocVideo src="/img/docs/slide-up-feature-banner-main-settings.webm"   muted controls style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
 
 ## Bottom Content block
 
@@ -168,13 +170,13 @@ The Transparent value is the default and subsequently inherits the value from th
 
 ## How to set up Bottom Content block
 
-<DocVideo src="/img/docs/blur-banner-bottom-content.webm" muted controls style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
+<DocVideo src="/img/docs/slide-up-feature-banner-bottom-content.webm" muted controls style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
 
 ## Icons Container block
 
 The Icons Container block groups multiple Icon blocks into a structured grid layout within the Bottom content area.
 
-![Icons Container block](/img/docs/blur-banner-icons-container.png)
+![Icons Container block](/img/docs/slide-up-feature-banner-icons-container.png)
 
 - **Enable advanced settings:** Activate additional layout configuration options.
 
@@ -223,13 +225,13 @@ The Icon block represents a single feature entry within the Icons Container. Use
 
 ## How to set up Icons Container block
 
-<DocVideo src="/img/docs/blur-banner-icons-container.webm" muted controls style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
+<DocVideo src="/img/docs/slide-up-feature-banner-icons-container.webm" muted controls style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
 
 ## Cards Container block
 
 The Cards Container block allows you to display a grid of visually rich content cards, each combining an image, heading, and descriptive text. It is ideal for showcasing product features, use cases, or any categorized content in a structured and engaging layout.
 
-![Cards Container block](/img/docs/blur-banner-cards-container.png)
+![Cards Container block](/img/docs/slide-up-feature-banner-cards-container.png)
 
 **General**
 
@@ -295,4 +297,4 @@ The Transparent value is the default and subsequently inherits the value from th
 
 ## How to set up Cards Container block
 
-<DocVideo src="/img/docs/blur-banner-cards-container.webm" muted controls style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
+<DocVideo src="/img/docs/slide-up-feature-banner-cards-container.webm" muted controls style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
