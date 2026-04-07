@@ -9,11 +9,7 @@ import DocVideo from '@site/src/components/DocVideo';
 
 The **Compare Products** section allows you to present your product in a visually appealing way, highlighting its features and advantages. It is a flexible section designed to build customer trust by presenting product information clearly and transparently.
 
-<div style={{textAlign: 'center'}}>
-
-![Compare Products](/img/docs/Compare-products.jpg)
-
-</div>
+![Compare Products](/img/docs/compare-products-desktop.png)
 
 ## Main Settings
 
@@ -56,6 +52,10 @@ The **Compare Badge** is the circular overlay displayed between the two product 
 * **Badge text**: Enter the text displayed inside the badge using the rich text editor.
 * **Badge background color**: Set the background color of the badge.
 * **Badge text color**: Set the color of the text inside the badge.
+
+## Mobile view example
+
+![Compare Products Mobile](/img/docs/compare-products-mobile.png)
 
 ## Customize Compare Table Block
 
