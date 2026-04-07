@@ -11,6 +11,12 @@ The Slide-up Feature Banner section allows you to create a dynamic full-screen h
 
 <DocVideo src="/img/docs/blur-banner-main.webm" autoPlay playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
 
+## Mobile view example
+
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <DocVideo src="/img/docs/blur-banner-main-mobile.webm" autoPlay playsInline muted loop style={{width: "auto", maxWidth: "400px", borderRadius: "8px"}} />
+</div>
+
 ## Main settings
 
 **General**
@@ -124,6 +130,10 @@ The Button block adds one or two call-to-action buttons to the Top content area.
 - **Disable on mobile:** Hide Button 2 on mobile devices.
 - **Link:** Assign a URL or page link to the button.
 - **Open link as a new window:** Enable to open the linked page in a new browser tab.
+
+## How to set up Top Content block
+
+<DocVideo src="/img/docs/blur-banner-main-settings.webm"   muted controls style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
 
 ## Bottom Content block
 
