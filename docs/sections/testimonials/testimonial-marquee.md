@@ -9,7 +9,7 @@ import DocVideo from '@site/src/components/DocVideo';
 
 The Testimonial: Marquee section lets you display customer reviews in a horizontally auto-scrolling banner — making it ideal for showcasing testimonials, quotes, or recommendations in a dynamic and eye-catching way.
 
-<DocVideo src="/img/docs/Testimonial-Marquee-Live.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
+<DocVideo src="/img/docs/Testimonial-Marquee-Live.webm" autoPlay playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
 
 ## Main settings
 
