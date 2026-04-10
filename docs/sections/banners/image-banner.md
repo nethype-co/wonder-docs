@@ -9,11 +9,11 @@ Image Banner
 
 The Image Banner section allows you to create a visually impactful full-width banner combining background media with overlaid content. It is ideal for hero sections, promotional campaigns, or any area where you want to make a strong visual statement with an image or video paired with text and call-to-action buttons.
 
-<img src="/img/docs/image-banner-section.jpeg" style={{backgroundColor: "#fafafa", boxShadow: "0 2px 8px rgba(0,0,0,0.1)", borderRadius: "8px"}} />
+<img src="/img/docs/image-banner-section.jpeg" style={{backgroundColor: "#fafafa", boxShadow: "0 2px 8px rgba(0,0,0,0.1)", borderRadius: "8px"}} alt=""  />
 
 ### Mobile view example
 
-<img src="/img/docs/image-banner-mobile-view.jpeg" style={{backgroundColor: "#fafafa", boxShadow: "0 2px 8px rgba(0,0,0,0.1)", borderRadius: "8px"}} />
+<img src="/img/docs/image-banner-mobile-view.jpeg" style={{backgroundColor: "#fafafa", boxShadow: "0 2px 8px rgba(0,0,0,0.1)", borderRadius: "8px"}} alt=""  />
 
 ## Main Settings
 
@@ -66,10 +66,8 @@ The Transparent value is the default and subsequently inherits the value from th
 ### Subheading Block
 - **Subheading:** Enter the subheading text.
 - **Disable on mobile:** Hide this subheading block on mobile devices.
-
-<div className="doc-image-preview">
-  <img src="/img/docs/block-subheading.jpg" />
-</div>
+  
+<img src="/img/docs/block-subheading.png" alt="" />
 
 ### Heading Block
 The Heading block displays the main headline overlaid on the banner image.
@@ -78,18 +76,14 @@ The Heading block displays the main headline overlaid on the banner image.
 - **Heading scale large screen:** Adjust the font size of the heading on large screens.
 - **Heading scale mobile:** Adjust the font size of the heading on mobile devices.
 
-<div className="doc-image-preview">
-  <img src="/img/docs/block-heading.jpg" />
-</div>
+<img src="/img/docs/block-heading.png" alt="" />
 
 ### Text Block
 The Text block displays supporting body copy overlaid on the banner image.
 - **Text:** Enter the body text displayed on the banner. Rich text formatting options are available.
 - **Disable on mobile:** Hide this text block on mobile devices.
 
-<div className="doc-image-preview">
-  <img src="/img/docs/block-text.png" />
-</div>
+<img src="/img/docs/block-text.png" alt=""/>
 
 ### Button Block
 The Button block adds one or two call-to-action buttons overlaid on the banner image.
@@ -106,9 +100,7 @@ The Button block adds one or two call-to-action buttons overlaid on the banner i
 - **Disable on mobile:** Hide Button 2 on mobile devices.
 - **Link:** Assign a URL or page link to the button.
 
-<div className="doc-image-preview">
-  <img src="/img/docs/block-button.jpg" />
-</div>
+<img src="/img/docs/block-button.png" />
 
 ### Icon with Text Block
 The Icon with Text block displays an icon paired with a short description overlaid on the banner image. It is ideal for highlighting key features or selling points directly within the banner.
@@ -137,14 +129,14 @@ The Icon with Text block displays an icon paired with a short description overla
 - **Spacing from the left desktop:** Adjust the left offset of the block on desktop.
 - **Spacing from the left mobile:** Adjust the left offset of the block on mobile devices.
 
+<img src="/img/docs/block-icon-with-text.png" />
+
 ### Spacer Block
 The Spacer block adds a blank vertical space between content elements within the banner, allowing you to control the layout.
 - **Desktop spacer height:** Define the height of the spacer on desktop.
 - **Mobile spacer height:** Define the height of the spacer on mobile devices.
 
-<div className="doc-image-preview">
-  <img src="/img/docs/block-spacer.jpg" />
-</div>
+<img src="/img/docs/block-spacer.png" />
 
 ### Countdown Timer Block
 The Countdown Timer block displays a live countdown clock overlaid on the banner image, creating urgency for time-sensitive promotions or product launches.
@@ -155,10 +147,7 @@ The Countdown Timer block displays a live countdown clock overlaid on the banner
 - **Timer scale large screen:** Adjust the font size of the countdown timer on large screens.
 - **Timer scale mobile:** Adjust the font size of the countdown timer on mobile devices.
 
-<div className="doc-image-preview">
-  <img src="/img/docs/block-countdown-timer.jpg" />
-</div>
-
+<img src="/img/docs/block-countdown-timer.png" alt="" />
 
 ## How to set up Blocks
 
