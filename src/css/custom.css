@@ -235,6 +235,22 @@ a[class*="cardContainer"]:hover {
   padding-left: 4px;
 }
 
+/* Doc image preview container */
+.doc-image-preview {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.doc-image-preview img {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
 /* Video tutorials responsive grid */
 @media (max-width: 996px) {
   .video-grid {
