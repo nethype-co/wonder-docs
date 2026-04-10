@@ -1,9 +1,9 @@
 ---
-title: "How to Set Up a Mega menu (Promotion Menu) in Your Shopify Theme: A Step-by-Step Guide"
-sidebar_label: "How to Set Up a Mega menu (Promotion Menu) in Your Shopify Theme: A Step-by-Step Guide"
+title: "Promotion Menu"
+sidebar_label: "Promotion Menu"
 ---
 
-## **How to Set Up a Promotion Menu in Your Shopify Theme: A Step-by-Step Guide** 
+## **How to Set Up a Promotion Menu** 
 
 ![](/img/docs/3df9bd434853.jpeg)
 
