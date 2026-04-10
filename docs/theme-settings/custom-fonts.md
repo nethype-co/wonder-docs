@@ -1,9 +1,9 @@
 ---
-title: "Custom Fonts: How to Set Them Up in the Wonder Theme"
+title: "Custom Fonts: How to Set Them Up"
 sidebar_label: "Custom Fonts"
 ---
 
-## Custom Fonts: How to Set Them Up in the Wonder Theme
+## Custom Fonts: How to Set Them Up
 
 Want your store to stand out and feel truly unique? Adding custom fonts is the way to go. Showcase your brand's personality, make your text pop, and create a more memorable shopping experience for your customers—without being limited to default fonts.
 

@@ -9,7 +9,7 @@ import DocVideo from '@site/src/components/DocVideo';
 
 The **Collapsible Menu with Image** section lets you display an image alongside a set of collapsible content rows — making it ideal for presenting product details like shipping info, care instructions, or size guides in a clean, space-saving layout.
 
-![Collapsible Menu with Image](/img/docs/collapsible-menu-with-image.jpg)
+![Collapsible Menu with Image](/img/docs/collapsible-menu-with-image.png)
 
 ## Main settings
 
@@ -56,6 +56,10 @@ All color fields default to Transparent, which inherits values from your global 
 * **Distance from the top**: Adjust the spacing above the section.
 * **Distance from the bottom**: Adjust the spacing below the section.
 
+## Mobile view example
+
+![Collapsible Menu with Image Mobile](/img/docs/collapsible-menu-with-image-mobile.png)
+
 ## Customize Collapsible Row Block
 
 Each **Collapsible Row** represents a single expandable item in the section.
@@ -77,5 +81,7 @@ Settings for the icon displayed next to the heading.
 * **Icon scale mobile**: Adjust the size of the icon on mobile, in pixels.
 * **Icon top margin desktop**: Set the top margin of the icon on desktop, in pixels, to fine-tune its vertical alignment relative to the heading.
 * **Icon top margin mobile**: Set the top margin of the icon on mobile, in pixels, to fine-tune its vertical alignment relative to the heading.
+
+## How to set up Collapsible Menu with Image section?
 
 <DocVideo src="/img/docs/collapsible-menu-with-image.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
