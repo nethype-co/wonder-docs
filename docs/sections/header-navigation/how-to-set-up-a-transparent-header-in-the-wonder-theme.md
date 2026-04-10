@@ -8,7 +8,7 @@ sidebar_label: "Transparent Header"
 ![](/img/docs/8d397618b9f2.jpeg)
 
 In the bustling world of e-commerce, a store's success often hinges on user experience, particularly in how customers navigate your site. Enter the mega-menu, a game-changer in online navigation. This isn't just a menu; it's an essential tool for showcasing your products and enhancing user engagement.
-highlight-menu
+
 In this guide, we'll delve into the integration and optimization of mega-menus within Shopify themes. Whether you're just starting out or are looking to upgrade your store, understanding mega-menus is key to elevating your site's functionality and aesthetic appeal. Ready to transform your Shopify store into a navigational gem? Let's get started.
 
 ### Step 1: **Access Your Theme Customization** 
