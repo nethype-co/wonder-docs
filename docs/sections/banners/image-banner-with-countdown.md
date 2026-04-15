@@ -1,11 +1,15 @@
 ---
-title: "Image banner with countdown"
-sidebar_label: "Image banner with countdown"
+title: "Image Banner with countdown"
+sidebar_label: "Image Banner with countdown"
 ---
+
+import DocVideo from '@site/src/components/DocVideo';
 
 ## What is the Image Banner with Countdown section?
 
 The Image Banner with Countdown section combines a visually impactful full-width banner with a built-in countdown timer. It is ideal for promoting time-sensitive offers, product launches, or seasonal campaigns where creating urgency is key.
+
+<img src="/img/docs/image-banner-countdown.png" style={{backgroundColor: "#fafafa", boxShadow: "0 2px 8px rgba(0,0,0,0.1)", borderRadius: "8px"}} alt=""  />
 
 ## Main Settings
 
@@ -142,3 +146,7 @@ The Countdown Timer block displays a live countdown clock overlaid on the banner
 - **Timer scale mobile:** Adjust the font size of the countdown timer on mobile devices.
 
 <img src="/img/docs/block-countdown-timer.png" alt="" />
+
+## How to setup Image Banner with Countdown section?
+
+<DocVideo src="/img/docs/image-banner-with-countdown.webm" controls muted style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
