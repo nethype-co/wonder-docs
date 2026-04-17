@@ -96,13 +96,13 @@ The Button block adds one or two call-to-action buttons overlaid on the banner i
 
 **Button 1**
 - **Style:** Choose the visual style of the button.
-- **Text:** Set fthe button label.
+- **Text:** Set the button label.
 - **Disable on mobile:** Hide Button 1 on mobile devices.
 - **Link:** Assign a URL or page link to the button.
 
 <img src="/img/docs/block-button-1.png" />
 
-## Table Block
+### Table Block
 
 The **Table** block displays structured product information or specifications in a clean, organized table format. It is ideal for presenting feature comparisons, technical details, or any multi-row data directly on the product page.
 
@@ -130,7 +130,7 @@ The **Table** block displays structured product information or specifications in
 
 <img src="/img/docs/block-table.png" alt="" />
 
-## Icon with Text Block
+### Icon with Text Block
 The Icon with Text block displays an icon paired with a short description overlaid on the banner image. It is ideal for highlighting key features or selling points directly within the banner.
 
 **Icon**

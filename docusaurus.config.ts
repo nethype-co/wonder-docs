@@ -127,7 +127,8 @@ const config: Config = {
           { from: '/question/how-to-set-up-a-transparent-header-in-the-wonder-theme', to: '/sections/header-navigation/how-to-set-up-a-transparent-header-in-the-wonder-theme' },
           // Sections — Banners
           { from: '/question/card-banner', to: '/sections/banners/banner-card' },
-          { from: '/question/image-with-text-with-countdown', to: '/sections/banners/image-with-text-with-countdown' },
+          { from: '/question/image-with-text-with-countdown', to: '/sections/storytelling/image-with-text-with-countdown' },
+          { from: '/sections/banners/image-with-text-with-countdown', to: '/sections/storytelling/image-with-text-with-countdown' },
           { from: '/question/scrolling-text', to: '/sections/banners/scrolling-text-banner' },
           { from: '/question/slideshow', to: '/sections/banners/slideshow' },
           // Sections — Video
