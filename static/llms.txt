@@ -66,7 +66,7 @@
 - [Slideshow](https://support.wonder-theme.com/sections/banners/slideshow): Full-width image/video slideshow carousel
 - [Image Banner](https://support.wonder-theme.com/sections/banners/image-banner): Static image banner with optional countdown timer
 - [Banner Card](https://support.wonder-theme.com/sections/banners/banner-card): Card-style banner with image and text
-- [Image with Text with Countdown](https://support.wonder-theme.com/sections/storytelling/image-with-text-with-countdown): Split image/text section with countdown timer
+- [Image with Text with Countdown](https://support.wonder-theme.com/sections/banners/image-with-text-with-countdown): Split image/text section with countdown timer
 - [Image with Video (Home)](https://support.wonder-theme.com/sections/banners/image-with-video-home): Header group section with embedded video
 - [Scrolling Text Banner](https://support.wonder-theme.com/sections/banners/scrolling-text-banner): Horizontal scrolling text marquee
 

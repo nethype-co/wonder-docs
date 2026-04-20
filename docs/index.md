@@ -61,7 +61,7 @@ General settings that apply across your entire Wonder theme.
 
 ### [Banners](sections/banners)
 - [Banner Card](sections/banners/banner-card)
-- [Image with Text with Countdown](sections/storytelling/image-with-text-with-countdown)
+- [Image with Text with Countdown](sections/banners/image-with-text-with-countdown)
 - [Scrolling Text Banner](sections/banners/scrolling-text-banner)
 - [Slideshow](sections/banners/slideshow)
 
