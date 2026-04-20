@@ -320,6 +320,10 @@ const config: Config = {
               label: 'Video Tutorials',
               to: '/video-tutorials',
             },
+            {
+              label: 'Contact Us',
+              to: '/contact',
+            },
           ],
         },
         {
