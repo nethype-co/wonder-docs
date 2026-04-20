@@ -51,8 +51,7 @@ export default function Contact(): React.JSX.Element {
         {/* Hero */}
         <div
           style={{
-            background: "url('/img/hero-bg.jpg') center / cover no-repeat #000",
-            color: '#fff',
+            color: '#0a2540',
             textAlign: 'center',
             padding: '5rem 1.5rem 4rem',
           }}
