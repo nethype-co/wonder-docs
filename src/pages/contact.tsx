@@ -12,7 +12,7 @@ const cards = [
     descriptionNode: (
       <>
         Have a question or need help? Send us a message and our support team will get back to you. You can also email us at{' '}
-        <a href="mailto:support@nethype.co" style={{color: '#0077b6', textDecoration: 'none', fontWeight: 600}}>support@nethype.co</a>.
+        <a href="mailto:support@nethype.co" className="contact-email-link">support@nethype.co</a>.
       </>
     ),
     action: () => {
@@ -56,7 +56,7 @@ export default function Contact(): React.JSX.Element {
         {/* Hero */}
         <div
           style={{
-            color: '#0a2540',
+            color: 'var(--ifm-font-color-base)',
             textAlign: 'center',
             padding: '5rem 1.5rem 4rem',
           }}

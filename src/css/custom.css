@@ -235,6 +235,21 @@ a[class*="cardContainer"]:hover {
   padding-left: 4px;
 }
 
+/* Contact page */
+.contact-email-link {
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-email-link:hover {
+  text-decoration: underline;
+}
+
+[data-theme='dark'] .contact-email-link {
+  color: #48cae4;
+}
+
 /* Video tutorials responsive grid */
 @media (max-width: 996px) {
   .video-grid {
