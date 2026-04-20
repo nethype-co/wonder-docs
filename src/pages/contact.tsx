@@ -9,7 +9,8 @@ const cards = [
       </svg>
     ),
     title: 'Submit a Request',
-    description: 'Have a question or need help? Send us a message and our support team will get back to you.',
+    description: 'Have a question or need help? Send us a message and our support team will get back to you. You can also email us at support@nethype.co.',
+    email: 'support@nethype.co',
     action: () => {
       if (typeof window !== 'undefined' && (window as any).FreshworksWidget) {
         (window as any).FreshworksWidget('open');
@@ -134,23 +135,40 @@ export default function Contact(): React.JSX.Element {
                 {card.description}
               </p>
               {card.action ? (
-                <button
-                  onClick={card.action}
-                  style={{
-                    marginTop: '0.5rem',
-                    padding: '0.6rem 1.25rem',
-                    borderRadius: 8,
-                    border: 'none',
-                    background: '#0077b6',
-                    color: '#fff',
-                    fontSize: '0.9rem',
-                    fontWeight: 600,
-                    cursor: 'pointer',
-                    fontFamily: 'inherit',
-                  }}
-                >
-                  {card.buttonLabel}
-                </button>
+                <div style={{marginTop: '0.5rem', display: 'flex', flexWrap: 'wrap', gap: '0.5rem', alignItems: 'center'}}>
+                  <button
+                    onClick={card.action}
+                    style={{
+                      padding: '0.6rem 1.25rem',
+                      borderRadius: 8,
+                      border: 'none',
+                      background: '#0077b6',
+                      color: '#fff',
+                      fontSize: '0.9rem',
+                      fontWeight: 600,
+                      cursor: 'pointer',
+                      fontFamily: 'inherit',
+                    }}
+                  >
+                    {card.buttonLabel}
+                  </button>
+                  {card.email && (
+                    <>
+                      <span style={{fontSize: '0.85rem', color: 'var(--ifm-color-emphasis-500)'}}>or</span>
+                      <a
+                        href={`mailto:${card.email}`}
+                        style={{
+                          fontSize: '0.9rem',
+                          fontWeight: 600,
+                          color: '#0077b6',
+                          textDecoration: 'none',
+                        }}
+                      >
+                        {card.email}
+                      </a>
+                    </>
+                  )}
+                </div>
               ) : (
                 <a
                   href={card.link}
