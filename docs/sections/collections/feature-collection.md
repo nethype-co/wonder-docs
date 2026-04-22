@@ -3,55 +3,67 @@ title: "Featured Collection"
 sidebar_label: "Featured Collection"
 ---
 
+import DocVideo from '@site/src/components/DocVideo';
+
 ### What is the Featured Collection section?
 
-The 'Featured Collection' section is a curated showcase spotlighting a selection of products from a specific collection. It serves to highlight new arrivals, bestsellers, or seasonal favorites.
+The Featured Collection section displays products from a selected collection in a clean, organized grid layout. It is ideal for highlighting bestsellers, new arrivals, or any curated product selection directly on the home page or landing pages.
 
 ![](/img/docs/feature-collection-section.jpeg)
 
-### Main settings
+### Mobile view example
 
-![](/img/docs/feature-collection-settings-2.jpeg)
+![](/img/docs/feature-collection-mobile-view.jpeg)
 
-**Core Options**
+### Main Settings
 
-- **Heading:** Set the title for the featured collection.
-- **Disable on Mobile:** Hide the section on mobile devices.
-- **Collection:** Select which collection to feature.
-- **Maximum Products to Show:** Adjust product display count (default: 4).
-- **Enable "View All":** Display a button for full collection viewing.
-- **"View All" Style:** Choose link styling (e.g., Underline Link Button).
+**General**
+
+- **Heading:** Set the title displayed above the product grid. Optionally enable the rich text field to access text formatting options.
+- **Disable on mobile:** Hide the entire section on mobile devices.
+- **Hide section when no products:** When enabled, the section is only visible on the live site when products are available in the selected collection.
+- **Collection:** Select the collection whose products will be displayed in this section.
+- **Products:** Manually select specific products to display. Click Show more to see additional products or Change to replace the selected collection.
+- **Maximum products to show:** Define the maximum number of products displayed in the section.
+- **Enable stack products:** Enable stacking behavior for product cards within the section.
+- **Enable "View all" if collection has more products than shown:** Display a "View all" button when the collection contains more products than the current display limit.
+- **"View all" style:** Choose the visual style of the "View all" button.
 
 **Large Screen Version**
 
-- **Products per slide:** Set the number of products per slide on desktop (default: 4).
-- **Spacing:** Choose spacing between products: 8px, 16px, or 24px.
-- **Make products full width:** Enable to stretch products to full container width.
+- **Products per row on desktop:** Define how many product columns are displayed on desktop.
+- **Spacing between products on desktop:** Define the gap between product cards on desktop — 8px, 16px, or 24px.
+- **Make products full width:** Enable this toggle to stretch product cards to full width on desktop.
 
 **Mobile Version**
 
-- **Products per slide:** Set the number of products per slide on mobile (default: 2.1).
+- **Products per row on mobile:** Define how many product columns are displayed on mobile.
+- **Spacing between columns on mobile:** Define the gap between product cards on mobile — 4px, 8px, 12px, or 16px.
 
 **Product Card**
 
-- **Text alignment:** Center or Left.
-- **Image ratio:** Adapt to image, Portrait, or Square.
-- **Show product media videos:** Display product videos in the card.
-- **Show second image on hover:** Enable hover image swap.
-- **Show vendor name:** Display the product vendor.
-- **Show product rating:** Show star ratings.
-- **Enable quick add button:** Add a quick-add-to-cart button.
+- **Text alignment:** Set the alignment of product text — Center or Left.
+- **Image ratio:** Define the aspect ratio of product images.
+- **Show product media video:** Enable to display video for products with Shopify-hosted videos.
+- **Show second image on hover:** Display an alternate product image when a customer hovers over the product card.
+- **Show vendor:** Display the product vendor name on each product card.
+- **Enable vendor link:** Make the vendor name a clickable link.
+- **Show product rating:** Display the product rating on each card. Requires a product rating app to be installed.
+- **Enable quick add button:** Display a quick add-to-cart button directly on the product card. Recommended for lower-priced items to facilitate quick shopping.
+- **Desktop button position:** Choose where the quick add button appears on desktop — Below product or On hover.
 
 **Colors**
 
-- **Text color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
-- **Background color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
+The Transparent value is the default and subsequently inherits the value from the global settings.
+
+- **Text color:** Define the global text color for the section.
+- **Background color:** Customize the background color of the entire section.
 
 **Section Spacing**
 
-- **Distance from the top:** Default 20px.
-- **Distance from the bottom:** Default 20px.
+- **Top distance:** Adjust the spacing above the section.
+- **Bottom distance:** Adjust the spacing below the section.
 
-### Mobile view
+## How to setup Featured Collection section?
 
-![](/img/docs/feature-collection-mobile-view.jpeg)
+<DocVideo src="/img/docs/featured-collection.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
