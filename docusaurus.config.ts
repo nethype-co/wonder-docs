@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Wonder Theme Docs',
   tagline: 'Documentation for the Wonder Shopify Theme',
-  favicon: 'img/favicon.svg',
+  favicon: 'img/favicon-32.png',
 
   future: {
     v4: true,
