@@ -74,10 +74,14 @@ Licensing, support, accessibility, and policies.
 
 General settings that apply across your entire Wonder theme.
 
+- [Cart & Shipping](theme-settings/cart-and-shipping)  -  Cart drawer, free shipping progress bar, cross-sells
+- [Colors](theme-settings/colors)  -  Global color scheme for your entire store
+- [Typography](theme-settings/typography)  -  Fonts, sizes, and text styles
+- [General Settings](theme-settings/general-settings)  -  Layout, animations, icons, search, social media
 - [Color Swatches](theme-settings/color-swatches)  -  Configure color swatches for product variants
 - [Product Badges](theme-settings/product-badges)  -  Set up Sale, New, and custom badges on product cards
 - [Cross Sell](theme-settings/cross-sell)  -  Configure cross-selling to boost average order value
-- [Custom Fonts](theme-settings/custom-fonts)  -  Add custom fonts to your store
+- [Custom Fonts](theme-settings/custom-fonts)  -  Step-by-step guide to adding custom fonts
 
 ---
 
