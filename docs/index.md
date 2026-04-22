@@ -11,6 +11,34 @@ slug: /
 
 Complete documentation for the Wonder Shopify theme  -  sections, blocks, guides, and more.
 
+<div className="preset-grid">
+  <a href="/getting-started/basics/installing-and-choosing-a-preset" className="preset-card">
+    <img src="/img/docs/preset-wonder.jpg" alt="Wonder preset" />
+    <span className="preset-name">Wonder</span>
+    <span className="preset-desc">Beauty & Cosmetics</span>
+  </a>
+  <a href="/getting-started/basics/installing-and-choosing-a-preset" className="preset-card">
+    <img src="/img/docs/preset-root.jpg" alt="Root preset" />
+    <span className="preset-name">Root</span>
+    <span className="preset-desc">Wellness & Health</span>
+  </a>
+  <a href="/getting-started/basics/installing-and-choosing-a-preset" className="preset-card">
+    <img src="/img/docs/preset-velour.jpg" alt="Velour preset" />
+    <span className="preset-name">Velour</span>
+    <span className="preset-desc">Fashion & Apparel</span>
+  </a>
+  <a href="/getting-started/basics/installing-and-choosing-a-preset" className="preset-card">
+    <img src="/img/docs/preset-nook.jpg" alt="Nook preset" />
+    <span className="preset-name">Nook</span>
+    <span className="preset-desc">Interior & Home</span>
+  </a>
+  <a href="/getting-started/basics/installing-and-choosing-a-preset" className="preset-card">
+    <img src="/img/docs/preset-petit.jpg" alt="Petit preset" />
+    <span className="preset-name">Petit</span>
+    <span className="preset-desc">Product-Focused</span>
+  </a>
+</div>
+
 ---
 
 ## Getting Started

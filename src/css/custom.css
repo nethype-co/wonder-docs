@@ -250,6 +250,66 @@ a[class*="cardContainer"]:hover {
   color: #48cae4;
 }
 
+/* Preset grid on homepage */
+.preset-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  margin: 2rem 0 0.5rem;
+}
+
+.preset-card {
+  text-decoration: none !important;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: box-shadow 0.2s, transform 0.2s;
+  background: var(--ifm-background-surface-color, #fff);
+}
+
+.preset-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.preset-card img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border: none !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+}
+
+.preset-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--ifm-font-color-base);
+  margin-top: 0.6rem;
+}
+
+.preset-desc {
+  font-size: 0.78rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 0.6rem;
+}
+
+@media (max-width: 996px) {
+  .preset-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .preset-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /* Video tutorials responsive grid */
 @media (max-width: 996px) {
   .video-grid {
