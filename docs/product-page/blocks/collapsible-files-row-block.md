@@ -3,6 +3,8 @@ title: "Collapsible files row block"
 sidebar_label: "Collapsible files row block"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ### **Collapsible Files Row** 
 
 The **Collapsible Files Row** section allows you to display downloadable file links inside an expandable row on the product page. A key advantage of this feature is its dynamic metafield connection, ensuring that file links update automatically when a variant is changed.
@@ -14,6 +16,8 @@ This feature is ideal for providing **product guides, spec sheets, certificates,
 ![](/img/docs/29c6911f7d0e.jpg)
 
 ## **Settings** 
+
+<SectionMeta version="v1.0.0" availability="Product page" />
 
 ![](/img/docs/62b6579ff401.jpg)
 

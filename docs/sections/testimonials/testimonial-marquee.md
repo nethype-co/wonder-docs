@@ -4,8 +4,11 @@ sidebar_label: "Testimonial: Marquee"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ## What is the Testimonial: Marquee section?
+
+<SectionMeta version="v2.3.0" />
 
 The Testimonial: Marquee section lets you display customer reviews in a horizontally auto-scrolling banner — making it ideal for showcasing testimonials, quotes, or recommendations in a dynamic and eye-catching way.
 

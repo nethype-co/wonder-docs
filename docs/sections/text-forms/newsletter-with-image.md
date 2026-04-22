@@ -3,7 +3,11 @@ title: "Newsletter with image"
 sidebar_label: "Newsletter with image"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Newsletter with image section?
+
+<SectionMeta version="v1.0.0" />
 
 The "Newsletter with image" section is a visually engaging element designed to grow your subscriber base. Featuring a customizable form to subscribe to your newsletter, it allows you to set a custom heading, text, and button. With the option to add a background image and personalize the color of the text container and text, this section seamlessly integrates with your store's aesthetic while encouraging visitor engagement.
 

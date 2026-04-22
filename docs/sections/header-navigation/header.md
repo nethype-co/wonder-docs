@@ -3,7 +3,11 @@ title: "Header"
 sidebar_label: "Header"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Header section?
+
+<SectionMeta version="v1.0.0" />
 
 The "Header" is a crucial part of your Shopify store, serving as the gateway to your brand and the first point of interaction for your customers. It provides a navigational framework and access to key areas of your site such as product collections, search functionality, and cart overview. A well-structured Header can enhance user experience and increase the efficiency of your site navigation.
 

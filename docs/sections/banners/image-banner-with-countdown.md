@@ -4,8 +4,11 @@ sidebar_label: "Image Banner with countdown"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ## What is the Image Banner with Countdown section?
+
+<SectionMeta version="v1.0.0" />
 
 The Image Banner with Countdown section combines a visually impactful full-width banner with a built-in countdown timer. It is ideal for promoting time-sensitive offers, product launches, or seasonal campaigns where creating urgency is key.
 

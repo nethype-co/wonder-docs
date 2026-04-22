@@ -3,7 +3,11 @@ title: "Image with table"
 sidebar_label: "Image with table"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Image with table section?
+
+<SectionMeta version="v1.0.0" />
 
  **The “Image with table” section** pairs an image with text-based content, allowing you to display structured information such as features, details, or specifications next to a visual. The table is created directly using simple text formatting and is limited to two columns, making it ideal for clear, readable layouts without the need for apps or custom code. This section works well for presenting information in an organized, visually balanced way alongside an image.
 

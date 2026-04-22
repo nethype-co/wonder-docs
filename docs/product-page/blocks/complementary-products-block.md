@@ -3,7 +3,11 @@ title: "Complementary products block"
 sidebar_label: "Complementary products block"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## **Complementary products block** 
+
+<SectionMeta version="v1.0.0" availability="Product page" />
 
 The "Complementary Products" block is a feature designed to enhance shopping experiences on Shopify by showcasing additional items that pair well with the main product. This section can be titled to indicate a relationship with the primary item, such as "Pairs Well With". Store owners can limit the number of related products to keep the focus clear and maintain page aesthetics. Additionally, there is flexibility to choose the image ratio for the product cards on desktop views, ensuring the display fits seamlessly with the overall page layout. This feature helps customers easily find and purchase related items, potentially increasing order value and customer satisfaction.
 

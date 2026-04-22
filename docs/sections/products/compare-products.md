@@ -4,8 +4,11 @@ sidebar_label: "Compare Products"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ## What is the Compare Products Section?
+
+<SectionMeta version="v2.3.0" />
 
 The **Compare Products** section allows you to present your product in a visually appealing way, highlighting its features and advantages. It is a flexible section designed to build customer trust by presenting product information clearly and transparently.
 

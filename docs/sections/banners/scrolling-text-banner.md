@@ -4,8 +4,11 @@ sidebar_label: "Scrolling text banner"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ## What is the **Scrolling Text Banner** section?
+
+<SectionMeta version="v1.6.0" />
 
 The **Scrolling Text Banner** section offers a dynamic and visually engaging way to showcase your content. This section features separate images for desktop and mobile, but its standout feature is the scrolling text overlay, which creates a sleek animated effect. You can disable the background image for a minimalist look and focus solely on the text animation. With customizable animation speed and an optional call-to-action button, this section provides versatile options to grab attention and convey your message effectively.
 

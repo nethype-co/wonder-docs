@@ -4,8 +4,11 @@ sidebar_label: "Slide-up Feature Banner"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ## What is the Slide-up Feature Banner section?
+
+<SectionMeta version="v2.3.0" />
 
 The Slide-up Feature Banner section allows you to create a dynamic full-screen hero banner with layered content. The section is split into two distinct content areas — Top content and Bottom content — which stack vertically to create an immersive scrolling experience with an optional blur effect between them.
 

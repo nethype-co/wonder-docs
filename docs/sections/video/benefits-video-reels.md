@@ -3,7 +3,11 @@ title: "Benefits video reels"
 sidebar_label: "Benefits video reels"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## **What is the Benefits video reels section?** 
+
+<SectionMeta version="v1.2.0" />
 
 The **Benefits Video Reels** section is a captivating and interactive feature designed to highlight your product’s unique benefits through short, engaging videos. This section features a sleek slider showcasing a "reels" format, where each reel visually demonstrates product applications or key advantages. Users can play and pause the videos, immersing themselves in the content while discovering more about the product. With this format, you can combine storytelling and product marketing to create a compelling visual experience that drives user interest and enhances customer engagement.
 

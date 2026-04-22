@@ -3,7 +3,11 @@ title: "Image with Video (Home)"
 sidebar_label: "Image with Video (Home)"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ### What is the Image with Video (Home) section?
+
+<SectionMeta version="v1.6.0" availability="Header group" />
 
 The **Image with Video (Home)** section is a specialized and enhanced version of the classic [Image with Video](/sections/storytelling/image-with-video) section, crafted specifically for use in Header Group layouts. With its extended settings, such as precise content positioning, it offers unparalleled flexibility and customization.
 

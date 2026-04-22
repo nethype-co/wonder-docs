@@ -3,7 +3,11 @@ title: "Background video"
 sidebar_label: "Background video"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the **Background Video** section?
+
+<SectionMeta version="v1.0.0" />
 
 The **Background Video** section adds a dynamic and visually engaging element to your store. Perfect for showcasing your brand's story, products, or mood, this section creates an immersive experience for your customers. By combining video content with customizable text and interactive elements, it helps highlight your key messages while keeping visitors engaged.
 

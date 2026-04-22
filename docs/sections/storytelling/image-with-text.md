@@ -3,7 +3,11 @@ title: "Image with text"
 sidebar_label: "Image with text"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Image with text section?
+
+<SectionMeta version="v1.0.0" />
 
 The "Image with Text" section combines visuals with text to showcase your brand, products, or promotions effectively. Customize easily to align with your store's story and aesthetic.
 

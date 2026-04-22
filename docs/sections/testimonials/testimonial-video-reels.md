@@ -3,7 +3,11 @@ title: "Testimonial video reels"
 sidebar_label: "Testimonial video reels"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## **What is the Testimonial Video Reels section?** 
+
+<SectionMeta version="v1.6.0" />
 
 The **Testimonial Video Reels** section is designed to showcase client reviews in an engaging and visually appealing way. This section allows you to:
 

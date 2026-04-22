@@ -3,6 +3,8 @@ title: "Promo block"
 sidebar_label: "Promo block"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ### Promo Block
 
 The **Promo Block** is a simple yet effective way to highlight key promotional messages across your store. Whether it’s free shipping, limited-time offers, or customer milestones, this block helps grab attention with bold text and customizable styling. With options to adjust text alignment, colors, and background, you can seamlessly integrate promotional messages into your store’s design, enhancing customer engagement and trust.
@@ -10,5 +12,7 @@ The **Promo Block** is a simple yet effective way to highlight key promotional m
 ![](/img/docs/4e0ea7c69c50.jpg)
 
 ## **Settings** 
+
+<SectionMeta version="v1.0.0" availability="Product page" />
 
 ![](/img/docs/2d1c912dfd33.jpg)

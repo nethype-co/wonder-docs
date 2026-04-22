@@ -3,7 +3,11 @@ title: "Featured Product"
 sidebar_label: "Featured Product"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Featured Product section?
+
+<SectionMeta version="v1.0.0" />
 
 The "Featured Product" section serves as a showcase highlight on your Shopify store, drawing customer attention to a chosen item with visual prominence and detailed information. It's a concise yet impactful display, offering a quick glimpse at the product's best features through striking images, essential details, and clear call-to-action buttons. This section is designed to simplify the customer's path from attraction to transaction, accentuating the product and streamlining the purchase process.
 

@@ -3,11 +3,15 @@ title: "Feature icons block"
 sidebar_label: "Feature icons block"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ### Feature Icons Block
 
 The **Feature Icons** block allows you to showcase product highlights using visually appealing icons. Powered by metafields, this feature enables you to store and display a **list of custom icons** on the product page. Whether you want to emphasize **product attributes, unique features, or available facilities** , this block provides **flexibility and customization** to fit your needs. With adjustable settings, you can tailor the icon display to match your branding and enhance the product presentation.
 
 ## Video Tutorial
+
+<SectionMeta version="v1.0.0" availability="Product page" />
 
 <iframe width="100%" style={{aspectRatio: '16/9'}} src="https://www.youtube.com/embed/4fCU-xnf2a0?si=b_PyD9iCHDPF7OE6" title="Feature Icons Block Tutorial" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 

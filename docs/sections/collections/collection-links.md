@@ -3,7 +3,11 @@ title: "Collection links"
 sidebar_label: "Collection links"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Collection feature section?
+
+<SectionMeta version="v1.0.0" />
 
 The 'Collection Feature' section transforms your store into a vibrant display of your favorite collections. With this interactive tool, you can handpick several collections to showcase, each with its own customizable color scheme and unique background. But that's not all – as customers hover over each collection, they're greeted with an eye-catching image that not only captivates but also invites exploration. This intuitive design ensures every collection stands out, offering a personalized browsing experience that guides your customers from visual intrigue to product discovery with ease.
 

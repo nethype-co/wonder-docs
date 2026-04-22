@@ -3,7 +3,11 @@ title: "Collection list"
 sidebar_label: "Collection list"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Collection list section?
+
+<SectionMeta version="v1.0.0" />
 
 Collection list sections present new, featured or seasonal collections. You can present up to 12 collections per section.
 

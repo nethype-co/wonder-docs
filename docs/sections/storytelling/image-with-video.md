@@ -3,7 +3,11 @@ title: "Image with Video"
 sidebar_label: "Image with Video"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ### What is the Image with Video section?
+
+<SectionMeta version="v1.0.0" />
 
 The Image with Video section is a dynamic way to engage visitors by sharing your brand's story in motion. This feature allows you to embed a video directly into your storefront.
 

@@ -3,7 +3,11 @@ title: "Notification Pop-up"
 sidebar_label: "Notification Pop-up"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## **What is the Notification Pop-up section?** 
+
+<SectionMeta version="v1.7.0" />
 
 The **Notification Pop-up** section, part of the **Header Group** , provides an elegant way to capture visitor emails and grow your subscriber list. Designed for a seamless user experience, it allows you to add **custom text, images, and a contact form** while maintaining a modern, minimalistic look. Once dismissed, the pop-up will reappear **after 7 days** unless the user is **logged in** , ensuring it remains effective without being intrusive. With flexible design options, this section enhances engagement while keeping the shopping experience smooth.
 

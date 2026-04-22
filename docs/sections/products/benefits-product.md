@@ -3,7 +3,11 @@ title: "Benefits product"
 sidebar_label: "Benefits product"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## **What is the Benefits product section?** 
+
+<SectionMeta version="v1.2.0" />
 
 The **Benefits Product** section is crafted to showcase your products in a visually elegant and informative way. This feature allows you to add high-quality images optimized for both mobile and desktop views, ensuring your product presentation is clear and attractive across all devices. You can set up to 6 benefit blocks to highlight key product features, each accompanied by an icon or image of your choice. On mobile, these benefits are displayed in a streamlined column format, enhancing readability and user engagement.
 

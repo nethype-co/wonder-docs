@@ -3,7 +3,11 @@ title: "Brands"
 sidebar_label: "Brands"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Brands section?
+
+<SectionMeta version="v1.0.0" />
 
 Display brand logos. Link images / brand logo to links to connect customers with brands associated with your store.
 

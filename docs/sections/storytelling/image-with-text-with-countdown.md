@@ -4,8 +4,11 @@ sidebar_label: "Image with text with countdown"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ## What is the Image with text with countdown section?
+
+<SectionMeta version="v1.0.0" />
 
 The **Image with Text with Countdown** section displays an image alongside text and includes a countdown timer, ideal for highlighting product launches, promotions, or limited-time events.
 

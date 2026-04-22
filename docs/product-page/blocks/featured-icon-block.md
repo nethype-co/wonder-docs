@@ -3,7 +3,11 @@ title: "Featured Icon Block"
 sidebar_label: "Featured Icon Block"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ### Featured Icon Block
+
+<SectionMeta version="v2.1.0" availability="Product page" />
 
 The **Featured Icon** block allows you to highlight key information using a combination of icon, **heading**, and short descriptive text. This block provides flexibility to showcase **features**, **benefits**, or special attributes in a visually appealing way. With customizable settings, you can adjust the icon, text, and layout to match your branding and create an engaging, informative experience for your visitors.
 
