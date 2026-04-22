@@ -3,7 +3,11 @@ title: "Map section"
 sidebar_label: "Map section"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## **What is the Map section?** 
+
+<SectionMeta version="v1.7.0" />
 
 The **Map Section** allows you to showcase your store location using **Google Maps API** or a **custom static image** . This section helps customers easily find your business, get directions, and build trust. With dedicated blocks for store details, you can add your address, contact information, and a call-to-action button for navigation. Whether you prefer an interactive map or a custom design, this section ensures seamless location visibility.
 

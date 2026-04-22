@@ -3,7 +3,11 @@ title: "Before and after"
 sidebar_label: "Before and after"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## **What is the Before and after section?** 
+
+<SectionMeta version="v1.4.0" />
 
 The **Before and After** section is a powerful way to showcase transformations and product effectiveness. This section consists of two parts: a content area where you can add customizable blocks such as a subheading, heading, text, and buttons, and an interactive slider that lets customers compare two images side by side. 
 

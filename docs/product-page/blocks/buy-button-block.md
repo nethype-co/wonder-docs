@@ -3,7 +3,11 @@ title: "Buy button block"
 sidebar_label: "Buy button block"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## **Buy button block** 
+
+<SectionMeta version="v1.0.0" availability="Product page" />
 
 The "Buy Buttons" block in Shopify provides customers with a streamlined shopping experience by offering dynamic checkout options, such as PayPal or Apple Pay, for fast transactions. It also includes a feature to send gift cards complete with personalized messages and scheduled delivery. The checkout buttons are customizable, allowing for brand alignment in color and style, and a quantity selector is available for convenience in purchasing multiple items.
 

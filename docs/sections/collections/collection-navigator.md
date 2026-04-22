@@ -4,8 +4,11 @@ sidebar_label: "Collection Navigator"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ## What is the Collection Navigator section?
+
+<SectionMeta version="v2.3.0" />
 
 The Collection Navigator section allows you to display products from multiple collections in a single tabbed interface. Customers can switch between collections using the navigation tabs, making it easy to browse different product categories without leaving the page.
 

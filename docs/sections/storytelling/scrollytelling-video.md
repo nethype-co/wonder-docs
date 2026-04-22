@@ -4,8 +4,11 @@ sidebar_label: "Scrollytelling Video"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ## What is the Scrollytelling Video section?
+
+<SectionMeta version="v2.3.0" />
 
 The Scrollytelling Video section creates an immersive scroll-driven experience where a video or series of images plays in sync with the user's scrolling. Content blocks appear and disappear at defined scroll positions, allowing you to guide the visitor through a cinematic product story.
 

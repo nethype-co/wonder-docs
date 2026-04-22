@@ -3,7 +3,11 @@ title: "Product recommendations"
 sidebar_label: "Product recommendations"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Product recommendations section?
+
+<SectionMeta version="v1.0.0" />
 
 The Product Recommendations Section is a curated showcase designed to enhance the shopping experience by suggesting items that complement the customer's current browsing or previous purchase history.
 

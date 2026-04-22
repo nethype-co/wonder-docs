@@ -3,7 +3,11 @@ title: "Shoppable video reels"
 sidebar_label: "Shoppable video reels"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## **What is the Shoppable video reels section?** 
+
+<SectionMeta version="v1.0.0" />
 
 The "Shoppable video reels" section is a visually engaging and interactive feature designed to enhance the shopping experience. This section includes a slider in a "reels" format, where each reel is linked to a product. Users can stop and play the videos within each reel, and there is an option for quick buy, making it easy for customers to purchase the featured products directly from the reels. This section effectively integrates visual storytelling with shoppable content, driving user engagement and facilitating seamless shopping.
 

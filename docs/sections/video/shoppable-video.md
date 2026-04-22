@@ -3,7 +3,11 @@ title: "Shoppable video"
 sidebar_label: "Shoppable video"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## **What is the Shoppable video section?** 
+
+<SectionMeta version="v1.0.0" />
 
 The "Shoppable video" section is an interactive and engaging feature designed to enhance the shopping experience. This section allows you to play and pause a video, with selected products sliding in from left to right based on specific timestamps you set in the video. It also offers a quick buy option and a rewind button for desktop users, making it easy for customers to purchase featured products directly from the video.
 

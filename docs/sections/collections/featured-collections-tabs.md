@@ -4,8 +4,11 @@ sidebar_label: "Featured Collections: Tabs"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ### What is the Featured Collections: Tabs section?
+
+<SectionMeta version="v2.3.0" />
 
 The Featured Collections: Tabs section allows you to display products from multiple collections in a tabbed interface. Customers can easily switch between collections using navigation tabs, making it simple to browse different product categories without leaving the page.
 

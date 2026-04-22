@@ -3,7 +3,11 @@ title: "Featured navigation"
 sidebar_label: "Featured navigation"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Featured navigation section?
+
+<SectionMeta version="v1.0.0" />
 
 The "Featured Navigation" section provides a streamlined way to guide customers through your store with a tabbed interface. This interactive menu is designed for easy navigation, allowing visitors to swiftly move between different parts of your site, such as the home page, product collections, or blog.
 

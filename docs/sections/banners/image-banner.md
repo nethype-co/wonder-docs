@@ -4,8 +4,11 @@ sidebar_label: "Image Banner"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
-## Image Banner
+## What is the Image Banner section? 
+
+<SectionMeta version="v1.0.0" />
 
 The Image Banner section allows you to create a visually impactful full-width banner combining background media with overlaid content. It is ideal for hero sections, promotional campaigns, or any area where you want to make a strong visual statement with an image or video paired with text and call-to-action buttons.
 

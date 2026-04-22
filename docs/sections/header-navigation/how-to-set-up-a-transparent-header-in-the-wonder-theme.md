@@ -3,7 +3,11 @@ title: "Transparent Header"
 sidebar_label: "Transparent Header"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## **How to Set Up a Transparent Header** 
+
+<SectionMeta version="v1.0.0" />
 
 ![](/img/docs/8d397618b9f2.jpeg)
 

@@ -3,7 +3,11 @@ title: "Products slider"
 sidebar_label: "Products slider"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the **Products Slide** section?
+
+<SectionMeta version="v1.6.0" />
 
 The **Products Slider** section is a modern, visually dynamic feature that showcases your products with a dedicated background and accompanying imagery. This section pairs each product with its own unique background and a second column containing customizable text and images, which update seamlessly as users navigate through the slider.
 

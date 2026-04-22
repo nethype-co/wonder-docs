@@ -4,8 +4,11 @@ sidebar_label: "Collapsible Menu with Image"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ## What is the Collapsible Menu with Image section?
+
+<SectionMeta version="v2.3.0" />
 
 The **Collapsible Menu with Image** section lets you display an image alongside a set of collapsible content rows — making it ideal for presenting product details like shipping info, care instructions, or size guides in a clean, space-saving layout.
 

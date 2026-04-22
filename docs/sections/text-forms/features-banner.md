@@ -3,7 +3,11 @@ title: "Features banner"
 sidebar_label: "Features banner"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Features banner section?
+
+<SectionMeta version="v1.0.0" />
 
 The "Features Banner" section displays key benefits or offerings in a neat, icon-driven format. Tailor the scale for various screens and adjust colors to match your brand. Perfect for a quick, visual rundown of your store's unique selling points.
 

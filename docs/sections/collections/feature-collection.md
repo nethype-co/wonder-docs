@@ -4,8 +4,11 @@ sidebar_label: "Featured Collection"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ### What is the Featured Collection section?
+
+<SectionMeta version="v1.0.0" />
 
 The Featured Collection section displays products from a selected collection in a clean, organized grid layout. It is ideal for highlighting bestsellers, new arrivals, or any curated product selection directly on the home page or landing pages.
 

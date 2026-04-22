@@ -4,6 +4,7 @@ sidebar_label: "Marquee images"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ### Marquee Images
 
@@ -16,6 +17,8 @@ This section works perfectly for showcasing brand visuals, partners, or product 
 Add your own images and optional links to make the section interactive and bring your store to life.
 
 ## How to set up Marquee Images section?
+
+<SectionMeta version="v2.1.0" />
 
 * Add a **Marquee Images** section
 

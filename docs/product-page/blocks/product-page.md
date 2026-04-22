@@ -3,7 +3,11 @@ title: "Product Page"
 sidebar_label: "Product Page"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Product Page?
+
+<SectionMeta version="v1.0.0" availability="Product page" />
 
 The Product Page is one of the most crucial aspects of an e-commerce website. On Shopify, this page is designed to showcase individual products in detail. The goal is to provide customers with all the information they need to make an informed purchase decision.
 

@@ -3,11 +3,16 @@ title: "Slideshow"
 sidebar_label: "Slideshow"
 ---
 
+import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Slideshow section?
+
+<SectionMeta version="v1.0.0" />
 
 The "Slideshow" section is a dynamic display feature for your Shopify store, designed to highlight multiple images, promotions, or stories in a rotating carousel. This visually engaging element can effectively capture customer attention and guide them to different parts of your store.
 
-![](/img/docs/7073108756e7.jpg)
+<DocVideo src="/img/docs/slideshow-desktop.webm" autoPlay playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
 
 ## Main settings
 
@@ -63,8 +68,6 @@ The "Slideshow" section is a dynamic display feature for your Shopify store, des
 * **Background Color and Opacity** : Set the background color and adjust its opacity to enhance the slide's visual appeal.
 * **Mobile Text Below Image** : Opt to show text below the image on mobile devices for a streamlined appearance.
 
-![](/img/docs/927d5411c228.jpg)
-
 ## Mobile view example
 
-![](/img/docs/f76bf1eaef09.jpg)
+<DocVideo src="/img/docs/slideshow-mobile.webm" autoPlay playsInline muted loop style={{width: "40%", display: "block", marginBottom: "20px", marginLeft: "auto", marginRight: "auto", borderRadius: "8px"}} />

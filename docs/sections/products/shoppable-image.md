@@ -3,7 +3,11 @@ title: "Shoppable image"
 sidebar_label: "Shoppable image"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Shoppable image section?
+
+<SectionMeta version="v1.0.0" />
 
 The "Shoppable Image" section is designed to create an interactive shopping experience directly from a single image. This feature allows you to highlight products within an image, making them clickable and leading customers straight to the product page.
 

@@ -3,7 +3,11 @@ title: "Logo banner"
 sidebar_label: "Logo banner"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Logo banner section?
+
+<SectionMeta version="v1.0.0" availability="Header group" />
 
 The "Logo Banner" section is a visually striking element that perfectly complements a Transparent Header, ideally placed as the first section of your store. Featuring a scaling logo that adjusts as you scroll and a customizable background with video or image options, it highlights your brand identity and sets the tone for the rest of your site.
 

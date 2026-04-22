@@ -11,6 +11,34 @@ slug: /
 
 Complete documentation for the Wonder Shopify theme  -  sections, blocks, guides, and more.
 
+<div className="preset-grid">
+  <a href="/getting-started/basics/installing-and-choosing-a-preset" className="preset-card">
+    <img src="/img/docs/preset-wonder.jpg" alt="Wonder preset" />
+    <span className="preset-name">Wonder</span>
+    <span className="preset-desc">Beauty & Cosmetics</span>
+  </a>
+  <a href="/getting-started/basics/installing-and-choosing-a-preset" className="preset-card">
+    <img src="/img/docs/preset-root.jpg" alt="Root preset" />
+    <span className="preset-name">Root</span>
+    <span className="preset-desc">Wellness & Health</span>
+  </a>
+  <a href="/getting-started/basics/installing-and-choosing-a-preset" className="preset-card">
+    <img src="/img/docs/preset-velour.jpg" alt="Velour preset" />
+    <span className="preset-name">Velour</span>
+    <span className="preset-desc">Fashion & Apparel</span>
+  </a>
+  <a href="/getting-started/basics/installing-and-choosing-a-preset" className="preset-card">
+    <img src="/img/docs/preset-nook.jpg" alt="Nook preset" />
+    <span className="preset-name">Nook</span>
+    <span className="preset-desc">Interior & Home</span>
+  </a>
+  <a href="/getting-started/basics/installing-and-choosing-a-preset" className="preset-card">
+    <img src="/img/docs/preset-petit.jpg" alt="Petit preset" />
+    <span className="preset-name">Petit</span>
+    <span className="preset-desc">Product-Focused</span>
+  </a>
+</div>
+
 ---
 
 ## Getting Started
@@ -20,8 +48,12 @@ Complete documentation for the Wonder Shopify theme  -  sections, blocks, guides
 
 ### [Basics](getting-started/basics)
 Install, configure, and customize the Wonder theme.
-- [Sharing a Preview of Your Shopify Theme](getting-started/basics/sharing-a-preview-of-your-shopify-theme)
-- [Customizing Your Theme by Editing Theme Files](getting-started/basics/customizing-your-theme-by-editing-theme-files)
+- [Installing & Choosing a Preset](getting-started/basics/installing-and-choosing-a-preset)
+- [Navigating the Theme Editor](getting-started/basics/navigating-the-theme-editor)
+- [Setting Up Your Homepage](getting-started/basics/setting-up-your-homepage)
+- [Setting Up Navigation](getting-started/basics/setting-up-navigation)
+- [Sharing a Theme Preview](getting-started/basics/sharing-a-preview-of-your-shopify-theme)
+- [Editing Theme Files](getting-started/basics/customizing-your-theme-by-editing-theme-files)
 
 </div>
 <div className="col col--6">
@@ -42,9 +74,14 @@ Licensing, support, accessibility, and policies.
 
 General settings that apply across your entire Wonder theme.
 
+- [Cart & Shipping](theme-settings/cart-and-shipping)  -  Cart drawer, free shipping progress bar, cross-sells
+- [Colors](theme-settings/colors)  -  Global color scheme for your entire store
+- [Typography](theme-settings/typography)  -  Fonts, sizes, and text styles
+- [General Settings](theme-settings/general-settings)  -  Layout, animations, icons, search, social media
 - [Color Swatches](theme-settings/color-swatches)  -  Configure color swatches for product variants
 - [Product Badges](theme-settings/product-badges)  -  Set up Sale, New, and custom badges on product cards
 - [Cross Sell](theme-settings/cross-sell)  -  Configure cross-selling to boost average order value
+- [Custom Fonts](theme-settings/custom-fonts)  -  Step-by-step guide to adding custom fonts
 
 ---
 
@@ -56,14 +93,21 @@ General settings that apply across your entire Wonder theme.
 ### [Header & Navigation](sections/header-navigation)
 - [Announcement Bar](sections/header-navigation/announcement-bar)
 - [Header](sections/header-navigation/header)
-- [Mega Menu Setup](sections/header-navigation/how-to-set-up-a-mega-menu-promotion-menu-in-your-shopify-theme-a-step-by-step-guide)
+- [Promotion Menu](sections/header-navigation/how-to-set-up-a-mega-menu-promotion-menu-in-your-shopify-theme-a-step-by-step-guide)
 - [Transparent Header](sections/header-navigation/how-to-set-up-a-transparent-header-in-the-wonder-theme)
+- [Logo Banner](sections/header-navigation/logo-banner)
+- [Logo Banner with Text](sections/header-navigation/logo-banner-with-text)
+- [Menu Highlight](sections/header-navigation/menu-highlight)
 
 ### [Banners](sections/banners)
 - [Banner Card](sections/banners/banner-card)
-- [Image with Text with Countdown](sections/banners/image-with-text-with-countdown)
+- [Image Banner](sections/banners/image-banner)
+- [Image Banner with Countdown](sections/banners/image-banner-with-countdown)
 - [Scrolling Text Banner](sections/banners/scrolling-text-banner)
+- [Scrolling Icon with Text](sections/banners/scrolling-icon-with-text)
+- [Slide-up Feature Banner](sections/banners/slide-up-feature-banner)
 - [Slideshow](sections/banners/slideshow)
+- [Image with Video (Home)](sections/banners/image-with-video-home)
 
 ### [Video](sections/video)
 - [Background Video](sections/video/background-video)
@@ -75,6 +119,9 @@ General settings that apply across your entire Wonder theme.
 ### [Collections](sections/collections)
 - [Collection Links](sections/collections/collection-links)
 - [Collection List](sections/collections/collection-list)
+- [Collection Navigator](sections/collections/collection-navigator)
+- [Featured Collection](sections/collections/feature-collection)
+- [Featured Collections: Tabs](sections/collections/featured-collections-tabs)
 
 </div>
 <div className="col col--6">
@@ -83,22 +130,33 @@ General settings that apply across your entire Wonder theme.
 - [Before and After](sections/storytelling/before-and-after)
 - [Brands](sections/storytelling/brands)
 - [Collage](sections/storytelling/collage)
+- [Collapsible Menu with Image](sections/storytelling/collapsible-menu-with-image)
 - [Grid View](sections/storytelling/grid-view)
+- [Grid View with Drawer](sections/storytelling/grid-view-with-drawer)
+- [Image with Scrolling Text](sections/storytelling/image-with-scrolling-text)
 - [Image with Table](sections/storytelling/image-with-table)
 - [Image with Text](sections/storytelling/image-with-text)
+- [Image with Text with Countdown](sections/storytelling/image-with-text-with-countdown)
+- [Image with Video](sections/storytelling/image-with-video)
+- [Lookbook](sections/storytelling/lookbook)
 - [Marquee Images](sections/storytelling/marquee-images)
 - [Multicolumn](sections/storytelling/multicolumn)
 - [Parallax Section](sections/storytelling/parallax-section)
 - [Rich Text with Image](sections/storytelling/rich-text-with-image)
+- [Scrollytelling Video](sections/storytelling/scrollytelling-video)
 
 ### [Products](sections/products)
 - [Benefits Product](sections/products/benefits-product)
+- [Compare Products](sections/products/compare-products)
+- [Comparison Table](sections/products/comparison-table)
 - [Featured Product](sections/products/featured-product)
 - [Product Recommendations](sections/products/product-recommendations)
 - [Products Slider](sections/products/products-slider)
 - [Shoppable Image](sections/products/shoppable-image)
 
 ### [Testimonials](sections/testimonials)
+- [Testimonial Images](sections/testimonials/testimonial-images)
+- [Testimonial Marquee](sections/testimonials/testimonial-marquee)
 - [Testimonial Video Reels](sections/testimonials/testimonial-video-reels)
 
 ### [Text & Forms](sections/text-forms)
@@ -106,6 +164,7 @@ General settings that apply across your entire Wonder theme.
 - [Featured Navigation](sections/text-forms/featured-navigation)
 - [Features Banner](sections/text-forms/features-banner)
 - [Map Section](sections/text-forms/map-section)
+- [Metrics Banner](sections/text-forms/metrics-banner)
 - [Newsletter with Image](sections/text-forms/newsletter-with-image)
 - [Notification Pop-up](sections/text-forms/notification-pop-up)
 - [Specification Table Block](sections/text-forms/specification-table-block)
@@ -123,11 +182,14 @@ General settings that apply across your entire Wonder theme.
 ### [Blocks](product-page/blocks)
 - [Bulletpoints Block](product-page/blocks/bulletpoints-block)
 - [Buy Button Block](product-page/blocks/buy-button-block)
+- [Collapsible Drawer](product-page/blocks/collapsible-drawer-block)
 - [Collapsible Files Row](product-page/blocks/collapsible-files-row-block)
 - [Collapsible Tab Row](product-page/blocks/collapsible-tab-row)
 - [Complementary Products](product-page/blocks/complementary-products-block)
+- [Custom Option Block](product-page/blocks/custom-option-block)
 - [Feature Icons](product-page/blocks/feature-icons-block)
 - [Feature Tags](product-page/blocks/feature-tags-block)
+- [Featured Icon Block](product-page/blocks/featured-icon-block)
 - [Inventory Status](product-page/blocks/inventory-status-block)
 - [Payments Badge](product-page/blocks/payments-badge-block)
 - [Price Block](product-page/blocks/price-block)
@@ -136,6 +198,7 @@ General settings that apply across your entire Wonder theme.
 - [Rating Block](product-page/blocks/rating-block)
 - [Separator Block](product-page/blocks/separator-block)
 - [Share Buttons](product-page/blocks/share-buttons-block)
+- [Subscription Widget](product-page/blocks/subscription-widget-block)
 - [Title Block](product-page/blocks/title-block)
 - [Upsell Block](product-page/blocks/upsell-block)
 - [Variant Picker](product-page/blocks/variant-picker-block)
@@ -159,6 +222,7 @@ General settings that apply across your entire Wonder theme.
 - [A Complete Guide to Customizing the Variant Picker](guides/how-to-articles/a-complete-guide-to-customizing-the-variant-picker)
 - [Personalizing Product Pages with Custom Options](guides/how-to-articles/a-step-by-step-guide-to-personalizing-your-product-pages-with-custom-options)
 - [Product Variations Block Setup](guides/how-to-articles/how-to-set-up-a-product-variations-block-in-product-page)
+- [Standard Variant Picker vs. Product Variations Block](guides/how-to-articles/standard-variant-picker-vs-product-variations-block)
 - [Maximizing SEO Potential](guides/how-to-articles/maximizing-seo-potential-within-your-theme)
 - [Page Speed Mastery](guides/how-to-articles/unlocking-page-speed-mastery-for-your-shopify-store)
 - [Which Reviews App Should You Use?](guides/how-to-articles/which-reviews-app-should-you-use-on-shopify-free-paid-options)

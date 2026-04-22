@@ -3,7 +3,11 @@ title: "Rich text with image"
 sidebar_label: "Rich text with image"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## **What is the Rich text with image section?** 
+
+<SectionMeta version="v1.0.0" />
 
 The "Rich text with image" section is an elegant and visually appealing element designed to enhance your store's storytelling. This section allows you to display text alongside up to three images in an aesthetically pleasing layout. Featuring hover animations and a seamless look, the images can be linked to products, collections, or other content, making it a versatile tool for driving engagement and guiding customers to key areas of your store.
 

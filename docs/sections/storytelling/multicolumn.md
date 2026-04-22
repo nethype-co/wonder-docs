@@ -3,7 +3,11 @@ title: "Multicolumn"
 sidebar_label: "Multicolumn"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Multicolumn section?
+
+<SectionMeta version="v1.0.0" />
 
 The "Multicolumn" section provides a structured, grid-like display, ideal for featuring multiple products, categories, or content blocks in a clean and organized manner. This layout allows for several columns, each with its own image, text, and button.
 
