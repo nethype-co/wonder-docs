@@ -1,11 +1,12 @@
 ---
 title: "Customizing Your Theme by Editing Theme Files"
-sidebar_label: "Customizing Your Theme by Editing Theme Files"
+sidebar_label: "Editing Theme Files"
+sidebar_position: 6
 ---
 
-## **Customizing Your Theme by Editing Theme Files** 
+## Customizing Your Theme by Editing Theme Files
 
-While Split offers a range of built-in settings through the Theme editor, there are instances where you may require more advanced customization. If you're comfortable with HTML, CSS, and Liquid, you have the flexibility to modify your theme by editing the theme code to make specific changes.
+While the Wonder Theme offers a wide range of built-in settings through the Theme Editor, there are cases where you may need more advanced customization. If you're comfortable with HTML, CSS, and Liquid, you can modify your theme by editing the code directly.
 
 ### **Types of Theme Files:** 
 

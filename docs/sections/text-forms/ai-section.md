@@ -4,6 +4,7 @@ sidebar_label: "AI section"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ### AI Section
 
@@ -13,6 +14,8 @@ It includes all standard Wonder Theme layout settings, such as content alignment
 Use this section to experiment with AI-generated layouts, text, or image components, and instantly bring new creative ideas to life without coding.
 
 ## How to set up AI Section?
+
+<SectionMeta version="v2.1.0" />
 
 * **Add the AI section** to your template.
 * **Add a block** and choose the **Generate** option.

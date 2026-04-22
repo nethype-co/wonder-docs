@@ -3,7 +3,11 @@ title: "Image with Scrolling Text"
 sidebar_label: "Image with Scrolling Text"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ### What is Image with Scrolling Text section?
+
+<SectionMeta version="v2.1.0" />
 
 **The Image with Scrolling Text** section is designed to present content in an elegant, dynamic way. It features a sticky image that can change with each content block, while the accompanying text scrolls smoothly up or down.
 

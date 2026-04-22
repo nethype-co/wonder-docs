@@ -4,8 +4,11 @@ sidebar_label: "Specification table block"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ## **Specification table block**
+
+<SectionMeta version="v1.0.0" />
 
 ![](/img/docs/bde1dfe9d859.jpg)
 

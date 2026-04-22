@@ -3,6 +3,8 @@ title: "Feature tags block"
 sidebar_label: "Feature tags block"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ### Feature Tags Block
 
 The **Feature Tags** block is a simple yet effective way to highlight key attributes of a product. It allows you to showcase essential details, such as ingredients, materials, or product benefits, in a visually organized format. Ideal for supplements, apparel, or tech products, this block helps customers quickly understand what makes your product unique, enhancing clarity and engagement on the product page.
@@ -10,6 +12,8 @@ The **Feature Tags** block is a simple yet effective way to highlight key attrib
 ![](/img/docs/53fc3c7d9433.png)
 
 ## **Settings** 
+
+<SectionMeta version="v1.0.0" availability="Product page" />
 
 ![](/img/docs/9f1bd365ef90.jpg)
 

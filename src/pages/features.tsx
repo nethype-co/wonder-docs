@@ -190,7 +190,7 @@ const features: Feature[] = [
     description:
       'Create a sense of urgency with ticking countdown deals. Drive conversions by highlighting limited-time offers and flash sales.',
     images: ['/img/features/countdown-timer.png'],
-    link: '/sections/banners/image-with-text-with-countdown',
+    link: '/sections/storytelling/image-with-text-with-countdown',
   },
 ];
 

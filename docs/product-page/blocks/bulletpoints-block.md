@@ -3,6 +3,8 @@ title: "Bulletpoints block"
 sidebar_label: "Bulletpoints block"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ### Bulletpoints Block
 
 The **Bulletpoints Block** is a versatile feature designed to enhance product pages on Shopify by allowing merchants to display key product information in a list format. This block enables the use of either a multi-line text or single-line text list metafield type, giving store owners the flexibility to customize the bullet points for each individual product. This ensures that product-specific attributes, features, or highlights can be easily communicated to customers.
@@ -14,6 +16,8 @@ Each product can have unique bullet points, making it simple to differentiate si
 ![](/img/docs/c6fbd046311b.jpeg)
 
 ## **Settings** 
+
+<SectionMeta version="v1.0.0" availability="Product page" />
 
 ![](/img/docs/05b7c58d1323.jpeg)
 

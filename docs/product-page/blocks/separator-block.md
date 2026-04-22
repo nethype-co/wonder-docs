@@ -3,7 +3,11 @@ title: "Separator block"
 sidebar_label: "Separator block"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## **Separator block** 
+
+<SectionMeta version="v1.0.0" availability="Product page" />
 
 Enhance your Shopify page layout with a customizable separator block. Add a dividing line to distinguish between content sections, select a color that matches your brand, and adjust the vertical spacing for a clean, organized appearance.
 

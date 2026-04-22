@@ -3,7 +3,11 @@ title: "Collapsible tab row"
 sidebar_label: "Collapsible tab row"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## **Collapsible tab row** 
+
+<SectionMeta version="v1.0.0" availability="Product page" />
 
 The Collapsible Tab Row block displays content inside an expandable row on the product page. Use it for care instructions, sizing guides, shipping info, or any content you want to keep organized and collapsible.
 

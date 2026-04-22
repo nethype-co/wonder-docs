@@ -3,7 +3,11 @@ title: "Promotion Menu"
 sidebar_label: "Promotion Menu"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## **How to Set Up a Promotion Menu** 
+
+<SectionMeta version="v1.0.0" />
 
 ![](/img/docs/3df9bd434853.jpeg)
 

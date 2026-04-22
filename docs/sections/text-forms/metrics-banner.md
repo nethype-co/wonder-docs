@@ -4,8 +4,11 @@ sidebar_label: "Metrics Banner"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ## What is the Metrics Banner section?
+
+<SectionMeta version="v2.3.0" />
 
 The Metrics Banner section allows you to display key indicators and statistics in an attractive banner with numbers. Customers can quickly familiarize themselves with the most important product or brand data, building trust and credibility.
 

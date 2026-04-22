@@ -4,8 +4,11 @@ sidebar_label: "Subscription Widget block"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ## Subscription Widget Block
+
+<SectionMeta version="v2.3.0" availability="Product page" />
 
 The **Subscription Widget** block integrates your product page with the Shopify Subscriptions app, allowing customers to choose between a subscription plan with recurring savings or a one-time purchase. It is ideal for products that customers buy regularly, helping to increase customer retention and lifetime value.
 

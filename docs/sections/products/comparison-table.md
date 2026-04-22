@@ -4,8 +4,11 @@ sidebar_label: "Comparison Table"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ## **What is the Comparison Table section?**
+
+<SectionMeta version="v2.3.0" />
 
 The **Comparison Table** section lets you present a side-by-side comparison of your product against competitors or alternative options in a clean, structured layout. Each row represents a feature or attribute, while columns represent the products being compared — making it easy for customers to see your product's advantages at a glance.
 

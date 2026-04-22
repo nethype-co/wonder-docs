@@ -3,7 +3,11 @@ title: "Testimonial Images"
 sidebar_label: "Testimonial Images"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ### What is the Testimonial Images section?
+
+<SectionMeta version="v1.8.0" />
 
 The Testimonial Images section allows you to showcase customer feedback in a visually engaging slider format. It includes dedicated blocks for images, star ratings, quotes, and author names.
 

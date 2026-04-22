@@ -3,7 +3,11 @@ title: "Logo Banner with Text"
 sidebar_label: "Logo Banner with Text"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ### Overview
+
+<SectionMeta version="v2.1.0" availability="Header group" />
 
 The **Logo Banner with Text** section is designed for the **Header Group**, adding a modern and elegant visual experience to your store's first impression. It allows you to display a prominent animated logo along with supporting text or a short tagline.
 

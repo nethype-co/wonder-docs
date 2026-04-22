@@ -4,8 +4,11 @@ sidebar_label: "Grid View with Drawer"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ## What is the Grid View with Drawer section?
+
+<SectionMeta version="v2.3.0" />
 
 The **Grid View with Drawer** section allows you to display products in a structured grid or carousel layout. Each product card can be opened in a side drawer for a quick preview, letting customers explore product details without navigating away from the page.
 

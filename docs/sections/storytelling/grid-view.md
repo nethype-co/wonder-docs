@@ -3,7 +3,11 @@ title: "Grid view"
 sidebar_label: "Grid view"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Grid view section?
+
+<SectionMeta version="v1.0.0" />
 
 The "Grid view" section offers a neatly organized layout to present a series of images, products, or promotions. With its structured design, it provides a clear and consistent browsing experience for your customers.
 

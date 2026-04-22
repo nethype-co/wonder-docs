@@ -3,7 +3,11 @@ title: "Collage"
 sidebar_label: "Collage"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Collage section?
+
+<SectionMeta version="v1.0.0" />
 
 The "Collage" section is a creative layout that allows you to craft a visually engaging composition of images, text, and call-to-action buttons. This section is perfect for displaying a collection of products, brand images, or promotional graphics in a modern, asymmetrical format.
 

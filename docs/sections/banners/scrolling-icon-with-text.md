@@ -4,8 +4,11 @@ sidebar_label: "Scrolling Icon with Text"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ## What is the **Scrolling Icon with Text** section?
+
+<SectionMeta version="v2.3.0" />
 
 The **Scrolling Icon with Text** section displays a continuously animated ticker bar featuring icons paired with short text labels. It is ideal for highlighting key product features or selling points in a compact, eye-catching scrolling strip.
 

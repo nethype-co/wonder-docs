@@ -3,7 +3,11 @@ title: "Parallax section"
 sidebar_label: "Parallax section"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## **What is the Parallax section?** 
+
+<SectionMeta version="v1.0.0" />
 
 The "Parallax" section is a dynamic and visually captivating element designed to enhance user engagement. This section allows you to set a custom heading, text, and button. You can upload two images that create a parallax effect, revealing themselves as the user scrolls. Additionally, you can adjust the angle of the images, set a background color, and customize the text color, making it a versatile tool for creating a striking and interactive visual experience on your store.
 

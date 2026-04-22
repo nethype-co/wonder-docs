@@ -3,7 +3,11 @@ title: "Featured Collection"
 sidebar_label: "Featured Collection"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ### What is the Featured Collection section?
+
+<SectionMeta version="v1.0.0" />
 
 The 'Featured Collection' section is a curated showcase spotlighting a selection of products from a specific collection. It serves to highlight new arrivals, bestsellers, or seasonal favorites.
 

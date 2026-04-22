@@ -4,8 +4,11 @@ sidebar_label: "Collapsible Drawer"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ## **Collapsible Drawer**
+
+<SectionMeta version="v2.3.0" availability="Product page" />
 
 The Collapsible Drawer block displays additional product information in an expandable drawer panel on the product page. It is ideal for presenting content such as how-to instructions, ingredients, delivery policies, or any other supplementary details in a clean and space-saving way.
 

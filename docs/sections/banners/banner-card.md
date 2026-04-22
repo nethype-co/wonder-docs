@@ -4,8 +4,11 @@ sidebar_label: "Banner card"
 ---
 
 import DocVideo from '@site/src/components/DocVideo';
+import SectionMeta from '@site/src/components/SectionMeta';
 
 ## Banner Card Block
+
+<SectionMeta version="v1.0.0" />
 
 <DocVideo src="/img/docs/a23f5164b304.webm" autoPlay playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
 

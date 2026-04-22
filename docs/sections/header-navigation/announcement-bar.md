@@ -3,7 +3,11 @@ title: "Announcement Bar"
 sidebar_label: "Announcement Bar"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Announcement Bar ?
+
+<SectionMeta version="v1.0.0" />
 
 The announcement bar is an optional section that, when enabled, is permanently located at the top of every page of your store's website. You can add there interesting information such as: promotions, announcements, sales and news.
 

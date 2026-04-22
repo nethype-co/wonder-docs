@@ -3,7 +3,11 @@ title: "Lookbook"
 sidebar_label: "Lookbook"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ### What is the Lookbook section?
+
+<SectionMeta version="v1.0.0" />
 
 The "Lookbook" section provides an elegant way to feature a collection of images in a clean, organized layout. This visually engaging section can highlight different aspects of a collection, editorial content, or various products in a straightforward yet impactful manner. It's designed to draw attention to specific items or themes, making it a versatile tool for storytelling and product display.
 

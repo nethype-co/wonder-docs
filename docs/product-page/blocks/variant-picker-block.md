@@ -3,7 +3,11 @@ title: "Variant picker block"
 sidebar_label: "Variant picker block"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## **Variant picker block** 
+
+<SectionMeta version="v1.0.0" availability="Product page" />
 
 This option allows customers to select product variants, like color or size, through a dropdown menu or button format. Merchants can personalize the display by choosing custom colors for the variant options and how they appear, ensuring a seamless and branded shopping experience. Additionally, the feature includes a pop-up implementation for detailed product information and links to further informative pages, enhancing customer engagement and informed purchasing.
 

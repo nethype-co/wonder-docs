@@ -3,7 +3,11 @@ title: "Menu Highlight"
 sidebar_label: "Menu Highlight"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+
 ## What is the Menu Highlight block?
+
+<SectionMeta version="v2.3.0" availability="Header group" />
 
 The Menu Highlight block allows you to visually distinguish specific navigation items in the header by adding a custom color and icon. It is ideal for drawing attention to important links such as sale pages, new arrivals, or seasonal promotions.
 
