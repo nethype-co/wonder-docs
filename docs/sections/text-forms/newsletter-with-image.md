@@ -4,6 +4,7 @@ sidebar_label: "Newsletter with image"
 ---
 
 import SectionMeta from '@site/src/components/SectionMeta';
+import DocVideo from '@site/src/components/DocVideo';
 
 ## What is the Newsletter with image section?
 
@@ -13,52 +14,63 @@ The "Newsletter with image" section is a visually engaging element designed to g
 
 ![](/img/docs/5d7e076176c1.jpg)
 
-## Main settings
-
- **Section Height** 
-
-* **Height:** Choose between adapting the height to the image or setting a fixed height.
-* **Desktop fixed height:** Adjust the fixed height for desktop view.
-* **Mobile fixed height:** Adjust the fixed height for mobile view.
-
- **Large Screen Version** 
-
-* **Image:** Select an image for the large screen version of the banner.
-
- **Mobile Version** 
-
-* **Image:** Select an image for the mobile version of the banner.
-
- **Colors** 
-
-* **Text color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
-* **Text container color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
-
- **Section Spacing** 
-
-* **Distance from the top:** Adjust the spacing from the top of the section.
-* **Distance from the bottom:** Adjust the spacing from the bottom of the section.
-
-![](/img/docs/b36f2f37f8c6.jpg)
-
-## Customize heading block
-
-Click one of the preloaded **heading** block to customize it.
-
-![](/img/docs/d01040d00d87.jpg)
-
-## Customize subheading block
-
-Click one of the preloaded **subheading** block to customize it.
-
-![](/img/docs/86ffb2543b5f.jpg)
-
-## Customize Email form block
-
-Click one of the preloaded block to customize it.
-
-![](/img/docs/63981e829f8b.jpg)
-
 ## Mobile view example
 
 ![](/img/docs/fe170dbdcfdc.jpg)
+
+## Main settings
+
+### Section Height
+- **Height:** Choose between Adapt to image, which adjusts the section height based on the uploaded image, or Fixed height, which sets a specific height regardless of the image.
+- **Desktop fixed height:** Define the fixed height of the section on desktop. Applied only when Fixed Height is selected.
+- **Mobile fixed height:** Define the fixed height of the section on mobile devices. Applied only when Fixed Height is selected.
+
+### Large Screen Version
+- **Image:** Upload a background image displayed on large screens.
+
+### Mobile Version
+- **Image:** Upload a background image displayed on mobile devices.
+
+### Colors
+The Transparent value is the default and subsequently inherits the value from the global settings.
+- **Text color:** Define the global text color for the section.
+- **Text container color:** Set the background color of the container surrounding the newsletter text and form.
+- **Background opacity:** Adjust the opacity level of the newsletter block's background color.
+- **Background blur:** Set the blur effect applied to the background color of the newsletter block's header.
+
+### Section Spacing
+- **Distance from the top:** Adjust the spacing above the section.
+- **Distance from the bottom:** Adjust the spacing below the section.
+
+## Blocks
+
+### Subheading Block
+- **Subheading:** Enter the subheading text.
+- **Disable on mobile:** Hide this subheading block on mobile devices.
+
+<img src="/img/docs/block-subheading.png" alt="" />
+
+### Heading Block
+The Heading block displays the main headline overlaid on the banner image.
+- **Heading:** Enter the heading text displayed on the banner.
+- **Disable on mobile:** Hide this heading block on mobile devices.
+- **Heading scale large screen:** Adjust the font size of the heading on large screens.
+- **Heading scale mobile:** Adjust the font size of the heading on mobile devices.
+
+<img src="/img/docs/block-heading.png" alt="" />
+
+### Email Form Block
+
+The Email Form block adds a newsletter signup form to the Newsletter with Image section, allowing customers to subscribe directly from the banner.
+
+- **Style:** Choose the visual style of the form — Primary or Secondary.
+- **Button label:** Set the text displayed on the form submission button.
+
+#### Consent Checkbox
+- **Show consent checkbox:** Enable this toggle to display a consent checkbox that customers must check before submitting the form.
+- **Consent checkbox label:** Enter the text displayed next to the consent checkbox. Rich text formatting options are available.
+- **Validation message:** Set the message displayed when a customer attempts to submit the form without checking the consent checkbox.
+
+## How to set up section newsletter with image?
+
+<DocVideo src="/img/docs/newsletter-with-image.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
