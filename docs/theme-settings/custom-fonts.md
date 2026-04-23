@@ -49,19 +49,38 @@ If your font has multiple weights (e.g. Regular and Bold), add a separate `@font
 
 ### Option B: Use Google Fonts (or other external fonts)
 
-The recommended approach for Google Fonts is to **download the font files** and upload them to Shopify, then use `@font-face` exactly as shown in Option A. This is the most reliable method and works in the Theme Editor preview.
+The recommended approach for Google Fonts is to **download the font files** and upload them to Shopify, then use `@font-face` exactly as shown in Option A. This is the most reliable method and works correctly in the Theme Editor preview.
 
 To download Google Fonts, visit [fonts.google.com](https://fonts.google.com/), select a font, and click the download button to get the font files (`.ttf` or `.woff2`).
 
 :::caution
-Using `@import url(...)` inside the declarations field may not work reliably in the Shopify Theme Editor/Customizer preview. For best results, always upload font files to Shopify and use `@font-face`.
+**Do not use `@import` or `<link>` inside the @font-face declarations field.** The declarations field renders inside a `<style>` tag, so `<link>` tags will not work at all, and `@import` is not reliably supported in the Shopify Theme Editor/Customizer. Always upload font files and use `@font-face`.
+:::
+
+#### Advanced: Loading external fonts via theme code
+
+If you prefer to load fonts from an external CDN (e.g. Google Fonts) without downloading the files, you need to add a `<link>` tag directly in your theme's `layout/theme.liquid` file. This requires editing theme code.
+
+1. In your Shopify admin, go to **Online Store** → **Themes** → **Edit code**.
+2. Open `layout/theme.liquid`.
+3. Find the line `{{ 'custom.css' | asset_url | stylesheet_tag }}` and add your font `<link>` tag right after it:
+
+```html
+{{ 'custom.css' | asset_url | stylesheet_tag }}
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+```
+
+4. Save the file, then assign the font name and weight in **Theme Settings** → **Typography** → **Custom fonts** as described in Step 3 below.
+
+:::note
+This method requires code editing and will need to be re-applied after theme updates. Uploading font files (Option A) is the simpler and more maintainable approach.
 :::
 
 ## Step 2: Paste the declaration into the theme
 
 In the Theme Editor, go to **Theme Settings** → **Typography** → **Custom fonts**.
 
-Paste your `@font-face` declaration(s) or external font `<link>` tag into the **@font-face declarations** field.
+Paste your `@font-face` declaration(s) into the **@font-face declarations** field.
 
 ## Step 3: Assign the font to theme areas
 
