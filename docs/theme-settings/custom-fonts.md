@@ -47,13 +47,15 @@ If your font has multiple weights (e.g. Regular and Bold), add a separate `@font
 }
 ```
 
-### Option B: Use an external font (e.g. Google Fonts)
+### Option B: Use Google Fonts (or other external fonts)
 
-You can also import fonts from external sources. For example, to use a Google Font, paste a `<link>` tag:
+The recommended approach for Google Fonts is to **download the font files** and upload them to Shopify, then use `@font-face` exactly as shown in Option A. This is the most reliable method and works in the Theme Editor preview.
 
-```html
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-```
+To download Google Fonts, visit [fonts.google.com](https://fonts.google.com/), select a font, and click the download button to get the font files (`.ttf` or `.woff2`).
+
+:::caution
+Using `@import url(...)` inside the declarations field may not work reliably in the Shopify Theme Editor/Customizer preview. For best results, always upload font files to Shopify and use `@font-face`.
+:::
 
 ## Step 2: Paste the declaration into the theme
 
@@ -78,14 +80,35 @@ The Wonder Theme lets you assign custom fonts to 5 separate areas. For each area
 
 You don't have to fill in all 5 areas — only set the ones you want to override. Areas left empty will use the default Shopify font picker selection from the Typography settings.
 
-## Example: Full setup with Google Fonts
+## Example: Full setup with Inter font
 
-1. **@font-face declarations** field:
-```html
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+1. Download Inter from [fonts.google.com/specimen/Inter](https://fonts.google.com/specimen/Inter) and upload the `.woff2` files to **Content** → **Files**.
+
+2. Paste into the **@font-face declarations** field:
+```css
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/.../Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/.../Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/.../Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
 ```
 
-2. **Assign the font:**
+3. **Assign the font:**
 
 | Field | Value |
 |-------|-------|
