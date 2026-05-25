@@ -22,6 +22,14 @@ Three optional panels at the bottom of the cart: **Order Note**, **Discount Code
 - **Enable estimate shipping** — Let shoppers enter a country and postal code to preview shipping rates before checkout.
 - **Enable discount code** — Let shoppers apply discount codes directly in the cart. The cart total updates immediately.
 
+#### Desktop view example
+
+![Additional features desktop](/img/docs/additional-features-desktop.png)
+
+#### Mobile view example
+
+![Additional features mobile](/img/docs/additional-features-mobile.png)
+
 ### Additional service
 
 An optional checkbox that adds a single configured product to the cart with one click — typically used for gift wrapping, donation matching, or warranty add-ons.
@@ -30,6 +38,8 @@ An optional checkbox that adds a single configured product to the cart with one 
 - **Name of additional service** — The label shown next to the checkbox.
 - **Product** — The product added to the cart when the checkbox is ticked.
 - **Show quantity and remove button for checkbox product** — When on, the service product appears in the cart items list with a quantity selector and remove button. When off, it is hidden from the items list but still added to the cart at checkout.
+
+<p style={{color: '#e53e3e', fontWeight: 'bold'}}>Important: Keep "Show quantity and remove button for checkbox product" turned off unless you have a specific reason to allow it. When enabled, shoppers can increase the quantity of the service product, which may lead to unintended multiple charges (e.g. paying for gift wrapping twice). Disabling this option ensures the service is added exactly once and cannot be manually adjusted in the cart.</p>
 
 ### Example: Gift wrapping
 
@@ -48,7 +58,13 @@ Product recommendations shown inside the cart drawer to encourage shoppers to ad
 - **Collection** — The collection to pull cross-sell products from. Only applies when **Product source** is From collection.
 - **Product list** — Up to 9 hand-picked products. Only applies when **Product source** is From product list.
 
+### Example: Cross-sells
+
+![Cross-sells](/img/docs/cross-sells.png)
+
 ### Free shipping bar
+
+<p style={{color: '#e53e3e', fontWeight: 'bold'}}>Not compatible with local currencies or dynamic exchange rates — The free shipping threshold is set in a single currency. If your store uses Shopify Markets, local currencies, or dynamic exchange rates, the bar will not work correctly. Separate thresholds per currency are not currently supported. We recommend using this feature only on single-currency stores.</p>
 
 A progress bar showing shoppers how close they are to qualifying for free shipping.
 
@@ -57,11 +73,19 @@ A progress bar showing shoppers how close they are to qualifying for free shippi
 - **Free shipping message** — Text shown before the threshold is reached. Use `||amount||` as a placeholder for the remaining amount (e.g. `Spend ||amount|| more for FREE shipping!`).
 - **Message when free shipping is achieved** — Text shown once the threshold is met.
 
+### Example: Free shipping bar
+
+![Free shipping bar](/img/docs/free-shipping-bar.png)
+
 ### Discount progress bar
 
-<p style={{color: '#e53e3e', fontWeight: 'bold'}}>Not compatible with local currencies or dynamic exchange rates — Milestone thresholds are set in a single currency. If your store uses Shopify Markets, local currencies, or dynamic exchange rates, the progress bar will not work correctly. There is no way to define separate thresholds per currency. We recommend using this feature only on single-currency stores.</p>
+<p style={{color: '#e53e3e', fontWeight: 'bold'}}>Not compatible with local currencies or dynamic exchange rates — Milestone thresholds are set in a single currency. If your store uses Shopify Markets, local currencies, or dynamic exchange rates, the progress bar will not work correctly. Separate thresholds per currency are not currently supported. We recommend using this feature only on single-currency stores.</p>
+
+<p style={{fontWeight: 'bold'}}>This feature works exclusively with discounts created in your Shopify admin panel. Make sure your discount codes or automatic discounts are set up in Shopify Admin before configuring the milestones here.</p>
 
 A progress bar with up to three milestones, each unlocking a discount tier. Available since **v2.4.0**.
+
+#### Discount progress bar example
 
 - **Enable discount progress bar** — Turn the bar on or off.
 
