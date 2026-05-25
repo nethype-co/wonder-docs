@@ -64,7 +64,7 @@ Product recommendations shown inside the cart drawer to encourage shoppers to ad
 
 ### Free shipping bar
 
-<p style={{color: '#e53e3e', fontWeight: 'bold'}}>Not compatible with local currencies or dynamic exchange rates — The free shipping threshold is set in a single currency. If your store uses Shopify Markets, local currencies, or dynamic exchange rates, the bar will not work correctly. Separate thresholds per currency are not currently supported. We recommend using this feature only on single-currency stores.</p>
+<p style={{color: '#e53e3e', fontWeight: 'bold'}}>Not compatible with dynamic exchange rates — If your store uses Shopify Markets with automatic currency conversion, the bar may not work correctly. For multi-currency stores with fixed rates, use the threshold format `USD:120|PLN:400|EUR:90` to define separate values per currency.</p>
 
 A progress bar showing shoppers how close they are to qualifying for free shipping.
 
@@ -79,13 +79,15 @@ A progress bar showing shoppers how close they are to qualifying for free shippi
 
 ### Discount progress bar
 
-<p style={{color: '#e53e3e', fontWeight: 'bold'}}>Not compatible with local currencies or dynamic exchange rates — Milestone thresholds are set in a single currency. If your store uses Shopify Markets, local currencies, or dynamic exchange rates, the progress bar will not work correctly. Separate thresholds per currency are not currently supported. We recommend using this feature only on single-currency stores.</p>
+<p style={{color: '#e53e3e', fontWeight: 'bold'}}>Not compatible with dynamic exchange rates — If your store uses Shopify Markets with automatic currency conversion, the progress bar may not work correctly. For multi-currency stores with fixed rates, use the threshold format `USD:120|PLN:400|EUR:90` to define separate milestone values per currency.</p>
 
 <p style={{fontWeight: 'bold'}}>This feature works exclusively with discounts created in your Shopify admin panel. Make sure your discount codes or automatic discounts are set up in Shopify Admin before configuring the milestones here.</p>
 
 A progress bar with up to three milestones, each unlocking a discount tier. Available since **v2.4.0**.
 
 #### Discount progress bar example
+
+![Discount progress bar](/img/docs/discount-progress-bar.png)
 
 - **Enable discount progress bar** — Turn the bar on or off.
 
@@ -118,3 +120,7 @@ Each milestone shares the same five settings. Set milestones in ascending order 
 ### How to set up the Discount progress bar
 
 <DocVideo src="/img/docs/how-to-set-discount-bar.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
+
+### Example: How to set up the Discounts
+
+<DocVideo src="/img/docs/discount.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
