@@ -12,6 +12,8 @@ import DocVideo from '@site/src/components/DocVideo';
 
 The Inventory Status block displays real-time stock information on the product page, helping to create urgency and inform customers about product availability. It supports three inventory levels — High, Medium, and Low — each with a customizable message, color, and threshold.
 
+![Inventory Status](/img/docs/inventory-status.png)
+
 ## **Settings**
 
 ### General Settings
