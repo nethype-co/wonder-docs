@@ -1,16 +1,18 @@
 ---
-title: "Countdown with discount code block"
-sidebar_label: "Countdown with discount code block"
+title: "Countdown with discount code"
+sidebar_label: "Countdown with discount code"
 ---
 
 import SectionMeta from '@site/src/components/SectionMeta';
 import DocVideo from '@site/src/components/DocVideo';
 
-## **Countdown with Discount Code Block**
+## **Countdown with Discount Code**
 
 <SectionMeta version="v2.4.0" availability="Product page" />
 
 The Countdown with Discount Code block displays a promotional banner on the product page combining a live countdown timer with a copyable discount code. It is ideal for creating urgency around time-limited offers and encouraging customers to apply a discount before it expires.
+
+![Countdown with Discount](/img/docs/countdown-with-discount.png)
 
 ## **Settings**
 
@@ -44,6 +46,6 @@ The Countdown with Discount Code block displays a promotional banner on the prod
 - **Text color** — Define the text color within the block.
 - **Counter item background color** — Set the background color of each individual timer unit.
 
-## How to Set Up the Countdown with Discount Code Block
+## How to Set Up the Countdown with Discount Code
 
 <DocVideo src="/img/docs/countdown-with-discount-block.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
