@@ -12,6 +12,8 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The Blog Posts section displays a grid of blog articles with filtering by tags, making it easy for visitors to browse and discover content. Each article card includes an image, tags, date, author, title, excerpt, and a read more button.
 
+![Blog Posts](/img/docs/blog-posts.png)
+
 ## Main Settings
 
 ### General

@@ -12,6 +12,10 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The Featured Blog section displays a highlighted blog article in a large, visually prominent layout combining an article image with its title, excerpt, date, and author. It is ideal for drawing attention to a specific post or automatically showcasing the latest article from a selected blog.
 
+![Featured Blog](/img/docs/featured-blog.png)
+
+![Featured Blog Mobile](/img/docs/featured-blog-mobile.png)
+
 ## Main Settings
 
 ### General
