@@ -24,6 +24,11 @@ The Transparent value is the default and subsequently inherits the value from th
 ### Section Spacing
 - **Distance from the top:** Adjust the spacing above the section.
 - **Distance from the bottom:** Adjust the spacing below the section.
+
+### Mobile Spacing
+- **Show custom mobile spacing:** Enable this toggle to define separate spacing values for mobile devices, independent from the desktop settings.
+- **Distance from the top mobile:** Adjust the spacing above the section on mobile devices.
+- **Distance from the bottom mobile:** Adjust the spacing below the section on mobile devices.
 ## Blocks
 
 ### Subheading Block
