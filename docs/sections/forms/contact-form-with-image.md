@@ -11,6 +11,8 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The Contact Form with Image section combines a visual media panel with a contact form side by side, allowing visitors to get in touch while reinforcing the brand aesthetic. The media panel supports both images and videos on desktop and mobile independently.
 
+<img src="/img/docs/contact-form-with-image.png" alt="" />
+
 ## Main settings
 
 ### General

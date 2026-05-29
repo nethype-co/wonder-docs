@@ -10,6 +10,9 @@ import SectionMeta from '@site/src/components/SectionMeta';
 <SectionMeta version="v1.0.0" />
 
 The Contact Form section displays a standalone contact form that allows visitors to send messages directly from the storefront.
+
+<img src="/img/docs/contact-form.png" alt="" />
+
 ## Main settings
 
 ### Colors
