@@ -38,7 +38,11 @@ The Promotion Menu is a mega-menu block in the header that displays images, head
 
 ## How to Set Up the Mega Menu with Promotion Menu
 
+<img src="/img/docs/mega-menu.png" alt="" />
+
 ### Step 1: Create a navigation
+
+<img src="/img/docs/menu.png" alt="" />
 
 1. **Open Navigation settings** — In your Shopify admin, go to **Online Store > Navigation** and click on the menu you want to edit (e.g. "Main Menu").
 2. **Add a top-level parent item** — Click **Add menu item**, enter a name (e.g. "Dining room") and set its link to the relevant collection or page. Click **Save**.
@@ -51,7 +55,10 @@ The Promotion Menu is a mega-menu block in the header that displays images, head
 9. **Delete an item** — Hover over the row and click the trash icon on the right to remove the item from the menu.
 10. **Save your changes** — Click **Save menu** to publish the updated structure to your storefront.
 
+
 ### Step 2: Configure the Mega Menu with Promotion Menu
+
+<img src="/img/docs/mega-menu-editor.png" alt="" />
 
 1. **Open Theme Customization** — In your Shopify admin, go to **Online Store > Themes**, locate your current theme, and select **Customize**.
 2. **Access the Header** — In the Theme Customizer, navigate to the **Header** section.
