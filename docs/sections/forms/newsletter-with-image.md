@@ -15,49 +15,67 @@ The "Newsletter with image" section is a visually engaging element designed to g
 
 ## Main settings
 
-**Section Height**
+### Section Height
 
-* **Height:** Choose between adapting the height to the image or setting a fixed height.
-* **Desktop fixed height:** Adjust the fixed height for desktop view.
-* **Mobile fixed height:** Adjust the fixed height for mobile view.
+- **Height** — Choose between two display modes:
+  - **Adapt to image** — The section height adjusts automatically based on the image's natural dimensions.
+  - **Fixed height** — Forces a consistent height regardless of the image size.
+- **Desktop fixed height** — Set the section height in pixels for desktop devices. Applied only when "Fixed Height" is selected.
+- **Mobile fixed height** — Set the section height in pixels for mobile devices. Applied only when "Fixed Height" is selected.
 
-**Large Screen Version**
+### Large Screen Version
 
-* **Image:** Select an image for the large screen version of the banner.
+- **Image** — Upload or select an image to display on desktop and large screen devices. Use the **Select** button to choose from your library or click **Explore free images** to browse free stock photos.
 
-**Mobile Version**
+### Mobile Version
 
-* **Image:** Select an image for the mobile version of the banner.
+- **Image** — Upload or select a separate image optimized for mobile devices. Use the **Select** button to choose from your library or click **Explore free images** to browse free stock photos.
 
-**Colors**
+### Colors
 
-* **Text color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
-* **Text container color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
+The Transparent value is the default and subsequently inherits the value from the global settings.
 
-**Section Spacing**
+- **Text color** — Define the text color for the section content.
+- **Text container color** — Set the background color of the container behind the text.
+- **Background Opacity** — Adjust the opacity level of the newsletter block's background color. Ranges from 0 (fully transparent) to 100 (fully opaque).
+- **Background Blur** — Apply a blur effect to the background of the newsletter block's header. Value is set in pixels.
 
-* **Distance from the top:** Adjust the spacing from the top of the section.
-* **Distance from the bottom:** Adjust the spacing from the bottom of the section.
+### Section Spacing
 
-![](/img/docs/b36f2f37f8c6.jpg)
+- **Distance from the top** — Adjust the spacing above the section.
+- **Distance from the bottom** — Adjust the spacing below the section.
+- **Show custom mobile spacing** — Enable this toggle to define separate spacing values for mobile devices, independent from the desktop settings.
+- **Distance from the top mobile** — Adjust the spacing above the section on mobile devices.
+- **Distance from the bottom mobile** — Adjust the spacing below the section on mobile devices.
 
-## Customize heading block
+### Heading Block
 
-Click one of the preloaded **heading** block to customize it.
+- **Heading:** Enter the heading text displayed on the banner.
+- **Disable on mobile:** Hide this heading block on mobile devices.
+- **Heading scale large screen:** Adjust the font size of the heading on large screens.
+- **Heading scale mobile:** Adjust the font size of the heading on mobile devices.
 
-![](/img/docs/d01040d00d87.jpg)
+<img src="/img/docs/block-heading.png" alt="" />
 
 ## Customize subheading block
 
-Click one of the preloaded **subheading** block to customize it.
+### Subheading Block
+- **Subheading:** Enter the subheading text.
+- **Disable on mobile:** Hide this subheading block on mobile devices.
 
-![](/img/docs/86ffb2543b5f.jpg)
+<img src="/img/docs/block-subheading.png" alt="" />
 
-## Customize Email form block
+### Email Form Block
 
-Click one of the preloaded block to customize it.
+The Email Form block adds a newsletter signup form to the Newsletter with Image section, allowing customers to subscribe directly from the banner.
 
-![](/img/docs/63981e829f8b.jpg)
+- **Style:** Choose the visual style of the form — Primary or Secondary.
+- **Button label:** Set the text displayed on the form submission button.
+
+#### Consent Checkbox
+- **Show consent checkbox:** Enable this toggle to display a consent checkbox that customers must check before submitting the form.
+- **Consent checkbox label:** Enter the text displayed next to the consent checkbox. Rich text formatting options are available.
+- **Validation message:** Set the message displayed when a customer attempts to submit the form without checking the consent checkbox.
 
 ## Mobile view example
 
