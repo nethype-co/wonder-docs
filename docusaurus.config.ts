@@ -165,7 +165,7 @@ const config: Config = {
           { from: '/question/featured-navigation', to: '/sections/text-forms/featured-navigation' },
           { from: '/question/features-banner', to: '/sections/text-forms/features-banner' },
           { from: '/question/map-section', to: '/sections/text-forms/map-section' },
-          { from: '/question/newsletter-with-image', to: '/sections/text-forms/newsletter-with-image' },
+          { from: '/question/newsletter-with-image', to: '/sections/forms/newsletter-with-image' },
           { from: '/question/notification-pop-up', to: '/sections/text-forms/notification-pop-up' },
           { from: '/question/specification-table-block', to: '/sections/text-forms/specification-table-block' },
           // Product Page — Blocks
