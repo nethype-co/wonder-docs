@@ -74,7 +74,6 @@ Licensing, support, accessibility, and policies.
 
 General settings that apply across your entire Wonder theme.
 
-- [Cart & Shipping](theme-settings/cart-and-shipping)  -  Cart drawer, free shipping progress bar, cross-sells
 - [Colors](theme-settings/colors)  -  Global color scheme for your entire store
 - [Typography](theme-settings/typography)  -  Fonts, sizes, and text styles
 - [General Settings](theme-settings/general-settings)  -  Layout, animations, icons, search, social media
