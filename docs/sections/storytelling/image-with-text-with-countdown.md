@@ -78,7 +78,7 @@ The **Image with Text with Countdown** section displays an image alongside text 
 ## Blocks
 
 ### Heading Block
-The Heading block displays the main headline overlaid on the banner image.
+
 - **Heading:** Enter the heading text displayed on the banner.
 - **Disable on mobile:** Hide this heading block on mobile devices.
 - **Heading scale large screen:** Adjust the font size of the heading on large screens.

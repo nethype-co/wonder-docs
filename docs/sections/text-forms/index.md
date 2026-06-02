@@ -1,12 +1,12 @@
 ---
-title: "Text & Forms"
-sidebar_label: "Text & Forms"
+title: "Text"
+sidebar_label: "Text"
 ---
 
 import DocCardList from '@theme/DocCardList';
 
-# Text & Forms
+# Text
 
-Text-based sections including AI section, newsletter forms, maps, notification pop-ups, and more.
+Text-based sections including AI section, maps, notification pop-ups, and more.
 
 <DocCardList />

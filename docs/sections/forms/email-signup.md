@@ -24,6 +24,12 @@ The Transparent value is the default and subsequently inherits the value from th
 ### Section Spacing
 - **Distance from the top:** Adjust the spacing above the section.
 - **Distance from the bottom:** Adjust the spacing below the section.
+
+### Mobile Spacing
+- **Show custom mobile spacing:** Enable this toggle to define separate spacing values for mobile devices, independent from the desktop settings.
+- **Distance from the top mobile:** Adjust the spacing above the section on mobile devices.
+- **Distance from the bottom mobile:** Adjust the spacing below the section on mobile devices.
+
 ## Blocks
 
 ### Subheading Block
@@ -33,7 +39,7 @@ The Transparent value is the default and subsequently inherits the value from th
 <img src="/img/docs/block-subheading.png" alt="" />
 
 ### Heading Block
-The Heading block displays the main headline overlaid on the banner image.
+
 - **Heading:** Enter the heading text displayed on the banner.
 - **Disable on mobile:** Hide this heading block on mobile devices.
 - **Heading scale large screen:** Adjust the font size of the heading on large screens.
