@@ -1,43 +1,74 @@
 ---
-title: "Promotion Menu"
-sidebar_label: "Promotion Menu"
+title: "Promotion / Mega Menu"
+sidebar_label: "Promotion / Mega Menu"
 ---
 
 import SectionMeta from '@site/src/components/SectionMeta';
 
-## **How to Set Up a Promotion Menu** 
+## What is the Promotion Menu?
 
 <SectionMeta version="v1.0.0" />
 
+The Promotion Menu is a mega-menu block in the header that displays images, headings, and links in a multi-column layout. It is ideal for highlighting featured categories, bestsellers, or seasonal promotions directly in your store's navigation.
+
 ![](/img/docs/3df9bd434853.jpeg)
 
-In the bustling world of e-commerce, a store's success often hinges on user experience, particularly in how customers navigate your site. Enter the mega-menu, a game-changer in online navigation. This isn't just a menu; it's an essential tool for showcasing your products and enhancing user engagement.
+## How to Set Up the Promotion Menu
 
-In this guide, we'll delve into the integration and optimization of promotion-menus within Shopify themes. Whether you're just starting out or are looking to upgrade your store, understanding promotion-menus is key to elevating your site's functionality and aesthetic appeal. Ready to transform your Shopify store into a navigational gem? Let's get started.
+### Step 1: Create a navigation item for the Promotion Menu
+
+![](/img/docs/1eb46e6289f7.jpeg)
+
+1. **Open Navigation settings** — In your Shopify admin, go to **Online Store > Navigation**.
+2. **Select your main menu** — Open the menu where you want the Promotion Menu to appear.
+3. **Add a new item** — Click **Add menu item** and enter a name for the entry point, for example "Bestsellers".
+4. **Save your changes** — Save the menu to update your store's header.
+
+### Step 2: Configure the Promotion Menu in the Theme Customizer
+
+![](/img/docs/122c94f0322f.jpeg)
+
+1. **Open Theme Customization** — In your Shopify admin, go to **Online Store > Themes**, locate your current theme, and select **Customize**.
+2. **Access the Header** — In the Theme Customizer, navigate to the **Header** section.
+3. **Add a Promotion Menu block** — Click **Add block** and select **Promotion Menu**.
+4. **Link the navigation item** — In the block settings, enter the name of the navigation item you created, for example "Bestsellers".
+5. **Set the column layout** — Choose the number of columns for the menu layout.
+6. **Customize content** — Upload images, add headings, descriptive text, and links for each column. You can add up to 6 images.
+7. **Save and review** — Save your changes and preview the store to verify all links and layout appear as intended.
+
+## How to Set Up the Mega Menu with Promotion Menu
+
+<img src="/img/docs/mega-menu.png" alt="" />
+
+### Step 1: Create a navigation
+
+<img src="/img/docs/menu.png" alt="" />
+
+1. **Open Navigation settings** — In your Shopify admin, go to **Online Store > Navigation** and click on the menu you want to edit (e.g. "Main Menu").
+2. **Add a top-level parent item** — Click **Add menu item**, enter a name (e.g. "Dining room") and set its link to the relevant collection or page. Click **Save**.
+3. **Add child items** — Click **Add menu item** again and add each subcategory (e.g. "Tables", "Chairs", "Stools"). Set their respective links and click **Save** after each one.
+4. **Nest items by dragging** — Drag each child item slightly to the right underneath its intended parent item. A dotted line appears to indicate the nesting level. Repeat for every item you want to nest.
+5. **Add a second level (grandchild items)** — To nest items one level deeper (e.g. "Dining Tables" under "Tables"), add them via **Add menu item** and drag them to the right underneath the relevant Level 2 item.
+6. **Expand a top-level item** — Click the chevron icon (›) next to any menu item (e.g. "Dining room") to reveal its nested subcategories.
+7. **Reorder items** — Grab the drag handle (⠿) on the left side of any item and drag it to a new position within the same level.
+8. **Edit an item** — Hover over any subcategory row to reveal the pencil icon on the right, then click it to update the item's label or link URL.
+9. **Delete an item** — Hover over the row and click the trash icon on the right to remove the item from the menu.
+10. **Save your changes** — Click **Save menu** to publish the updated structure to your storefront.
+
+
+### Step 2: Configure the Mega Menu with Promotion Menu
+
+<img src="/img/docs/mega-menu-editor.png" alt="" />
+
+1. **Open Theme Customization** — In your Shopify admin, go to **Online Store > Themes**, locate your current theme, and select **Customize**.
+2. **Access the Header** — In the Theme Customizer, navigate to the **Header** section.
+3. **Add a Promotion Menu block** — Click **Add block** and select **Promotion Menu**.
+4. **Link the navigation item** — In the block settings, enter the name of the navigation item you created, for example "Dining room".
+5. **Set the column layout** — Choose the number of columns for the menu layout.
+6. **Customize content** — Upload images, add headings, descriptive text, and links for each column. You can add up to 6 images.
+7. **Save and review** — Save your changes and preview the store to verify all links and layout appear as intended.
+
 
 ## Video Tutorial
 
 <iframe width="100%" style={{aspectRatio: '16/9'}} src="https://www.youtube.com/embed/hCeI0ZnXeFA?si=9mL2gB0dnVHBVJiH" title="Mega Menu Setup Tutorial" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-
-### Step 1: Create item for promotion menu in your main navigation
-
-![](/img/docs/1eb46e6289f7.jpeg)
-
-1. **Access the Navigation Settings** : Log in to your Shopify admin panel. Navigate to the 'Online Store' section and then click on 'Navigation'.
-2. **Select Your Promotion Menu** : In the Navigation section, you'll find your store's main menu. This is typically where you want your promotion-menu to appear.
-3. **Add a New Item** : Click on 'Add menu item'. Here, you'll create the entry point for your mega-menu. Enter the name for this item, in this case, "Bestsellers".
-4. **Save Your Changes** : After adding the "Bestsellers" item, make sure to save your changes to update your store's header.
-
-### **Step 2: Configuring Your Promotion Menu in the Theme Customizer** 
-
-![](/img/docs/122c94f0322f.jpeg)
-
-To add a promotion-menu to your Shopify store, you'll be working within the Theme Customizer. Here's how to proceed:
-
-1. **Open Theme Customization** : From your Shopify admin dashboard, go to the 'Online Store' section and click on 'Themes'. Locate your current theme and select 'Customize'.
-2. **Access the Header Configuration** : Within the Theme Customizer, navigate to the 'Header' section. This is where you'll be able to manage the settings for your store's header, including the promotion-menu.
-3. **Add a Promotion-Menu** : Look for the option to 'Add Promotion Menu' and click on it. This will allow you to start building your mega-menu.
-4. **Link Item Setup** : In the settings for the promotion-menu, specify the name of the link item you've previously created, such as "Bestsellers". This will link your promotion-menu to the correct item in your store's navigation.
-5. **Column Configuration** : Decide on the number of columns you want in your promotion-menu. A standard layout would be 6 columns, but you can adjust this based on how you want to categorize your items.
-6. **Customize Visual Elements** : Now, it's time to personalize your promotion-menu. Upload images, create headings, add descriptive texts, and set the appropriate links for each section. You can add up to 6 images, so choose images that represent your categories or products well and make sure they are consistent with your store's aesthetic.
-7. **Save and Review** : After customizing your promotion-menu, make sure to review all settings and save your changes. It's important to ensure that all links are working correctly and that the layout appears as intended on your store's front end.

@@ -74,7 +74,6 @@ Licensing, support, accessibility, and policies.
 
 General settings that apply across your entire Wonder theme.
 
-- [Cart & Shipping](theme-settings/cart-and-shipping)  -  Cart drawer, free shipping progress bar, cross-sells
 - [Colors](theme-settings/colors)  -  Global color scheme for your entire store
 - [Typography](theme-settings/typography)  -  Fonts, sizes, and text styles
 - [General Settings](theme-settings/general-settings)  -  Layout, animations, icons, search, social media
@@ -159,15 +158,18 @@ General settings that apply across your entire Wonder theme.
 - [Testimonial Marquee](sections/testimonials/testimonial-marquee)
 - [Testimonial Video Reels](sections/testimonials/testimonial-video-reels)
 
-### [Text & Forms](sections/text-forms)
+### [Text](sections/text-forms)
 - [AI Section](sections/text-forms/ai-section)
 - [Featured Navigation](sections/text-forms/featured-navigation)
 - [Features Banner](sections/text-forms/features-banner)
 - [Map Section](sections/text-forms/map-section)
 - [Metrics Banner](sections/text-forms/metrics-banner)
-- [Newsletter with Image](sections/text-forms/newsletter-with-image)
 - [Notification Pop-up](sections/text-forms/notification-pop-up)
 - [Specification Table Block](sections/text-forms/specification-table-block)
+
+### [Forms](sections/forms)
+- [Email Signup](sections/forms/email-signup)
+- [Newsletter with Image](sections/forms/newsletter-with-image)
 
 </div>
 </div>

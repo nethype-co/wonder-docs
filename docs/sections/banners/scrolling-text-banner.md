@@ -68,7 +68,7 @@ The Transparent value is the default and subsequently inherits the value from th
 ## Blocks
 
 ### Heading Block
-The Heading block displays the main headline overlaid on the banner image.
+
 - **Heading:** Enter the heading text displayed on the banner.
 - **Disable on mobile:** Hide this heading block on mobile devices.
 - **Heading scale large screen:** Adjust the font size of the heading on large screens.
