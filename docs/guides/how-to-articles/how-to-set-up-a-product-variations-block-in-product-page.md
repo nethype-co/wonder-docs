@@ -9,50 +9,37 @@ In this guide, we’ll walk through the process of setting up a **Product Variat
 
 ![](/img/docs/3f607d7fc0aa.jpg)
 
-## Video Tutorial
 
-<iframe width="100%" style={{aspectRatio: '16/9'}} src="https://www.youtube.com/embed/H34IrovkOIA?si=XX7WvBLehHgssugt" title="Product Variations Block Setup Tutorial" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+### **Step 1:** Set up the Metaobject “Color” (if not already present)
 
-### **Step 1:** Set up the “Color” Category Metafield (if not already present)
-
-If you do **not** yet have a **Color** metafield set up as a **category metafield** in your Shopify admin, follow these steps to create one. For more details on category metafields, see the [Shopify Category Metafields guide](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields).
-
-1. In your Shopify admin, go to **Settings > Custom data > Products** .
+1. In your Shopify admin, go to **Settings > Content > Metaobjects** .
 2. Click **Add definition** .
 3. In the **Name** field, type **Color** .
-4. From the suggested standard definitions that appear, **select the first "Color" option** (Defines the primary color or pattern, such as blue or striped).
+4. Add Fields llike Label, Color or Image, please find the details on the screenshoot. 
 5. Click **Save.**
 
-![](/img/docs/35f09af1e85c.png)
 
-### **Step 2: Create a Color Metafield** 
+### **Step 2: Create a Product Metafiled - Color** 
 
 To store color values or images for product variations, create a **Color** metafield.
 
-1. In the **Shopify Admin** , go to **Settings** → **Custom Data** .
-2. Under **Metafield Definitions** , select **Products** .
-3. Click **Add definition** .
+1. In the **Shopify Admin** , go to **Settings** → **Metafields and metaobjects** → **Products**.
+2. Click **Add definition** .
 4. Enter a name (e.g., **Color** ) and set the **Type** to **Metaobject** .
-5. Select **Reference** and choose **Color** .
+5. Select "Color" Metaobject from the list that will expand.
 6. Click **Save** .
 
-![](/img/docs/958813e88a2b.jpg)
-
-Color metafield definition
 
 ### **Step 3: Create a Product Variations Metafield** 
 
 This metafield will store a list of related product variations.
 
-1. In **Settings** → **Custom Data** , select **Products** .
+1. In **Settings** → **Metafields and metaobjects** → **Products**.
 2. Click **Add definition** .
 3. Enter a name (e.g., **Product Variations** ).
 4. Select **Product** as the field type and choose **List of products** .
 5. Click **Save** .
 
-![](/img/docs/9b362527f3e1.jpg)
-
-Product variation metafield definition
 
 ### **Step 4: Assign Metafields to Products** 
 
