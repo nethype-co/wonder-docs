@@ -1,6 +1,6 @@
 ---
-title: "How to Set Up a Product Variations Block in Product Page"
-sidebar_label: "How to Set Up a Product Variations Block in Product Page"
+title: "Product Siblings"
+sidebar_label: "Product Siblings"
 ---
 
 The **Product Variations Block** lets you display linked product siblings — such as different colors or styles — directly on the product page, so customers can easily switch between them.
