@@ -1,6 +1,6 @@
 ---
-title: "Promotion / Mega Menu"
-sidebar_label: "Promotion / Mega Menu"
+title: "Block - Promotion / Mega Menu"
+sidebar_label: "Block - Promotion / Mega Menu"
 ---
 
 import SectionMeta from '@site/src/components/SectionMeta';
@@ -12,6 +12,10 @@ import SectionMeta from '@site/src/components/SectionMeta';
 The Promotion Menu is a mega-menu block in the header that displays images, headings, and links in a multi-column layout. It is ideal for highlighting featured categories, bestsellers, or seasonal promotions directly in your store's navigation.
 
 ![](/img/docs/3df9bd434853.jpeg)
+
+## Mobile view example
+
+![](/img/docs/685ab6dcf37d.jpeg)
 
 ## How to Set Up the Promotion Menu
 
