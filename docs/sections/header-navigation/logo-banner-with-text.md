@@ -53,7 +53,7 @@ Videos play on loop with no sound.
 * **Horizontal alignment:** Set the horizontal alignment of the content on desktop — Left, Center, or Right.
 * **Mobile screen text alignment:** Set the horizontal alignment of the content on mobile — Left, Center, or Right.
 
-## Colors
+**Colors**
 
 The Transparent value is the default and subsequently inherits the value from the global settings.
 
