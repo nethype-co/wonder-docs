@@ -1,6 +1,6 @@
 ---
-title: "How to Set Up a Product Variations Block in Product Page"
-sidebar_label: "How to Set Up a Product Variations Block in Product Page"
+title: "How to Set Up a Product Siblings (Product Variations) Block in Product Page"
+sidebar_label: "How to Set Up a Product Siblings (Product Variations) Block in Product Page"
 ---
 
 The **Product Variations Block** lets you display linked product siblings — such as different colors or styles — directly on the product page, so customers can easily switch between them.
@@ -63,7 +63,7 @@ Now apply the metafields to each product.
 6. Click **Save**.
 
 :::note
-The order of products in the **Product Variations** list must be **identical across all sibling products**. For example, if Product A lists variations in the order [A, B, C], then Product B and Product C must also list them in the exact same order [A, B, C]. 
+The order of products in the **Product Variations** metafield reflects the order in which the swatches appear on the product page. 
 
 Repeat this step for every sibling product, keeping the product order consistent each time.
 :::
@@ -135,7 +135,7 @@ Now apply the metafields to each product.
 6. Click **Save**.
 
 :::note
-The order of products in the **Product Variations** list must be **identical across all sibling products**. For example, if Product A lists variations in the order [A, B, C], then Product B and Product C must also list them in the exact same order [A, B, C].
+The order of products in the **Product Variations** metafield reflects the order in which the swatches appear on the product page.
 
 Repeat this step for every sibling product, keeping the product order consistent each time.
 :::
