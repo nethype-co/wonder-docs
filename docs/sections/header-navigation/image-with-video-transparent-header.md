@@ -136,3 +136,5 @@ The Button block supports two buttons displayed side by side.
 * **Liquid code:** Add custom app snippets or other Liquid code to create custom content within the section.
 
 ## How to Set Up the Image with Video section?
+
+<DocVideo src="/img/docs/image-with-video-header.webm" controls playsInline muted style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
