@@ -54,7 +54,7 @@ The Search Results page displays products, articles, and pages matching the visi
 * **Distance from the bottom**: Adjust the spacing below the section.
 * **Show custom mobile spacing**: Enable this toggle to set custom spacing values specifically for mobile devices.
 * **Distance from the top mobile**: Adjust the spacing above the section on mobile. Applied only when Show custom mobile spacing is enabled.
-* **Distance from the bottom mobile**: Adjust the spacing below the section on mobile. Applied only when Show custom mobile spacing is enabled
+* **Distance from the bottom mobile**: Adjust the spacing below the section on mobile. Applied only when Show custom mobile spacing is enabled.
 
 ## Video Tutorial
 
