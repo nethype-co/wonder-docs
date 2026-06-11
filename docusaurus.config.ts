@@ -123,8 +123,10 @@ const config: Config = {
           // Sections — Header & Navigation
           { from: '/question/announcement-bar', to: '/sections/header-navigation/announcement-bar' },
           { from: '/question/header', to: '/sections/header-navigation/header' },
-          { from: '/question/how-to-set-up-a-promotion-menu-in-your-shopify-theme-a-step-by-step-guide', to: '/sections/header-navigation/how-to-set-up-a-mega-menu-promotion-menu-in-your-shopify-theme-a-step-by-step-guide' },
-          { from: '/question/how-to-set-up-a-transparent-header-in-the-wonder-theme', to: '/sections/header-navigation/how-to-set-up-a-transparent-header-in-the-wonder-theme' },
+          { from: '/question/how-to-set-up-a-promotion-menu-in-your-shopify-theme-a-step-by-step-guide', to: '/sections/header-navigation/header/block-promotion-mega-menu' },
+          { from: '/sections/header-navigation/how-to-set-up-a-mega-menu-promotion-menu-in-your-shopify-theme-a-step-by-step-guide', to: '/sections/header-navigation/header/block-promotion-mega-menu' },
+          { from: '/question/how-to-set-up-a-transparent-header-in-the-wonder-theme', to: '/sections/header-navigation/header' },
+          { from: '/sections/header-navigation/how-to-set-up-a-transparent-header-in-the-wonder-theme', to: '/sections/header-navigation/header' },
           // Sections — Banners
           { from: '/question/card-banner', to: '/sections/banners/banner-card' },
           { from: '/question/image-with-text-with-countdown', to: '/sections/storytelling/image-with-text-with-countdown' },
