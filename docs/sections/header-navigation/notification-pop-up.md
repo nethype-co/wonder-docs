@@ -63,3 +63,4 @@ The Email Form block displays an email input field and a subscribe button inside
 
 * **Style** – Choose the visual style of the submit button — Primary or Secondary.
 * **Button label** – Set the label displayed on the submit button. Add custom text to replace the default "Subscribe".
+
