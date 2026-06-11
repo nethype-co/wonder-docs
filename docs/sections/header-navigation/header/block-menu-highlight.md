@@ -1,6 +1,6 @@
 ---
-title: "Menu Highlight"
-sidebar_label: "Menu Highlight"
+title: "Block - Menu Highlight"
+sidebar_label: "Block - Menu Highlight"
 ---
 
 import SectionMeta from '@site/src/components/SectionMeta';
