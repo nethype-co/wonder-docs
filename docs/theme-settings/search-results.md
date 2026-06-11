@@ -3,30 +3,59 @@ title: "Search Results"
 sidebar_label: "Search Results"
 ---
 
+import SectionMeta from '@site/src/components/SectionMeta';
+import DocVideo from '@site/src/components/DocVideo';
+
 ## Search Results
 
-This page covers the settings for the search results page, found under **Theme Settings → Search Results** in the Theme Editor.
+<SectionMeta version="v1.0.0" />
 
-## Layout
+The Search Results page displays products, articles, and pages matching the visitor's search query. It includes a product grid with filtering and sorting tools, and is available on the Search template. To edit this section, select the Search template from the template switcher at the top of the editor.
 
-- **Products per row on desktop** — Set how many product cards appear per row on desktop screens.
-- **Products per row on mobile** — Set how many product cards appear per row on mobile screens.
+![Search Results](/img/docs/search-results.png)
 
-## Filters
+## Main Settings
 
-- **Enable filters** — Show filtering options on the search results page.
-- **Filter position** — Choose whether filters appear as a sidebar (desktop) or in a drawer.
-- **Enable sorting** — Allow customers to sort search results by relevance, price, or newest.
+**General**
 
-## Product Card
+* **Products per page**: Set the number of products displayed per page in the search results grid.
+* **Number of columns on mobile**: Choose between 1 or 2 columns for the product grid on mobile devices.
+* **Number of columns on desktop**: Choose between 3 or 4 columns for the product grid on desktop.
+* **Spacing between products on desktop**: Set the gap between product cards on desktop — 8px, 16px, or 24px.
+* **Make section full width**: Enable this toggle to stretch the section to the full width of the screen.
 
-- **Show vendor** — Display the product vendor name on search result cards.
-- **Show second image on hover** — Show an alternate product image when hovering over a card.
-- **Show color swatches** — Display color swatches on product cards in search results.
-- **Show product rating** — Display the product rating on search result cards (requires a reviews app).
+**Categories**
 
-## Search Behavior
+* **Show articles**: Enable this toggle to display matching blog articles in the search results.
+* **Show pages**: Enable this toggle to display matching pages in the search results.
 
-- **Show no results content** — Display a message and optional recommendations when no results are found.
-- **No results heading** — Heading text shown when the search returns no results.
-- **No results subtext** — Supporting text shown below the no results heading.
+**Mobile Version**
+
+* **Spacing between columns on mobile**: Set the gap between product cards on mobile — 4px, 8px, 12px, or 16px.
+
+**Product Card**
+
+* **Image ratio**: Choose the aspect ratio of product images in the grid — for example Square.
+* **Show second image on hover**: Enable this toggle to display the product's second image when hovering over the card on desktop.
+* **Show vendor**: Enable this toggle to display the product vendor name on each card.
+* **Enable vendor link**: Enable this toggle to make the vendor name a clickable link.
+* **Show product rating**: Enable this toggle to display the product rating on each card. To display a rating, a product rating app is required.
+* **Enable quick add button**: Enable this toggle to display a quick add to cart button on product cards. Recommended for lower-priced items to facilitate quick shopping.
+
+**Toolbar**
+
+* **Enable sorting**: Enable this toggle to display the sort order dropdown above the product grid.
+* **Enable filtering**: Enable this toggle to display the filter options above the product grid. Filters can be customized via the Customize filters link.
+* **Filters position**: Choose how the filter panel is displayed — Always visible or Drawer.
+
+**Section Spacing**
+
+* **Distance from the top**: Adjust the spacing above the section.
+* **Distance from the bottom**: Adjust the spacing below the section.
+* **Show custom mobile spacing**: Enable this toggle to set custom spacing values specifically for mobile devices.
+* **Distance from the top mobile**: Adjust the spacing above the section on mobile. Applied only when Show custom mobile spacing is enabled.
+* **Distance from the bottom mobile**: Adjust the spacing below the section on mobile. Applied only when Show custom mobile spacing is enabled
+
+## Video Tutorial
+
+<DocVideo src="/img/docs/search-results.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
