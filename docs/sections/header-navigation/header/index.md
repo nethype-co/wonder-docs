@@ -26,8 +26,6 @@ The Header section controls the global navigation bar displayed at the top of ev
 * **Show separator line** – Enable this toggle to display a dividing line below the header. This setting is not visible on the homepage when the Transparent Menu layout is used.
 * **Show shadow** – Enable this toggle to display a shadow beneath the header. This setting is not visible on the homepage when the Transparent Menu layout is used.
 
-<a href="#video-tutorial" style={{fontSize:'0.85rem'}}>↓ Video Tutorial</a>
-
 <div style={{display:'flex',flexWrap:'wrap',gap:'8px',margin:'16px 0'}}>
   <a href="#header-logo" style={{padding:'4px 12px',borderRadius:'9999px',border:'1px solid var(--ifm-color-emphasis-300)',fontSize:'0.85rem',textDecoration:'none'}}>Header Logo</a>
   <a href="#teaser-menu" style={{padding:'4px 12px',borderRadius:'9999px',border:'1px solid var(--ifm-color-emphasis-300)',fontSize:'0.85rem',textDecoration:'none'}}>Teaser Menu</a>
@@ -40,12 +38,16 @@ The Header section controls the global navigation bar displayed at the top of ev
 
 ### Header Logo
 
+![Header logo example](/img/docs/header-logo-ex.png)
+
 * **Logo image** – Upload the logo image displayed in the header.
 * **Large screen logo width** – Set the width of the logo on desktop.
 * **Mobile screen logo width** – Set the width of the logo on mobile devices.
 * **Menu** – Select the navigation menu displayed in the header.
 * **Mobile footer menu** – Select the menu displayed in the mobile footer drawer.
 * **Customer account menu** – Select the menu used for customer account navigation. Only visible when New Customer Accounts are enabled in Settings > Customer accounts.
+
+![Header footer menu](/img/docs/header-footer-menu.png)
 
 ### Teaser Menu
 
@@ -54,9 +56,13 @@ To display teaser menu links, use the Transparent menu layout setting. The tease
 * **Teaser menu** – Select the menu to display as the teaser menu.
 * **Teaser menu limit** – Set the maximum number of links to display in the teaser menu.
 
+![Header teaser menu](/img/docs/header-teaser-menu.png)
+
 ### Transparent Header
 
-To display a transparent header, choose the Transparent menu layout setting and ensure an Image Banner or Logo Banner is set as the first section.
+![Header transparent](/img/docs/header-transparent.png)
+
+To display a transparent header, choose the Transparent menu layout setting and ensure the proper section is select as the first section. For a better effect, we recommend enabling the sticky page header
 
 * **Logo image** – Upload the logo displayed when the transparent header is active. Displays only when an Image Banner is the first section.
 * **Custom navigation color** – Set the color of the navigation links in the transparent header. The Transparent value inherits from global settings by default.
@@ -75,10 +81,14 @@ To add a language, go to your language settings.
 
 * **Show language selector** – Enable this toggle to display the language selector in the header.
 
+![Header country](/img/docs/header-country.png)
+
 ### Drawer
 
 * **Title** – Set the greeting or title text displayed at the top of the drawer menu. This feature functions correctly with the Logo center, drawer menu layout setting.
 * **Enable submenu link in drawer** – Enable this toggle to allow clicking a submenu title to navigate to its category page. When enabled, the submenu will open only when clicking the + icon or the blank space next to it.
+
+![Header drawer](/img/docs/header-drawer.png)
 
 ### Search
 
@@ -89,6 +99,16 @@ To add a language, go to your language settings.
 * **Suggestions layout** – Choose how the suggestions panel is structured. Dropdown menus will display as separate rows, and links to collections and products will show images.
 * **Suggestions menu** – Select the menu whose dropdown items appear as search suggestions.
 
+![Header search](/img/docs/header-search.png)
+
+There are two ways to configure search suggestions:
+
+1. Set **Suggestions layout** to **Dropdown menu** and select a menu with suggested products. The menu must be created in the Shopify admin panel first.
+
+![Header search menu](/img/docs/header-search-menu.png)
+
+2. Set **Suggestions layout** to **Search-results style** and complete the Curated Suggestions fields as shown below.
+
 #### Curated Suggestions
 
 These fields apply only when Suggestions layout is set to Search-results style.
@@ -97,4 +117,7 @@ These fields apply only when Suggestions layout is set to Search-results style.
 * **Collections** – Select featured collections to display in the suggestions panel.
 * **Show suggestions on empty results** – Enable this toggle to display the suggestions panel even when a search returns no matches.
 
-## Video Tutorial
+![Header search results](/img/docs/hadear-search-results-2.png)
+
+![Header search results](/img/docs/header-search-results-1.png)
+
