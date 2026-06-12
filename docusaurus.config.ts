@@ -123,8 +123,10 @@ const config: Config = {
           // Sections — Header & Navigation
           { from: '/question/announcement-bar', to: '/sections/header-navigation/announcement-bar' },
           { from: '/question/header', to: '/sections/header-navigation/header' },
-          { from: '/question/how-to-set-up-a-promotion-menu-in-your-shopify-theme-a-step-by-step-guide', to: '/sections/header-navigation/how-to-set-up-a-mega-menu-promotion-menu-in-your-shopify-theme-a-step-by-step-guide' },
-          { from: '/question/how-to-set-up-a-transparent-header-in-the-wonder-theme', to: '/sections/header-navigation/how-to-set-up-a-transparent-header-in-the-wonder-theme' },
+          { from: '/question/how-to-set-up-a-promotion-menu-in-your-shopify-theme-a-step-by-step-guide', to: '/sections/header-navigation/header/block-promotion-mega-menu' },
+          { from: '/sections/header-navigation/how-to-set-up-a-mega-menu-promotion-menu-in-your-shopify-theme-a-step-by-step-guide', to: '/sections/header-navigation/header/block-promotion-mega-menu' },
+          { from: '/question/how-to-set-up-a-transparent-header-in-the-wonder-theme', to: '/sections/header-navigation/header' },
+          { from: '/sections/header-navigation/how-to-set-up-a-transparent-header-in-the-wonder-theme', to: '/sections/header-navigation/header' },
           // Sections — Banners
           { from: '/question/card-banner', to: '/sections/banners/banner-card' },
           { from: '/question/image-with-text-with-countdown', to: '/sections/storytelling/image-with-text-with-countdown' },
@@ -166,7 +168,8 @@ const config: Config = {
           { from: '/question/features-banner', to: '/sections/text-forms/features-banner' },
           { from: '/question/map-section', to: '/sections/text-forms/map-section' },
           { from: '/question/newsletter-with-image', to: '/sections/forms/newsletter-with-image' },
-          { from: '/question/notification-pop-up', to: '/sections/text-forms/notification-pop-up' },
+          { from: '/question/notification-pop-up', to: '/sections/header-navigation/notification-pop-up' },
+          { from: '/sections/text-forms/notification-pop-up', to: '/sections/header-navigation/notification-pop-up' },
           { from: '/question/specification-table-block', to: '/sections/text-forms/specification-table-block' },
           // Product Page — Blocks
           { from: '/question/bulletpoints-block', to: '/product-page/blocks/bulletpoints-block' },
