@@ -64,7 +64,7 @@ const features: Feature[] = [
     description:
       'A perfectly crafted mega menu with mobile and desktop variations. Organize your store navigation with rich content, images, and promotional links.',
     images: ['/img/features/megamenu-desktop.png', '/img/features/megamenu-mobile.png'],
-    link: '/sections/header-navigation/how-to-set-up-a-mega-menu-promotion-menu-in-your-shopify-theme-a-step-by-step-guide',
+    link: '/sections/header-navigation/header/block-promotion-mega-menu',
     reverse: true,
   },
   {
@@ -131,7 +131,7 @@ const features: Feature[] = [
     description:
       'Email subscription popup to encourage newsletter sign-ups. Capture visitor emails with a well-timed, beautifully designed popup.',
     images: ['/img/features/newsletter-popup.png'],
-    link: '/sections/text-forms/notification-pop-up',
+    link: '/sections/header-navigation/notification-pop-up',
     reverse: true,
   },
   {

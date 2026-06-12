@@ -33,15 +33,15 @@ The Wonder Theme supports a mega menu for richer navigation with images and prom
 1. Create a multi-level menu structure in your Shopify admin (parent items with nested children).
 2. In the Theme Editor, go to the **Header** section settings to enable and configure the mega menu.
 
-For a step-by-step walkthrough, see our detailed guide: [How to Set Up a Promotion Menu](/sections/header-navigation/how-to-set-up-a-mega-menu-promotion-menu-in-your-shopify-theme-a-step-by-step-guide).
+For a step-by-step walkthrough, see our detailed guide: [How to Set Up a Promotion Menu](/sections/header-navigation/header/block-promotion-mega-menu).
 
 ## Menu Highlight
 
-You can visually highlight specific menu items (like "Sale" or "New Arrivals") with a custom color and icon using the **Menu Highlight** block in the header. See: [Menu Highlight](/sections/header-navigation/menu-highlight).
+You can visually highlight specific menu items (like "Sale" or "New Arrivals") with a custom color and icon using the **Menu Highlight** block in the header. See: [Menu Highlight](/sections/header-navigation/header/block-menu-highlight).
 
 ## Transparent Header
 
-If your homepage uses a full-width hero image or video, you may want to enable the transparent header so the navigation overlays the hero content. See: [Transparent Header](/sections/header-navigation/how-to-set-up-a-transparent-header-in-the-wonder-theme).
+If your homepage uses a full-width hero image or video, you may want to enable the transparent header so the navigation overlays the hero content. See: [Transparent Header](/sections/header-navigation/header#transparent-header).
 
 ## Learn More
 

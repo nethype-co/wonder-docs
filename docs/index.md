@@ -92,11 +92,11 @@ General settings that apply across your entire Wonder theme.
 ### [Header & Navigation](sections/header-navigation)
 - [Announcement Bar](sections/header-navigation/announcement-bar)
 - [Header](sections/header-navigation/header)
-- [Promotion Menu](sections/header-navigation/how-to-set-up-a-mega-menu-promotion-menu-in-your-shopify-theme-a-step-by-step-guide)
-- [Transparent Header](sections/header-navigation/how-to-set-up-a-transparent-header-in-the-wonder-theme)
+- [Promotion Menu](sections/header-navigation/header/block-promotion-mega-menu)
+- [Transparent Header](sections/header-navigation/header#transparent-header)
 - [Logo Banner](sections/header-navigation/logo-banner)
 - [Logo Banner with Text](sections/header-navigation/logo-banner-with-text)
-- [Menu Highlight](sections/header-navigation/menu-highlight)
+- [Menu Highlight](sections/header-navigation/header/block-menu-highlight)
 
 ### [Banners](sections/banners)
 - [Banner Card](sections/banners/banner-card)
@@ -164,7 +164,7 @@ General settings that apply across your entire Wonder theme.
 - [Features Banner](sections/text-forms/features-banner)
 - [Map Section](sections/text-forms/map-section)
 - [Metrics Banner](sections/text-forms/metrics-banner)
-- [Notification Pop-up](sections/text-forms/notification-pop-up)
+- [Notification Pop-up](sections/header-navigation/notification-pop-up)
 - [Specification Table Block](sections/text-forms/specification-table-block)
 
 ### [Forms](sections/forms)
