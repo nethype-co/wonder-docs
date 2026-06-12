@@ -8,7 +8,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 ## Banner Card Block
 
-<SectionMeta version="v1.0.0" />
+<SectionMeta version="v2.1.0" />
 
 <DocVideo src="/img/docs/a23f5164b304.webm" autoPlay playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
 
