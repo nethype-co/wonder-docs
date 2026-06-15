@@ -5,39 +5,33 @@ sidebar_label: "Feature tags block"
 
 import SectionMeta from '@site/src/components/SectionMeta';
 
-### Feature Tags Block
+<SectionMeta version="v1.0.0" availability="Product page" />
 
-The **Feature Tags** block is a simple yet effective way to highlight key attributes of a product. It allows you to showcase essential details, such as ingredients, materials, or product benefits, in a visually organized format. Ideal for supplements, apparel, or tech products, this block helps customers quickly understand what makes your product unique, enhancing clarity and engagement on the product page.
+The **Feature Tags** block lists product features sourced from a specified metafield, displayed as styled tags on the product page. It is ideal for highlighting key product attributes such as ingredients, certifications, or properties in a visual tag format.
 
 ![](/img/docs/53fc3c7d9433.png)
 
-## **Settings** 
+## Settings
 
-<SectionMeta version="v1.0.0" availability="Product page" />
+* **Metafield**: Enter the namespace and key of the metafield holding the list of feature tags, using the format `namespace.key` — for example `custom.feature_tags`. The metafield should be a list of single-line text or a list of metaobjects containing a Label field.
+* **Limit**: Set the maximum number of feature tags to display.
+* **Text color**: Set the text color of the feature tags.
+* **Border color**: Set the border color of the feature tags.
 
-![](/img/docs/9f1bd365ef90.jpg)
-
-## **How to Set Up the Feature Tags Block** 
+## How to Set Up the Feature Tags Block 
 
 Follow these steps to display key product attributes using the **Feature Tags** block:
 
-#### **1. Create a Product Metafield** 
+#### 1. Create a Metaobject and Product Metafield
 
-* Navigate to **Settings** → **Custom Data** → **Products** .
-* Click **Add Definition** and create a metafield of one of these types:* **Single line text (List)** – Allows a simple list of text-based feature tags.
-* **Metaobject (List)** – References a metaobject that contains a **label** field for each tag.
-
+* Navigate to **Settings** → **Metafields and metaobjects** → **Metaobject definitions**.
+* Click **Add Definition** and create a metaobject (screenshot below)
+* Navigate to **Settings** → **Metafields and metaobjects** → **Products**.
+* Click **Add Definition** and create a metafield. Type: List — select the created Metaobject from the list (screenshot below).
 * Save the metafield.
 
-![](/img/docs/ddb0109c0bc3.jpg)
 
- **Single line text (List)** 
-
-![](/img/docs/2271f87b4e21.jpg)
-
- **Metaobject (List)** 
-
-#### **2. Assign Metafield Values to a Product** 
+#### 2. Assign Metafield Values to a Product
 
 * Open the **Products** section in Shopify.
 * Select the product you want to customize.
@@ -45,18 +39,15 @@ Follow these steps to display key product attributes using the **Feature Tags** 
 * Add the items (features) you want to display.
 * Click **Save** .
 
-![](/img/docs/48a9f94d870d.jpg)
 
- **Adding items to the metafield** 
-
-#### **3. Add the Feature Tags Block to Your Product Page** 
+#### 3. Add the Feature Tags Block to Your Product Page
 
 * Go to **Online Store** → **Customize** (Theme Editor).
 * Select the **Product** template where you want to add the feature tags.
 * Inside the **Product information** section, click **Add block** and select **Feature Tags** .
 * In the **Metafield setting** , enter the **namespace and key** of the metafield (e.g., custom.feature_tags).
 
-#### **4. Save and Publish** 
+#### 4. Save and Publish
 
 * Click **Save** to apply the changes.
 * Preview the product page to ensure the feature tags display correctly.
