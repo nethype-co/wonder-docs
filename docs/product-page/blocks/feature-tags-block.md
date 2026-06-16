@@ -25,20 +25,25 @@ Follow these steps to display key product attributes using the **Feature Tags** 
 #### 1. Create a Metaobject and Product Metafield
 
 * Navigate to **Settings** → **Metafields and metaobjects** → **Metaobject definitions**.
-* Click **Add Definition** and create a metaobject (screenshot below)
+* Click **Add Definition** and create a metaobject.
+
+![Create a metaobject definition](/img/docs/feature_tags_metafield_1.png)
+
 * Navigate to **Settings** → **Metafields and metaobjects** → **Products**.
-* Click **Add Definition** and create a metafield. Type: List — select the created Metaobject from the list (screenshot below).
+* Click **Add Definition** and create a metafield. Type: List then select the created Metaobject from the list.
 * Save the metafield.
 
+![Create a product metafield](/img/docs/feature_tags_metafield_2.png)
 
 #### 2. Assign Metafield Values to a Product
 
 * Open the **Products** section in Shopify.
 * Select the product you want to customize.
 * Scroll to the **Metafields** section and choose the metafield you just created.
-* Add the items (features) you want to display.
+* Add the items (features) you want to display. You can select from the lsit or add a new one.
 * Click **Save** .
 
+![Assign metafield values to a product](/img/docs/feature_tags_metafield_3.png)
 
 #### 3. Add the Feature Tags Block to Your Product Page
 
