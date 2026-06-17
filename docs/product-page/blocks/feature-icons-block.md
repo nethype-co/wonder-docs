@@ -5,19 +5,50 @@ sidebar_label: "Feature icons block"
 
 import SectionMeta from '@site/src/components/SectionMeta';
 
-### Feature Icons Block
-
-The **Feature Icons** block allows you to showcase product highlights using visually appealing icons. Powered by metafields, this feature enables you to store and display a **list of custom icons** on the product page. Whether you want to emphasize **product attributes, unique features, or available facilities** , this block provides **flexibility and customization** to fit your needs. With adjustable settings, you can tailor the icon display to match your branding and enhance the product presentation.
-
-## Video Tutorial
-
 <SectionMeta version="v1.0.0" availability="Product page" />
 
-<iframe width="100%" style={{aspectRatio: '16/9'}} src="https://www.youtube.com/embed/4fCU-xnf2a0?si=b_PyD9iCHDPF7OE6" title="Feature Icons Block Tutorial" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+The Feature Icons block displays a row of icons with labels on the product page, ideal for highlighting key product attributes such as certifications, materials, or values — for example Cruelty-free, Gluten-free, Recyclable, or Vegan. Icons can be added manually or sourced from a metafield.
 
-## **Settings** 
+![](/img/docs/feature-icons-meta-1.png)
 
-![](/img/docs/dd5776f93ee0.jpg)
+## Settings
+
+* **Layout**: Choose how the icons are arranged — Column, Row-Left, or Row-Center.
+* **Show icons label**: Enable this toggle to display the text label beneath each icon.
+
+### Icon with Text 1–4
+
+Each of the four icon slots has the following settings:
+
+* **Select icon**: Choose a built-in icon to display.
+* **Icon**: Upload a custom icon image to display instead of the built-in icon.
+* **Text**: Enter the label displayed beneath the icon.
+
+### Icons from Metafield
+
+* **Metafield**: Enter the namespace and key of the metafield holding the list of feature icons, using the format `namespace.key` — for example `custom.feature_icons`.
+
+### Large Screen Version
+
+* **Items per row**: Set the number of icons displayed per row on desktop. Affects only the Row-Center layout.
+* **Icon size**: Set the size of the icons on desktop.
+* **Text scale large screen**: Adjust the font size of the icon labels on large screens.
+* **Show advanced settings**: Enable this toggle to reveal additional spacing and sizing controls.
+* **Gap between icons**: Set the spacing between individual icons on desktop. A value of 0 uses the default spacing.
+* **Icon container width**: Set the width of each icon container on desktop. A value of 0 uses the default width.
+* **Icon label margin top**: Set the top margin between the icon and its label on desktop.
+* **Icon label margin bottom**: Set the bottom margin below the icon label on desktop.
+
+### Mobile Version
+
+* **Items per row**: Set the number of icons displayed per row on mobile. Affects only the Row-Center layout.
+* **Icon size**: Set the size of the icons on mobile devices.
+* **Text scale mobile screen**: Adjust the font size of the icon labels on mobile devices.
+* **Show advanced settings**: Enable this toggle to reveal additional spacing and sizing controls for mobile.
+* **Gap between icons**: Set the spacing between individual icons on mobile. A value of 0 uses the default spacing.
+* **Icon container width**: Set the width of each icon container on mobile. A value of 0 uses the default width.
+* **Icon label margin top**: Set the top margin between the icon and its label on mobile.
+* **Icon label margin bottom**: Set the bottom margin below the icon label on mobile.
 
 ## How to Create a Metafield for the Feature Icons Block
 
@@ -25,25 +56,13 @@ Follow these steps to properly set up a metafield for the **Feature Icons** bloc
 
 #### **1. Create a Metaobject for Feature Icons** 
 
-* Go to **Content** → **Metaobjects** and click **Add definition** .
+* In the **Shopify Admin**, go to **Settings** → **Metafields and metaobjects** → **Metaobjects**.
 * Name it (e.g., **Product Feature Icon** ).
 * Add the following fields:
   * **Single line text** – Name it **Label** (stores the feature name).
   * **File** – Name it **Image** (stores the icon). Under **Accept specific file types**, select **Images** only
 
-![](/img/docs/72081213c7eb.jpg)
-
- **Single line text field** 
-
-![](/img/docs/5fbe773fd415.jpg)
-
- **File field** 
-
-![](/img/docs/317ab1e6511d.jpg)
-
- **Product feature icon metaobject** 
-
-* Click **Save** .
+![](/img/docs/feature-icons-meta-2.png)
 
 #### **2. Add Entries for Feature Icons** 
 
@@ -52,26 +71,36 @@ Follow these steps to properly set up a metafield for the **Feature Icons** bloc
 * Enter a **Label** and upload an **Image** for each feature icon.
 * Repeat for all feature icons needed.
 
-![](/img/docs/dc5696c4aa62.jpg)
+![](/img/docs/feature-icons-meta-4.png)
 
 #### **3. Create a Metafield for Feature Icons** 
 
-* Go to **Settings** → **Custom Data** → **Products** and click **Add definition** .
+* In the **Shopify Admin**, go to **Settings** → **Metafields and metaobjects** → **Products** Add definition.
 * Name it (e.g., **Feature Icons** ).
 * Select **Metaobject** as the type and reference the metaobject created earlier ( **Product Feature Icon** ).
 * Enable **List of entries** .
 * Click **Save** .
 
-![](/img/docs/3fe69a296545.jpg)
+![](/img/docs/feature-icons-meta-3.png)
 
-#### **4. Add the Feature Icons Block in the Theme Editor** 
+#### **4. Assign Metafield Values to a Product**
+
+* Open the **Products** section in Shopify.
+* Select the product you want to customize.
+* Scroll to the **Metafields** section and choose the metafield you just created.
+* Add the items (features) you want to display.
+* Click **Save** .
+* 
+  ![](/img/docs/feature-icons-meta-5.png)
+
+#### **5. Add the Feature Icons Block in the Theme Editor** 
 
 * Open **Online Store** → **Customize** .
 * Select the **Product** template.
 * In the **Product Information** section, click **Add block** and choose **Feature Icons** .
 * In the **Metafield setting** , enter the **namespace and key** (e.g., custom.feature_icons).
 
-#### **5. Save and Apply** 
+#### **6. Save and Apply** 
 
 * Adjust block settings as needed.
 * Click **Save** and preview the product page to ensure proper display.
