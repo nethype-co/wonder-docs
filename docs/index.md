@@ -113,7 +113,7 @@ General settings that apply across your entire Wonder theme.
 - [Benefits Video Reels](sections/video/benefits-video-reels)
 - [Shoppable Video](sections/video/shoppable-video)
 - [Shoppable Video Reels](sections/video/shoppable-video-reels)
-- [Video Reels with Product Block](sections/video/video-reels-with-product-block)
+- [Video Reels with Product Block](product-page/blocks/video-reels-with-product-block)
 
 ### [Collections](sections/collections)
 - [Collection Links](sections/collections/collection-links)
