@@ -170,7 +170,8 @@ const config: Config = {
           { from: '/question/newsletter-with-image', to: '/sections/forms/newsletter-with-image' },
           { from: '/question/notification-pop-up', to: '/sections/header-navigation/notification-pop-up' },
           { from: '/sections/text-forms/notification-pop-up', to: '/sections/header-navigation/notification-pop-up' },
-          { from: '/question/specification-table-block', to: '/sections/text-forms/specification-table-block' },
+          { from: '/question/specification-table-block', to: '/product-page/blocks/specification-table-block' },
+          { from: '/sections/text-forms/specification-table-block', to: '/product-page/blocks/specification-table-block' },
           // Product Page — Blocks
           { from: '/question/bulletpoints-block', to: '/product-page/blocks/bulletpoints-block' },
           { from: '/question/buy-button-block', to: '/product-page/blocks/buy-button-block' },
