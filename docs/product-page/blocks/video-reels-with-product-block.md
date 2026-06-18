@@ -8,7 +8,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 ## **Video Reels with product block**
 
-<SectionMeta version="v1.0.0" />
+<SectionMeta version="v1.0.0" availability="Product page" />
 
 <DocVideo src="/img/docs/876896f90702.webm" autoPlay playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
 
