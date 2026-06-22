@@ -5,14 +5,22 @@ sidebar_label: "Promo block"
 
 import SectionMeta from '@site/src/components/SectionMeta';
 
-### Promo Block
-
-The **Promo Block** is a simple yet effective way to highlight key promotional messages across your store. Whether it’s free shipping, limited-time offers, or customer milestones, this block helps grab attention with bold text and customizable styling. With options to adjust text alignment, colors, and background, you can seamlessly integrate promotional messages into your store’s design, enhancing customer engagement and trust.
-
-![](/img/docs/4e0ea7c69c50.jpg)
-
-## **Settings** 
+## **Promo block**
 
 <SectionMeta version="v1.0.0" availability="Product page" />
 
-![](/img/docs/2d1c912dfd33.jpg)
+The Promo block displays a highlighted promotional message on the product page, typically used to draw attention to special offers, subscription savings, or limited-time deals. It appears as a styled banner between the product price and the Add to Cart button.
+
+## **Settings**
+
+![](/img/docs/promo-block.png)
+
+- **Content:** Enter the promotional message to display in the block.
+- **Text alignment in blocks:** Set the horizontal alignment of the text — Left, Center, or Right.
+
+### **Colors**
+
+The Transparent value is the default and subsequently inherits the value from the global settings.
+
+- **Text color:** Set the text color of the promotional message.
+- **Background color:** Set the background color of the promo block.
