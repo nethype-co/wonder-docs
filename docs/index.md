@@ -145,7 +145,7 @@ General settings that apply across your entire Wonder theme.
 - [Scrollytelling Video](sections/storytelling/scrollytelling-video)
 
 ### [Products](sections/products)
-- [Benefits Product](sections/products/benefits-product)
+- [Product Benefits](sections/products/benefits-product)
 - [Compare Products](sections/products/compare-products)
 - [Comparison Table](sections/products/comparison-table)
 - [Featured Product](sections/products/featured-product)
