@@ -17,6 +17,7 @@ Display brand logos. Link images / brand logo to links to connect customers with
 
  **Heading** 
 
+* **Use rich text field for heading**: Enable this toggle to use the rich text editor for the heading, which supports bold, italic, links, heading levels (H1–H6 for SEO), and dynamic content.
 * **Heading:** Set the title for the Brands section.
 
  **Animation Mode** 
@@ -34,6 +35,9 @@ Display brand logos. Link images / brand logo to links to connect customers with
 
 * **Distance from the top:** Adjust the spacing from the top of the section (default 20px).
 * **Distance from the bottom:** Adjust the spacing from the bottom of the section (default 20px).
+* **Show custom mobile spacing**: Enable this toggle to reveal separate top and bottom spacing controls for mobile devices.
+* **Distance from the top mobile**: Set the top spacing above the section on mobile devices in pixels. Only applied when custom mobile spacing is enabled.
+* **Distance from the bottom mobile**: Set the bottom spacing below the section on mobile devices in pixels. Only applied when custom mobile spacing is enabled.
 
 ![](/img/docs/1217ce01a7c6.jpg)
 
