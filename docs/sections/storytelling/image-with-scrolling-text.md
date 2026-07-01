@@ -3,6 +3,7 @@ title: "Image with Scrolling Text"
 sidebar_label: "Image with Scrolling Text"
 ---
 
+import DocVideo from '@site/src/components/DocVideo';
 import SectionMeta from '@site/src/components/SectionMeta';
 
 ### What is Image with Scrolling Text section?
@@ -15,15 +16,13 @@ For the best user experience, the section automatically stretches to the full he
 
 Subtle animations and flexible layout options make this section perfect for storytelling, product showcases, or brand presentations — adding a modern and professional feel to your store.
 
-### How to set up Image with scrolling text section?
+<DocVideo src="/img/docs/image-with-scrolling-text.webm" autoPlay playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
 
-- Add the **Image with Scrolling Text** section to your page.
-- Configure each block by adding an image, text, or button.
-- Adjust the section settings: choose the image/text order, enable or disable full width, set the image size, and select the text alignment.
+### Mobile view
 
-### Main settings
+![](/img/docs/image-scrolling-text-mobile.jpg)
 
-![](/img/docs/image-scrolling-text.jpg)
+## Main settings
 
 **General**
 
@@ -45,7 +44,21 @@ Subtle animations and flexible layout options make this section perfect for stor
 
 - **Distance from the top** – Add spacing (in pixels) above the section to create breathing room.
 - **Distance from the bottom** – Add spacing (in pixels) below the section for better layout balance.
+- **Show custom mobile spacing:** Enable this toggle to reveal separate top and bottom spacing controls for mobile devices.
+- **Distance from the top mobile:** Set the top spacing above the section on mobile devices in pixels. Only applied when custom mobile spacing is enabled.
+- **Distance from the bottom mobile:** Set the bottom spacing below the section on mobile devices in pixels. Only applied when custom mobile spacing is enabled.
 
-### Mobile view
+## Blocks
 
-![](/img/docs/image-scrolling-text-mobile.jpg)
+### Image Block
+
+The **Image** block adds an individual image within the Image with scrolling text section, along with an optional heading, text, and button. It supports separate image uploads for desktop and mobile, allowing you to display different visuals depending on the screen size.
+
+![](/img/docs/image-scrolling-text.jpg)
+
+
+### How to set up Image with scrolling text section?
+
+- Add the **Image with Scrolling Text** section to your page.
+- Configure each block by adding an image, text, or button.
+- Adjust the section settings: choose the image/text order, enable or disable full width, set the image size, and select the text alignment.
