@@ -20,7 +20,5 @@ The Promo block displays a highlighted promotional message on the product page, 
 
 ### **Colors**
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 - **Text color:** Set the text color of the promotional message.
 - **Background color:** Set the background color of the promo block.

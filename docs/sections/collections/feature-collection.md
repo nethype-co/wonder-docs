@@ -57,8 +57,6 @@ The Featured Collection section displays products from a selected collection in 
 
 **Colors**
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 - **Text color:** Define the global text color for the section.
 - **Background color:** Customize the background color of the entire section.
 

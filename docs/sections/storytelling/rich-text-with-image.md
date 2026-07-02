@@ -21,7 +21,7 @@ The "Rich text with image" section is an elegant and visually appealing element 
 
  **Colors** 
 
-* **Text color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
+* **Text color:** Set the text color for the section. Defaults to the value set in global settings.
 * **Enable background color:** Toggle to enable a background color for the section and set the desired color.
 
  **Section Spacing** 
@@ -35,7 +35,7 @@ The "Rich text with image" section is an elegant and visually appealing element 
 
  **Colors** 
 
-* **Text color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
+* **Text color:** Set the text color for the section. Defaults to the value set in global settings.
 * **Enable background color:** Toggle to enable a background color for the section and set the desired color.
 
  **Section Spacing** 

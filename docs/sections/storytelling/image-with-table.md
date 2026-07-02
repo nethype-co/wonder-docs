@@ -36,11 +36,11 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 #### Colors
 
-* **Heading color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
-* **Section background color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
+* **Heading color:** Set the color of the section heading. Defaults to the value set in global settings.
+* **Section background color:** Set the background color of the section. Defaults to the value set in global settings.
 * **Background opacity:** Adjust the opacity of the background color.
-* **Text color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
-* **Text container color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
+* **Text color:** Set the text color for the section. Defaults to the value set in global settings.
+* **Text container color:** Set the background color of the text container. Defaults to the value set in global settings.
 * **Background opacity:** Adjust the opacity of the text container background color.
 
 #### Large Screen Version

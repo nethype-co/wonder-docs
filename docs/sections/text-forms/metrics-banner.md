@@ -29,8 +29,6 @@ The Metrics Banner section allows you to display key indicators and statistics i
 
 **Colors**
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 - **Background color:** Customize the background color of the entire section.
 - **Text color:** Define the global text color for the section.
 - **Block background color:** Set the background color of individual metric blocks.

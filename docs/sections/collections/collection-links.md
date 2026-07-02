@@ -43,8 +43,8 @@ The 'Collection links' section transforms your store into a vibrant display of y
 
 #### Colors
 
-* **Text color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
-* **Background color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
+* **Text color:** Set the text color for the section. Defaults to the value set in global settings.
+* **Background color:** Set the background color for the section. Defaults to the value set in global settings.
 
 #### Section Spacing
 
@@ -62,8 +62,6 @@ The Collection block represents a single collection link within the section. Use
 - **Custom title:** Enter a custom title to override the default collection name displayed as the link text.
 
 **Hover Colors**
-
-The Transparent value is the default and subsequently inherits the value from the global settings.
 
 - **Text color:** Set the text color of the collection link when hovered.
 - **Background color:** Set the background color of the section when this collection link is hovered.

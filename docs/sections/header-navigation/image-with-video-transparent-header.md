@@ -52,8 +52,6 @@ Videos play on loop with no sound.
 
 **Colors**
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 * **Text color:** Define the global text color for the section.
 * **Text container color:** Set the background color of the content container displayed over the video or image panel.
 * **Background opacity:** Adjust the opacity of the text container background color.

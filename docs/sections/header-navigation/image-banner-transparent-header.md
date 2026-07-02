@@ -61,8 +61,6 @@ Videos play on loop with no sound.
 
 **Color**
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 * **Text color:** Define the global text color for the section.
 * **Background color:** Set the background color of the entire section.
 * **Background opacity:** Adjust the opacity of the section background color.

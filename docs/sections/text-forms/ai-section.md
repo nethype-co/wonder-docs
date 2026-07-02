@@ -47,8 +47,8 @@ Use this section to experiment with AI-generated layouts, text, or image compone
 * **Position:** Adjust the **vertical placement** of blocks ** -  top, center, bottom,** or **space between.**
 * **Gap:** Set the **spacing between blocks. Colors** 
 
-* **Text color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
-* **Background color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
+* **Text color:** Set the text color for the section. Defaults to the value set in global settings.
+* **Background color:** Set the background color for the section. Defaults to the value set in global settings.
 
  **Section spacing** 
 

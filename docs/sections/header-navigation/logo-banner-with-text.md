@@ -55,8 +55,6 @@ Videos play on loop with no sound.
 
 **Colors**
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 * **Text color:** Set the color of the text displayed over the banner.
 * **Background color:** Set the background color of the section.
 * **Background opacity:** Adjust the opacity of the background color overlay.

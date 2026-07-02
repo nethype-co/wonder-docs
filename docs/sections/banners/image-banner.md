@@ -43,7 +43,6 @@ The Image Banner section allows you to create a visually impactful full-width ba
 - **Show text below image:** Enable this toggle to display the text content below the image on mobile devices instead of overlaying it.
 
 ### Colors
-The Transparent value is the default and subsequently inherits the value from the global settings.
 - **Heading color:** Set the color of the section heading displayed above the banner.
 - **Section background color:** Customize the background color of the entire section.
 - **Background opacity:** Adjust the opacity of the section background color.

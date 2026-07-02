@@ -38,12 +38,10 @@ The Timeline section displays a vertical sequence of content blocks, each repres
 
 ### Progress Bar
 
-- **Active color** — Set the color of the progress bar segment that marks completed or active timeline items. The Transparent value inherits from global settings by default.
-- **Inactive color** — Set the color of the progress bar segment for upcoming timeline items. The Transparent value inherits from global settings by default.
+- **Active color** — Set the color of the progress bar segment that marks completed or active timeline items. Defaults to the value set in global settings.
+- **Inactive color** — Set the color of the progress bar segment for upcoming timeline items. Defaults to the value set in global settings.
 
 ### Colors
-
-The Transparent value is the default and subsequently inherits the value from the global settings.
 
 - **Heading color** — Customize the color of the section heading.
 - **Background color** — Set the background color of the entire section.
@@ -78,9 +76,7 @@ Each Timeline item is an individual block within the Timeline section. It contai
 
 ### Colors
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
-- **Heading color** — Customize the heading color for this individual timeline item. When set to Transparent, the global heading color is used.
+- **Heading color** — Customize the heading color for this individual timeline item. Defaults to the value set in global settings.
 
 ## How to Set Up the Timeline Section
 
