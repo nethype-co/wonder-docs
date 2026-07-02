@@ -38,8 +38,6 @@ The **Grid View with Drawer** section allows you to display products in a struct
 
 **Colors**
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 * **Text color**: Define the global text color for the section.
 * **Background color**: Customize the background color of the entire section.
 
@@ -86,8 +84,6 @@ The **Card** block represents a single item within the Grid View with Drawer sec
 * **Large screen text alignment**: Set the alignment of text on mobile — Left, Center, or Right.
 
 **Colors**
-
-The Transparent value is the default and inherits its value from the section settings or, if not specified, from the global settings.
 
 * **Text color**: Define the text color for this individual card.
 * **Background color**: Set the background color of the card.

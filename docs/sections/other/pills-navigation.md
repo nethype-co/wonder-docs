@@ -43,12 +43,10 @@ The Pills Navigation section displays a collection of clickable pill-shaped butt
 
 - **Background color** — Set the background color of the pill buttons.
 - **Text color** — Set the text color of the pill labels.
-- **Hover background color** — Set the background color of a pill button on hover. The Transparent value inherits from global settings by default.
-- **Hover text color** — Set the text color of a pill label on hover. The Transparent value inherits from global settings by default.
+- **Hover background color** — Set the background color of a pill button on hover. Defaults to the value set in global settings.
+- **Hover text color** — Set the text color of a pill label on hover. Defaults to the value set in global settings.
 
 ### Colors
-
-The Transparent value is the default and subsequently inherits the value from the global settings.
 
 - **Text color** — Define the global text color for the section.
 - **Background color** — Set the background color of the entire section.

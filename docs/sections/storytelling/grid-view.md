@@ -32,8 +32,6 @@ The "Grid view" section offers a neatly organized layout to present a series of 
 
 ### Colors
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 - **Text color:** Set the text color for the section.
 - **Background color:** Set the background color for the section.
 
@@ -82,8 +80,6 @@ The **Grid item** block is a single element within the Grid view section, used t
 - **Open link as a new window:** Enable this toggle to open the link in a new browser tab.
 
 #### Colors
-
-The default value is 'Transparent', which means it inherits its value from the section settings or, if not specified, from the global settings.
 
 - **Text color:** Set the text color of the button.
 - **Background opacity:** Adjust the opacity level of the grid item's background.

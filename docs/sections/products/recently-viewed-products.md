@@ -33,8 +33,6 @@ The Recently Viewed Products section displays a dynamic list of products that th
 
 ## Colors
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 * **Text color:** Define the global text color for the section.
 * **Background color:** Set the background color of the section. Defaults to the value set in global settings.
 

@@ -31,8 +31,6 @@ The **Scrolling Icon with Text** section displays a continuously animated ticker
 
 #### **Colors**
 
-The **Transparent** value is the default and subsequently inherits the value from the global settings.
-
 - **Heading color:** Set the color of the section heading.
 - **Section background color:** Customize the background color of the entire section.
 - **Background opacity:** Adjust the opacity of the section background color.

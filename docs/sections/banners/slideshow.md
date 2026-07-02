@@ -38,9 +38,9 @@ The "Slideshow" section is a dynamic display feature for your Shopify store, des
 
 #### Colors
 
-* **Heading color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
-* **Text color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
-* **Background color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
+* **Heading color:** Set the color of the section heading. Defaults to the value set in global settings.
+* **Text color:** Set the text color for the section. Defaults to the value set in global settings.
+* **Background color:** Set the background color for the section. Defaults to the value set in global settings.
 
 #### Mobile Version
 

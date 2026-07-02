@@ -43,10 +43,10 @@ The Image with Video section is a dynamic way to engage visitors by sharing your
 
 **Colors**
 
-- **Heading color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
-- **Section background color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
+- **Heading color:** Set the color of the section heading. Defaults to the value set in global settings.
+- **Section background color:** Set the background color of the section. Defaults to the value set in global settings.
 - **Background opacity:** Adjust opacity settings (default 100%).
-- **Text color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
+- **Text color:** Set the text color for the section. Defaults to the value set in global settings.
 - **Text container color:** Set the text container background color.
 - **Text container background opacity:** Adjust the opacity of the text container.
 

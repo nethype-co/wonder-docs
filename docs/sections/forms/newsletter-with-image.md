@@ -33,8 +33,6 @@ The "Newsletter with image" section is a visually engaging element designed to g
 
 ### Colors
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 - **Text color** — Define the text color for the section content.
 - **Text container color** — Set the background color of the container behind the text.
 - **Background Opacity** — Adjust the opacity level of the newsletter block's background color. Ranges from 0 (fully transparent) to 100 (fully opaque).

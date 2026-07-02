@@ -34,8 +34,6 @@ The **Notification Pop-up** section, part of the **Header Group** , provides an 
 
 ### Colors
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 * **Text color** – Define the global text color for the popup.
 * **Background color** – Set the background color of the popup window.
 

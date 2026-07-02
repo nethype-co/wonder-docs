@@ -50,8 +50,8 @@ The "Multicolumn" section provides a structured, grid-like display, ideal for fe
 
 **Colors**
 
-- **Text color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
-- **Background color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
+- **Text color:** Set the text color for the section. Defaults to the value set in global settings.
+- **Background color:** Set the background color for the section. Defaults to the value set in global settings.
 
 **Section spacing**
 
@@ -95,7 +95,7 @@ The **Column** block adds an individual column within the Multicolumn section, a
 
 **Colors**
 
-- **Background color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
-- **Text color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
+- **Background color:** Set the background color of the column. Defaults to the value set in global settings.
+- **Text color:** Set the text color of the column. Defaults to the value set in global settings.
 
 

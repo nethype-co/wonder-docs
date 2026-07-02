@@ -28,8 +28,6 @@ The Shoppable Image section lets you place interactive hotspots directly on an i
 
 **Colors**
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 * **Text color**: Define the global text color for the section.
 * **Background color**: Set the background color of the section. Defaults to the value set in global settings.
 * **Background opacity**: Adjust the opacity of the section background color (0–100%).

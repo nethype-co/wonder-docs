@@ -39,8 +39,6 @@ The Slide-up Feature Banner section allows you to create a dynamic full-screen h
 
 **Colors**
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 - **Text color:** Define the global text color for the section.
 - **Blur overlay color:** Set the color of the blur overlay that activates when the Bottom content block appears on screen.
 - **Blur overlay opacity:** Adjust the opacity level of the blur overlay.
@@ -77,8 +75,6 @@ The Top Content block contains the primary foreground elements displayed over th
 - **Horizontal alignment:** Set the horizontal alignment of the content on mobile — Left, Center, or Right.
 
 **Colors**
-
-The Transparent value is the default and subsequently inherits the value from the global settings.
 
 - **Text color:** Define the text color for the Top content block.
 
@@ -162,8 +158,6 @@ The Bottom content block is the secondary content area that slides up over the b
 
 **Colors**
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 - **Text color:** Define the text color for the Bottom content block.
 
 **Section Spacing**
@@ -204,8 +198,6 @@ The Icons Container block groups multiple Icon blocks into a structured grid lay
 - **Heading size scale:** Adjust the font size of the icon block headings on mobile.
 
 **Colors**
-
-The Transparent value is the default and subsequently inherits the value from the global settings.
 
 - **Icon color:** Set the color of the icons.
 - **Text color:** Define the text color within the Icons container.
@@ -257,8 +249,6 @@ The Cards Container block allows you to display a grid of visually rich content 
 
 **Colors**
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 - **Text color:** Define the global text color for the section.
 - **Background card color:** Set the default background color applied to all cards.
 - **Background opacity:** Adjust the opacity of the card background color (in %).
@@ -286,8 +276,6 @@ The Card block represents a single content card within the Cards Container. Use 
 - **Text:** Add a description displayed below the card heading. Rich text formatting options are available.
 
 **Colors**
-
-The Transparent value is the default and subsequently inherits the value from the global settings.
 
 - **Background color:** Set a custom background color for this individual card.
 - **Background opacity:** Adjust the opacity of this card's background color.

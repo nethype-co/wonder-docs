@@ -51,8 +51,6 @@ The **Scrolling Text Banner** section offers a dynamic and visually engaging way
 
 ### Colors
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 - **Heading color:** Set the color of the section heading displayed above the banner.
 - **Section background color:** Customize the background color of the entire section.
 - **Background opacity:** Adjust the opacity of the section background color.

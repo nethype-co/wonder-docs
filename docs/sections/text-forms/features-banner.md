@@ -30,9 +30,9 @@ The "Features Banner" section displays key benefits or offerings in a neat, icon
 
 #### Colors
 
-* **Icon color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
-* **Text color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
-* **Background color:** The 'Transparent' value is the default and subsequently inherits the value from the global settings.
+* **Icon color:** Set the color of the icons. Defaults to the value set in global settings.
+* **Text color:** Set the text color for the section. Defaults to the value set in global settings.
+* **Background color:** Set the background color for the section. Defaults to the value set in global settings.
 
 #### Mobile Version
 

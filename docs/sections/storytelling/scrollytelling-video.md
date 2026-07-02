@@ -41,8 +41,6 @@ The Scrollytelling Video section creates an immersive scroll-driven experience w
 
 **Colors**
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 - **Text color:** Define the global text color for the section.
 - **Background color:** Customize the background color of the section.
 - **Background opacity:** Adjust the opacity of the background color.

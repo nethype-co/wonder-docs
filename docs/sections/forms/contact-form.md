@@ -17,8 +17,6 @@ The Contact Form section displays a standalone contact form that allows visitors
 
 ### Colors
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 - **Text color:** Define the global text color for the section.
 - **Background color:** Set the background color of the entire section.
 

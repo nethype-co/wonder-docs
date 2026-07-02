@@ -26,8 +26,6 @@ The Announcement Bar is a slim banner displayed at the very top of every page, a
 
 ### Colors
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 - **Text color:** Set the color of the text displayed in the announcement bar.
 - **Background color:** Set the background color of the announcement bar.
 

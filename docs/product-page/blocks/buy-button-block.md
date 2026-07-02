@@ -24,8 +24,6 @@ The Buy Buttons block provides customers with a streamlined shopping experience 
 
 ## **Colors**
 
-The Transparent value is the default and subsequently inherits the value from the global settings.
-
 - **Text color:** Set the text color of the buy buttons area.
 - **Background color:** Set the background color of the buy buttons area.
 - **Button text hover:** Set the text color of the buttons on hover.
