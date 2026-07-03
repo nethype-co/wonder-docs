@@ -154,7 +154,6 @@ const config: Config = {
           { from: '/question/marquee-images', to: '/sections/storytelling/marquee-images' },
           { from: '/question/multicolumn', to: '/sections/storytelling/multicolumn' },
           { from: '/question/parallax-section', to: '/sections/storytelling/parallax-section' },
-          { from: '/question/rich-text-with-image', to: '/sections/storytelling/rich-text-with-image' },
           // Sections — Products
           { from: '/question/benefits-product', to: '/sections/products/benefits-product' },
           { from: '/question/featured-product', to: '/sections/products/featured-product' },
@@ -168,6 +167,8 @@ const config: Config = {
           { from: '/question/featured-navigation', to: '/sections/text-forms/featured-navigation' },
           { from: '/question/features-banner', to: '/sections/text-forms/features-banner' },
           { from: '/question/map-section', to: '/sections/text-forms/map-section' },
+          { from: '/question/rich-text-with-image', to: '/sections/text-forms/rich-text-with-image' },
+          { from: '/sections/storytelling/rich-text-with-image', to: '/sections/text-forms/rich-text-with-image' },
           { from: '/question/newsletter-with-image', to: '/sections/forms/newsletter-with-image' },
           { from: '/question/notification-pop-up', to: '/sections/header-navigation/notification-pop-up' },
           { from: '/sections/text-forms/notification-pop-up', to: '/sections/header-navigation/notification-pop-up' },

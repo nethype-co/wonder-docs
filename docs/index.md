@@ -141,7 +141,6 @@ General settings that apply across your entire Wonder theme.
 - [Marquee Images](sections/storytelling/marquee-images)
 - [Multicolumn](sections/storytelling/multicolumn)
 - [Parallax Section](sections/storytelling/parallax-section)
-- [Rich Text with Image](sections/storytelling/rich-text-with-image)
 - [Scrollytelling Video](sections/storytelling/scrollytelling-video)
 
 ### [Products](sections/products)
@@ -165,6 +164,7 @@ General settings that apply across your entire Wonder theme.
 - [Map Section](sections/text-forms/map-section)
 - [Metrics Banner](sections/text-forms/metrics-banner)
 - [Notification Pop-up](sections/header-navigation/notification-pop-up)
+- [Rich Text with Image](sections/text-forms/rich-text-with-image)
 - [Specification Table Block](sections/text-forms/specification-table-block)
 
 ### [Forms](sections/forms)
