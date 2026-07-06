@@ -33,7 +33,7 @@ To set alt tags for images in Shopify, follow these steps:
 
 ![](/img/docs/ebf61c65d01d.jpeg)
 
-3. **Set the Alt Tag** : In the media details, find the Alt Text field, and enter the variant name prefixed with #, such as #red for the Red variant.
+3. **Set the Alt Tag**: In the media details, find the Alt Text field, and enter the variant name prefixed with #, such as #red for the Red variant. For multi-word variants, remove spaces — e.g. #RoseGold for the Rose Gold variant.
 
 ![](/img/docs/579057fc7bbb.jpeg)
 
