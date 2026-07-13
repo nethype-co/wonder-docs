@@ -20,6 +20,8 @@ const config: Config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
+  clientModules: ['./src/clientModules/searchTracking.ts'],
+
   scripts: [
     {
       src: 'https://www.googletagmanager.com/gtag/js?id=G-3LW9RNKL3E',
