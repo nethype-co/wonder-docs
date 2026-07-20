@@ -18,6 +18,8 @@ The section is built from two parts that always work together: a **Products** gr
 The discount shown inside the bundle is a *preview*. For customers to actually pay the discounted price, you need to create a matching discount in your Shopify admin and enter its code in the section — see [Before you start](#before-you-start) below.
 :::
 
+![Bundle Builder example](/img/docs/bundle-ex.png)
+
 ## Before you start
 
 To make the bundle discount real (not just a preview), set up a discount in Shopify first:
