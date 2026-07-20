@@ -4,6 +4,7 @@ sidebar_label: "Bundle Builder"
 ---
 
 import SectionMeta from '@site/src/components/SectionMeta';
+import DocVideo from '@site/src/components/DocVideo';
 
 ## What is the Bundle Builder section?
 
@@ -26,8 +27,19 @@ To make the bundle discount real (not just a preview), set up a discount in Shop
 3. Choose a **discount code** (rather than an automatic discount) and copy it.
 4. You'll paste this code into the section's **Discount code** field, and set the same **Discount type** and value, so the preview matches what customers are charged at checkout.
 
-:::info
-Without a matching Shopify discount, the crossed-out prices in the bundle are cosmetic only and customers will be charged full price.
+### How to set up the discount
+
+<DocVideo src="/img/docs/bundle-discount.webm" controls playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
+
+:::caution
+The discount preview in the section is just a display — the real saving comes entirely from the Shopify discount code. If the code is missing, misspelled, or doesn't apply at checkout, the crossed-out prices are cosmetic only and customers will be charged full price. To make sure the preview matches what customers actually pay, keep these Shopify rules in mind:
+
+- **The code must be active.** A discount that is scheduled for the future, expired, deactivated, or has hit its usage limit won't apply, even if the code is entered correctly. Also watch **one-per-customer** and total **usage limits** — a returning customer may find the code no longer works.
+- **The discount must cover the bundled products.** "Amount off products" only discounts the specific products or collections you scope it to. If the builder includes products the discount doesn't cover, those items won't be reduced at checkout and the total won't match the preview. Keep the discount's product scope in sync with the collection/products in the **Products** block.
+- **Fixed amount behaves per item in Shopify.** An "Amount off products" discount set to a fixed amount is taken off *each eligible product*, not off the bundle total. The section's **Discount fixed amount** preview may not line up with this — a **Percentage** discount usually matches more reliably.
+- **Minimum requirements can block the code.** If the Shopify discount has a minimum purchase amount or quantity, make sure it's compatible with your **Minimum products** bundle rule, or the code may be rejected at checkout.
+- **Check discount combinations.** Shopify decides whether this code can stack with other product, order, or shipping discounts. If combinations are off, the bundle discount and any automatic or cart-level discounts may not apply together — only one will win.
+- **The discount isn't tied to the bundle — it follows the products.** Because this is an ordinary Shopify "Amount off products" code, it applies to the scoped products wherever they are in the cart, not only when added through the Bundle Builder. If a customer adds the same products from their product page (PDP) and the code ends up on the cart, Shopify will still discount them — the bundle builder isn't required for the code to work.
 :::
 
 ## How to add the Bundle Builder section
