@@ -28,6 +28,10 @@ The Product Information section forms the main product page layout, combining th
 * **Show image:** Choose whether to display the product image in the sticky button — Yes or No.
 * **Show product info:** Choose what product information is displayed in the sticky button — for example, Title and price.
 
+#### Sticky buy button example
+
+![Sticky Buy Button](/img/docs/sticky-buy-button.png)
+
 ### Media
 
 * **Make section full width:** Enable this toggle to stretch the section to the full width of the screen. Works only for "Collage" & "Masonry gallery" layouts.
