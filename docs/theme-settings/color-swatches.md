@@ -127,7 +127,7 @@ The settings above apply store-wide. The **Variant picker** block on the product
 
 Use this method when your colors are **separate products** rather than variant options on one product — also known as **Combined listings** or **Product variations**. Each linked product renders as a swatch on the product card, and clicking a swatch takes the customer to that product.
 
-The settings live at the bottom of the same panel, under the **Product siblings / variations** heading: **Theme Settings > Color swatch > Product siblings / variations**. They replace the option-name fields from Method 1 — sibling swatches ignore **Options listed as Color Swatches** and **Options listed as Variant Images** entirely.
+The settings live in their own section of the theme settings panel: **Theme Settings > Product siblings / variations**. They replace the option-name fields from Method 1 — sibling swatches ignore **Options listed as Color Swatches** and **Options listed as Variant Images** entirely.
 
 #### Before you start: two metafields
 
