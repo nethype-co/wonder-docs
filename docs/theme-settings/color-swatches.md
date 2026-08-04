@@ -11,6 +11,21 @@ Moving beyond mere textual descriptions, swatches offer a tactile and visual rep
 
 ![](/img/docs/f8d69e94c5d2.jpeg)
 
+### Two ways to set up swatches
+
+There are two ways to show swatches in the Wonder theme. Pick the one that matches how your products are built:
+
+| Method | Use it when | Where to configure |
+| --- | --- | --- |
+| [**1. Variant option swatches**](#method-1-variant-option-swatches) | Your colors are **variant options on a single product** (the standard Shopify setup) | **Theme Settings > Color swatch** — described in the rest of this article |
+| [**2. Product siblings as swatches**](#method-2-product-siblings-as-swatches) | Your colors are **separate products** linked together (Combined listings) | **Theme Settings > Product siblings / variations** |
+
+### Method 1: Variant option swatches
+
+This is the method covered by this article. Your product has an option such as `Color`, and each option value renders as a swatch — from a Shopify color metafield, a **Custom colors** rule, or the variant's own image.
+
+Continue with [Where each setting applies](#where-each-setting-applies) below.
+
 ### Where each setting applies
 
 Swatches appear in two different places, and they are controlled separately:
@@ -105,3 +120,46 @@ How to do it?
 ### Overriding these settings on a single product page
 
 The settings above apply store-wide. The **Variant picker** block on the product page has its own **Options listed as Color Swatches** and **Options listed as Variant Images** fields, which override the theme settings for that section when filled in, plus a third option-name field for rendering an option as a dropdown. See [Variant picker block](/product-page/blocks/variant-picker-block) for details.
+
+### Method 2: Product siblings as swatches
+
+![Product siblings / variations settings](/img/docs/product-variations.png)
+
+Use this method when your colors are **separate products** rather than variant options on one product — also known as **Combined listings** or **Product variations**. Each linked product renders as a swatch on the product card, and clicking a swatch takes the customer to that product.
+
+The settings live at the bottom of the same panel, under the **Product siblings / variations** heading: **Theme Settings > Color swatch > Product siblings / variations**. They replace the option-name fields from Method 1 — sibling swatches ignore **Options listed as Color Swatches** and **Options listed as Variant Images** entirely.
+
+#### Before you start: two metafields
+
+Both settings below point at product metafields, so create these first in **Settings > Custom data > Products**:
+
+1. **A products metafield** of type **Product**, configured as a **List of products** — for example `custom.product_variations`. On each product, select every sibling in the group, **including the product itself**. This lets one product page template serve the whole group.
+2. **An option value metafield** that supplies each sibling's swatch.
+
+:::tip
+**You usually don't need to create the option value metafield.** If your products already use Shopify's category (taxonomy) color metafield — `shopify.color-pattern`, the same one that powers Shopify's native variant swatches — point the setting at that and you are done. It is a multi-select field, and the theme uses the **first selected entry**, so pick the sibling's main color first.
+:::
+
+If you would rather define your own, create a metafield such as `custom.color`. These types are supported:
+
+- **Metaobject reference** (recommended) — a single metaobject containing a **Label** plus an **Image** or a **Color (HEX)**.
+- **Category (taxonomy)** and **list** metafields — the first selected entry is used.
+- **Single-line text** — shown as the swatch tooltip.
+
+You can find more details on how to set up these metafields and metaobjects in [Product Siblings (Product Variations)](/product-page/blocks/product-siblings-block).
+
+#### Settings
+
+ **Enable product siblings / variations as swatches:** turn sibling swatches on or off for product cards. Off by default.
+
+ **Input type:** how each sibling is drawn.
+- **Swatch / Image** (default) — uses the color or image from the option value metafield.
+- **Product image** — uses the sibling product's featured image as the swatch. The tooltip falls back to the product title when the option value metafield is empty.
+
+ **Option value metafield:** the namespace and key of the metafield holding the option value, for example `shopify.color-pattern` or `custom.color`. It should be a single metaobject containing Label and Image or Color (HEX). List and category (taxonomy) metafields are also supported — the first selected entry is used. A single-line text metafield is also supported and is shown as the swatch tooltip. If this is empty and the input type is **Product image**, the product title is used as the tooltip.
+
+ **Products metafield:** the namespace and key of the metafield holding the linked products, for example `custom.product_variations`.
+
+Once enabled, each linked sibling appears as a swatch on the product card:
+
+![Product siblings swatches on product cards](/img/docs/product-siblings-product-card.png)
