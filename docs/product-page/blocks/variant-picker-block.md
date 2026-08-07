@@ -60,4 +60,4 @@ For a step-by-step setup, see: [How to Set Up a Size Guide per Product](/guides/
 
 ---
 
-Learn more about the differences between [**Standard Variant Picker** and **Product Variations**](/guides/how-to-articles/standard-variant-picker-vs-product-variations-block) in our detailed comparison guide.
+Learn more about the differences between [**Standard Variant Picker** and **Product Variations**](/guides/how-to-articles/standard-variant-picker-vs-product-variations-block) in our detailed guide on how to display swatches.

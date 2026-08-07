@@ -1,57 +1,98 @@
 ---
-title: "Standard Variant Picker vs. Product Variations Block"
-sidebar_label: "Standard Variant Picker vs. Product Variations Block"
+title: "How to Display Product Variants at your product page: Variant Picker vs. Product Siblings"
+sidebar_label: "How to Display Product Variants at your product page: Variant Picker vs. Product Siblings"
 ---
 
-## Standard Variant Picker vs. Product Variations Block
+# How to Display Product Variants at your product page: Variant Picker vs. Product Siblings
 
-Wonder Theme offers two distinct ways to handle product variations on your Shopify store: the **Standard Variant Picker** (Shopify's native variant solution) and the **Product Variations Block** (a custom Wonder Theme feature). This guide compares the two approaches side-by-side, so you can decide which is best for your needs.
+Wonder Theme offers two distinct ways to handle product variations on your Shopify store: the **Variant picker** block (Shopify's native variant solution) and the **Product siblings/variations** block — which is a custom Wonder Theme feature. Both blocks can display color/image **swatches**, which is where the confusion usually starts. This guide explains what each block actually is, how their swatch settings differ, and which one to use.
 
-### Standard Variant Picker (Shopify Native Variants)
+> **Naming note:** In the theme editor, this custom block is added as **"Product siblings"** (you'll also see it referred to as "Product variations" or "Combined listings" in the block's description). This guide uses "Product siblings block" to match the admin UI.
+## Standard Variant Picker (Shopify Native Variants)
 
-The **Standard Variant Picker** is Shopify's built-in solution for product options. It allows customers to select variants (like color or size) from a single product's page. This method uses Shopify's native variant system with default swatches or dropdowns for each option, combining all choices within one product listing. It's straightforward and ideal for simpler product setups.
+The **Variant picker** block is Shopify's built-in solution for product options. It lets customers select variants (like color or size) from a single product's page, using Shopify's native variant system. All options live on one product.
 
-- **Native Shopify solution:** Uses the default variant functionality provided by Shopify, with no extra apps or code needed.
-- **All options in one product:** Combines all product options (e.g. color, size, style) as variants of a single product in your catalog. Customers see one product page and choose options there.
-- **Uses native swatches & selectors:** Supports Shopify's built-in swatches, buttons, or dropdown menus for variant selection. You can enable color swatches or variant images through Shopify's standard settings.
-- **No metafields required:** Setup is done in the Shopify admin by adding variants to a product. There's no need for custom metafields or metaobjects for variant data.
-- **Best for simple setups:** Suitable when your variations are straightforward (just different colors, sizes, etc.) and don't require unique content per variant. All variants share the same product description and page, which keeps things simple.
+![Variant picker example](/img/docs/variant-picker-ex.png)
 
-### Product Variations Block (Wonder Theme Feature)
+- **Native Shopify solution:** Uses Shopify's own variant/option data — no extra apps, metafields, or metaobjects needed.
+- **All options in one product:** Combines every product option (e.g. color, size, style) as variants of a single product. Customers see one product page and choose options there.
+- **Input Type setting is Dropdown or Button — not "Swatch":** In the block's settings, **Input Type** only offers **Dropdown** and **Button**. There is no separate "Swatch" input type on this block.
+- **Swatches appear automatically, based on option name:** Swatch display isn't a mode you pick — it's triggered by listing the *option name* (e.g. "Color") in one of two settings:
+    - **Options listed as Color Swatches** — the named option renders as color swatches instead of a dropdown/button list.
+    - **Options listed as Variant Images** — the named option renders using each variant's own product image instead of a color swatch.
+      These two settings on the block **override** the theme-wide defaults of the same name, found under **Theme settings > Color Swatch**.
+- **No metafields or metaobjects required:** The swatch color/image comes from one of, in priority order:
+    1. Shopify's native per-option-value swatch (set in **Products > [product] > Options**, using Shopify's built-in color/image picker).
+    2. The variant's assigned product image (for "Variant Images" mode).
+    3. The theme's own **Custom colors** list (**Theme settings > Color Swatch > Custom colors**), a plain-text mapping like `Color Name:#HEX` or `Color Name:image.png`.
+- **Best for simple setups:** Ideal when your variations are straightforward (colors, sizes, etc.) and share the same description, images, and page.
 
-The **Product Variations Block** is a special feature of the Wonder Theme that lets you display _separate products_ as selectable "variants" on a single page. In other words, it groups standalone products and presents them as variant options using swatches or buttons. This effectively **flattens your catalog structure** by showing related products in one place, while still keeping each as its own product in the backend. This approach offers greater flexibility for merchandising complex product lines.
+![Variant picker setup](/img/docs/variant-picker-setup.png)
 
-- **Custom Wonder Theme feature:** Provided by the theme (not a default Shopify function). It adds a block on the product page to showcase other products as options.
-- **Combines separate products into one view:** Instead of one product with many variants, you link multiple individual products together. Shoppers see one product detail page with swatches for each related product (e.g. different styles or flavors), and selecting a swatch switches the page to that product's info.
-- **Requires metafields/metaobjects:** Setting this up involves creating custom metafields (and possibly metaobject definitions) in Shopify. For example, you might use a product metafield (list of products) to list all related product handles, and a color metaobject for swatch colors. Some technical knowledge of Shopify's metafields is needed to configure this block properly. Refer to the [Shopify Category Metafields guide](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields) for setup instructions.
-- **Rich customization per variation:** Because each "variation" is actually its own product, you can tailor content to each one. Each variation can have its own images, description, media, and even a unique URL or SEO settings. This is more flexible than standard variants, which all share most content.
-- **Ideal for complex products:** Great for scenarios where variations differ significantly or need separate content — for example, products that come in various models or editions, each with distinct images or detailed info. It allows a unified shopping experience (one page for all variations) without sacrificing the ability to manage each variant as a separate product in your admin.
+For a full settings reference, see the [Variant picker block](/product-page/blocks/variant-picker-block) documentation.
 
-### Comparison Table
+## Product Siblings Block ("Product Variations" — Wonder Theme Feature)
 
-| Aspect | Standard Variant Picker (Shopify Native) | Product Variations Block (Wonder Theme) |
-|--------|------------------------------------------|----------------------------------------|
-| **Underlying Structure** | All variants are within one product (single product with multiple variant options in Shopify). | Variations are separate products linked together and displayed as options on one page. |
-| **Variant Display** | Uses Shopify's built-in selectors: customers choose options via dropdowns, buttons, or swatches for color, size, etc. | Displays swatches or buttons for each linked product, appearing as variant choices on the product page. |
-| **Setup Complexity** | Easy setup: Create variants in the Shopify admin (no special configuration needed). No metafields or code required. | Advanced setup: Requires configuring metafields/metaobjects to link products and define option values (e.g. color swatch images). Involves more initial work and Shopify knowledge. |
-| **Catalog Organization** | Simple catalog: One product handle covers all variants. Your storefront and collections show one product listing. | Flattened catalog: Multiple products (with separate handles/URLs) are merged into one view for customers. Collections can still list each item individually if desired. |
-| **Content per Variation** | Shared content: Variants share the same product page content (description, URL) except for variant-specific images or SKU. Limited ability to vary info like descriptions per variant. | Unique content: Each "variation" has its own product page behind the scenes, allowing distinct images, descriptions, titles, and even unique URLs or rich media for each variant option. |
-| **Use Case Suitability** | Best for basic variations (e.g. sizes or colors) where differences are minor and a unified description fits all. | Best for complex variations or broad product ranges — for instance, when each variant needs its own storytelling, separate inventory tracking, or marketing. |
-| **Shopify Plan Dependency** | Available on all Shopify plans (this is core Shopify functionality). | Available to any store using Wonder Theme. (Natively, combining products into one listing is a Shopify Plus-only feature via the Combined Listings app, but this theme block provides a workaround for non-Plus stores.) |
+The **Product siblings** block is a custom Wonder Theme feature that lets you display separate, standalone products as selectable variant-style options on a single product page. Instead of one product with many Shopify variants, you link multiple independent products together; picking an option navigates to that linked product.
 
-### When to Use Each Approach
+![Product siblings example](/img/docs/siblings-ex.png)
 
-**Use the Standard Variant Picker if:** you have a straightforward product setup with simple options. For example, if you sell T-shirts in different sizes or colors that don't need separate descriptions or pages, the native variant picker keeps things simple. It's easy to manage and requires no extra configuration — all variants live in one product, which is efficient for inventory and basic variant image swaps.
+- **Custom Wonder Theme block, not native Shopify functionality.** Add it to the product page in the theme editor as **"Product siblings."**
+- **Combines separate products into one view:** You manually choose the linked products via the block's **Products** setting (a product-list picker) — select the current product plus every sibling you want shown as an option.
+- **Input Type genuinely includes a Swatch option:** Unlike the Variant picker block, this block's **Input type** setting is a real three-way choice: **Product image**, **Button**, or **Swatch / Image**. This is the block where "swatch" is a mode you explicitly pick, not a side effect of an option name.
+- **Requires one metafield/metaobject per option value:** The **Option value metafield** setting (e.g. `custom.color`) points to the field that supplies each linked product's label/appearance:
+    - For **Swatch / Image** input type, this should be a **metaobject** with a Label plus an Image or Color (HEX) field.
+    - For **Button** input type, a single-line text field (or a metaobject with a Label) is enough.
+    - List metafields are supported.
+- **Rich customization per variation:** Because each option is a fully separate product, each one can have its own images, description, media, price, inventory, and URL/SEO — something the native Variant picker can't do per option.
+- **Ideal for complex or highly differentiated product lines:** Best when variations need distinct content or should be managed as separate products in admin, but shoppers should still experience them as one page with swatch-style switching.
+### Example of the setup in admin
 
-**Use the Product Variations Block if:** your product variations are essentially separate products or you want to showcase **highly differentiated variants** together. This approach is recommended when each variant might warrant its own imagery, detailed description, or unique selling points (e.g. different designs in a collection, or a product available in distinct formats). It's especially helpful for larger catalogs where merchandising related products as one improves the shopping experience. Keep in mind you'll need to set up metafields and possibly maintain multiple products in admin, but the payoff is a richer, combined product presentation for your customers.
+![Product siblings setup](/img/docs/siblings-setup.png)
 
-### Conclusion
+For a full step-by-step walkthrough, see [How to Set Up a Product Siblings (Product Variations) Block in Product Page](/guides/how-to-articles/how-to-set-up-a-product-variations-block-in-product-page).
 
-Both options can enhance your product pages in Wonder Theme — the choice comes down to your store's complexity and needs. If you value simplicity and out-of-the-box ease, the **Standard Variant Picker** is the way to go. If you need greater flexibility and the ability to treat each variation as its own product while still giving shoppers a one-page selection experience, the **Product Variations Block** is a powerful solution.
+### The collection/card version of this feature
 
-### Want to learn more?
+Product cards (in collections, search, related products, etc.) can also show sibling products as swatches, but they use a **separate, theme-wide settings panel** under **Theme settings > Color Swatch > Product siblings / variations** (since cards have no per-product block to configure manually):
 
-Check out our dedicated guides for each approach:
+- **Enable product siblings / variations as swatches** — the on/off switch for this behavior on cards.
+- **Input type** — **Product image** or **Swatch / Image** (no "Button" option at this level).
+- **Option value metafield** — same metaobject/text requirement as the PDP block.
+- **Products metafield** — unlike the PDP block's manual product picker, cards need an actual **list metafield of product references** (e.g. `custom.product_variations`) to know which products to link, since there's no per-card manual list to configure.
 
-- [A Complete Guide to Customizing the Variant Picker](/guides/how-to-articles/a-complete-guide-to-customizing-the-variant-picker)
-- [How to Set Up a Product Variations Block in Product Page](/guides/how-to-articles/how-to-set-up-a-product-variations-block-in-product-page)
+If both **Enable product siblings / variations as swatches** and **Enable color swatch** are turned on, **product siblings take priority** on cards — the two are mutually exclusive, not combined.
+
+
+## Where "Swatch" Means Different Things
+
+The word "swatch" shows up in both features, but it isn't the same setting:
+
+| | Variant picker block | Product siblings block |
+|---|---|---|
+| Is "Swatch" a selectable Input Type? | No — Input Type is Dropdown or Button only | Yes — Input type includes Swatch / Image |
+| What turns swatches on | Listing the option's *name* under "Options listed as Color Swatches" / "Options listed as Variant Images" | Choosing "Swatch / Image" directly in Input type |
+| Where the swatch color/image comes from | Shopify's native option-value swatch, the variant's image, or the theme's Custom colors text list | An Option value metafield — typically a metaobject with Label + Image/Color |
+| Metafield/metaobject required? | No | Yes, for the option value; the product list itself is set manually on this block (a metafield is only required for the collection/card version) |
+
+## Comparison Table
+
+| Aspect | Variant Picker (Shopify Native) | Product Siblings (Wonder Theme) |
+|---|---|---|
+| Underlying Structure | All variants belong to one product | Variations are separate products, linked via a manually chosen product list |
+| Input Type options | Dropdown, Button (swatches are an automatic override, not a listed option) | Product image, Button, Swatch / Image (swatch is a real, selectable option) |
+| Setup Complexity | Easy: create variants in Shopify admin; swatch color comes from Shopify's native option swatch or the theme's Custom colors list — no metafields needed | Advanced: requires choosing the linked products and configuring an Option value metafield (usually a metaobject with Label + Image/Color) |
+| Catalog Organization | One product handle covers all variants | Multiple product handles/URLs merged into one shopper-facing view; each still exists separately in collections |
+| Content per Variation | Shared: same description/page for all variants, aside from variant image and SKU | Unique: each linked product keeps its own images, description, title, URL, and SEO |
+| Card/Collection Equivalent | Controlled by **Theme settings > Color Swatch > Enable color swatch** | Controlled by **Theme settings > Color Swatch > Product siblings / variations**, which requires a *Products metafield* and takes priority over the native card swatch setting |
+| Use Case Suitability | Basic variations (size, color) sharing one description | Complex, richly differentiated product lines needing their own content per option |
+
+## When to Use Each Approach
+
+**Use the Variant picker block if:** your product variations are simple options that don't need separate content — for example, sizes or colors on the same T‑shirt. Turn on swatches by listing the option name under "Options listed as Color Swatches" or "Options listed as Variant Images"; no metafield setup is required.
+
+**Use the Product siblings block if:** each variation is genuinely its own product, or needs its own images, description, or URL. You'll need to pick the linked products manually on the block and set up an **Option value metafield** (typically a metaobject with Label + Image/Color) so the Swatch / Image, Button, or Product image display works correctly.
+
+## Conclusion
+
+Both blocks can show swatches on your product pages, but "swatch" means something different in each: on the **Variant picker**, it's an automatic style triggered by an option's name and needs no metafield; on the **Product siblings** block, it's an explicit Input Type that depends on an Option value metafield pointing to a metaobject. Choose the Variant picker for simple, single-product variations, and Product siblings when your variations are genuinely separate products that need richer, independent content.

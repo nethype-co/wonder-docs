@@ -128,7 +128,7 @@
 - [Customizing the Variant Picker](https://support.wonder-theme.com/guides/how-to-articles/a-complete-guide-to-customizing-the-variant-picker): Complete guide to variant picker styles, swatches, and metafields
 - [Personalizing Product Pages with Custom Options](https://support.wonder-theme.com/guides/how-to-articles/a-step-by-step-guide-to-personalizing-your-product-pages-with-custom-options): Add dropdowns, checkboxes, and text inputs to product forms
 - [Setting Up Product Variations Block](https://support.wonder-theme.com/guides/how-to-articles/how-to-set-up-a-product-variations-block-in-product-page): Step-by-step guide to product variations on the product page
-- [Standard Variant Picker vs. Product Variations Block](https://support.wonder-theme.com/guides/how-to-articles/standard-variant-picker-vs-product-variations-block): Comparison of the two variant display approaches
+- [How to Display Product Variants at your product page: Variant Picker vs. Product Siblings](https://support.wonder-theme.com/guides/how-to-articles/standard-variant-picker-vs-product-variations-block): Comparison of the two variant display approaches
 - [Maximizing SEO Potential](https://support.wonder-theme.com/guides/how-to-articles/maximizing-seo-potential-within-your-theme): SEO optimization tips for Wonder Theme stores
 - [Page Speed Mastery](https://support.wonder-theme.com/guides/how-to-articles/unlocking-page-speed-mastery-for-your-shopify-store): Performance optimization techniques for Shopify
 - [Reviews App Comparison](https://support.wonder-theme.com/guides/how-to-articles/which-reviews-app-should-you-use-on-shopify-free-paid-options): Free and paid Shopify review app recommendations
