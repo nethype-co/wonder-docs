@@ -131,7 +131,7 @@ The settings live in their own section of the theme settings panel: **Theme Sett
 
 #### Before you start: two metafields
 
-Both settings below point at product metafields, so create these first in **Settings > Custom data > Products**:
+Both settings below point at product metafields, so create these first in **Settings > Metafields and metaobjects > Products**:
 
 1. **A products metafield** of type **Product**, configured as a **List of products** — for example `custom.product_variations`. On each product, select every sibling in the group, **including the product itself**. This lets one product page template serve the whole group.
 2. **An option value metafield** that supplies each sibling's swatch.

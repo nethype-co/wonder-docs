@@ -23,7 +23,7 @@ This feature is ideal for providing **product guides, spec sheets, certificates,
 
 ## **How to Set Up a Collapsible Files Row 1. Create a File Metafield:** 
 
-* Go to **Settings > Custom Data** and choose **Products** or **Variants** (depending on whether the file should change per variant or remain the same for the product).
+* Go to **Settings > Metafields and metaobjects** and choose **Products** or **Variants** (depending on whether the file should change per variant or remain the same for the product).
 * Click **Add definition** , name it (e.g., _Single file_).
 * Select **File** as the type.
 * In **Validations** , choose **Accept all file types** and save.
