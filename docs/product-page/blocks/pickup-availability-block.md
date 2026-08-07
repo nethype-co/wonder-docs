@@ -13,7 +13,12 @@ The Pickup Availability block displays real-time in-store pickup information on 
 
 ## **Settings**
 
-This block has no configurable settings — it renders automatically based on your Shopify store's location and local pickup configuration.
+- **Block advanced settings:** Enable this toggle to reveal additional text styling options. Settings below are only applied when this option is enabled.
+  - **Text style:** Choose the text style for the pickup availability information — **Subtitle** or **Body**.
+  - **Text scale large screen:** Adjust the font size of the pickup availability text on large screens.
+  - **Text scale mobile screen:** Adjust the font size of the pickup availability text on mobile devices.
+
+Aside from these text styling options, the block renders automatically based on your Shopify store's location and local pickup configuration.
 
 ## **Requirements**
 
