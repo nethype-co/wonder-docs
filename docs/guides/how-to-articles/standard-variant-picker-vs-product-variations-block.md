@@ -59,7 +59,7 @@ Product cards (in collections, search, related products, etc.) can also show sib
 - **Enable product siblings / variations as swatches** — the on/off switch for this behavior on cards.
 - **Input type** — **Product image** or **Swatch / Image** (no "Button" option at this level).
 - **Option value metafield** — same metaobject/text requirement as the PDP block.
-- **Products metafield** — unlike the PDP block's manual product picker, cards need an actual **list metafield of product references** (e.g. `custom.product_variations`) to know which products to link, since there's no per-card manual list to configure.
+- **Products metafield** — Namespace and key of metafield holding product variations. Example: custom.product_variations.
 
 If both **Enable product siblings / variations as swatches** and **Enable color swatch** are turned on, **product siblings take priority** on cards — the two are mutually exclusive, not combined.
 
