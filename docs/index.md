@@ -166,7 +166,6 @@ General settings that apply across your entire Wonder theme.
 - [Metrics Banner](sections/text-forms/metrics-banner)
 - [Notification Pop-up](sections/header-navigation/notification-pop-up)
 - [Rich Text with Image](sections/text-forms/rich-text-with-image)
-- [Specification Table Block](sections/text-forms/specification-table-block)
 
 ### [Forms](sections/forms)
 - [Email Signup](sections/forms/email-signup)
@@ -201,6 +200,7 @@ General settings that apply across your entire Wonder theme.
 - [Rating Block](product-page/blocks/rating-block)
 - [Separator Block](product-page/blocks/separator-block)
 - [Share Buttons](product-page/blocks/share-buttons-block)
+- [Specification Table Block](product-page/blocks/specification-table-block)
 - [Subscription Widget](product-page/blocks/subscription-widget-block)
 - [Title Block](product-page/blocks/title-block)
 - [Upsell Block](product-page/blocks/upsell-block)
