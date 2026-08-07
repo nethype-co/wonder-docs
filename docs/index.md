@@ -132,6 +132,7 @@ General settings that apply across your entire Wonder theme.
 - [Collapsible Menu with Image](sections/storytelling/collapsible-menu-with-image)
 - [Grid View](sections/storytelling/grid-view)
 - [Grid View with Drawer](sections/storytelling/grid-view-with-drawer)
+- [Grid View with Modal](sections/storytelling/grid-view-with-modal)
 - [Image with Scrolling Text](sections/storytelling/image-with-scrolling-text)
 - [Image with Table](sections/storytelling/image-with-table)
 - [Image with Text](sections/storytelling/image-with-text)
