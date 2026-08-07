@@ -223,7 +223,7 @@ General settings that apply across your entire Wonder theme.
 - [A Complete Guide to Customizing the Variant Picker](guides/how-to-articles/a-complete-guide-to-customizing-the-variant-picker)
 - [Personalizing Product Pages with Custom Options](guides/how-to-articles/a-step-by-step-guide-to-personalizing-your-product-pages-with-custom-options)
 - [Product Variations Block Setup](guides/how-to-articles/how-to-set-up-a-product-variations-block-in-product-page)
-- [Standard Variant Picker vs. Product Variations Block](guides/how-to-articles/standard-variant-picker-vs-product-variations-block)
+- [How to Display Product Variants at your product page: Variant Picker vs. Product Siblings](guides/how-to-articles/standard-variant-picker-vs-product-variations-block)
 - [How to Set Up a Size Guide per Product](guides/how-to-articles/how-to-set-up-size-guide-per-product)
 - [Maximizing SEO Potential](guides/how-to-articles/maximizing-seo-potential-within-your-theme)
 - [Page Speed Mastery](guides/how-to-articles/unlocking-page-speed-mastery-for-your-shopify-store)
