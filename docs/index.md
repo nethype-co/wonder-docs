@@ -132,6 +132,7 @@ General settings that apply across your entire Wonder theme.
 - [Collapsible Menu with Image](sections/storytelling/collapsible-menu-with-image)
 - [Grid View](sections/storytelling/grid-view)
 - [Grid View with Drawer](sections/storytelling/grid-view-with-drawer)
+- [Grid View with Modal](sections/storytelling/grid-view-with-modal)
 - [Image with Scrolling Text](sections/storytelling/image-with-scrolling-text)
 - [Image with Table](sections/storytelling/image-with-table)
 - [Image with Text](sections/storytelling/image-with-text)
@@ -165,7 +166,6 @@ General settings that apply across your entire Wonder theme.
 - [Metrics Banner](sections/text-forms/metrics-banner)
 - [Notification Pop-up](sections/header-navigation/notification-pop-up)
 - [Rich Text with Image](sections/text-forms/rich-text-with-image)
-- [Specification Table Block](sections/text-forms/specification-table-block)
 
 ### [Forms](sections/forms)
 - [Email Signup](sections/forms/email-signup)
@@ -200,6 +200,7 @@ General settings that apply across your entire Wonder theme.
 - [Rating Block](product-page/blocks/rating-block)
 - [Separator Block](product-page/blocks/separator-block)
 - [Share Buttons](product-page/blocks/share-buttons-block)
+- [Specification Table Block](product-page/blocks/specification-table-block)
 - [Subscription Widget](product-page/blocks/subscription-widget-block)
 - [Title Block](product-page/blocks/title-block)
 - [Upsell Block](product-page/blocks/upsell-block)
