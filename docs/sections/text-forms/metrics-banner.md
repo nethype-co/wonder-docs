@@ -14,6 +14,10 @@ The Metrics Banner section allows you to display key indicators and statistics i
 
 ![](/img/docs/metrics-banner.png)
 
+## Example with animation
+
+<DocVideo src="/img/docs/metrics-banner-animate.webm" autoPlay playsInline muted loop style={{width: "100%", marginBottom: "20px", borderRadius: "8px"}} />
+
 ## Main settings
 
 **General**
@@ -32,6 +36,12 @@ The Metrics Banner section allows you to display key indicators and statistics i
 - **Background color:** Customize the background color of the entire section.
 - **Text color:** Define the global text color for the section.
 - **Block background color:** Set the background color of individual metric blocks.
+
+**Animation**
+
+- **Animate numbers:** Enable this toggle to have numeric values count up from zero when the section scrolls into view.
+- **Animation speed:** Set how long the count-up animation takes to complete, in seconds.
+- **Ease out:** Enable this toggle to have the animation slow down toward the end rather than stopping abruptly.
 
 **Section Spacing**
 
