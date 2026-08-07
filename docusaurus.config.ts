@@ -199,8 +199,6 @@ const config: Config = {
           { from: '/question/variant-picker-block', to: '/product-page/blocks/variant-picker-block' },
           // Product Page — Variants & Media
           { from: '/question/multi-images-variant-gallery', to: '/product-page/variants-media/multi-images-variant-gallery' },
-          { from: '/question/product-variations', to: '/product-page/variants-media/product-variations' },
-          { from: '/question/product-variations-block', to: '/product-page/variants-media/product-variations-block' },
           // Theme Settings
           { from: '/question/color-swatches', to: '/theme-settings/color-swatches' },
           { from: '/question/product-badges', to: '/theme-settings/product-badges' },
