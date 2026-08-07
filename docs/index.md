@@ -211,8 +211,6 @@ General settings that apply across your entire Wonder theme.
 
 ### [Variants & Media](product-page/variants-media)
 - [Multi-Images Variant Gallery](product-page/variants-media/multi-images-variant-gallery)
-- [Product Variations](product-page/variants-media/product-variations)
-- [Product Variations Block](product-page/variants-media/product-variations-block)
 
 </div>
 </div>
