@@ -46,8 +46,8 @@
 
 ### Variants & Media
 
-- [Product Variations](https://support.wonder-theme.com/product-page/variants-media/product-variations): Combined color and size variant listings on collection pages
-- [Product Variations Block](https://support.wonder-theme.com/product-page/variants-media/product-variations-block): Product page block for variant-based listings
+- [Product Variations](https://support.wonder-theme.com/theme-settings/color-swatches#method-2-product-siblings-as-swatches): Combined color and size variant listings on collection pages
+- [Product Variations Block](https://support.wonder-theme.com/guides/how-to-articles/how-to-set-up-a-product-variations-block-in-product-page): Product page block for variant-based listings
 - [Multi-Images Variant Gallery](https://support.wonder-theme.com/product-page/variants-media/multi-images-variant-gallery): Assign multiple images per variant using alt text
 
 ## Sections
@@ -56,8 +56,8 @@
 
 - [Header](https://support.wonder-theme.com/sections/header-navigation/header): Site header configuration — logo, menus, sticky/transparent modes
 - [Announcement Bar](https://support.wonder-theme.com/sections/header-navigation/announcement-bar): Top-of-page announcement banners with auto-rotate
-- [Mega Menu Guide](https://support.wonder-theme.com/sections/header-navigation/how-to-set-up-a-mega-menu-promotion-menu-in-your-shopify-theme-a-step-by-step-guide): Setting up mega menus with promotional content
-- [Transparent Header Guide](https://support.wonder-theme.com/sections/header-navigation/how-to-set-up-a-transparent-header-in-the-wonder-theme): Enabling transparent header on specific pages
+- [Mega Menu Guide](https://support.wonder-theme.com/sections/header-navigation/header/block-promotion-mega-menu): Setting up mega menus with promotional content
+- [Transparent Header Guide](https://support.wonder-theme.com/sections/header-navigation/header#transparent-header): Enabling transparent header on specific pages
 - [Logo Banner](https://support.wonder-theme.com/sections/header-navigation/logo-banner): Logo/video banner for header group
 - [Logo Banner with Text](https://support.wonder-theme.com/sections/header-navigation/logo-banner-with-text): Animated logo banner with text overlay
 
@@ -77,7 +77,7 @@
 - [Image with Video](https://support.wonder-theme.com/sections/storytelling/image-with-video): Image paired with embedded video
 - [Image with Table](https://support.wonder-theme.com/sections/storytelling/image-with-table): Image with specifications table
 - [Lookbook](https://support.wonder-theme.com/sections/storytelling/lookbook): Lookbook-style image layout section
-- [Rich Text with Image](https://support.wonder-theme.com/sections/storytelling/rich-text-with-image): Rich text content with featured image
+- [Rich Text with Image](https://support.wonder-theme.com/sections/text-forms/rich-text-with-image): Rich text content with featured image
 - [Grid View](https://support.wonder-theme.com/sections/storytelling/grid-view): Multi-column grid layout section
 - [Collage](https://support.wonder-theme.com/sections/storytelling/collage): Asymmetric collage image layout
 - [Multicolumn](https://support.wonder-theme.com/sections/storytelling/multicolumn): Multi-column content blocks
@@ -104,7 +104,7 @@
 
 - [Shoppable Video](https://support.wonder-theme.com/sections/video/shoppable-video): Interactive video with product links
 - [Shoppable Video Reels](https://support.wonder-theme.com/sections/video/shoppable-video-reels): TikTok-style shoppable video carousel
-- [Video Reels with Product Block](https://support.wonder-theme.com/sections/video/video-reels-with-product-block): Video reels paired with product info
+- [Video Reels with Product Block](https://support.wonder-theme.com/product-page/blocks/video-reels-with-product-block): Video reels paired with product info
 - [Benefits Video Reels](https://support.wonder-theme.com/sections/video/benefits-video-reels): Video reels showcasing product benefits
 - [Background Video](https://support.wonder-theme.com/sections/video/background-video): Full-width background video section
 
@@ -115,13 +115,13 @@
 
 ### Text & Forms
 
-- [Newsletter with Image](https://support.wonder-theme.com/sections/text-forms/newsletter-with-image): Email signup form with featured image
-- [Notification Pop-up](https://support.wonder-theme.com/sections/text-forms/notification-pop-up): On-page notification/newsletter popup
+- [Newsletter with Image](https://support.wonder-theme.com/sections/forms/newsletter-with-image): Email signup form with featured image
+- [Notification Pop-up](https://support.wonder-theme.com/sections/header-navigation/notification-pop-up): On-page notification/newsletter popup
 - [Features Banner](https://support.wonder-theme.com/sections/text-forms/features-banner): Feature highlights banner
 - [Featured Navigation](https://support.wonder-theme.com/sections/text-forms/featured-navigation): Visual page/collection navigation
 - [Map Section](https://support.wonder-theme.com/sections/text-forms/map-section): Google Maps embedded section
 - [AI Section](https://support.wonder-theme.com/sections/text-forms/ai-section): AI-generated content section
-- [Specification Table Block](https://support.wonder-theme.com/sections/text-forms/specification-table-block): Product specification table
+- [Specification Table Block](https://support.wonder-theme.com/product-page/blocks/specification-table-block): Product specification table
 
 ## Guides
 
@@ -144,5 +144,4 @@
 
 ## Optional
 
-- [FAQ & Troubleshooting](https://support.wonder-theme.com/faq-troubleshooting): Common issues and solutions
 - [Changelog](https://support.wonder-theme.com/changelog): Version history from v1.0.0 to v2.2.1

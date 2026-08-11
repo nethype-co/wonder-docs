@@ -172,6 +172,7 @@ const config: Config = {
           { from: '/question/rich-text-with-image', to: '/sections/text-forms/rich-text-with-image' },
           { from: '/sections/storytelling/rich-text-with-image', to: '/sections/text-forms/rich-text-with-image' },
           { from: '/question/newsletter-with-image', to: '/sections/forms/newsletter-with-image' },
+          { from: '/sections/text-forms/newsletter-with-image', to: '/sections/forms/newsletter-with-image' },
           { from: '/question/notification-pop-up', to: '/sections/header-navigation/notification-pop-up' },
           { from: '/sections/text-forms/notification-pop-up', to: '/sections/header-navigation/notification-pop-up' },
           { from: '/question/specification-table-block', to: '/product-page/blocks/specification-table-block' },
@@ -199,6 +200,8 @@ const config: Config = {
           { from: '/question/variant-picker-block', to: '/product-page/blocks/variant-picker-block' },
           // Product Page — Variants & Media
           { from: '/question/multi-images-variant-gallery', to: '/product-page/variants-media/multi-images-variant-gallery' },
+          { from: '/product-page/variants-media/product-variations', to: '/theme-settings/color-swatches#method-2-product-siblings-as-swatches' },
+          { from: '/product-page/variants-media/product-variations-block', to: '/guides/how-to-articles/how-to-set-up-a-product-variations-block-in-product-page' },
           // Theme Settings
           { from: '/question/color-swatches', to: '/theme-settings/color-swatches' },
           { from: '/question/product-variations', to: '/theme-settings/color-swatches#method-2-product-siblings-as-swatches' },
@@ -213,6 +216,7 @@ const config: Config = {
           { from: '/question-category/theme-settings', to: '/theme-settings' },
           { from: '/question-category/frequently-asked-questions', to: '/' },
           // Top-level pages
+          { from: '/faq-troubleshooting', to: '/' },
           { from: '/support', to: '/' },
           { from: '/support-policy', to: '/getting-started/about-theme/support-policy' },
           { from: '/home-v2', to: '/' },
