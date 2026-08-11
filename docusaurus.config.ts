@@ -201,8 +201,7 @@ const config: Config = {
           { from: '/question/multi-images-variant-gallery', to: '/product-page/variants-media/multi-images-variant-gallery' },
           // Theme Settings
           { from: '/question/color-swatches', to: '/theme-settings/color-swatches' },
-          // NOTE: /question/product-variations is handled by static/question/product-variations/index.html
-          // because plugin-client-redirects rejects anchors (#...) in `to`.
+          { from: '/question/product-variations', to: '/theme-settings/color-swatches#method-2-product-siblings-as-swatches' },
           { from: '/question/product-badges', to: '/theme-settings/product-badges' },
           { from: '/question/cross-sell', to: '/theme-settings/cross-sell' },
           // Getting Started
