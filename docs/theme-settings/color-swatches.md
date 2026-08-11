@@ -9,8 +9,6 @@ Swatches serve as compact yet impactful visual cues that reveal the array of col
 
 Moving beyond mere textual descriptions, swatches offer a tactile and visual representation that brings customer interaction with product variants to life. Opt for vivid hex codes, utilize variant-specific imagery, or introduce bespoke swatch designs for a tailored display. Available in circular or square formats, swatches infuse a touch of elegance and practicality into the shopping experience. Here's how they enhance the Wonder theme:
 
-![](/img/docs/f8d69e94c5d2.jpeg)
-
 ### Two ways to set up swatches
 
 There are two ways to show swatches in the Wonder theme. Pick the one that matches how your products are built:
@@ -19,6 +17,8 @@ There are two ways to show swatches in the Wonder theme. Pick the one that match
 | --- | --- | --- |
 | [**1. Variant option swatches**](#method-1-variant-option-swatches) | Your colors are **variant options on a single product** (the standard Shopify setup) | **Theme Settings > Color swatch** — described in the rest of this article |
 | [**2. Product siblings as swatches**](#method-2-product-siblings-as-swatches) | Your colors are **separate products** linked together (Combined listings) | **Theme Settings > Product siblings / variations** |
+
+![](/img/docs/f8d69e94c5d2.jpeg)
 
 ### Method 1: Variant option swatches
 
