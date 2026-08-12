@@ -42,14 +42,23 @@ The Collection Navigator section allows you to display products from multiple co
 
 ### Product Card
 
-- **Text alignment:** Set the alignment of product text.
+- **Card style:** Choose the style of the product card — Classic or Pro. Pro style adds an in-card image gallery and a quick buy button.
+- **Max gallery images** *(Pro style only)*: Sets how many product images are shown in the in-card gallery.
+- **Enable quick buy picker** *(Pro style only)*: Adds a size picker directly on the product card. Replaces the standard quick add-to-cart button.
+- **Text alignment:** Set the alignment of product text — Center or Left.
 - **Image ratio:** Define the aspect ratio of product images.
 - **Show product media video:** Enable to display video for products with Shopify-hosted videos.
 - **Show second image on hover:** Display an alternate product image when a customer hovers over the product card.
 - **Show vendor:** Display the product vendor name on each product card.
 - **Enable vendor link:** Make the vendor name a clickable link.
 - **Show product rating:** Display the product rating on each card. Requires a product rating app to be installed.
+- **Show review count:** Display the numeric rating value next to the stars on product cards and search results.
+- **Hide rating if no reviews:** Hide the rating on a card if the product has no reviews yet.
 - **Enable quick add button:** Display a quick add-to-cart button directly on the product card. Recommended for lower-priced items to facilitate quick shopping.
+- **Desktop button position** *(Classic style only)*: Choose where the quick add button appears on desktop — Below product or On hover. *(Only shown when "Enable quick add button" is on.)*
+- **Content** *(Pro style only)*: Optional page shown in the size guide popup (title + content), below the table.
+
+For the full Classic vs Pro breakdown, see [How to Set Up a Product Card](/guides/how-to-articles/how-to-set-up-a-product-card). Pro card swatches rely on product siblings — see [How to Set Up a Product Siblings (Product Variations) Block in Product Page](/guides/how-to-articles/how-to-set-up-a-product-variations-block-in-product-page).
 
 ### Colors
 

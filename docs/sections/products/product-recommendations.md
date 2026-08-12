@@ -20,12 +20,18 @@ The Product Recommendations Section is a curated showcase designed to enhance th
 * **Maximum Products to Show** : Adjust the slider to set the total number of products displayed within the recommendations carousel, allowing you to control the variety without overwhelming the customer.
 * **Products per Slide on Desktop** : Determine how many products to display per slide on desktop views. This slider allows you to balance detail and breadth, ensuring each product has adequate visibility.
 * **Make Products Full Width** : Check this to span the product images across the full width of the screen, offering an expansive and bold presentation on larger displays.
+* **Card style** : Choose the style of the product card — Classic or Pro. Pro style adds an in-card image gallery and a quick buy button.
+* **Max gallery images** *(Pro style only)* : Sets how many product images are shown in the in-card gallery.
+* **Enable quick buy picker** *(Pro style only)* : Adds a size picker directly on the product card.
 * **Show Secondary Image on Hover** : Enable this to reveal a second image when customers hover over a product, providing an interactive way to view more details without leaving the section.
 * **Products per Slide on Mobile** : This slider adjusts the count of products displayed in a single slide within the mobile carousel. Tailor the number to ensure optimal visibility and scrolling on handheld devices.
 * **Text Alignment** : Choose the alignment of the product titles and descriptions to best suit your design. 'Center' gives a balanced look, while 'Left' aligns text to the traditional reading flow.
 * **Image Ratio** : Select the preferred aspect ratio for product images to maintain consistency in presentation. 'Adapt to Image' retains the original aspect ratio, 'Portrait' suits taller images, and 'Square' offers a uniform, grid-like appearance.
 * **Show Vendor** : Check this to display the manufacturer or brand name below the product, adding a layer of information that can influence buyer decisions.
 * **Show Product Rating** : Enable this to feature customer ratings on each product, providing social proof and influencing purchasing choices. Requires integration with a product rating app.
+* **Show review count** : Display the numeric rating value next to the stars on product cards.
+* **Hide rating if no reviews** : Hide the rating on a card if the product has no reviews yet.
+* **Content** *(Pro style only)* : Optional page shown in the size guide popup (title + content), below the table.
 * **Enable Color Swatches** : This option introduces color swatches on the product recommendations, allowing customers to view and select from available colors directly from the carousel.
 * **Enable Custom Text Color** : Toggle this feature to personalize the color of the text in your product recommendations. The hex code allows for precise color matching with your brand's palette.
 * **Text Color** : This shows the current color selection for your text. Input a hex code here to specify the exact hue for product names and details, ensuring readability and aesthetic harmony.
@@ -34,7 +40,7 @@ The Product Recommendations Section is a curated showcase designed to enhance th
 * **Top Distance** : Slide to adjust the space above the product recommendations, providing breathing room and a clean separation from other content.
 * **Bottom Distance** : Similarly, this slider controls the space below the section, allowing you to ensure visual balance and flow on the page.
 
-![](/img/docs/23f7ce5ab37c.jpg)
+For the full Classic vs Pro breakdown, see [How to Set Up a Product Card](/guides/how-to-articles/how-to-set-up-a-product-card). Pro card swatches rely on product siblings — see [How to Set Up a Product Siblings (Product Variations) Block in Product Page](/guides/how-to-articles/how-to-set-up-a-product-variations-block-in-product-page).
 
 ## **Mobile view example** 
 
