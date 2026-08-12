@@ -35,12 +35,22 @@ The Search Results page displays products, articles, and pages matching the visi
 
 **Product Card**
 
+* **Card style**: Choose the style of the product card — Classic or Pro. Pro style adds an in-card image gallery and a quick buy button.
+* **Max gallery images** *(Pro style only)*: Sets how many product images are shown in the in-card gallery.
+* **Enable quick buy picker** *(Pro style only)*: Adds a size picker directly on the product card. Replaces the standard quick add-to-cart button.
+* **Text alignment**: Set the alignment of product text — Center or Left.
 * **Image ratio**: Choose the aspect ratio of product images in the grid — for example Square.
 * **Show second image on hover**: Enable this toggle to display the product's second image when hovering over the card on desktop.
 * **Show vendor**: Enable this toggle to display the product vendor name on each card.
 * **Enable vendor link**: Enable this toggle to make the vendor name a clickable link.
 * **Show product rating**: Enable this toggle to display the product rating on each card. To display a rating, a product rating app is required.
+* **Show review count**: Display the numeric rating value next to the stars on product cards and search results.
+* **Hide rating if no reviews**: Hide the rating on a card if the product has no reviews yet.
 * **Enable quick add button**: Enable this toggle to display a quick add to cart button on product cards. Recommended for lower-priced items to facilitate quick shopping.
+* **Desktop button position** *(Classic style only)*: Choose where the quick add button appears on desktop — Below product or On hover. *(Only shown when "Enable quick add button" is on.)*
+* **Content** *(Pro style only)*: Optional page shown in the size guide popup (title + content), below the table.
+
+For the full Classic vs Pro breakdown, see [How to Set Up a Product Card](/guides/how-to-articles/how-to-set-up-a-product-card). Pro card swatches rely on product siblings — see [How to Set Up a Product Siblings (Product Variations) Block in Product Page](/guides/how-to-articles/how-to-set-up-a-product-variations-block-in-product-page).
 
 **Toolbar**
 
