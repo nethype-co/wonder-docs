@@ -39,7 +39,21 @@ Shopify provides a standard **Color** metaobject that is automatically available
 Using the default Shopify Color metaobject saves setup time and keeps your color values consistent across products, since Shopify maintains the list of standard colors and their swatches for you.
 :::
 
+Make sure the product is assigned to a category. If it isn't, select an existing one from the list.
+
+![Product category](/img/docs/sibling-product-category.png)
+
+Then, if a **Color** suggestion appears among the category metafields, accept it — or select your own from the list that appears after clicking.
+
+![Accept category metafield suggestion](/img/docs/sibling-product-category-2.png)
+
 ![Product siblings category metafield](/img/docs/siblings-category-metafield.png)
+
+Sometimes the category assigned to a product won't have the metafield you need — for example, **Color**. If that happens, go to **Settings** → **Metafields and metaobjects** → **Products**, switch to **Assigned to categories**, and open that metafield. Then assign the metafield that you want to use to the proper category.
+
+![Product siblings category assigned metafield](/img/docs/sibling-product-category-assing-2.png)
+
+![Product siblings category assigned](/img/docs/sibling-product-category-assing.png)
 
 **Option B — Create a custom Color metaobject**
 
