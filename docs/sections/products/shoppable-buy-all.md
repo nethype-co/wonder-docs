@@ -74,6 +74,8 @@ The Shoppable Buy All section displays a lifestyle image with numbered hotspots 
 The Product block adds an individual product to the shoppable list, along with a hotspot marker positioned on the lifestyle image. Sold-out products are automatically hidden from the section.
 
 * **Product**: Select the product to display in the list.
+* **Select specific variant**: Enable this toggle to show the product only in one chosen variant, without a variant dropdown. Off by default.
+* **Variant ID**: Enter the ID of the variant to show. To find it, go to **Products**, open the product, and click the variant: the ID is the number at the end of the page URL. If the chosen variant is sold out, the product is hidden. Available only when **Select specific variant** is enabled.
 * **Horizontal position**: Move the slider to set the hotspot horizontal position on the image.
 * **Vertical position**: Move the slider to set the hotspot vertical position on the image.
 

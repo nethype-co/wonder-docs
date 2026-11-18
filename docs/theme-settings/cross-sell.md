@@ -37,3 +37,9 @@ When a customer adds items to their cart and opens the cart drawer, the Cross-Se
 * **Collection** : Select the collection to pull recommended products from.
 
 * **Product list** : Manually select products to display as recommendations.
+
+* **Hide sold-out products** : Enable this toggle to skip sold-out products. The next available products take their place, so the row still shows the maximum number of products. Off by default.
+
+Products that are already in the cart are skipped in the same way.
+
+Products with only one variant are added straight to the cart when the customer clicks the add button. Products with more variants open the quick add drawer, so the customer can choose a variant first.

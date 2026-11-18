@@ -57,6 +57,9 @@ Product recommendations shown inside the cart drawer to encourage shoppers to ad
 - **Product source** — Choose **From collection** (auto-pulls from a collection) or **From product list** (up to 9 hand-picked products).
 - **Collection** — The collection to pull cross-sell products from. Only applies when **Product source** is From collection.
 - **Product list** — Up to 9 hand-picked products. Only applies when **Product source** is From product list.
+- **Hide sold-out products** — Skip sold-out products; the next available products take their place, so the row still shows the maximum number of products. Off by default.
+
+Products already in the cart are skipped in the same way. Products with only one variant are added straight to the cart when the customer clicks the add button; products with more variants open the quick add drawer so the customer can choose a variant first.
 
 ### Example: Cross-sells
 

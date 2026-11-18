@@ -23,7 +23,9 @@ The "Parallax" section is a dynamic and visually captivating element designed to
 **Images**
 
 - **Number of images:** Choose how many images are displayed in the parallax effect — **2**, **3**, or **4**. The number of image and image link fields shown below will adjust depending on this selection — for example, selecting **4** will reveal fields for a third and fourth image and their corresponding links.
-- **Maximum rotation:** Set the maximum rotation angle (in degrees) applied to the images for the parallax effect.
+- **Image size (desktop):** Scale the images on desktop, from **50%** to **150%** of their default size. Default: **100%**.
+- **Image size (mobile):** Scale the images on mobile devices, from **50%** to **150%** of their default size. Default: **100%**.
+- **Maximum rotation:** Set the maximum angle the images rotate as the customer scrolls, from **0°** (no rotation) to **30°**. Default: **5°**.
 - **First image:** Upload the first image displayed in the section.
 - **First image link:** Assign a URL or page link to the first image.
 - **Second image:** Upload the second image displayed in the section.
@@ -32,6 +34,15 @@ The "Parallax" section is a dynamic and visually captivating element designed to
 - **Third image link:** Assign a URL or page link to the third image. Available only when Number of images is set to **3** or **4**.
 - **Fourth image:** Upload the fourth image displayed in the section. Available only when Number of images is set to **4**.
 - **Fourth image link:** Assign a URL or page link to the fourth image. Available only when Number of images is set to **4**.
+
+**Scroll and spacing**
+
+These settings control how long the parallax effect lasts while scrolling. Values are a percentage of the screen height, so larger values make the section longer to scroll through.
+
+- **Space between images (desktop):** Set the scroll distance between one image and the next on desktop, from **10%** to **100%** of the screen height. Default: **50%**.
+- **Space between images (mobile):** Set the scroll distance between one image and the next on mobile devices, from **10%** to **100%** of the screen height. Default: **50%**.
+- **Space above the gallery:** Set the scroll distance before the first image appears, from **0%** to **100%** of the screen height. Default: **20%**.
+- **Space below the gallery:** Set the scroll distance after the last image, before the section ends, from **0%** to **100%** of the screen height. Default: **100%**.
 
 **Colors**
 

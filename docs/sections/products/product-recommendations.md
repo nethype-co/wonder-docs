@@ -23,7 +23,10 @@ The Product Recommendations Section is a curated showcase designed to enhance th
 * **Card style** : Choose the style of the product card — Classic or Pro. Pro style adds an in-card image gallery and a quick buy button.
 * **Max gallery images** *(Pro style only)* : Sets how many product images are shown in the in-card gallery.
 * **Enable quick buy picker** *(Pro style only)* : Adds a size picker directly on the product card.
+* **Options shown in the picker** *(Pro style only)* : Enter the option names (one per line) that open the size picker — for example `Size`. Products with a single option of this name get the picker; other products open the quick add drawer instead. Available only when **Enable quick buy picker** is on.
 * **Show Secondary Image on Hover** : Enable this to reveal a second image when customers hover over a product, providing an interactive way to view more details without leaving the section.
+* **Enable quick add button** *(Classic style only)* : Adds a quick add button to the product cards, so customers can add products to the cart without opening the product page. Recommended for lower-priced items. Off by default.
+* **Desktop button position** *(Classic style only)* : Choose where the quick add button appears on desktop — **On hover** (default) or **Below product**. Available only when **Enable quick add button** is on.
 * **Products per Slide on Mobile** : This slider adjusts the count of products displayed in a single slide within the mobile carousel. Tailor the number to ensure optimal visibility and scrolling on handheld devices.
 * **Text Alignment** : Choose the alignment of the product titles and descriptions to best suit your design. 'Center' gives a balanced look, while 'Left' aligns text to the traditional reading flow.
 * **Image Ratio** : Select the preferred aspect ratio for product images to maintain consistency in presentation. 'Adapt to Image' retains the original aspect ratio, 'Portrait' suits taller images, and 'Square' offers a uniform, grid-like appearance.
