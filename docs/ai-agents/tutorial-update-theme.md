@@ -146,9 +146,10 @@ Releases in between: 2.4.1, 2.5.0, 2.5.1, 2.5.2.
 You changed these and Wonder did not change them between 2.4.0 and 2.5.2.
   - assets/custom.css
 
-## 3. Merge by hand (2)
+## 3. Merge (2)
 Both you and Wonder changed these. Start from the NEW file (it has Wonder's fixes) and re-apply
-only your own changes. ...
+only your own changes. With a local theme folder, the wonder-update skill's compare script does
+this for you (`compare.mjs <current> --merge <new>`) ...
   - sections/contact-form.liquid
   - sections/page-footer.liquid
 ```
