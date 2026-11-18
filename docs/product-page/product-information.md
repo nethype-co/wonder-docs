@@ -18,15 +18,23 @@ The Product Information section forms the main product page layout, combining th
 
 ### Sticky Buy Button
 
-* **Enable sticky buy button:** Enable this toggle to display a sticky or floating buy button that stays visible as the customer scrolls.
-* **Sticky buy button visibility:** Choose when the sticky button is shown — for example, Only on mobile.
-* **Button mode:** Choose how the button behaves — Sticky or Floating.
-* **Button style:** Choose the visual style of the button — Primary or Secondary.
-* **Sticky button background opacity:** Adjust the opacity of the sticky button's background.
-* **Sticky button background blur:** Adjust the blur effect applied to the sticky button's background.
-* **Show shadow:** Enable this toggle to display a shadow behind the sticky button.
-* **Show image:** Choose whether to display the product image in the sticky button — Yes or No.
-* **Show product info:** Choose what product information is displayed in the sticky button — for example, Title and price.
+A buy button that stays visible while the customer scrolls the product page. The settings are under the **Sticky buy button** heading of the Product information section.
+
+| Setting | What it does | Default |
+|---|---|---|
+| **Enable sticky buy button** | Shows a sticky or floating buy button | On |
+| **Sticky buy button visibility** | Where it's shown: Only on mobile, Only on desktop, or On both | Only on mobile |
+| **Button mode** | How the button behaves: Sticky or Floating | Sticky |
+| **Button style** | Primary or Secondary button style | Secondary |
+| **Sticky button background opacity** | Opacity of the button's background | 100 |
+| **Sticky button background blur** | Blur effect behind the button | 0 |
+| **Show shadow** | Shows a shadow behind the button | Off |
+| **Show image** | Shows the product image in the bar: Yes or No | Yes |
+| **Show product info** | Title only, Price only, Title and price, or None | Title and price |
+
+#### How do I hide the sticky add-to-cart bar?
+
+In the theme editor, open a product template, select **Product information** and turn off **Enable sticky buy button**. To hide it only on phones, keep it on and set **Sticky buy button visibility** to **Only on desktop**.
 
 #### Sticky buy button example
 

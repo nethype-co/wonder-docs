@@ -8,6 +8,12 @@ sidebar_position: 6
 
 While the Wonder Theme offers a wide range of built-in settings through the Theme Editor, there are cases where you may need more advanced customization. If you're comfortable with HTML, CSS, and Liquid, you can modify your theme by editing the code directly.
 
+:::tip Before you edit code
+- Edits made in **Edit code** are **not carried over** when you update Wonder. See [Updating Wonder: what's kept and what isn't](./updating-wonder).
+- For style tweaks, use [Theme settings → Custom CSS](/theme-settings/custom-css) instead: it survives updates.
+- Want a custom section without coding? See the [AI tutorial](/ai-agents/tutorial-custom-section).
+:::
+
 ### **Types of Theme Files:** 
 
 Themes are organized into different file categories, each serving a specific purpose:

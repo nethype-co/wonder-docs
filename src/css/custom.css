@@ -307,3 +307,19 @@ a[class*="cardContainer"]:hover {
     grid-template-columns: 1fr !important;
   }
 }
+
+/* Homepage: AI tools callout */
+.ai-tools-callout {
+  margin: 2rem 0;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-left: 4px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  background: var(--ifm-background-surface-color);
+}
+.ai-tools-callout h2 {
+  margin-top: 0;
+}
+.ai-tools-callout > :last-child {
+  margin-bottom: 0;
+}

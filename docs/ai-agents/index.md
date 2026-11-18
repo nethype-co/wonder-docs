@@ -9,8 +9,10 @@ sidebar_position: 0
 Wonder comes with free tools that make AI assistants (Claude, ChatGPT, Codex, Cursor, GitHub Copilot and others) work properly with your Wonder store. Once connected, your assistant can:
 
 - answer questions from the **official Wonder documentation**, with links to the articles it used;
+- find the **right section or setting** before writing code, with the labels you see in the theme editor;
 - check **known issues** for your Wonder version, with the workaround and the version that fixes them;
 - build **custom sections** that look native to Wonder, survive theme updates and pass validation before you paste them into your store;
+- write **JavaScript on Wonder's documented events and cart drawer API**, so it keeps working after updates;
 - **update a customised store** to a new Wonder version: find exactly which lines you changed, merge them into the new theme copy and flag real conflicts;
 - tell you **what changed in which version**, straight from the release notes.
 
@@ -22,7 +24,7 @@ No account is needed and nothing is installed in your store.
 
 | | **Wonder MCP server** | **Wonder AI Toolkit** (plugin) |
 |---|---|---|
-| What it is | A hosted server at `https://mcp.wonder-theme.com/mcp` | A plugin that bundles the MCP server with four ready-made workflows (skills) |
+| What it is | A hosted server at `https://mcp.wonder-theme.com/mcp` | A plugin that bundles the MCP server with five ready-made workflows (skills) |
 | Works with | Any assistant that supports remote MCP servers: Claude (web, desktop), ChatGPT, Cursor, VS Code, Windsurf, Gemini CLI… | Claude Code, Codex, Cursor, VS Code (Copilot) |
 | Best for | Merchants asking questions and getting ready-to-paste code | Developers and agencies working on theme files |
 | Includes the theme update workflow | Planning only | Yes: find, merge and check changes |

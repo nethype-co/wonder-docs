@@ -6,6 +6,7 @@
 
 - [Basics](https://support.wonder-theme.com/getting-started/basics): Getting started with the Wonder Theme — installation, initial setup
 - [Customizing Your Theme by Editing Theme Files](https://support.wonder-theme.com/getting-started/basics/customizing-your-theme-by-editing-theme-files): How to safely edit Wonder theme files in Shopify
+- [Updating Wonder: What's Kept and What Isn't](https://support.wonder-theme.com/getting-started/basics/updating-wonder): What carries over to a new Wonder version (settings, Custom CSS) and what doesn't (code edits), with a safe update routine
 - [Sharing a Preview of Your Shopify Theme](https://support.wonder-theme.com/getting-started/basics/sharing-a-preview-of-your-shopify-theme): Generate and share a theme preview link
 - [About Theme](https://support.wonder-theme.com/getting-started/about-theme): Overview of Wonder Theme features and capabilities
 - [Accessibility](https://support.wonder-theme.com/getting-started/about-theme/accessibility): Wonder Theme accessibility features and compliance
@@ -20,6 +21,7 @@
 - [Product Badges](https://support.wonder-theme.com/theme-settings/product-badges): Configure sale, new, sold out, and custom badges on product cards
 - [Cross Sell](https://support.wonder-theme.com/theme-settings/cross-sell): Set up cross-sell product recommendations in the cart
 - [Custom Fonts](https://support.wonder-theme.com/theme-settings/custom-fonts): Upload and configure custom font files in the Wonder Theme
+- [Custom CSS](https://support.wonder-theme.com/theme-settings/custom-css): Change the look with Theme settings → Custom CSS or a section's Custom CSS field, scoped and update-safe
 
 ## Product Page
 
@@ -52,6 +54,7 @@
 
 ## Sections
 
+- [All Wonder Sections](https://support.wonder-theme.com/sections/all-sections): Every section in Add section, grouped by category (Wonder 2.5.2)
 ### Header & Navigation
 
 - [Header](https://support.wonder-theme.com/sections/header-navigation/header): Site header configuration — logo, menus, sticky/transparent modes
@@ -140,13 +143,13 @@
 - [Cart Drawer JavaScript API](https://support.wonder-theme.com/developer/cart-drawer-api): Programmatic control of the cart drawer for third-party integrations
 - [Theme Architecture Overview](https://support.wonder-theme.com/developer/theme-architecture): File organization, JavaScript/CSS/Liquid architecture, and custom code best practices
 - [CSS Variables Reference](https://support.wonder-theme.com/developer/css-variables): 380+ CSS custom properties for colors, typography, spacing, and animations
-- [Web Components Reference](https://support.wonder-theme.com/developer/web-components): All 45+ custom elements with public methods and APIs
+- [Web Components Reference](https://support.wonder-theme.com/developer/web-components): Documented custom elements with public methods and APIs
 
 ## AI & Agents
 
 - [AI Tools for Wonder](https://support.wonder-theme.com/ai-agents): Overview of the Wonder MCP server and the Wonder AI Toolkit plugin for AI assistants and coding agents
 - [Install the Wonder AI Toolkit & MCP Server](https://support.wonder-theme.com/ai-agents/setup): Setup for Claude Code, Claude, ChatGPT, Codex, Cursor, VS Code, Windsurf, Gemini CLI and other MCP clients (server: https://mcp.wonder-theme.com/mcp)
-- [Using the Wonder MCP Server](https://support.wonder-theme.com/ai-agents/using-wonder-mcp): The six tools, toolkit skills and prompts that work well
+- [Using the Wonder MCP Server](https://support.wonder-theme.com/ai-agents/using-wonder-mcp): The nine tools, toolkit skills and prompts that work well
 - [Tutorial: Build a Custom Section with AI](https://support.wonder-theme.com/ai-agents/tutorial-custom-section): Blueprint, validation and installation of an update-safe custom section
 - [Tutorial: Update a Customised Wonder Theme](https://support.wonder-theme.com/ai-agents/tutorial-update-theme): Find customisations, three-way merge them into a new Wonder version, resolve conflicts and push
 - [Privacy & Data: Wonder AI Tools](https://support.wonder-theme.com/ai-agents/privacy): What the Wonder MCP server and plugin receive and how long it is kept
@@ -154,4 +157,5 @@
 ## Optional
 
 - [FAQ & Troubleshooting](https://support.wonder-theme.com/faq-troubleshooting): Common issues and solutions
+- [Does Wonder Have…?](https://support.wonder-theme.com/faq-troubleshooting/does-wonder-have): Quick answers: favicon, sticky add-to-cart bar, Custom CSS, analytics and tracking pixels
 - [Changelog](https://support.wonder-theme.com/changelog): Version history from v1.0.0 to v2.2.1

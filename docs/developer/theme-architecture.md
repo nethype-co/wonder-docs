@@ -171,13 +171,13 @@ Reusable Liquid partials in `snippets/`. Key snippets:
 - **Global**: Theme Settings > Custom CSS (applies to all pages)
 - **Per-section**: Each section has its own Custom CSS field (applies only to that section)
 
-**For larger changes** - add a `custom.css` file to `assets/` and include it in `layout/theme.liquid`. This keeps your CSS separate and easier to maintain across theme updates.
+**For larger changes** - use `assets/custom.css`, which Wonder already loads in `layout/theme.liquid`. This keeps your CSS separate from Wonder's files, but the file is **not carried over** when you update the theme: copy it to the new version.
 
 ### Custom JavaScript
 
 Add custom JavaScript via:
-- **Theme Settings > Custom CSS** field (can include `<script>` tags via the Liquid field)
-- A separate `custom.js` file in `assets/`, linked in `layout/theme.liquid`
+- A **Custom Liquid** section or block with a `<script>` tag (saved with your theme settings, so it carries over on updates)
+- `assets/custom.js`, which Wonder already loads in `layout/theme.liquid` (copy it to the new version when you update)
 
 ### Hooking Into Theme Events
 
@@ -215,5 +215,5 @@ To keep your store compatible with future theme updates:
 - Overriding custom element class definitions
 
 :::tip
-Custom code added via separate files or the Custom CSS/JS fields will persist through theme updates. Direct edits to theme files will be overwritten.
+Theme settings, section content and the **Custom CSS** fields carry over when you update Wonder. Anything changed in **Edit code** does not: edited Wonder files, `assets/custom.css`, `assets/custom.js` and custom sections must be copied to the new version. See [Updating Wonder](/getting-started/basics/updating-wonder), or let the [AI update workflow](/ai-agents/tutorial-update-theme) find and merge them.
 :::
