@@ -38,6 +38,17 @@ For a complete walkthrough of all customization options, see: [A Complete Guide 
 
 - **Options listed as dropdown:** Enter the option names (one per line) that should display as a dropdown selector — for example Color or Top color.
 
+### Colors
+
+These colors apply to both the dropdown and the buttons. Leave a color empty to use the theme colors.
+
+- **Background:** Set the background color of the dropdown and the buttons.
+- **Text:** Set the text color of the dropdown and the buttons.
+- **Border:** Set the border color of the dropdown and the buttons.
+- **Selected background:** Set the background color of the selected button. Available only when **Input Type** is set to Button.
+- **Selected text:** Set the text color of the selected button. Available only when **Input Type** is set to Button.
+- **Selected border:** Set the border color of the selected button. Available only when **Input Type** is set to Button.
+
 ### Block Spacing
 
 - **Distance from the top:** Adjust the spacing above the variant picker block.

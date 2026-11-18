@@ -20,6 +20,18 @@ The Collapsible Row block displays a toggleable accordion row on the product pag
 * **Tab content from page**: Select a page whose content will be used as the tab content instead of the manually entered text above.
 * **Open by default**: Enable this toggle to display this row as expanded when the page loads.
 
+## Empty rows are hidden
+
+A row with no content is hidden on the storefront automatically, even if it has a heading. A row counts as empty when both **Tab content** and **Tab content from page** are empty. Text formatting alone doesn't count as content, so a rich text metafield that's empty for a product hides the row too.
+
+This lets you use one product template for all products: if a product has no value in the metafield connected to the row, customers simply don't see that row.
+
+In the theme editor, an empty row stays visible so you can select it, with the note *Empty — this block won't show on the storefront.*
+
+:::note
+A row that uses **Variant metafield variables** is never hidden, because another variant may have content for it. A page with only an image (for example a size chart) counts as content.
+:::
+
 ## Icon
 
 Settings for the icon displayed next to the heading.

@@ -16,9 +16,9 @@ The Feature Icons block displays a row of icons with labels on the product page,
 * **Layout**: Choose how the icons are arranged — Column, Row-Left, or Row-Center.
 * **Show icons label**: Enable this toggle to display the text label beneath each icon.
 
-### Icon with Text 1–4
+### Icon with Text 1–6
 
-Each of the four icon slots has the following settings:
+Each of the six icon slots has the following settings:
 
 * **Select icon**: Choose a built-in icon to display.
 * **Icon**: Upload a custom icon image to display instead of the built-in icon.
