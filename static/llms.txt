@@ -142,6 +142,15 @@
 - [CSS Variables Reference](https://support.wonder-theme.com/developer/css-variables): 380+ CSS custom properties for colors, typography, spacing, and animations
 - [Web Components Reference](https://support.wonder-theme.com/developer/web-components): All 45+ custom elements with public methods and APIs
 
+## AI & Agents
+
+- [AI Tools for Wonder](https://support.wonder-theme.com/ai-agents): Overview of the Wonder MCP server and the Wonder AI Toolkit plugin for AI assistants and coding agents
+- [Install the Wonder AI Toolkit & MCP Server](https://support.wonder-theme.com/ai-agents/setup): Setup for Claude Code, Claude, ChatGPT, Codex, Cursor, VS Code, Windsurf, Gemini CLI and other MCP clients (server: https://mcp.wonder-theme.com/mcp)
+- [Using the Wonder MCP Server](https://support.wonder-theme.com/ai-agents/using-wonder-mcp): The six tools, toolkit skills and prompts that work well
+- [Tutorial: Build a Custom Section with AI](https://support.wonder-theme.com/ai-agents/tutorial-custom-section): Blueprint, validation and installation of an update-safe custom section
+- [Tutorial: Update a Customised Wonder Theme](https://support.wonder-theme.com/ai-agents/tutorial-update-theme): Find customisations, three-way merge them into a new Wonder version, resolve conflicts and push
+- [Privacy & Data: Wonder AI Tools](https://support.wonder-theme.com/ai-agents/privacy): What the Wonder MCP server and plugin receive and how long it is kept
+
 ## Optional
 
 - [FAQ & Troubleshooting](https://support.wonder-theme.com/faq-troubleshooting): Common issues and solutions

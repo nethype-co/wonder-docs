@@ -23,6 +23,7 @@ const CATEGORY_ORDER = [
   "guides",
   "faq-troubleshooting",
   "developer",
+  "ai-agents",
   "changelog",
 ];
 
@@ -66,6 +67,7 @@ function getCategoryLabel(relPath) {
     guides: "Guides",
     "faq-troubleshooting": "FAQ & Troubleshooting",
     developer: "Developer",
+    "ai-agents": "AI & Agents",
     changelog: "Changelog",
   };
   return labels[parts[0]] || parts[0];
