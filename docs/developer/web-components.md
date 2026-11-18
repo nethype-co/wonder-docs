@@ -8,7 +8,7 @@ sidebar_position: 5
 
 Wonder Theme is built on native Web Components (Custom Elements). Every interactive feature is a self-contained component with its own markup, behavior, and public API.
 
-This reference lists all 45+ custom elements organized by category, with their public methods for integration.
+This reference lists the documented custom elements, organized by category, with their public methods for integration.
 
 ---
 
@@ -509,14 +509,6 @@ Logo/video banner section with header transparency detection.
 | `isFirstSection()` | Check if this is the first section on the page |
 
 **File:** `assets/logo-banner.js`
-
----
-
-### `<custom-scroll>`
-
-Swiper-based vertical scroll container with custom scrollbar.
-
-**File:** `assets/custom-scroll.js`
 
 ---
 

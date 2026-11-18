@@ -8,7 +8,7 @@ sidebar_position: 6
 
 This notice explains what data the **Wonder MCP server** (`mcp.wonder-theme.com`) and the **Wonder AI Toolkit** plugin process, why, and for how long. It supplements the [Nethype Privacy Policy](https://www.nethype.co/privacy-policy), which applies in full.
 
-*Last updated: November 18, 2026*
+*Last updated: November 18, 2026 (new tools, retention details)*
 
 ---
 
@@ -18,7 +18,7 @@ This notice explains what data the **Wonder MCP server** (`mcp.wonder-theme.com`
 - Section code you ask us to check is validated in memory and **is not stored or logged**.
 - Theme files on your computer are **never uploaded**. When you update your theme, the comparison runs locally.
 - Our server **doesn't use AI models** and doesn't send your data to any AI provider.
-- Usage statistics are kept for up to **90 days** and contain no IP address. Technical request logs are kept for up to **7 days**.
+- Usage statistics are kept for up to **3 months** and contain no IP address. Technical request logs are kept for up to **7 days**.
 
 ---
 
@@ -36,10 +36,13 @@ If you connect an AI assistant (for example Claude, ChatGPT, Codex or Cursor) to
 | `search_docs`, `get_known_issues` | Your search text or a description of the problem, and the Wonder version |
 | `get_changelog` | Wonder versions and search text |
 | `get_section_blueprint` | The kind of section and its short name |
+| `list_sections`, `get_section_schema`, `get_component_api` | The Wonder version, the section, block or API name, and search text |
 | `validate_section` | The code of the theme section you ask it to check |
 | `plan_update` | Wonder versions and the **names (paths)** of theme files you changed, for example `sections/header.liquid`, **never their contents** |
 
-When you update your theme, the toolkit's comparison script runs on your computer and only **downloads** fingerprints (short hashes) of the original Wonder release from us. It doesn't send your files.
+When you update your theme, Wonder's comparison tool runs on your computer and only **downloads** fingerprints (short hashes) of the original Wonder release from us. It doesn't send your files.
+
+The comparison tool itself (the npm package `wonder-theme-update`) is downloaded from the npm registry, which processes that download under npm's own privacy policy.
 
 Each request also includes technical data: the IP address, the name and version of the AI client, and the time of the request.
 
@@ -62,8 +65,8 @@ Your AI assistant is provided by a third party (for example Anthropic, OpenAI, C
 ## Retention
 
 - **Section code** sent for checking is not retained. It is discarded when the request ends.
-- **Usage statistics** are kept for up to 90 days: tool name, AI client name and version, theme version, search text (shortened to 120 characters), names of changed theme files when planning an update, number of results, identifiers of failed checks, and response time. These records don't include the IP address or section code.
-- **Technical request logs**, which may include the IP address, are kept for up to 7 days.
+- **Usage statistics** are kept for up to 3 months: tool name, AI client name and version, theme version, search text (shortened to 120 characters), names of changed theme files when planning an update, number of results, identifiers of failed checks, the kind and short name of a requested section blueprint, the section or block name looked up, the size (not the content) of checked code, error messages returned by the tools, and response time. These records don't include the IP address or section code.
+- **Technical request logs**, which may include the IP address and the approximate location derived from it (country, city), are kept for up to 7 days.
 
 ## Recipients
 

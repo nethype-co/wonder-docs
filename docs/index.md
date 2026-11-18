@@ -39,6 +39,23 @@ Complete documentation for the Wonder Shopify theme  -  sections, blocks, guides
   </a>
 </div>
 
+<div className="ai-tools-callout">
+
+## New: ask your AI assistant about Wonder
+
+Connect **Claude, ChatGPT, Cursor or Codex** to Wonder's own knowledge. Your assistant then answers from this documentation, knows the known issues of your Wonder version, and builds custom sections that fit the theme and survive updates.
+
+- **"Is there a setting to hide the sticky add-to-cart bar?"** Finds the exact setting in the theme editor.
+- **"The theme editor freezes on 2.5.1. Bug?"** Checks known issues and tells you which update fixes it.
+- **"Make me a testimonials section"** A ready-to-paste section, checked against Wonder's rules.
+- **"Update my customised theme to the latest Wonder"** Finds your code changes and moves them to the new version.
+
+Free, no account needed, and it never accesses your store.
+
+[Set it up in 2 minutes →](/ai-agents/setup) · [What it can do](/ai-agents/using-wonder-mcp)
+
+</div>
+
 ---
 
 ## Getting Started
@@ -54,6 +71,7 @@ Install, configure, and customize the Wonder theme.
 - [Setting Up Navigation](getting-started/basics/setting-up-navigation)
 - [Sharing a Theme Preview](getting-started/basics/sharing-a-preview-of-your-shopify-theme)
 - [Editing Theme Files](getting-started/basics/customizing-your-theme-by-editing-theme-files)
+- [Updating Wonder](getting-started/basics/updating-wonder)
 
 </div>
 <div className="col col--6">
@@ -81,10 +99,13 @@ General settings that apply across your entire Wonder theme.
 - [Product Badges](theme-settings/product-badges)  -  Set up Sale, New, and custom badges on product cards
 - [Cross Sell](theme-settings/cross-sell)  -  Configure cross-selling to boost average order value
 - [Custom Fonts](theme-settings/custom-fonts)  -  Step-by-step guide to adding custom fonts
+- [Custom CSS](theme-settings/custom-css)  -  Change the look safely, in a way that survives theme updates
 
 ---
 
 ## Sections
+
+See [all sections at a glance](sections/all-sections), grouped as in **Add section**.
 
 <div className="row margin-bottom--lg">
 <div className="col col--6">
@@ -234,5 +255,9 @@ General settings that apply across your entire Wonder theme.
 ## FAQ & Troubleshooting
 
 Common issues and frequently asked questions.
+
+- [Updating Wonder: what's kept and what isn't](getting-started/basics/updating-wonder)
+- [Does Wonder have…?](faq-troubleshooting/does-wonder-have)
+- [Ask your AI assistant](/ai-agents/setup): it checks the known issues of your Wonder version
 
 </div>

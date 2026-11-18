@@ -18,6 +18,16 @@ Copy one of these into your assistant to try it out. Mentioning **Wonder** and y
 In the Wonder theme, how do I show color swatches on product cards? Link the docs you used.
 ```
 
+```text title="Is there a setting for it?"
+Is there a setting in Wonder to hide the sticky add-to-cart bar on mobile?
+```
+
+```text title="What can I change?"
+What can I change in Wonder's Image with text section?
+```
+
+An answer that points you to an **existing setting** is the best outcome: settings survive theme updates, code changes don't.
+
 ```text title="Something looks wrong"
 My store runs Wonder 2.5.1. The theme editor freezes after I move the Scrolling text banner. Is this a known issue?
 ```
@@ -49,6 +59,9 @@ All tools are **read-only**. They never change your store, and they never genera
 | `search_docs` | Searches this documentation and returns the matching passages with links |
 | `get_known_issues` | Known bugs per Wonder version, the workaround, and the version that fixes them |
 | `get_changelog` | Release notes: what changed in a version, between two versions, or since when a feature exists |
+| `list_sections` | Sections and theme blocks of a Wonder version, with category, number of settings, block types and limits. Can be filtered, e.g. "testimonial" |
+| `get_section_schema` | Every setting of one section or theme block, with the labels you see in the theme editor, defaults, options and ranges |
+| `get_component_api` | Wonder's documented JavaScript API: events, cart drawer methods and properties, and web components, with links to these docs |
 | `get_section_blueprint` | Starting code for a new custom section that follows Wonder's spacing, headings and naming |
 | `validate_section` | Checks a section file against Shopify's schema rules and Wonder conventions |
 | `plan_update` | Turns a list of changed theme files into an update plan: copy, copy over or merge |
@@ -76,6 +89,53 @@ these sections.
 
 Answers *"what's new"*, *"what do I get by updating from 2.4.0"* and *"since which version does Wonder have Quick Buy?"*. It reads the same release notes as our [Changelog](/changelog).
 
+### list_sections
+
+Answers *"which Wonder sections can show testimonials?"* or *"does Wonder have a section to compare products?"*, so the assistant suggests an existing section before building a new one. Real response:
+
+```text title="list_sections → response for testimonial"
+Wonder 2.5.2: 4 sections, 0 theme blocks (filtered from 117).
+
+## Sections
+- Testimonial images — sections/testimonial-images.liquid · category: Testimonials · 30 settings · blocks: testimonial
+- Testimonial: Marquee — sections/testimonial-marquee.liquid · category: Testimonials · 25 settings · blocks: image
+- Testimonial video reels — sections/testimonial-video-reels.liquid · category: Testimonials · 14 settings · blocks: video · max 12 blocks
+- Testimonials — sections/testimonials.liquid · category: Testimonials · 13 settings · blocks: image
+```
+
+See also [All sections](/sections/all-sections).
+
+### get_section_schema
+
+Answers *"is there a setting to hide the sticky add-to-cart bar on mobile?"* or *"what can I change in the Image with text section?"*. It returns every setting with the label you see in the theme editor, so the assistant can tell you exactly where to click. Large sections (like **Product information**) return the section settings plus a summary of the blocks; the assistant then asks for one block at a time.
+
+```text title="get_section_schema → response for main-product (excerpt)"
+Section "Product information" (sections/main-product.liquid), Wonder 2.5.2.
+Labels are the English theme-editor labels.
+
+{ "type": "header", "content": "Sticky buy button" },
+{ "type": "checkbox", "id": "enable_sticky_buy_button",
+  "label": "Enable sticky buy button", "default": true },
+{ "type": "select", "id": "sticky_button_visibility",
+  "label": "Sticky buy button visibility",
+  "options": ["Only on mobile", "Only on desktop", "On both"], "default": "mobile" },
+...
+```
+
+### get_component_api
+
+Used when you ask for custom JavaScript, for example *"when a customer picks another variant, push the variant id to dataLayer"* or *"how do I open the cart drawer from my own button?"*. It returns Wonder's documented events, cart drawer methods and web components, and says whether they exist in your version, so the code hooks into the theme instead of editing its files.
+
+```text title="get_component_api → response for variantChangeEnd"
+variantChangeEnd (event), from "JavaScript Events Reference":
+https://support.wonder-theme.com/developer/javascript-events#variantchangeend
+Present in Wonder 2.5.2.
+
+Dispatched on the `variant-options` element after the variant UI has fully updated.
+```
+
+Internal components that aren't documented are listed by name only: they can change in any release, so the assistant shouldn't build on them.
+
 ### get_section_blueprint and validate_section
 
 Used together whenever you ask for a new section. The blueprint gives the assistant a starting point that already handles Wonder's section spacing, heading style and update-safe file naming (`sections/custom-<name>.liquid`). The validator then checks the finished file. A first draft often fails, which is exactly why the check exists:
@@ -100,12 +160,13 @@ Used when you move a customised theme to a new Wonder version. It receives only 
 
 ## Skills (Wonder AI Toolkit only)
 
-If you installed the [Wonder AI Toolkit](./setup) plugin, your coding agent also gets four skills: step-by-step workflows that use the tools in the right order. They load on their own when your request matches, so you usually don't need to call them.
+If you installed the [Wonder AI Toolkit](./setup) plugin, your coding agent also gets five skills: step-by-step workflows that use the tools in the right order. They load on their own when your request matches, so you usually don't need to call them.
 
 | Skill | Starts when you… |
 |---|---|
 | `wonder-setup` | start working on a Wonder store, or ask how to set things up |
 | `wonder-sections` | ask for a new section or a change to a custom section |
+| `wonder-javascript` | ask for custom JavaScript: it uses only documented events and components, and says where to put the code and what survives an update |
 | `wonder-troubleshooting` | report that something looks broken, misaligned or missing |
 | `wonder-update` | want to update Wonder, or ask what you lose by updating |
 
@@ -135,6 +196,6 @@ The Wonder tools teach your assistant these rules. If an answer breaks one of th
 
 ## If the assistant doesn't use the Wonder tools
 
-- Make sure the server is connected: ask *"Which Wonder tools do you have?"*. It should list the six tools above. If not, see [Troubleshooting](./setup#troubleshooting).
+- Make sure the server is connected: ask *"Which Wonder tools do you have?"*. It should list the nine tools above. If not, see [Troubleshooting](./setup#troubleshooting).
 - Mention **Wonder** in your question. Without it, the assistant may answer from general Shopify knowledge.
 - In ChatGPT, turn on the Wonder connector for the conversation (see [setup](./setup)).

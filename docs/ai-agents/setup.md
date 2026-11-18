@@ -17,7 +17,7 @@ Connect your AI assistant to Wonder in a couple of minutes. Everything is free, 
 https://mcp.wonder-theme.com/mcp
 ```
 
-- **Using a coding agent** (Claude Code, Codex, Cursor, VS Code)? Install the **Wonder AI Toolkit** plugin. It adds the server plus four ready-made workflows, including the [theme update workflow](./tutorial-update-theme).
+- **Using a coding agent** (Claude Code, Codex, Cursor, VS Code)? Install the **Wonder AI Toolkit** plugin. It adds the server plus five ready-made workflows, including the [theme update workflow](./tutorial-update-theme).
 - **Using an AI chat** (Claude, ChatGPT) or another tool? Add the **MCP server** on its own.
 
 Not sure what the difference is? See the [overview](./).
@@ -102,6 +102,8 @@ If your agent reads `AGENTS.md` files but doesn't support plugins, [add the MCP 
 ---
 
 ## AI chats and other tools: add the MCP server
+
+If you use both the Wonder AI Toolkit plugin and the Wonder Theme connector, you'll see one set of Wonder tools, not two. That's expected.
 
 <Tabs groupId="mcp-client" queryString>
 <TabItem value="claude" label="Claude (web & desktop)" default>
@@ -286,13 +288,13 @@ Ask your assistant:
 Which Wonder tools do you have? What is the latest Wonder version?
 ```
 
-It should list six tools (`search_docs`, `get_known_issues`, `get_changelog`, `get_section_blueprint`, `validate_section`, `plan_update`) and name the current Wonder release. Then try one of the [prompts that work well](./using-wonder-mcp#prompts-that-work-well).
+It should list nine tools (`search_docs`, `get_known_issues`, `get_changelog`, `list_sections`, `get_section_schema`, `get_component_api`, `get_section_blueprint`, `validate_section`, `plan_update`) and name the current Wonder release. Then try one of the [prompts that work well](./using-wonder-mcp#prompts-that-work-well).
 
 ## Troubleshooting
 
 **The assistant doesn't see any Wonder tools**
 - Restart the app or start a new session after installing. Most clients load MCP servers at startup.
-- Check the URL ends in `/mcp`. Opening `https://mcp.wonder-theme.com/mcp` in a browser shows an error: that's expected, because the server only talks to AI clients.
+- Check the URL ends in `/mcp`. Opening `https://mcp.wonder-theme.com/mcp` in a browser only shows a short info page: that's expected, because the server talks to AI clients.
 - In Claude and ChatGPT, make sure the connector or plugin is turned on for the current chat.
 - In Claude Code, run `/mcp` to see the connection status. A server in `.mcp.json` stays at *Pending approval* until you trust the folder.
 

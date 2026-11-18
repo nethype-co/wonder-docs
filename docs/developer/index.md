@@ -21,13 +21,14 @@ Technical documentation for developers and agencies building with the Wonder The
 
 - [**Theme Architecture Overview**](./theme-architecture) - File organization, JavaScript structure, CSS architecture, and custom code best practices
 - [**CSS Variables Reference**](./css-variables) - 380+ CSS custom properties for colors, typography, spacing, and animations
-- [**Web Components Reference**](./web-components) - All 45+ custom elements with public methods and APIs
+- [**Web Components Reference**](./web-components) - Documented custom elements with public methods and APIs
 
 ### AI & Agents
 
 - [**Install the Wonder AI Toolkit & MCP server**](/ai-agents/setup) - Connect Claude Code, Codex, Cursor, VS Code and other agents to Wonder's docs, known issues and section validation
 - [**Tutorial: build a custom section with AI**](/ai-agents/tutorial-custom-section) - From blueprint to a validated, update-safe section
 - [**Tutorial: update a customised Wonder theme**](/ai-agents/tutorial-update-theme) - Move code changes to a new Wonder version with a three-way merge
+- [**Using the Wonder MCP server**](/ai-agents/using-wonder-mcp) - The assistant looks up section settings and Wonder's documented JavaScript API (events, cart drawer, web components) before writing code, and plans theme updates
 
 ---
 

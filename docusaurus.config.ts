@@ -247,6 +247,12 @@ const config: Config = {
   ],
 
   themeConfig: {
+    announcementBar: {
+      id: 'ai-tools-2026-11',
+      content:
+        'New: ask Claude, ChatGPT or Cursor about Wonder. <a href="/ai-agents">Set up the Wonder AI tools</a>',
+      isCloseable: true,
+    },
     colorMode: {
       defaultMode: 'light',
       respectPrefersColorScheme: true,
