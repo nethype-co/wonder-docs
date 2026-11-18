@@ -4,9 +4,6 @@ sidebar_label: "Tutorial: Theme Update"
 sidebar_position: 4
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Tutorial: Update a Customised Wonder Theme
 
 When you update Wonder, Shopify installs the new version as a **new, unpublished theme copy**. Your theme settings, section content and **Theme settings → Custom CSS** are carried over automatically. **Your code changes are not**: edited theme files, `assets/custom.css`, `assets/custom.js` and custom sections stay behind in the old copy.
@@ -72,33 +69,15 @@ cd wonder-new && git init -q && git add -A && git commit -qm "Wonder 2.5.2 as in
 
 ## Step 4: Find your customisations
 
-The toolkit includes a small script that compares every file in your current theme with the **original** Wonder release. It downloads only fingerprints (short hashes) of the original files from the Wonder server; your files are never uploaded.
-
-<Tabs groupId="toolkit-client">
-<TabItem value="claude-code" label="Claude Code" default>
+Wonder's update tool compares every file in your current theme with the **original** Wonder release. It downloads only fingerprints (short hashes) of the original files from the Wonder server; your files are never uploaded. The tool is the npm package [`wonder-theme-update`](https://www.npmjs.com/package/wonder-theme-update), published by Nethype, and needs Node.js 18 or newer (Shopify CLI already requires it). Your agent runs it for you; to run it yourself:
 
 ```bash
-node "${CLAUDE_PLUGIN_ROOT}/skills/wonder-update/scripts/compare.mjs" wonder-current
+npx -y wonder-theme-update@0.3.0 wonder-current
 ```
-
-The agent fills in `CLAUDE_PLUGIN_ROOT` itself. To run it yourself, use the path to the plugin's install folder instead.
-
-</TabItem>
-<TabItem value="other" label="Other agents / manual">
-
-Download the script from the toolkit repository and run it:
-
-```bash
-curl -fsSLO https://raw.githubusercontent.com/nethype-co/wonder-ai-toolkit/main/skills/wonder-update/scripts/compare.mjs
-node compare.mjs wonder-current
-```
-
-</TabItem>
-</Tabs>
 
 The real output for our example store:
 
-```json title="compare.mjs wonder-current"
+```json title="wonder-theme-update wonder-current"
 {
   "version": "2.4.0",
   "compared": 448,
@@ -125,7 +104,7 @@ The real output for our example store:
 }
 ```
 
-Out of 448 files, the script found exactly the four that were customised, down to the line: a custom section, two rules in `custom.css`, a different default background in the contact form, and an extra line of text in the footer. Your agent summarises this in plain words for you.
+Out of 448 files, the tool found exactly the four that were customised, down to the line: a custom section, two rules in `custom.css`, a different default background in the contact form, and an extra line of text in the footer. Your agent summarises this in plain words for you.
 
 :::note
 Settings and content files (JSON) are skipped on purpose: Shopify already carried them over in step 2. If the output contains a `warning` that most files differ, the version in `config/settings_schema.json` is probably wrong or the files were reformatted.
@@ -148,18 +127,18 @@ You changed these and Wonder did not change them between 2.4.0 and 2.5.2.
 
 ## 3. Merge (2)
 Both you and Wonder changed these. Start from the NEW file (it has Wonder's fixes) and re-apply
-only your own changes. With a local theme folder, the wonder-update skill's compare script does
-this for you (`compare.mjs <current> --merge <new>`) ...
+only your own changes. With a local theme folder, Wonder's update tool does this for you
+(`npx -y wonder-theme-update <current> --merge <new>`) ...
   - sections/contact-form.liquid
   - sections/page-footer.liquid
 ```
 
 ## Step 6: Merge your changes into the new version
 
-The same script now ports everything into `wonder-new`, with a three-way merge for files that both you and Wonder changed:
+The same tool now ports everything into `wonder-new`, with a three-way merge for files that both you and Wonder changed:
 
 ```bash
-node compare.mjs wonder-current --merge wonder-new
+npx -y wonder-theme-update@0.3.0 wonder-current --merge wonder-new
 ```
 
 ```json title="Merge report"
@@ -188,7 +167,7 @@ Three files were handled automatically. The footer line landed in the right plac
 
 ### Resolving a conflict
 
-One file has a real conflict: the store had changed the contact form's default background, and Wonder 2.5.2 removed that `default` line entirely. The script marks the spot instead of guessing:
+One file has a real conflict: the store had changed the contact form's default background, and Wonder 2.5.2 removed that `default` line entirely. The tool marks the spot instead of guessing:
 
 ```diff title="sections/contact-form.liquid"
        "id": "background_color",
@@ -248,7 +227,7 @@ In an AI chat without access to your files, the assistant can't compare files au
 3. Re-add by hand in the new copy (**⋯ → Edit code**):
    - every custom section (`sections/custom-*.liquid`): create the same file and paste the old content;
    - the content of `assets/custom.css` and `assets/custom.js`.
-4. Edits inside Wonder's own files can't be found reliably without the files. A developer can download the theme (**⋯ → Download theme file**), unzip it and run the compare script from step 4 on it.
+4. Edits inside Wonder's own files can't be found reliably without the files. A developer can download the theme (**⋯ → Download theme file**), unzip it and run the update tool from step 4 on it.
 
 ## Avoid the problem next time
 
