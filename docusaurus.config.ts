@@ -222,6 +222,9 @@ const config: Config = {
           { from: '/home-v2', to: '/' },
           // Changelog
           { from: '/changelog-category/release-notes', to: '/changelog' },
+          // Short links for the Wonder AI tools (mcp.wonder-theme.com points here)
+          { from: '/mcp', to: '/ai-agents/setup' },
+          { from: '/ai', to: '/ai-agents' },
         ],
       },
     ],
@@ -277,6 +280,11 @@ const config: Config = {
           position: 'left',
         },
         {
+          to: '/ai-agents',
+          label: 'AI Tools',
+          position: 'left',
+        },
+        {
           to: '/changelog',
           label: 'Changelog',
           position: 'left',
@@ -309,6 +317,10 @@ const config: Config = {
             {
               label: 'Product Page',
               to: '/product-page/blocks',
+            },
+            {
+              label: 'AI Tools',
+              to: '/ai-agents',
             },
           ],
         },
@@ -356,6 +368,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['bash', 'diff', 'toml', 'markup-templating', 'liquid'],
     },
   } satisfies Preset.ThemeConfig,
 };
