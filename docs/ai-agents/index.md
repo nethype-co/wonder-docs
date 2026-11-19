@@ -11,7 +11,8 @@ Wonder comes with free tools that make AI assistants (Claude, ChatGPT, Codex, Cu
 - answer questions from the **official Wonder documentation**, with links to the articles it used;
 - find the **right section or setting** before writing code, with the labels you see in the theme editor;
 - check **known issues** for your Wonder version, with the workaround and the version that fixes them;
-- build **custom sections** that look native to Wonder, survive theme updates and pass validation before you paste them into your store;
+- build **custom sections** that match Wonder: they start from the closest Wonder section, get the same settings as built-in ones (heading, colours, spacing with mobile values), follow your Theme settings colours, fonts and animations, and pass validation against your Wonder version before you paste them into your store;
+- write and check **Custom CSS** using only classes that exist in your Wonder version;
 - write **JavaScript on Wonder's documented events and cart drawer API**, so it keeps working after updates;
 - **update a customised store** to a new Wonder version: find exactly which lines you changed, merge them into the new theme copy and flag real conflicts;
 - tell you **what changed in which version**, straight from the release notes.

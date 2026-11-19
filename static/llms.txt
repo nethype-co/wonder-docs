@@ -22,6 +22,7 @@
 - [Cross Sell](https://support.wonder-theme.com/theme-settings/cross-sell): Set up cross-sell product recommendations in the cart
 - [Custom Fonts](https://support.wonder-theme.com/theme-settings/custom-fonts): Upload and configure custom font files in the Wonder Theme
 - [Custom CSS](https://support.wonder-theme.com/theme-settings/custom-css): Change the look with Theme settings → Custom CSS or a section's Custom CSS field, scoped and update-safe
+- [Customer Accounts](https://support.wonder-theme.com/theme-settings/customer-accounts): Login, register and account pages; new vs legacy customer accounts; adding a VAT or tax number field to registration; styling
 
 ## Product Page
 
@@ -149,7 +150,7 @@
 
 - [AI Tools for Wonder](https://support.wonder-theme.com/ai-agents): Overview of the Wonder MCP server and the Wonder AI Toolkit plugin for AI assistants and coding agents
 - [Install the Wonder AI Toolkit & MCP Server](https://support.wonder-theme.com/ai-agents/setup): Setup for Claude Code, Claude, ChatGPT, Codex, Cursor, VS Code, Windsurf, Gemini CLI and other MCP clients (server: https://mcp.wonder-theme.com/mcp)
-- [Using the Wonder MCP Server](https://support.wonder-theme.com/ai-agents/using-wonder-mcp): The nine tools, toolkit skills and prompts that work well
+- [Using the Wonder MCP Server](https://support.wonder-theme.com/ai-agents/using-wonder-mcp): The twelve tools, toolkit skills and prompts that work well
 - [Tutorial: Build a Custom Section with AI](https://support.wonder-theme.com/ai-agents/tutorial-custom-section): Blueprint, validation and installation of an update-safe custom section
 - [Tutorial: Update a Customised Wonder Theme](https://support.wonder-theme.com/ai-agents/tutorial-update-theme): Find customisations, three-way merge them into a new Wonder version, resolve conflicts and push
 - [Privacy & Data: Wonder AI Tools](https://support.wonder-theme.com/ai-agents/privacy): What the Wonder MCP server and plugin receive and how long it is kept
