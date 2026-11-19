@@ -30,7 +30,7 @@
 
 /* Navbar - blue gradient background */
 .navbar {
-  background: url('/img/hero-bg.jpg') center / cover no-repeat #000;
+  background: linear-gradient(110deg, #2fa4d4 0%, #0a6eb0 16%, #063a80 38%, #080e48 60%, #030b58 100%) #000;
   --ifm-navbar-link-color: #fff;
   --ifm-navbar-link-hover-color: #47cae4;
 }
@@ -152,14 +152,14 @@
   flex-shrink: 0;
 }
 
-/* Inline text links — light blue, darker on hover */
+/* Inline text links — blue, darker on hover */
 .markdown a {
-  color: #0096c7;
+  color: #0077b6;
   text-decoration: none;
 }
 
 .markdown a:hover {
-  color: #0077b6;
+  color: #005a8c;
   text-decoration: underline;
 }
 
@@ -308,18 +308,134 @@ a[class*="cardContainer"]:hover {
   }
 }
 
-/* Homepage: AI tools callout */
+/* AI tools accent: violet → cyan (cyan matches the navbar hover) */
+:root {
+  --ai-grad: linear-gradient(120deg, #7c5cff 0%, #4f7cff 50%, #2bb8d9 100%);
+  --ai-accent: #6a4df5;
+  --ai-tint: rgba(124, 92, 255, 0.07);
+  --ai-kw-bg: rgba(124, 92, 255, 0.12);
+  --ai-surface: #ffffff;
+}
+[data-theme='dark'] {
+  --ai-accent: #b4a3ff;
+  --ai-tint: rgba(124, 92, 255, 0.12);
+  --ai-kw-bg: rgba(124, 92, 255, 0.25);
+  --ai-surface: #1b1b1d;
+}
+
+/* Homepage: AI tools callout (gradient border) */
 .ai-tools-callout {
   margin: 2rem 0;
-  padding: 1.25rem 1.5rem;
-  border: 1px solid var(--ifm-color-emphasis-300);
-  border-left: 4px solid var(--ifm-color-primary);
-  border-radius: 8px;
-  background: var(--ifm-background-surface-color);
+  padding: 1.5rem 1.75rem;
+  border: 2px solid transparent;
+  border-radius: 14px;
+  background:
+    linear-gradient(var(--ai-tint), var(--ai-tint)) padding-box,
+    linear-gradient(var(--ai-surface), var(--ai-surface)) padding-box,
+    var(--ai-grad) border-box;
 }
 .ai-tools-callout h2 {
-  margin-top: 0;
+  margin-top: 0.6rem;
 }
 .ai-tools-callout > :last-child {
   margin-bottom: 0;
+}
+.ai-badge {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  background: var(--ai-grad);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.ai-kw {
+  padding: 0.05rem 0.4rem;
+  border-radius: 6px;
+  background: var(--ai-kw-bg);
+  color: var(--ai-accent);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.welcome-index .ai-tools-callout li::before {
+  content: '✦';
+  -webkit-mask-image: none;
+  mask-image: none;
+  background: none;
+  color: var(--ai-accent);
+  opacity: 1;
+  width: auto;
+  height: auto;
+  vertical-align: 0;
+}
+.ai-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+}
+.ai-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  background: var(--ai-grad);
+  color: #fff !important;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: filter 0.15s, transform 0.15s;
+}
+.ai-btn:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+.ai-link {
+  color: var(--ai-accent) !important;
+  font-weight: 600;
+}
+
+/* Navbar: AI Tools stands out */
+.navbar .navbar-ai-link::before {
+  content: '✦ ';
+  color: #9d8cff;
+}
+.navbar .navbar__items .navbar-ai-link {
+  background: linear-gradient(120deg, #b9a8ff, #6fe0f5);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+.navbar .navbar__items .navbar-ai-link::before {
+  -webkit-text-fill-color: #b9a8ff;
+}
+.navbar-sidebar .navbar-ai-link {
+  color: var(--ai-accent);
+  font-weight: 700;
+}
+
+/* Announcement bar in the AI gradient */
+.theme-announcement-bar {
+  background: var(--ai-grad);
+  color: #fff;
+  border-bottom: none;
+}
+.theme-announcement-bar a {
+  color: #fff;
+  font-weight: 700;
+}
+.theme-announcement-bar button {
+  color: #fff;
+}
+.ai-bar-badge {
+  display: inline-block;
+  margin-right: 0.4rem;
+  padding: 0 0.5rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.22);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }

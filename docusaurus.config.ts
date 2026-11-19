@@ -250,7 +250,7 @@ const config: Config = {
     announcementBar: {
       id: 'ai-tools-2026-11',
       content:
-        'New: ask Claude, ChatGPT or Cursor about Wonder. <a href="/ai-agents">Set up the Wonder AI tools</a>',
+        '<span class="ai-bar-badge">New</span> Ask Claude, ChatGPT or Cursor about Wonder with the Wonder MCP server &amp; AI Toolkit. <a href="/ai-agents/setup">Set it up →</a>',
       isCloseable: true,
     },
     colorMode: {
@@ -289,6 +289,7 @@ const config: Config = {
           to: '/ai-agents',
           label: 'AI Tools',
           position: 'left',
+          className: 'navbar-ai-link',
         },
         {
           to: '/changelog',

@@ -41,9 +41,11 @@ Complete documentation for the Wonder Shopify theme  -  sections, blocks, guides
 
 <div className="ai-tools-callout">
 
-## New: ask your AI assistant about Wonder
+<span className="ai-badge">✦ New · AI Tools</span>
 
-Connect **Claude, ChatGPT, Cursor or Codex** to Wonder's own knowledge. Your assistant then answers from this documentation, knows the known issues of your Wonder version, and builds custom sections that fit the theme and survive updates.
+## Ask your AI assistant about Wonder
+
+Connect **Claude, ChatGPT, Cursor or Codex** to Wonder's own knowledge with the <span className="ai-kw">Wonder MCP server</span>, or install the <span className="ai-kw">Wonder AI Toolkit</span> plugin in your coding agent. Your assistant then answers from this documentation, knows the known issues of your Wonder version, and builds custom sections that fit the theme and survive updates.
 
 - **"Is there a setting to hide the sticky add-to-cart bar?"** Finds the exact setting in the theme editor.
 - **"The theme editor freezes on 2.5.1. Bug?"** Checks known issues and tells you which update fixes it.
@@ -52,7 +54,10 @@ Connect **Claude, ChatGPT, Cursor or Codex** to Wonder's own knowledge. Your ass
 
 Free, no account needed, and it never accesses your store.
 
-[Set it up in 2 minutes →](/ai-agents/setup) · [What it can do](/ai-agents/using-wonder-mcp)
+<div className="ai-actions">
+  <a className="ai-btn" href="/ai-agents/setup">Set it up in 2 minutes →</a>
+  <a className="ai-link" href="/ai-agents/using-wonder-mcp">What it can do</a>
+</div>
 
 </div>
 
