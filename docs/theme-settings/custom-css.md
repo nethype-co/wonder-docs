@@ -64,5 +64,5 @@ Because it's in the section's own field, this changes only that section's headin
 - For larger amounts of CSS, developers can use `assets/custom.css`. Remember that files are **not** carried over on updates. See the [developer guide](/developer/theme-architecture#custom-css).
 
 :::tip Let your AI assistant write it
-Ask an [AI assistant connected to Wonder](/ai-agents/setup), for example *"In Wonder, make the announcement bar text bold on mobile only, using Theme settings → Custom CSS"*. It checks whether a setting already does it before writing any CSS.
+Ask an [AI assistant connected to Wonder](/ai-agents/setup), for example *"In Wonder, make the announcement bar text bold on mobile only, using Theme settings → Custom CSS"*. It checks whether a setting already does it, looks up the real class names in your Wonder version, and checks the CSS against Shopify's limits before giving it to you.
 :::

@@ -105,6 +105,7 @@ General settings that apply across your entire Wonder theme.
 - [Cross Sell](theme-settings/cross-sell)  -  Configure cross-selling to boost average order value
 - [Custom Fonts](theme-settings/custom-fonts)  -  Step-by-step guide to adding custom fonts
 - [Custom CSS](theme-settings/custom-css)  -  Change the look safely, in a way that survives theme updates
+- [Customer Accounts](theme-settings/customer-accounts)  -  Login, registration and account pages, extra sign-up fields
 
 ---
 

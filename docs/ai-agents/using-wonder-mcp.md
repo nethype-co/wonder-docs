@@ -26,6 +26,10 @@ Is there a setting in Wonder to hide the sticky add-to-cart bar on mobile?
 What can I change in Wonder's Image with text section?
 ```
 
+```text title="Custom CSS"
+My store runs Wonder 2.5.2. Make the add to cart button text uppercase, using Theme settings → Custom CSS. Check the CSS before you give it to me.
+```
+
 An answer that points you to an **existing setting** is the best outcome: settings survive theme updates, code changes don't.
 
 ```text title="Something looks wrong"
@@ -62,8 +66,11 @@ All tools are **read-only**. They never change your store, and they never genera
 | `list_sections` | Sections and theme blocks of a Wonder version, with category, number of settings, block types and limits. Can be filtered, e.g. "testimonial" |
 | `get_section_schema` | Every setting of one section or theme block, with the labels you see in the theme editor, defaults, options and ranges |
 | `get_component_api` | Wonder's documented JavaScript API: events, cart drawer methods and properties, and web components, with links to these docs |
+| `get_conventions` | How a Wonder release builds its sections, measured from its code: standard settings, CSS variables, heading and wrapper markup, animation classes |
 | `get_section_blueprint` | Starting code for a new custom section that follows Wonder's spacing, headings and naming |
 | `validate_section` | Checks a section file against Shopify's schema rules and Wonder conventions |
+| `find_selector` | The CSS classes and CSS variables that exist in a Wonder release for an element, e.g. "add to cart button" |
+| `validate_css` | Checks Custom CSS before you paste it: Shopify's limits and rules, and whether its classes and variables exist in your Wonder version |
 | `plan_update` | Turns a list of changed theme files into an update plan: copy, copy over or merge |
 
 ### search_docs
@@ -136,9 +143,11 @@ Dispatched on the `variant-options` element after the variant UI has fully updat
 
 Internal components that aren't documented are listed by name only: they can change in any release, so the assistant shouldn't build on them.
 
-### get_section_blueprint and validate_section
+### get_conventions, get_section_blueprint and validate_section
 
-Used together whenever you ask for a new section. The blueprint gives the assistant a starting point that already handles Wonder's section spacing, heading style and update-safe file naming (`sections/custom-<name>.liquid`). The validator then checks the finished file. A first draft often fails, which is exactly why the check exists:
+Used together whenever you ask for a new section. The assistant starts from the closest Wonder section and from `get_conventions`: how that Wonder release builds all its sections. Your custom section then gets the same settings as built-in ones (heading, colours, top and bottom spacing with mobile values), follows your Theme settings colours, fonts and animations, and reuses Wonder's heading and layout markup. The blueprint adds update-safe file naming (`sections/custom-<name>.liquid`).
+
+The validator then checks the finished file against **your store's Wonder version**: Shopify Theme Check plus Wonder consistency checks (`wonder-*`), such as hard-coded colours or fonts, settings that do nothing, or CSS variables and classes that don't exist in that version. Conventions differ between releases, so tell the assistant your Wonder version. A first draft often fails, which is exactly why the check exists:
 
 ```text title="validate_section → response for a first draft"
 INVALID: 1 error(s), 2 warning(s). Fix the errors and run validate_section again.
@@ -151,6 +160,30 @@ INVALID: 1 error(s), 2 warning(s). Fix the errors and run validate_section again
 ```
 
 The assistant fixes the problems and validates again until it gets `VALID`. See the full walkthrough in [Tutorial: build a custom section with AI](./tutorial-custom-section).
+
+### find_selector and validate_css
+
+Used when you ask for Custom CSS. `find_selector` looks up the real classes for an element in your Wonder version, so the assistant doesn't guess class names. Real response (excerpt):
+
+```text title="find_selector → response for add to cart button (excerpt)"
+Wonder 2.5.2: classes and CSS variables matching "add to cart button".
+
+## Classes
+- .js-add-to-cart on <button> — sections/main-product.liquid, snippets/pdp-block-buy-buttons.liquid, ...
+- .wt-product__add-to-cart on <product-form> — snippets/pdp-block-buy-buttons.liquid, snippets/quick-add-button.liquid, ...
+```
+
+`validate_css` checks the CSS against Shopify's rules for the Custom CSS fields (character limits, allowed at-rules) and against your Wonder version. Here it catches a typo that would make a rule silently do nothing:
+
+```text title="validate_css → response"
+VALID for Theme settings → Custom CSS (Wonder 2.5.2): 0 errors, 1 warnings, 113/1500 characters.
+- [WARNING] unknown-class: Not used anywhere in Wonder 2.5.2: .wt-annoucement__close.
+  These rules won't match unless you added those classes yourself. Check spelling and the
+  store's Wonder version; find_selector lists real classes.
+- [INFO] wt-global: Theme-wide rules on Wonder core classes change every instance in the store.
+```
+
+See [Custom CSS](/theme-settings/custom-css) for where the CSS goes.
 
 ### plan_update
 
@@ -196,6 +229,6 @@ The Wonder tools teach your assistant these rules. If an answer breaks one of th
 
 ## If the assistant doesn't use the Wonder tools
 
-- Make sure the server is connected: ask *"Which Wonder tools do you have?"*. It should list the nine tools above. If not, see [Troubleshooting](./setup#troubleshooting).
+- Make sure the server is connected: ask *"Which Wonder tools do you have?"*. It should list the twelve tools above. If not, see [Troubleshooting](./setup#troubleshooting).
 - Mention **Wonder** in your question. Without it, the assistant may answer from general Shopify knowledge.
 - In ChatGPT, turn on the Wonder connector for the conversation (see [setup](./setup)).

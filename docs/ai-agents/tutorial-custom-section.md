@@ -33,7 +33,7 @@ Pick how you work:
 Paste this into your assistant:
 
 ```text title="Prompt"
-Create a custom Wonder section called "Trust badges": a heading and three badges, each with
+My store runs Wonder 2.5.2. Create a custom Wonder section called "Trust badges": a heading and three badges, each with
 an icon image, a title and a short text, on a light background. I want to control the icon
 size and the background color in the theme editor. Validate it before you give it to me.
 ```
@@ -44,7 +44,7 @@ size and the background color in the theme editor. Validate it before you give i
 Open your local theme folder (see [Shopify CLI setup](#working-locally-with-shopify-cli) below) and ask:
 
 ```text title="Prompt"
-Add a custom Wonder section "Trust badges" to this theme: a heading and three badges, each
+Add a custom Wonder section "Trust badges" to this theme (check the Wonder version in config/settings_schema.json): a heading and three badges, each
 with an icon image, a title and a short text, on a light background. Icon size and background
 color should be settings. Validate it and preview it with shopify theme dev.
 ```
@@ -60,7 +60,13 @@ In Claude Code with the Wonder AI Toolkit you can also start the skill directly:
 
 ## Step 3: Watch the assistant work
 
-A well-behaved assistant goes through three tool calls. You'll see them in the conversation, usually as collapsible "tool call" entries.
+A well-behaved assistant goes through a few tool calls. You'll see them in the conversation, usually as collapsible "tool call" entries.
+
+:::tip Tell it your Wonder version
+Wonder's conventions differ between releases, and the checks below use the classes and variables of your exact version. You'll find it in **Online Store → Themes**, under the theme name.
+:::
+
+**0. Look at how Wonder does it.** The assistant looks for the closest built-in Wonder section (`list_sections`, `get_section_schema`) and calls `get_conventions` for your Wonder version. That's why your custom section gets the same settings as Wonder's own sections (heading, colours, top and bottom spacing with separate mobile values), follows your **Theme settings** colours, fonts and animations, and reuses Wonder's heading and layout markup.
 
 **1. `get_section_blueprint`** with `kind: "blocks"` and `handle: "trust-badges"`. The blueprint already contains Wonder's section spacing settings, the Wonder heading style, a scoped stylesheet and a preset, so the section appears under **Add section → Custom**.
 
@@ -76,6 +82,8 @@ INVALID: 1 error(s), 2 warning(s). Fix the errors and run validate_section again
 ```
 
 Each of these would have caused a real problem: Shopify doesn't compile SCSS, `t:` labels show as raw keys after a theme update, and the `h3` rule would change every heading in your store.
+
+Besides Shopify's own Theme Check rules, the validator runs Wonder consistency checks (`wonder-*`) against your Wonder version: hard-coded colours or fonts that ignore your Theme settings, settings that don't do anything, and CSS variables or classes that don't exist in that version.
 
 **3. `validate_section` again** after the fixes:
 

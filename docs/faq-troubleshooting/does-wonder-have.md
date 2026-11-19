@@ -32,6 +32,10 @@ No, and you don't need them there. Tracking is set up in Shopify itself, so it k
 - **Meta, TikTok, Pinterest and similar:** install the platform's official Shopify app.
 - **Other pixels:** Shopify admin → **Settings → Customer events → Add custom pixel**.
 
+## A VAT number or other extra field on the registration form?
+
+Not as a setting, but you can add one with a small code change if your store uses legacy customer accounts. See [Customer accounts](/theme-settings/customer-accounts#add-a-field-to-the-registration-form-legacy-accounts).
+
 ## A list of every section?
 
 Yes: [All sections](/sections/all-sections).

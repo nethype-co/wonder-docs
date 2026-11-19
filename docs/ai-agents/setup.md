@@ -288,7 +288,7 @@ Ask your assistant:
 Which Wonder tools do you have? What is the latest Wonder version?
 ```
 
-It should list nine tools (`search_docs`, `get_known_issues`, `get_changelog`, `list_sections`, `get_section_schema`, `get_component_api`, `get_section_blueprint`, `validate_section`, `plan_update`) and name the current Wonder release. Then try one of the [prompts that work well](./using-wonder-mcp#prompts-that-work-well).
+It should list twelve tools (`search_docs`, `get_known_issues`, `get_changelog`, `list_sections`, `get_section_schema`, `get_component_api`, `get_conventions`, `get_section_blueprint`, `validate_section`, `find_selector`, `validate_css`, `plan_update`) and name the current Wonder release. Then try one of the [prompts that work well](./using-wonder-mcp#prompts-that-work-well).
 
 ## Troubleshooting
 
