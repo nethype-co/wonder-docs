@@ -115,33 +115,13 @@ The most important settings for placing it in the grid:
 
 ## Shop the Look Block
 
-A banner like **Banner card**, but clicking it opens a side drawer with a set of products that customers can add to the cart without leaving the collection. Use it to show a styled outfit, a room setup or a product bundle.
+A banner like **Banner card**, but clicking it opens a side drawer with a set of products that customers can add to the cart without leaving the collection. Use it to show a styled outfit, a room setup or a product bundle. For all settings, see the [Shop the Look](./block-shop-the-look.md) article.
 
-{/* TODO: add screenshot of the Shop the look drawer */}
-
-**General**
-
-* **Text:** Add the text displayed on the banner.
-* **Text style:** Choose the typography of the banner text (heading or body).
-* **Button text:** Add the text of the banner button. Leave empty to use the drawer heading.
-* **Style:** Choose the button style (primary, secondary or underline link).
-* **Position before nth product:** Defines where the banner appears in the grid.
-
-**Drawer**
+The most important settings for placing it in the grid:
 
 * **Products:** Choose the products shown in the drawer.
-* **Heading:** Set the drawer heading.
-* **Show product count:** Enable this toggle to show the number of products next to the heading.
-* **Hide sold out products:** Enable this toggle to leave sold-out products out of the drawer.
-* **Show quantity selector:** Enable this toggle to let customers choose a quantity for each product.
-* **Image ratio:** Choose the shape of the product images in the drawer (adapt to image, portrait or square).
-* **Show image in the drawer:** Enable this toggle to show the look image next to the drawer on desktop and above the products on mobile.
-* **Drawer image (desktop):** Choose the image shown with the drawer on desktop. Defaults to the desktop banner image.
-* **Drawer image (mobile):** Choose the image shown in the drawer on mobile. Defaults to the mobile banner image, then the desktop drawer image.
-
-**Large screen version, Mobile version and Colors**
-
-These settings (image or video, column width, text scale, text position, text and background colors) are the same as in the [Banner Card](/sections/banners/banner-card) block.
+* **Position before nth product:** Defines where the banner appears in the grid.
+* **Banner column width:** Choose whether the banner spans one or two product columns. Set separately in **Large screen version** and **Mobile version**.
 
 ## Compare Product Block
 
