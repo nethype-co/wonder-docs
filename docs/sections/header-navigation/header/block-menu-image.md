@@ -78,11 +78,3 @@ If you rename a menu item in **Content > Menus**, update the name in the block t
 * **Corners:** Images have rounded corners that follow the **Border radius** in **Theme settings > Layout**.
 * **Tapping the image:** When **Enable submenu link in drawer** is on in the Header section, tapping the image of a submenu item in the drawer opens its page, the same as tapping its title.
 * **Image quality:** Images load at the chosen size (and twice that for sharp screens), so you can upload larger images without slowing the page.
-
-## Tips
-
-* Use square images, or images with the subject in the center: images are cropped to a square from the center.
-* Product photos on a transparent background look best with a light **Image background**.
-* Keep the same **Image size** in all blocks for a tidy menu.
-* If an image doesn't show, check that the name in **Menu items** matches the menu item title exactly (apart from upper and lower case) and that the block has an image.
-* Turn off **Show images on desktop** if your desktop menu feels crowded. Customers on mobile still see the images in the drawer.
