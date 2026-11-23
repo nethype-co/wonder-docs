@@ -124,6 +124,7 @@ See [all sections at a glance](sections/all-sections), grouped as in **Add secti
 - [Logo Banner](sections/header-navigation/logo-banner)
 - [Logo Banner with Text](sections/header-navigation/logo-banner-with-text)
 - [Menu Highlight](sections/header-navigation/header/block-menu-highlight)
+- [Menu Image](sections/header-navigation/header/block-menu-image)
 
 ### [Banners](sections/banners)
 - [Banner Card](sections/banners/banner-card)
