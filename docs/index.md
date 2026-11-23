@@ -106,6 +106,7 @@ General settings that apply across your entire Wonder theme.
 - [Custom Fonts](theme-settings/custom-fonts)  -  Step-by-step guide to adding custom fonts
 - [Custom CSS](theme-settings/custom-css)  -  Change the look safely, in a way that survives theme updates
 - [Customer Accounts](theme-settings/customer-accounts)  -  Login, registration and account pages, extra sign-up fields
+- [Quick Buy Drawer Gallery](theme-settings/quick-buy-drawer-gallery)  -  Show all product images and videos in the quick buy drawer
 
 ---
 
