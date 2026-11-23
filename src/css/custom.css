@@ -75,6 +75,27 @@
   margin: 16px 0;
 }
 
+/* Framed article image: grey background with a shadowed screenshot */
+.doc-image-frame {
+  background: #f4f4f4;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 16px 0;
+}
+
+.doc-image-frame img {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 600px) {
+  .doc-image-frame {
+    padding: 12px;
+  }
+}
+
 /* Section headings — only inside article content, not doc cards */
 .markdown > h2 {
   border-bottom: 1px solid var(--ifm-color-emphasis-200);
