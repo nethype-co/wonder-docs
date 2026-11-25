@@ -47,6 +47,8 @@ When you update your theme, Wonder's comparison tool runs on your computer and o
 
 The comparison tool itself (the npm package `wonder-theme-update`) is downloaded from the npm registry, which processes that download under npm's own privacy policy.
 
+When a coding agent uploads changes to a test copy of your theme (the plugin's `wonder-test-theme` skill), it uses Shopify CLI on your computer, signed in with your Shopify account or a Theme Access password. Your store domain, theme IDs and password stay on your computer and go only to Shopify. **We never receive them**, and the Wonder MCP server never connects to your store.
+
 Each request also includes technical data: the IP address, the name and version of the AI client, and the time of the request.
 
 ### What we don't receive

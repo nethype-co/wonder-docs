@@ -193,7 +193,7 @@ Used when you move a customised theme to a new Wonder version. It receives only 
 
 ## Skills (Wonder AI Toolkit only)
 
-If you installed the [Wonder AI Toolkit](./setup) plugin, your coding agent also gets five skills: step-by-step workflows that use the tools in the right order. They load on their own when your request matches, so you usually don't need to call them.
+If you installed the [Wonder AI Toolkit](./setup) plugin, your coding agent also gets six skills: step-by-step workflows that use the tools in the right order. They load on their own when your request matches, so you usually don't need to call them.
 
 | Skill | Starts when you… |
 |---|---|
@@ -202,6 +202,7 @@ If you installed the [Wonder AI Toolkit](./setup) plugin, your coding agent also
 | `wonder-javascript` | ask for custom JavaScript: it uses only documented events and components, and says where to put the code and what survives an update |
 | `wonder-troubleshooting` | report that something looks broken, misaligned or missing |
 | `wonder-update` | want to update Wonder, or ask what you lose by updating |
+| `wonder-test-theme` | want to try a change on your real store: it uploads to an unpublished copy of your theme and sends you a preview link ([tutorial](./tutorial-test-theme)) |
 
 In Claude Code you can also run a skill directly:
 
