@@ -32,17 +32,17 @@ No account is needed and nothing is installed in your store.
 
 Not sure? Pick the **plugin** if you use a coding agent, and the **MCP server** for everything else.
 
-**[Set it up →](./setup)**
+**[Set it up →](/ai-agents/setup)**
 
 ---
 
 ## Articles
 
-- [**Install the Wonder AI Toolkit & MCP server**](./setup): step-by-step setup for every supported assistant
-- [**Using the Wonder MCP server**](./using-wonder-mcp): the tools, the skills and prompts that work well
-- [**Tutorial: build a custom section with AI**](./tutorial-custom-section): from an idea to a validated section in your store
-- [**Tutorial: update a customised Wonder theme**](./tutorial-update-theme): move your code changes to a new Wonder version without losing them
-- [**Privacy & data**](./privacy): what the Wonder AI tools receive and how long it's kept
+- [**Install the Wonder AI Toolkit & MCP server**](/ai-agents/setup): step-by-step setup for every supported assistant
+- [**Using the Wonder MCP server**](/ai-agents/using-wonder-mcp): the tools, the skills and prompts that work well
+- [**Tutorial: build a custom section with AI**](/ai-agents/tutorial-custom-section): from an idea to a validated section in your store
+- [**Tutorial: update a customised Wonder theme**](/ai-agents/tutorial-update-theme): move your code changes to a new Wonder version without losing them
+- [**Privacy & data**](/ai-agents/privacy): what the Wonder AI tools receive and how long it's kept
 
 ---
 
