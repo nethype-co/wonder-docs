@@ -17,7 +17,7 @@ Connect your AI assistant to Wonder in a couple of minutes. Everything is free, 
 https://mcp.wonder-theme.com/mcp
 ```
 
-- **Using a coding agent** (Claude Code, Codex, Cursor, VS Code)? Install the **Wonder AI Toolkit** plugin. It adds the server plus five ready-made workflows, including the [theme update workflow](./tutorial-update-theme).
+- **Using a coding agent** (Claude Code, Codex, Cursor, VS Code)? Install the **Wonder AI Toolkit** plugin. It adds the server plus six ready-made workflows, including the [theme update workflow](./tutorial-update-theme) and [previews on a test copy of your theme](./tutorial-test-theme).
 - **Using an AI chat** (Claude, ChatGPT) or another tool? Add the **MCP server** on its own.
 
 Not sure what the difference is? See the [overview](./).

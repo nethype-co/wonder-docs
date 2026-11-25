@@ -153,6 +153,7 @@
 - [Using the Wonder MCP Server](https://support.wonder-theme.com/ai-agents/using-wonder-mcp): The twelve tools, toolkit skills and prompts that work well
 - [Tutorial: Build a Custom Section with AI](https://support.wonder-theme.com/ai-agents/tutorial-custom-section): Blueprint, validation and installation of an update-safe custom section
 - [Tutorial: Update a Customised Wonder Theme](https://support.wonder-theme.com/ai-agents/tutorial-update-theme): Find customisations, three-way merge them into a new Wonder version, resolve conflicts and push
+- [Tutorial: Preview AI Changes on a Test Copy of Your Theme](https://support.wonder-theme.com/ai-agents/tutorial-test-theme): A coding agent copies the live theme as a draft, uploads only changed files with Shopify CLI and returns preview and theme editor links
 - [Privacy & Data: Wonder AI Tools](https://support.wonder-theme.com/ai-agents/privacy): What the Wonder MCP server and plugin receive and how long it is kept
 
 ## Optional

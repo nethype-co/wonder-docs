@@ -25,7 +25,7 @@ No account is needed and nothing is installed in your store.
 
 | | **Wonder MCP server** | **Wonder AI Toolkit** (plugin) |
 |---|---|---|
-| What it is | A hosted server at `https://mcp.wonder-theme.com/mcp` | A plugin that bundles the MCP server with five ready-made workflows (skills) |
+| What it is | A hosted server at `https://mcp.wonder-theme.com/mcp` | A plugin that bundles the MCP server with six ready-made workflows (skills) |
 | Works with | Any assistant that supports remote MCP servers: Claude (web, desktop), ChatGPT, Cursor, VS Code, Windsurf, Gemini CLI… | Claude Code, Codex, Cursor, VS Code (Copilot) |
 | Best for | Merchants asking questions and getting ready-to-paste code | Developers and agencies working on theme files |
 | Includes the theme update workflow | Planning only | Yes: find, merge and check changes |
@@ -42,13 +42,14 @@ Not sure? Pick the **plugin** if you use a coding agent, and the **MCP server** 
 - [**Using the Wonder MCP server**](/ai-agents/using-wonder-mcp): the tools, the skills and prompts that work well
 - [**Tutorial: build a custom section with AI**](/ai-agents/tutorial-custom-section): from an idea to a validated section in your store
 - [**Tutorial: update a customised Wonder theme**](/ai-agents/tutorial-update-theme): move your code changes to a new Wonder version without losing them
+- [**Tutorial: preview AI changes on a test copy of your theme**](/ai-agents/tutorial-test-theme): your assistant uploads to an unpublished copy and sends you a preview link
 - [**Privacy & data**](/ai-agents/privacy): what the Wonder AI tools receive and how long it's kept
 
 ---
 
 ## What the AI tools don't do
 
-- **They don't access your store.** The server never asks for your Shopify login, store data or customer data. Your assistant shows you the code; you (or your assistant, in a local theme folder) put it in place.
+- **The server doesn't access your store.** It never asks for your Shopify login, store data or customer data. Your assistant shows you the code; you put it in place, or a coding agent uploads it to an unpublished copy of your theme through Shopify CLI on your computer ([tutorial](/ai-agents/tutorial-test-theme)).
 - **They don't run an AI model.** Your own assistant writes the code. The Wonder server only provides documentation, known issues, starting code and rule-based checks, so every response is instant and costs you nothing.
 - **They don't replace testing.** Always try changes on an unpublished copy of your theme first (Online Store → Themes → **⋯ → Duplicate**).
 
