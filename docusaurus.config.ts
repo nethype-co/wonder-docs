@@ -101,6 +101,7 @@ const config: Config = {
       '@docusaurus/plugin-client-redirects',
       {
         redirects: [
+          { from: '/ai-agents/tutorial-test-theme', to: '/ai-agents/tutorial-preview-custom-section' },
           // Old /question/ article URLs → new docs paths
           { from: '/question/a-complete-guide-to-customizing-the-variant-picker', to: '/guides/how-to-articles/a-complete-guide-to-customizing-the-variant-picker' },
           { from: '/question/a-step-by-step-guide-to-personalizing-your-product-pages-with-custom-options', to: '/guides/how-to-articles/a-step-by-step-guide-to-personalizing-your-product-pages-with-custom-options' },
