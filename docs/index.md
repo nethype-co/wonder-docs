@@ -45,17 +45,18 @@ Complete documentation for the Wonder Shopify theme  -  sections, blocks, guides
 
 ## Ask your AI assistant about Wonder
 
-Connect **Claude, ChatGPT, Cursor or Codex** to Wonder's own knowledge with the <span className="ai-kw">Wonder MCP server</span>, or install the <span className="ai-kw">Wonder AI Toolkit</span> plugin in your coding agent. Your assistant then answers from this documentation, knows the known issues of your Wonder version, and builds custom sections that fit the theme and survive updates.
+Connect **Claude, ChatGPT, Cursor or Codex** to Wonder's own knowledge with the <span className="ai-kw">Wonder MCP server</span>, or install the <span className="ai-kw">Wonder AI Toolkit</span> plugin in your coding agent. Your assistant then answers from this documentation, knows the known issues of your Wonder version, and builds custom sections that fit the theme, survive updates and can be previewed on your own store first.
 
+- **"Add a team section to my home page and show me a preview"** Builds a section that fits Wonder, puts it on a private copy of your theme and sends you a preview link. Your live store stays untouched.
 - **"Is there a setting to hide the sticky add-to-cart bar?"** Finds the exact setting in the theme editor.
 - **"The theme editor freezes on 2.5.1. Bug?"** Checks known issues and tells you which update fixes it.
-- **"Make me a testimonials section"** A ready-to-paste section, checked against Wonder's rules.
 - **"Update my customised theme to the latest Wonder"** Finds your code changes and moves them to the new version.
 
-Free, no account needed, and it never accesses your store.
+Free, and no account needed. The Wonder server never accesses your store: previews run on your computer, and you log in to Shopify yourself.
 
 <div className="ai-actions">
   <a className="ai-btn" href="/ai-agents/setup">Set it up in 2 minutes →</a>
+  <a className="ai-link" href="/ai-agents/tutorial-preview-custom-section">See a preview on your store</a>
   <a className="ai-link" href="/ai-agents/using-wonder-mcp">What it can do</a>
 </div>
 

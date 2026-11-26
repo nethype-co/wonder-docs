@@ -202,7 +202,7 @@ If you installed the [Wonder AI Toolkit](./setup) plugin, your coding agent also
 | `wonder-javascript` | ask for custom JavaScript: it uses only documented events and components, and says where to put the code and what survives an update |
 | `wonder-troubleshooting` | report that something looks broken, misaligned or missing |
 | `wonder-update` | want to update Wonder, or ask what you lose by updating |
-| `wonder-test-theme` | want to try a change on your real store: it uploads to an unpublished copy of your theme and sends you a preview link ([tutorial](./tutorial-test-theme)) |
+| `wonder-preview` | want to see a change on your real store first: it uploads to a private preview copy of your theme and sends you a preview link ([tutorial](./tutorial-preview-custom-section)) |
 
 In Claude Code you can also run a skill directly:
 

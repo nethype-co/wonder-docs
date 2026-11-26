@@ -42,14 +42,14 @@ Not sure? Pick the **plugin** if you use a coding agent, and the **MCP server** 
 - [**Using the Wonder MCP server**](/ai-agents/using-wonder-mcp): the tools, the skills and prompts that work well
 - [**Tutorial: build a custom section with AI**](/ai-agents/tutorial-custom-section): from an idea to a validated section in your store
 - [**Tutorial: update a customised Wonder theme**](/ai-agents/tutorial-update-theme): move your code changes to a new Wonder version without losing them
-- [**Tutorial: preview AI changes on a test copy of your theme**](/ai-agents/tutorial-test-theme): your assistant uploads to an unpublished copy and sends you a preview link
+- [**Tutorial: preview a sample custom section on your store**](/ai-agents/tutorial-preview-custom-section): see the change on your own store before customers do. You log in once; your assistant sends a preview link
 - [**Privacy & data**](/ai-agents/privacy): what the Wonder AI tools receive and how long it's kept
 
 ---
 
 ## What the AI tools don't do
 
-- **The server doesn't access your store.** It never asks for your Shopify login, store data or customer data. Your assistant shows you the code; you put it in place, or a coding agent uploads it to an unpublished copy of your theme through Shopify CLI on your computer ([tutorial](/ai-agents/tutorial-test-theme)).
+- **The server doesn't access your store.** It never asks for your Shopify login, store data or customer data. Your assistant shows you the code; you put it in place, or a coding agent uploads it to a private preview copy of your theme from your computer ([tutorial](/ai-agents/tutorial-preview-custom-section)).
 - **They don't run an AI model.** Your own assistant writes the code. The Wonder server only provides documentation, known issues, starting code and rule-based checks, so every response is instant and costs you nothing.
 - **They don't replace testing.** Always try changes on an unpublished copy of your theme first (Online Store → Themes → **⋯ → Duplicate**).
 
