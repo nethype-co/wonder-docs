@@ -8,7 +8,7 @@ sidebar_position: 6
 
 This notice explains what data the **Wonder MCP server** (`mcp.wonder-theme.com`) and the **Wonder AI Toolkit** plugin process, why, and for how long. It supplements the [Nethype Privacy Policy](https://www.nethype.co/privacy-policy), which applies in full.
 
-*Last updated: November 19, 2026 (new tools: get_conventions, find_selector, validate_css)*
+*Last updated: November 26, 2026 (what you type is no longer kept in usage statistics unless you choose to share it)*
 
 ---
 
@@ -18,7 +18,7 @@ This notice explains what data the **Wonder MCP server** (`mcp.wonder-theme.com`
 - Section code and Custom CSS you ask us to check are validated in memory and **are not stored or logged**.
 - Theme files on your computer are **never uploaded**. When you update your theme, the comparison runs locally.
 - Our server **doesn't use AI models** and doesn't send your data to any AI provider.
-- Usage statistics are kept for up to **3 months** and contain no IP address. Technical request logs are kept for up to **7 days**.
+- Usage statistics are kept for up to **3 months** and contain no IP address. **What you type isn't in them** (search text, names, file paths) unless you [choose to share it](#sharing-your-questions). Technical request logs are kept for up to **7 days**.
 
 ---
 
@@ -70,8 +70,15 @@ Your AI assistant is provided by a third party (for example Anthropic, OpenAI, C
 ## Retention
 
 - **Section code and Custom CSS** sent for checking are not retained. They are discarded when the request ends.
-- **Usage statistics** are kept for up to 3 months: tool name, AI client name and version, theme version, search text and element descriptions (shortened to 120 characters), names of changed theme files when planning an update, number of results, identifiers of failed checks, the kind and short name of a requested section blueprint, the section or block name looked up, the size (not the content) of checked code, error messages returned by the tools, and response time. These records don't include the IP address, section code or CSS.
+- **Usage statistics** are kept for up to 3 months: tool name, AI client name and version, theme version, number of results, identifiers of failed checks, the kind of a requested section blueprint, the size (not the content) of checked code, error messages returned by the tools (without the names you used) and response time. These records don't include the IP address, section code, CSS or what you typed.
+- **Shared questions**, only if you [switched sharing on](#sharing-your-questions): the same statistics plus your search text and element descriptions (shortened to 120 characters), the short name of a requested blueprint, the section or block name looked up, and the names of changed theme files when planning an update. Kept for up to 3 months.
 - **Technical request logs**, which may include the IP address and the approximate location derived from it (country, city), are kept for up to 7 days.
+
+### Sharing your questions
+
+Sharing is **off** by default. If you'd like to help us find gaps in the documentation and tools, you can switch it on: use `https://mcp.wonder-theme.com/mcp?share=1` as the server address in your agent's MCP settings (if you use the Wonder AI Toolkit plugin, add it as your own server; the plugin's built-in connection never shares).
+
+Switch it off again by removing `?share=1`.
 
 ## Recipients
 
