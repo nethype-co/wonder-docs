@@ -56,7 +56,7 @@ Free, and no account needed. The Wonder server never accesses your store: previe
 
 <div className="ai-actions">
   <a className="ai-btn" href="/ai-agents/setup">Set it up in 2 minutes →</a>
-  <a className="ai-link" href="/ai-agents/tutorial-preview-custom-section">See a preview on your store</a>
+  <a className="ai-link" href="/ai-agents/tutorial-custom-section">Tutorial: build a section and preview it</a>
   <a className="ai-link" href="/ai-agents/using-wonder-mcp">What it can do</a>
 </div>
 

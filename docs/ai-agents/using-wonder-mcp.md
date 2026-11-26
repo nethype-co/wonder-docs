@@ -37,7 +37,11 @@ My store runs Wonder 2.5.1. The theme editor freezes after I move the Scrolling 
 ```
 
 ```text title="Build a section"
-Create a custom Wonder section with three trust badges (icon, title, short text) on a light background. Validate it before you give it to me.
+My store runs Wonder 2.5.2. Create a custom Wonder section "Team": a photo, name, role and short bio for each person, three per row. Validate it before you give it to me.
+```
+
+```text title="Build it and show me on my store (coding agent with the Wonder AI Toolkit)"
+Add a "Meet our experts" team section to my home page and show me a preview. My store is your-store.com
 ```
 
 ```text title="Before updating"
@@ -150,16 +154,18 @@ Used together whenever you ask for a new section. The assistant starts from the 
 The validator then checks the finished file against **your store's Wonder version**: Shopify Theme Check plus Wonder consistency checks (`wonder-*`), such as hard-coded colours or fonts, settings that do nothing, or CSS variables and classes that don't exist in that version. Conventions differ between releases, so tell the assistant your Wonder version. A first draft often fails, which is exactly why the check exists:
 
 ```text title="validate_section → response for a first draft"
-INVALID: 1 error(s), 2 warning(s). Fix the errors and run validate_section again.
-- [ERROR] no-scss (line 39): SCSS syntax found ($variables, @mixin/@include or & nesting).
+INVALID (Wonder 2.5.2, with Shopify Theme Check + Wonder conventions): 1 error(s), 3 warning(s).
+- [ERROR] no-scss (line 54): SCSS syntax found ($variables, @mixin/@include or & nesting).
   Wonder sections use plain CSS.
-- [WARNING] translation-key-label: 1 setting label(s) use t: translation keys (heading).
-  ... in a NEW custom section use literal labels, because locale files are replaced on theme update.
-- [WARNING] css-unscoped (line 39): Selector "h3" is not scoped to this section and may
-  change styles elsewhere in the theme. Prefix it with your section class (e.g. .custom-<name>).
+- [WARNING] translation-key-label: 1 setting label(s) use t: translation keys (image). ...in a NEW
+  custom section use literal labels, because locale files are replaced on theme update.
+- [WARNING] css-unscoped (line 54): Selector "h3" is not scoped to this section and may change
+  styles elsewhere in the theme. Prefix it with your section class (e.g. .custom-<name>).
+- [WARNING] wonder-hardcoded-color (line 63): 1 hard-coded colour(s), e.g. "color: #8a8a8a".
+  They ignore the merchant's Theme settings colours.
 ```
 
-The assistant fixes the problems and validates again until it gets `VALID`. See the full walkthrough in [Tutorial: build a custom section with AI](./tutorial-custom-section).
+The assistant fixes the problems and validates again until it gets `VALID`. A coding agent with the Wonder AI Toolkit can then put the section on a private preview copy of your theme and send you a preview link. See the full walkthrough, both ways, in [Tutorial: build a custom section with AI](./tutorial-custom-section).
 
 ### find_selector and validate_css
 
@@ -202,7 +208,7 @@ If you installed the [Wonder AI Toolkit](./setup) plugin, your coding agent also
 | `wonder-javascript` | ask for custom JavaScript: it uses only documented events and components, and says where to put the code and what survives an update |
 | `wonder-troubleshooting` | report that something looks broken, misaligned or missing |
 | `wonder-update` | want to update Wonder, or ask what you lose by updating |
-| `wonder-preview` | want to see a change on your real store first: it uploads to a private preview copy of your theme and sends you a preview link ([tutorial](./tutorial-preview-custom-section)) |
+| `wonder-preview` | want to see a change on your real store first: it uploads to a private preview copy of your theme and sends you a preview link ([tutorial](./tutorial-custom-section)) |
 
 In Claude Code you can also run a skill directly:
 
